@@ -1,0 +1,18 @@
+C:\Users\engmo\Desktop\Project\File Management Class\File Management Class\bin\Debug\net8.0-windows\File Management Class.exe
+C:\Users\engmo\Desktop\Project\File Management Class\File Management Class\bin\Debug\net8.0-windows\File Management Class.deps.json
+C:\Users\engmo\Desktop\Project\File Management Class\File Management Class\bin\Debug\net8.0-windows\File Management Class.runtimeconfig.json
+C:\Users\engmo\Desktop\Project\File Management Class\File Management Class\bin\Debug\net8.0-windows\File Management Class.dll
+C:\Users\engmo\Desktop\Project\File Management Class\File Management Class\bin\Debug\net8.0-windows\File Management Class.pdb
+C:\Users\engmo\Desktop\Project\File Management Class\File Management Class\obj\Debug\net8.0-windows\File_Management_Class.Form1.resources
+C:\Users\engmo\Desktop\Project\File Management Class\File Management Class\obj\Debug\net8.0-windows\File Management Class.csproj.GenerateResource.cache
+C:\Users\engmo\Desktop\Project\File Management Class\File Management Class\obj\Debug\net8.0-windows\File Management Class.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\engmo\Desktop\Project\File Management Class\File Management Class\obj\Debug\net8.0-windows\File Management Class.AssemblyInfoInputs.cache
+C:\Users\engmo\Desktop\Project\File Management Class\File Management Class\obj\Debug\net8.0-windows\File Management Class.AssemblyInfo.cs
+C:\Users\engmo\Desktop\Project\File Management Class\File Management Class\obj\Debug\net8.0-windows\File Management Class.csproj.CoreCompileInputs.cache
+C:\Users\engmo\Desktop\Project\File Management Class\File Management Class\obj\Debug\net8.0-windows\File Management Class.dll
+C:\Users\engmo\Desktop\Project\File Management Class\File Management Class\obj\Debug\net8.0-windows\refint\File Management Class.dll
+C:\Users\engmo\Desktop\Project\File Management Class\File Management Class\obj\Debug\net8.0-windows\File Management Class.pdb
+C:\Users\engmo\Desktop\Project\File Management Class\File Management Class\obj\Debug\net8.0-windows\File Management Class.genruntimeconfig.cache
+C:\Users\engmo\Desktop\Project\File Management Class\File Management Class\obj\Debug\net8.0-windows\ref\File Management Class.dll
+C:\Users\engmo\Desktop\Project\File Management Class\File Management Class\obj\Debug\net8.0-windows\File_Management_Class.Admin.resources
+C:\Users\engmo\Desktop\Project\File Management Class\File Management Class\obj\Debug\net8.0-windows\File_Management_Class.Login.resources
