@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\engmo\\Desktop\\Project\\File Management Class\\File Management Class\\File Management Class.csproj": {}
+    "C:\\Users\\engmo\\Desktop\\Project\\Attendance-Management-System\\File Management Class\\File Management Class.csproj": {}
   },
   "projects": {
-    "C:\\Users\\engmo\\Desktop\\Project\\File Management Class\\File Management Class\\File Management Class.csproj": {
+    "C:\\Users\\engmo\\Desktop\\Project\\Attendance-Management-System\\File Management Class\\File Management Class.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\engmo\\Desktop\\Project\\File Management Class\\File Management Class\\File Management Class.csproj",
+        "projectUniqueName": "C:\\Users\\engmo\\Desktop\\Project\\Attendance-Management-System\\File Management Class\\File Management Class.csproj",
         "projectName": "File Management Class",
-        "projectPath": "C:\\Users\\engmo\\Desktop\\Project\\File Management Class\\File Management Class\\File Management Class.csproj",
+        "projectPath": "C:\\Users\\engmo\\Desktop\\Project\\Attendance-Management-System\\File Management Class\\File Management Class.csproj",
         "packagesPath": "C:\\Users\\engmo\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\engmo\\Desktop\\Project\\File Management Class\\File Management Class\\obj\\",
+        "outputPath": "C:\\Users\\engmo\\Desktop\\Project\\Attendance-Management-System\\File Management Class\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\engmo\\AppData\\Roaming\\NuGet\\NuGet.Config",

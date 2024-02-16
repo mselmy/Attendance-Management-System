@@ -18,7 +18,21 @@
 	
 	<students>
 		<student id="ST-1">
-			<name>Selmy</name>
+			<name>Selmy1</name>
+			<classes>
+				<class id="CL-1"/>
+				<class id="CL-2"/>
+			</classes>
+		</student>
+		<student id="ST-2">
+			<name>Selmy2</name>
+			<classes>
+				<class id="CL-1"/>
+				<class id="CL-2"/>
+			</classes>
+		</student>
+		<student id="ST-3">
+			<name>Selmy3</name>
 			<classes>
 				<class id="CL-1"/>
 				<class id="CL-2"/>
