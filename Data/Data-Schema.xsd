@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xs:schema xmlns:xs="http://www.w3.org/2001/XMLSchema">
+
+	<xs:simpleType name="classes">
+		<xs:restriction base="xs:string">
+			<xs:enumeration value="Math"/>
+			<xs:enumeration value="Science"/>
+			<xs:enumeration value="First-Language"/>
+			<xs:enumeration value="Second-Language"/>
+		</xs:restriction>
+	</xs:simpleType>
+
+	<xs:simpleType name="status">
+		<xs:restriction base="xs:string">
+			<xs:enumeration value="Present"/>
+			<xs:enumeration value="Absent"/>
+		</xs:restriction>
+	</xs:simpleType>
+
+	<xs:simpleType name="pInteger">
+		<xs:restriction base="xs:integer">
+			<xs:minInclusive value="1"/>
+		</xs:restriction>
+	</xs:simpleType>
+
+	<xs:simpleType name="id">
+		<xs:restriction base="xs:token">
+			<xs:pattern value="ST-\d"/>
+			<xs:pattern value="TE-\d"/>
+			<xs:pattern value="AD-\d"/>
+		</xs:restriction>
+	</xs:simpleType>
+
+	<xs:element name="school">
+		<xs:complexType>
+			<xs:sequence>
+				<xs:element name="attendance-records">
+					<xs:complexType>
+						<xs:sequence>
+							<xs:element name="attendance-record">
+								<xs:complexType>
+									<xs:sequence>
+										<xs:element name="teacher">
+											<xs:complexType>
+												<xs:attribute name="id" type="id"/>
+											</xs:complexType>
+										</xs:element>
+										<xs:element name="student" maxOccurs="unbounded">
+											<xs:complexType>
+												<xs:sequence>
+													<xs:element name="status" type="status"/>
+												</xs:sequence>
+												<xs:attribute name="id" type="id"/>
+											</xs:complexType>
+										</xs:element>
+									</xs:sequence>
+									<xs:attribute name="date" type="xs:date"/>
+									<xs:attribute name="class" type="classes"/>
+								</xs:complexType>
+							</xs:element>	
+						</xs:sequence>
+					</xs:complexType>
+				</xs:element>
+			</xs:sequence>
+		</xs:complexType>
+	</xs:element>
+
+</xs:schema>
