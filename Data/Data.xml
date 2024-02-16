@@ -45,15 +45,15 @@
 	<users>
 		<user>
 			<id>ST-1</id>
-			<username>selmy</username>
 			<email>selmy@gmail.com</email>
 			<password>selmy</password>
 			<role>Student</role>
+			<warning>false</warning>
+			<fired>false</fired>
 		</user>
 		
 		<user>
 			<id>TE-1</id>
-			<username>nada</username>
 			<email>nada@gmail.com</email>
 			<password>nada</password>
 			<role>Teacher</role>
@@ -61,7 +61,6 @@
 		
 		<user>
 			<id>AD-1</id>
-			<username>nayira</username>
 			<email>nayira@gmail.com</email>
 			<password>nayira</password>
 			<role>Admin</role>
@@ -86,5 +85,7 @@
 	<configs>
 		<language>EN</language>
 		<dateFormats>DD-MM-YYYY</dateFormats>
+		<coolDown>false</coolDown>
+		<coolDownStartDate>0</coolDownStartDate>
 	</configs>
 </school>
