@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\engmo\\Desktop\\Project\\Attendance-Management-System\\File Management Class\\Attendance Management System.csproj": {}
+    "C:\\Users\\engmo\\Desktop\\Project\\Attendance-Management-System\\Attendance Management System\\Attendance Management System.csproj": {}
   },
   "projects": {
-    "C:\\Users\\engmo\\Desktop\\Project\\Attendance-Management-System\\File Management Class\\Attendance Management System.csproj": {
+    "C:\\Users\\engmo\\Desktop\\Project\\Attendance-Management-System\\Attendance Management System\\Attendance Management System.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\engmo\\Desktop\\Project\\Attendance-Management-System\\File Management Class\\Attendance Management System.csproj",
+        "projectUniqueName": "C:\\Users\\engmo\\Desktop\\Project\\Attendance-Management-System\\Attendance Management System\\Attendance Management System.csproj",
         "projectName": "Attendance Management System",
-        "projectPath": "C:\\Users\\engmo\\Desktop\\Project\\Attendance-Management-System\\File Management Class\\Attendance Management System.csproj",
+        "projectPath": "C:\\Users\\engmo\\Desktop\\Project\\Attendance-Management-System\\Attendance Management System\\Attendance Management System.csproj",
         "packagesPath": "C:\\Users\\engmo\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\engmo\\Desktop\\Project\\Attendance-Management-System\\File Management Class\\obj\\",
+        "outputPath": "C:\\Users\\engmo\\Desktop\\Project\\Attendance-Management-System\\Attendance Management System\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\engmo\\AppData\\Roaming\\NuGet\\NuGet.Config",
