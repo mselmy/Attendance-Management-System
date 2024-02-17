@@ -94,5 +94,12 @@ namespace File_Management_Class
             }
 
         }
+
+        private void click_forgetPassword(object sender, EventArgs e)
+        {
+            FormForgetPassword formForgetPassword = new FormForgetPassword();
+            formForgetPassword.Show();
+
+        }
     }
 }

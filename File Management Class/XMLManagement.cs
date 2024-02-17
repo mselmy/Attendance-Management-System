@@ -12,17 +12,17 @@ namespace File_Management_Class
 {
     internal class XMLManagement
     {
-        public static XmlDocument ReadAllDocument(string path)
+        public static XmlDocument ReadAllDocument()
         {
             XmlDocument XmlDoc = new XmlDocument();
-            XmlDoc.Load(path);
+            XmlDoc.Load(Configs.DataPath);
             return XmlDoc;
         }
 
-        public static List<string> NodesToList(string path, string nodePath, string target)
+        public static List<string> NodesToList(string nodePath, string target)
         {
             List<string> list = new List<string>();
-            XmlDocument XmlDoc = ReadAllDocument(path);
+            XmlDocument XmlDoc = ReadAllDocument();
             XmlNodeList nodeList = XmlDoc.SelectNodes(nodePath);
             foreach (XmlNode node in nodeList)
             {
@@ -31,14 +31,14 @@ namespace File_Management_Class
             return list;
         }
 
-        public static List<List<string>> MultibleNodesToList(string path, string nodepath, string target, params string[] targets)
+        public static List<List<string>> MultibleNodesToList(string nodepath,string target, params string[] targets)
         {
             List<List<string>> list = new List<List<string>>();
-            list.Add(NodesToList(path, nodepath, target));
+            list.Add(NodesToList(nodepath, target));
             
             foreach (string t in targets)
             {
-                list.Add(NodesToList(path, nodepath, t));
+                list.Add(NodesToList(nodepath, t));
             }
             return list;
         }

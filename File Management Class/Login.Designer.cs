@@ -194,6 +194,7 @@
             linkLabel3.TabIndex = 3;
             linkLabel3.TabStop = true;
             linkLabel3.Text = "Forget Password";
+            linkLabel3.Click += click_forgetPassword;
             // 
             // label9
             // 

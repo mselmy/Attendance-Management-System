@@ -22,7 +22,6 @@ C:\Users\engmo\Desktop\Project\Attendance-Management-System\File Management Clas
 C:\Users\engmo\Desktop\Project\Attendance-Management-System\File Management Class\bin\Debug\net8.0-windows\File Management Class.dll
 C:\Users\engmo\Desktop\Project\Attendance-Management-System\File Management Class\bin\Debug\net8.0-windows\File Management Class.pdb
 C:\Users\engmo\Desktop\Project\Attendance-Management-System\File Management Class\obj\Debug\net8.0-windows\File_Management_Class.Admin.resources
-C:\Users\engmo\Desktop\Project\Attendance-Management-System\File Management Class\obj\Debug\net8.0-windows\File_Management_Class.Form1.resources
 C:\Users\engmo\Desktop\Project\Attendance-Management-System\File Management Class\obj\Debug\net8.0-windows\File_Management_Class.Login.resources
 C:\Users\engmo\Desktop\Project\Attendance-Management-System\File Management Class\obj\Debug\net8.0-windows\File Management Class.csproj.GenerateResource.cache
 C:\Users\engmo\Desktop\Project\Attendance-Management-System\File Management Class\obj\Debug\net8.0-windows\File Management Class.GeneratedMSBuildEditorConfig.editorconfig
@@ -36,3 +35,4 @@ C:\Users\engmo\Desktop\Project\Attendance-Management-System\File Management Clas
 C:\Users\engmo\Desktop\Project\Attendance-Management-System\File Management Class\obj\Debug\net8.0-windows\File Management Class.genruntimeconfig.cache
 C:\Users\engmo\Desktop\Project\Attendance-Management-System\File Management Class\obj\Debug\net8.0-windows\ref\File Management Class.dll
 C:\Users\engmo\Desktop\Project\Attendance-Management-System\File Management Class\obj\Debug\net8.0-windows\File_Management_Class.Properties.Resources.resources
+C:\Users\engmo\Desktop\Project\Attendance-Management-System\File Management Class\obj\Debug\net8.0-windows\File_Management_Class.FormForgetPassword.resources
