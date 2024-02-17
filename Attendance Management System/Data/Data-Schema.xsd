@@ -4,9 +4,7 @@
 <!--idType-->
 	<xs:simpleType name="idtype">
 		<xs:restriction base="xs:string">
-			<xs:pattern value="[A-Z]{2}-\d{1}"/>
-			<xs:pattern value="[A-Z]{2}-\d{2}"/>
-			<xs:pattern value="[A-Z]{2}-\d{2}"/>
+			<xs:pattern value="[A-Z]{2}-\d"/>
 		</xs:restriction>
 	</xs:simpleType>
 <!--End idType-->
@@ -23,7 +21,7 @@
 <!--datePattern-->
 	<xs:simpleType name="datePattern">
 		<xs:restriction base="xs:date">
-		    <xs:pattern value="(\d{4}-\d{2}-\d{2})|(\d{2}-\d{2}-\d{4})|(\d{2}-\d{2}-\d{4})"/>
+		    <xs:pattern value="(\d{4}-\d{2}-\d{2})|(\d{2}-\d{2}-\d{4}))"/>
          
 		</xs:restriction>
 	</xs:simpleType>
