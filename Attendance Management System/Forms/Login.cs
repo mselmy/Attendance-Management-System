@@ -84,8 +84,22 @@ namespace Attendance_Management_System
         {
             if (Validation.IsLoginValid(textBoxEmail.Text, textBoxPassword.Text))
             {
-                Admin admin = new Admin();
-                admin.Show();
+                Session session = new Session(textBoxEmail.Text);
+                if(session.CurrentUser.Role == "Admin")
+                {
+                    Admin Admin = new Admin();
+                    Admin.Show();
+                }
+                else if(session.CurrentUser.Role == "Teacher")
+                {
+                    Admin Admin = new Admin();
+                    Admin.Show();
+                }
+                else if(session.CurrentUser.Role == "Student")
+                {
+                    Admin Admin = new Admin();
+                    Admin.Show();
+                }
                 Hide();
             }
             else

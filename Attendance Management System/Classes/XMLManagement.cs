@@ -31,6 +31,24 @@ namespace Attendance_Management_System.Classes
             return list;
         }
 
+        /*public static List<string> AttributesToList(string nodePath, string target)
+        {
+            List<string> list = new List<string>();
+            XmlDocument XmlDoc = ReadAllDocument();
+            XmlNodeList nodeList = XmlDoc.SelectNodes(nodePath);
+            list.AddRange(from XmlNode node in nodeList select node.Attributes[target].Value);
+            return list;
+        }*/
+
+        /*public static List<string> GetSingleNodeAttributes(string nodePath, string target)
+        {
+            List<string> list = new List<string>();
+            XmlDocument XmlDoc = ReadAllDocument();
+            XmlNode node = XmlDoc.SelectSingleNode(nodePath);
+            list.Add(node.Attributes[target].Value);
+            return list;
+        }*/
+
         public static List<List<string>> MultibleNodesToList(string nodepath, string target, params string[] targets)
         {
             List<List<string>> list = new List<List<string>>();
@@ -41,6 +59,19 @@ namespace Attendance_Management_System.Classes
                 list.Add(NodesToList(nodepath, t));
             }
             return list;
+        }
+
+        public static XmlNode? GetNode(string nodePath, string target, string value)
+        {
+            XmlDocument XmlDoc = ReadAllDocument();
+            return GetNode(XmlDoc, nodePath, target, value);
+        }
+
+        public static XmlNode? GetNode(XmlDocument XmlDoc, string nodePath, string target, string value)
+        {
+            string xPath = string.Format("{0}[{1}='{2}']", nodePath, target, value);
+            XmlNode? userNode = XmlDoc.SelectSingleNode(xPath);
+            return userNode;
         }
     }
 }
