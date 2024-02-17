@@ -13,11 +13,26 @@ namespace File_Management_Class
         public static bool IsLoginValid(string username, string password)
         {
             List<List<string>> userPass = new List<List<string>>();
-            userPass = XMLManagement.MultibleNodesToList(@"../../../../Data/Data.xml", "/school/users/user", "email", "password");
+            userPass = XMLManagement.MultibleNodesToList(Configs.UsersPath, "email", "password");
 
             for (int i = 0; i < userPass[0].Count; i++)
             {
                 if (userPass[0][i] == username && userPass[1][i] == password)
+                {
+                    return true;
+                }
+            }
+            return false;
+        }
+
+        public static bool IsEmailValid(string email)
+        {
+            List<string> emails = new List<string>();
+            emails = XMLManagement.NodesToList(Configs.UsersPath, "email");
+
+            for (int i = 0; i < emails.Count; i++)
+            {
+                if (emails[i] == email)
                 {
                     return true;
                 }
