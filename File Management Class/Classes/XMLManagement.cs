@@ -8,7 +8,7 @@ using System.Threading.Tasks;
 using System.Xml;
 using static System.Net.Mime.MediaTypeNames;
 
-namespace File_Management_Class
+namespace File_Management_Class.Classes
 {
     internal class XMLManagement
     {
@@ -31,11 +31,11 @@ namespace File_Management_Class
             return list;
         }
 
-        public static List<List<string>> MultibleNodesToList(string nodepath,string target, params string[] targets)
+        public static List<List<string>> MultibleNodesToList(string nodepath, string target, params string[] targets)
         {
             List<List<string>> list = new List<List<string>>();
             list.Add(NodesToList(nodepath, target));
-            
+
             foreach (string t in targets)
             {
                 list.Add(NodesToList(nodepath, t));

@@ -7,6 +7,7 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 using System.Windows.Forms;
+using File_Management_Class.Classes;
 
 namespace File_Management_Class
 {

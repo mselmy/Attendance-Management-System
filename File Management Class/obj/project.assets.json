@@ -13,9 +13,9 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\engmo\\Desktop\\Project\\Attendance-Management-System\\File Management Class\\File Management Class.csproj",
-      "projectName": "File Management Class",
-      "projectPath": "C:\\Users\\engmo\\Desktop\\Project\\Attendance-Management-System\\File Management Class\\File Management Class.csproj",
+      "projectUniqueName": "C:\\Users\\engmo\\Desktop\\Project\\Attendance-Management-System\\File Management Class\\Attendance Management System.csproj",
+      "projectName": "Attendance Management System",
+      "projectPath": "C:\\Users\\engmo\\Desktop\\Project\\Attendance-Management-System\\File Management Class\\Attendance Management System.csproj",
       "packagesPath": "C:\\Users\\engmo\\.nuget\\packages\\",
       "outputPath": "C:\\Users\\engmo\\Desktop\\Project\\Attendance-Management-System\\File Management Class\\obj\\",
       "projectStyle": "PackageReference",

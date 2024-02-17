@@ -11,12 +11,12 @@
 using System;
 using System.Reflection;
 
-[assembly: System.Reflection.AssemblyCompanyAttribute("File Management Class")]
+[assembly: System.Reflection.AssemblyCompanyAttribute("Attendance Management System")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
 [assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+83f6aa12848ae6d073b3716cfcc17718c4d6a9b6")]
-[assembly: System.Reflection.AssemblyProductAttribute("File Management Class")]
-[assembly: System.Reflection.AssemblyTitleAttribute("File Management Class")]
+[assembly: System.Reflection.AssemblyProductAttribute("Attendance Management System")]
+[assembly: System.Reflection.AssemblyTitleAttribute("Attendance Management System")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]
 [assembly: System.Runtime.Versioning.TargetPlatformAttribute("Windows7.0")]
 [assembly: System.Runtime.Versioning.SupportedOSPlatformAttribute("Windows7.0")]

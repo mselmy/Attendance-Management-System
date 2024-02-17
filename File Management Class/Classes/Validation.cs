@@ -6,7 +6,7 @@ using System.Text;
 using System.Threading.Tasks;
 using System.Xml;
 using System.Xml.Linq;
-namespace File_Management_Class
+namespace File_Management_Class.Classes
 {
     internal class Validation
     {

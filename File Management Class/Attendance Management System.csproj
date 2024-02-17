@@ -7,11 +7,11 @@
     <Nullable>enable</Nullable>
     <UseWindowsForms>true</UseWindowsForms>
     <ImplicitUsings>enable</ImplicitUsings>
-    <ApplicationIcon>student_MHa_icon.ico</ApplicationIcon>
+    <ApplicationIcon>Assests\Images\student_MHa_icon.ico</ApplicationIcon>
   </PropertyGroup>
 
   <ItemGroup>
-    <Content Include="student_MHa_icon.ico" />
+    <Content Include="Assests\Images\student_MHa_icon.ico" />
   </ItemGroup>
 
   <ItemGroup>
@@ -27,6 +27,10 @@
       <Generator>ResXFileCodeGenerator</Generator>
       <LastGenOutput>Resources.Designer.cs</LastGenOutput>
     </EmbeddedResource>
+  </ItemGroup>
+
+  <ItemGroup>
+    <Folder Include="Data\" />
   </ItemGroup>
 
 </Project>
