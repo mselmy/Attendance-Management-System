@@ -4,6 +4,9 @@
     <Compile Update="Forms\Admin.cs">
       <SubType>Form</SubType>
     </Compile>
+    <Compile Update="Forms\admindashboard.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
     <Compile Update="Forms\Forget Password.cs">
       <SubType>Form</SubType>
     </Compile>

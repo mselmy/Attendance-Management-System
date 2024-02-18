@@ -1,49 +1,29 @@
-﻿using System;
-using System.Collections.Generic;
-using System.ComponentModel;
-using System.Data;
-using System.Drawing;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
-using System.Windows.Forms;
+﻿using Attendance_Management_System.Classes;
 
 namespace Attendance_Management_System
-{
+{ 
     public partial class Admin : Form
     {
         public Admin()
         {
             InitializeComponent();
         }
-
-        private void teacherToolStripMenuItem2_Click(object sender, EventArgs e)
-        {
-
-        }
-
-        private void courseToolStripMenuItem1_Click(object sender, EventArgs e)
-        {
-
-        }
-
-        private void teacherToolStripMenuItem3_Click(object sender, EventArgs e)
-        {
-
-        }
-
-        private void flowLayoutPanel1_Paint(object sender, PaintEventArgs e)
-        {
-
-        }
-
-        private void splitContainer1_Panel2_Paint(object sender, PaintEventArgs e)
-        {
-
-        }
-
         private void Admin_Load(object sender, EventArgs e)
         {
+             admindashboard1.Visible = true;
+
+        }
+
+        private void admindashboard1_VisibleChanged(object sender, EventArgs e)
+        {
+            // Check if the admindashboard1 UserControl is visible
+            if (admindashboard1.Visible)
+            {
+                // Update the text of the buttons in admindashboard1 UserControl
+                admindashboard1.NoTeacherButton.Text = Handleloadadmin.GetNumberofTeachers() + " Teachers";
+                admindashboard1.NoClassButton.Text = Handleloadadmin.GetNumberofClasses() + " Classes";
+                admindashboard1.NostudentsButton.Text = Handleloadadmin.GetNumberofStudents() + " Students";
+            }
 
         }
     }
