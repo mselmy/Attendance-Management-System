@@ -12,7 +12,7 @@ namespace Attendance_Management_System
             // see https://aka.ms/applicationconfiguration.
             ApplicationConfiguration.Initialize();
             //Application.Run(new Login());
-            Application.Run(new Admin());
+            Application.Run(new Login());
         }
     }
 }

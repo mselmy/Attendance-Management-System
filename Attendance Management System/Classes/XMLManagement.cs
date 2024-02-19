@@ -2,6 +2,7 @@
 using System.Collections.Generic;
 using System.Data;
 using System.Data.SqlTypes;
+using System.IO;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
@@ -85,6 +86,17 @@ namespace Attendance_Management_System.Classes
             }
         }
 
+        public static void UpdateNode(string ParentXPath, string Targer, string newValue)
+        {
+            XmlDocument XmlDoc = ReadAllDocument();
+            XmlNode? node = XmlDoc.SelectSingleNode(ParentXPath);
+            if (node != null)
+            {
+                node.SelectSingleNode(Targer).InnerText = newValue;
+                XmlDoc.Save(Configs.DataPath);
+            }
+        }
+
         public static void AddNode(string parentNodePath, XmlNode newNode)
         {
             XmlDocument XmlDoc = ReadAllDocument();
@@ -122,6 +134,40 @@ namespace Attendance_Management_System.Classes
             {
                 node.ParentNode?.RemoveChild(node);
                 XmlDoc.Save(Configs.DataPath);
+            }
+        }
+
+        public static bool SaveXMLFile(string path)
+        {
+            try
+            {
+                XmlDocument XmlDoc = ReadAllDocument();
+                XmlDoc.Save(path);
+            }
+            catch (Exception)
+            {
+                return false;
+                throw;
+            }
+            return true;
+        }
+
+        public static void SaveXMLFileWindow()
+        {
+            SaveFileDialog saveFi1eDialog = new SaveFileDialog();
+            saveFi1eDialog.Filter = "XML Files (*.xml)|*.xml";
+            saveFi1eDialog.RestoreDirectory = true;
+            if (saveFi1eDialog.ShowDialog() == DialogResult.OK)
+            {
+                string path = saveFi1eDialog.FileName;
+                if (XMLManagement.SaveXMLFile(path))
+                {
+                    MessageBox.Show("File Saved Successfully");
+                }
+                else
+                {
+                    MessageBox.Show("File Not Saved");
+                }
             }
         }
     }

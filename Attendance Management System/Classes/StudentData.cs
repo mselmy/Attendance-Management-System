@@ -7,7 +7,7 @@ using System.Xml;
 
 namespace Attendance_Management_System.Classes
 {
-    internal class Student : User
+    internal class StudentData : User
     {
         // Variables
         private string name;
@@ -18,7 +18,7 @@ namespace Attendance_Management_System.Classes
         public List<string> Classesid { get { return classesid; } private set { { classesid = value; } } }
 
         // Constructor
-        public Student(string email) : base(email)
+        public StudentData(string email) : base(email)
         {
             Name = XMLManagement.GetNode(Configs.StudentsPath, "@id", base.ID).SelectSingleNode("name").InnerText;
 
