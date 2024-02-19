@@ -73,5 +73,56 @@ namespace Attendance_Management_System.Classes
             XmlNode? userNode = XmlDoc.SelectSingleNode(xPath);
             return userNode;
         }
+
+        public static void UpdateNode(string nodePath, string target, string value,string updatedTarger, string newValue)
+        {
+            XmlDocument XmlDoc = ReadAllDocument();
+            XmlNode? node = GetNode(XmlDoc, nodePath, target, value);
+            if (node != null)
+            {
+                node.SelectSingleNode(updatedTarger).InnerText = newValue;
+                XmlDoc.Save(Configs.DataPath);
+            }
+        }
+
+        public static void AddNode(string parentNodePath, XmlNode newNode)
+        {
+            XmlDocument XmlDoc = ReadAllDocument();
+            XmlNode? node = XmlDoc.SelectSingleNode(parentNodePath);
+            if (node != null)
+            {
+                node.AppendChild(newNode);
+                XmlDoc.Save(Configs.DataPath);
+            }
+        }
+
+        public static void CreateNode(string parentNodePath, string nodeName, string[] targets, string[] values)
+        {
+            XmlDocument XmlDoc = ReadAllDocument();
+            XmlNode? node = XmlDoc.SelectSingleNode(parentNodePath);
+            if (node != null)
+            {
+                XmlNode newNode = XmlDoc.CreateElement(nodeName);
+                for (int i = 0; i < targets.Length; i++)
+                {
+                    XmlNode newChild = XmlDoc.CreateElement(targets[i]);
+                    newChild.InnerText = values[i];
+                    newNode.AppendChild(newChild);
+                }
+                node.AppendChild(newNode);
+                XmlDoc.Save(Configs.DataPath);
+            }
+        }
+
+        public static void DeleteNode(string nodePath, string target, string value)
+        {
+            XmlDocument XmlDoc = ReadAllDocument();
+            XmlNode? node = GetNode(XmlDoc, nodePath, target, value);
+            if (node != null)
+            {
+                node.ParentNode?.RemoveChild(node);
+                XmlDoc.Save(Configs.DataPath);
+            }
+        }
     }
 }
