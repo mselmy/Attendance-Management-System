@@ -92,13 +92,13 @@ namespace Attendance_Management_System
                 }
                 else if(session.CurrentUser.Role == "Teacher")
                 {
-                    Admin Admin = new Admin();
-                    Admin.Show();
+                    Teacher Teacher = new Teacher(session);
+                    Teacher.Show();
                 }
                 else if(session.CurrentUser.Role == "Student")
                 {
-                    Admin Admin = new Admin();
-                    Admin.Show();
+                    //Student Admin = new Student(session);
+                    //Student.Show();
                 }
                 Hide();
             }

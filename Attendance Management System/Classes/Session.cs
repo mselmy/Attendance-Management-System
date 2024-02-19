@@ -6,13 +6,13 @@ using System.Threading.Tasks;
 
 namespace Attendance_Management_System.Classes
 {
-    internal class Session
+    public class Session
     {
         // Variables
         private User? currentUser = null;
 
         // Properties
-        public User? CurrentUser { get { return currentUser; } private set { { currentUser = value; } } }
+        internal User? CurrentUser { get { return currentUser; } private set { { currentUser = value; } } }
 
         // Constructor
         public Session(string email)
@@ -20,16 +20,22 @@ namespace Attendance_Management_System.Classes
             string role = XMLManagement.GetNode(Configs.UsersPath, "email", email).SelectSingleNode("role").InnerText;
             if (role == "Admin")
             {
-                CurrentUser = new Admin(email);
+                CurrentUser = new AdminData(email);
             }
             else if (role == "Teacher")
             {
-                CurrentUser = new Teacher(email);
+                CurrentUser = new TeacherData(email);
             }
             else if (role == "Student")
             {
-                CurrentUser = new Student(email);
+                //CurrentUser = new StudentData(email);
             }
+        }
+
+        // Methods
+        public void Logout()
+        {
+            CurrentUser = null;
         }
     }
 }
