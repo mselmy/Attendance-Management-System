@@ -1,6 +1,7 @@
 ﻿using Attendance_Management_System.Classes;
 using System.CodeDom.Compiler;
 using System.Globalization;
+using System.Windows.Forms;
 
 namespace Attendance_Management_System
 {
@@ -80,6 +81,11 @@ namespace Attendance_Management_System
         {
             Controls.Clear();
             InitializeComponent();
+        }
+
+        private void saveButton_Click(object sender, EventArgs e)
+        {
+            XMLManagement.SaveXMLFileWindow();
         }
     }
 }

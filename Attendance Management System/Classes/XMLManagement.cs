@@ -136,5 +136,39 @@ namespace Attendance_Management_System.Classes
                 XmlDoc.Save(Configs.DataPath);
             }
         }
+
+        public static bool SaveXMLFile(string path)
+        {
+            try
+            {
+                XmlDocument XmlDoc = ReadAllDocument();
+                XmlDoc.Save(path);
+            }
+            catch (Exception)
+            {
+                return false;
+                throw;
+            }
+            return true;
+        }
+
+        public static void SaveXMLFileWindow()
+        {
+            SaveFileDialog saveFi1eDialog = new SaveFileDialog();
+            saveFi1eDialog.Filter = "XML Files (*.xml)|*.xml";
+            saveFi1eDialog.RestoreDirectory = true;
+            if (saveFi1eDialog.ShowDialog() == DialogResult.OK)
+            {
+                string path = saveFi1eDialog.FileName;
+                if (XMLManagement.SaveXMLFile(path))
+                {
+                    MessageBox.Show("File Saved Successfully");
+                }
+                else
+                {
+                    MessageBox.Show("File Not Saved");
+                }
+            }
+        }
     }
 }

@@ -149,6 +149,7 @@
             saveButton.Cursor = Cursors.Hand;
             saveButton.Name = "saveButton";
             saveButton.UseVisualStyleBackColor = false;
+            saveButton.Click += saveButton_Click;
             // 
             // searchButton
             // 
