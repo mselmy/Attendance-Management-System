@@ -2,6 +2,7 @@
 using System.Collections.Generic;
 using System.Data;
 using System.Data.SqlTypes;
+using System.IO;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
@@ -81,6 +82,17 @@ namespace Attendance_Management_System.Classes
             if (node != null)
             {
                 node.SelectSingleNode(updatedTarger).InnerText = newValue;
+                XmlDoc.Save(Configs.DataPath);
+            }
+        }
+
+        public static void UpdateNode(string ParentXPath, string Targer, string newValue)
+        {
+            XmlDocument XmlDoc = ReadAllDocument();
+            XmlNode? node = XmlDoc.SelectSingleNode(ParentXPath);
+            if (node != null)
+            {
+                node.SelectSingleNode(Targer).InnerText = newValue;
                 XmlDoc.Save(Configs.DataPath);
             }
         }

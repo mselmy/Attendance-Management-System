@@ -35,5 +35,12 @@ namespace Attendance_Management_System.Classes
             Thread.CurrentThread.CurrentUICulture = newCulture;
             Thread.CurrentThread.CurrentCulture = newCulture;
         }
+
+        public static void setLanguage(string lang)
+        {
+            language = lang;
+            XMLManagement.UpdateNode("/school/configs", "language", language);
+            ChangeLanguage();
+        }
     }
 }

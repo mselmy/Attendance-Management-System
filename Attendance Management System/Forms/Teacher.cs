@@ -64,5 +64,22 @@ namespace Attendance_Management_System
         {
 
         }
+
+        private void SettingButton_Click(object sender, EventArgs e)
+        {
+            Setting setting = new Setting(refresh);
+            setting.Show();
+        }
+
+        private void searchButton_Click(object sender, EventArgs e)
+        {
+
+        }
+
+        public void refresh()
+        {
+            Controls.Clear();
+            InitializeComponent();
+        }
     }
 }

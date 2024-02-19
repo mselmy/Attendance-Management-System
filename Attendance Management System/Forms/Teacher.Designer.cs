@@ -108,6 +108,7 @@
             SettingButton.Cursor = Cursors.Hand;
             SettingButton.Name = "SettingButton";
             SettingButton.UseVisualStyleBackColor = false;
+            SettingButton.Click += SettingButton_Click;
             // 
             // EditPasswordButton
             // 
@@ -156,6 +157,7 @@
             searchButton.Cursor = Cursors.Hand;
             searchButton.Name = "searchButton";
             searchButton.UseVisualStyleBackColor = false;
+            searchButton.Click += searchButton_Click;
             // 
             // logoutButton
             // 
