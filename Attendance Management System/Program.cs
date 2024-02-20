@@ -15,7 +15,7 @@ namespace Attendance_Management_System
             // see https://aka.ms/applicationconfiguration.
             ApplicationConfiguration.Initialize();
             //Application.Run(new Login());
-            Application.Run(new StudentDashBoard2());
+            Application.Run(new Login());
         }
     }
 }

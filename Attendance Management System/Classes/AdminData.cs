@@ -6,7 +6,7 @@ using System.Threading.Tasks;
 
 namespace Attendance_Management_System.Classes
 {
-    internal class Admin : User
+    internal class AdminData : User
     {
         // Variables
         private string name;
@@ -15,7 +15,7 @@ namespace Attendance_Management_System.Classes
         public string Name { get { return name; } private set { { name = value; } } }
 
         // Constructor
-        public Admin(string email) : base(email)
+        public AdminData(string email) : base(email)
         {
             Name = XMLManagement.GetNode(Configs.AdminsPath, "@id", base.ID).SelectSingleNode("name").InnerText;
         }

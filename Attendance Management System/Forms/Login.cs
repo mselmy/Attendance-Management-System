@@ -93,8 +93,8 @@ namespace Attendance_Management_System
                 }
                 else if(session.CurrentUser.Role == "Teacher")
                 {
-                    Admin Admin = new Admin();
-                    Admin.Show();
+                    Teacher Teacher = new Teacher(session);
+                    Teacher.Show();
                 }
                 else if(session.CurrentUser.Role == "Student")
                 {
