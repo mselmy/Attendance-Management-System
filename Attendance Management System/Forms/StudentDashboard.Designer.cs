@@ -31,6 +31,9 @@
             components = new System.ComponentModel.Container();
             System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(StudentDashboard));
             panel1 = new Panel();
+            comboBox1 = new ComboBox();
+            clear = new Button();
+            dateTimePicker1 = new DateTimePicker();
             label_Time = new Label();
             label5 = new Label();
             label4 = new Label();
@@ -72,6 +75,9 @@
             // 
             panel1.AutoSizeMode = AutoSizeMode.GrowAndShrink;
             panel1.BackColor = Color.Teal;
+            panel1.Controls.Add(comboBox1);
+            panel1.Controls.Add(clear);
+            panel1.Controls.Add(dateTimePicker1);
             panel1.Controls.Add(label_Time);
             panel1.Controls.Add(label5);
             panel1.Controls.Add(label4);
@@ -92,6 +98,35 @@
             panel1.Size = new Size(1122, 562);
             panel1.TabIndex = 0;
             panel1.Paint += panel1_Paint;
+            // 
+            // comboBox1
+            // 
+            comboBox1.FormattingEnabled = true;
+            comboBox1.Location = new Point(129, 250);
+            comboBox1.Name = "comboBox1";
+            comboBox1.Size = new Size(151, 31);
+            comboBox1.TabIndex = 7;
+            comboBox1.SelectedIndexChanged += comboBox1_SelectedIndexChanged;
+            // 
+            // clear
+            // 
+            clear.Location = new Point(552, 253);
+            clear.Name = "clear";
+            clear.Size = new Size(94, 29);
+            clear.TabIndex = 21;
+            clear.Text = "clear";
+            clear.UseVisualStyleBackColor = true;
+            clear.Click += clear_Click;
+            // 
+            // dateTimePicker1
+            // 
+            dateTimePicker1.CustomFormat = "yyyy-MM-dd";
+            dateTimePicker1.Format = DateTimePickerFormat.Custom;
+            dateTimePicker1.Location = new Point(341, 250);
+            dateTimePicker1.Name = "dateTimePicker1";
+            dateTimePicker1.Size = new Size(189, 32);
+            dateTimePicker1.TabIndex = 20;
+            dateTimePicker1.ValueChanged += dateTimePicker1_ValueChanged;
             // 
             // label_Time
             // 
@@ -153,6 +188,7 @@
             label_username.Size = new Size(138, 25);
             label_username.TabIndex = 13;
             label_username.Text = "y";
+            label_username.Click += label_username_Click;
             // 
             // label_date
             // 
@@ -183,7 +219,7 @@
             dataGridView1.BackgroundColor = Color.White;
             dataGridView1.ColumnHeadersHeight = 29;
             dataGridView1.Columns.AddRange(new DataGridViewColumn[] { Column1, Column2, Column3 });
-            dataGridView1.Location = new Point(82, 242);
+            dataGridView1.Location = new Point(115, 374);
             dataGridView1.Name = "dataGridView1";
             dataGridView1.RowHeadersWidth = 51;
             dataGridView1.Size = new Size(429, 167);
@@ -422,5 +458,8 @@
         private DataGridViewTextBoxColumn Column1;
         private DataGridViewTextBoxColumn Column2;
         private DataGridViewTextBoxColumn Column3;
+        private DateTimePicker dateTimePicker1;
+        private ComboBox comboBox1;
+        private Button clear;
     }
 }

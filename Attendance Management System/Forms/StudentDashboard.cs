@@ -17,48 +17,31 @@ namespace File_Management_Class.Forms
     public partial class StudentDashboard : Form
     {
         System.Timers.Timer timer;
-        public StudentDashboard()
+        Session session;
+        public StudentDashboard(Session _session)
         {
             InitializeComponent();
             timer = new System.Timers.Timer();
             timer.Interval = 1000;
             timer.Elapsed += label_Time_Click;
             timer.Start();
-
+            session = _session;
 
             // LoadDataFromXml();
         }
-
-        //      <attendance-record>
-        //	<date>2024-02-16</date>
-        //	<class>
-        //		<id>CL-1</id>
-        //	</class>
-        //	<student id = "ST-1" >
-
-        //              < status > Present </ status >
-
-        //          </ student >
-
-        //          < student id="ST-2">
-        //		<status>Absent</status>
-        //	</student>
-        //</attendance-record>
 
 
         private void Student_Load(object sender, EventArgs e)
         {
             label_date.Text = DateTime.Now.ToString("yyyy-MM-dd");
 
-            var AttendanceRecordList = StudentXMLManagement.GetStudentAttendanceRecords();
+            StudentData studentData = (StudentData)session.CurrentUser;
+            label_username.Text = studentData.Name;
 
-            foreach (var AttendanceRecord in AttendanceRecordList)
-            {
-                foreach (var student in AttendanceRecord.Students)
-                {
-                    dataGridView1.Rows.Add(AttendanceRecord.Date, AttendanceRecord.ClassId, student.Status);
-                }
-            }
+            viewAttendance();
+
+            comboBox1.DataSource = studentData.ClassesIds;
+
         }
 
 
@@ -175,5 +158,78 @@ namespace File_Management_Class.Forms
             }
 
         }
+
+        private void label_username_Click(object sender, EventArgs e)
+        {
+
+
+        }
+
+        private void dateTimePicker1_ValueChanged(object sender, EventArgs e)
+        {
+            dataGridView1.Rows.Clear();
+
+            var AttendanceRecordList = StudentXMLManagement.GetStudentAttendanceRecords();
+
+            foreach (var AttendanceRecord in AttendanceRecordList)
+            {
+                if (dateTimePicker1.Text == AttendanceRecord.Date)
+                {
+                    foreach (var student in AttendanceRecord.Students)
+                    {
+                        if (student.StudentId == session.CurrentUser.ID)
+                            dataGridView1.Rows.Add(AttendanceRecord.Date, AttendanceRecord.ClassId, student.Status);
+                    }
+                }
+            }
+        }
+
+        private void comboBox1_SelectedIndexChanged(object sender, EventArgs e)
+        {
+            dataGridView1.Rows.Clear();
+
+            var AttendanceRecordList = StudentXMLManagement.GetStudentAttendanceRecords();
+
+            foreach (var AttendanceRecord in AttendanceRecordList)
+            {
+                if (comboBox1.Text == AttendanceRecord.ClassId || comboBox1.Text == "")
+                {
+                    foreach (var student in AttendanceRecord.Students)
+                    {
+                        if (student.StudentId == session.CurrentUser.ID)
+                            dataGridView1.Rows.Add(AttendanceRecord.Date, AttendanceRecord.ClassId, student.Status);
+                    }
+                }
+            }
+        }
+
+        private void clear_Click(object sender, EventArgs e)
+        {
+            viewAttendance();
+            comboBox1.SelectedItem = null;
+        }
+
+        private void viewAttendance()
+        {
+            dataGridView1.Rows.Clear();
+
+            var AttendanceRecordList = StudentXMLManagement.GetStudentAttendanceRecords();
+
+            foreach (var AttendanceRecord in AttendanceRecordList)
+            {
+                foreach (var student in AttendanceRecord.Students)
+                {
+                    if (student.StudentId == session.CurrentUser.ID)
+                        dataGridView1.Rows.Add(AttendanceRecord.Date, AttendanceRecord.ClassId, student.Status);
+                }
+            }
+
+        }
+
+        private void viewAttendanceWithFilter()
+        {
+
+        }
+
     }
 }

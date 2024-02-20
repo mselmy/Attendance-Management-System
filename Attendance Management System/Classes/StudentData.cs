@@ -15,7 +15,7 @@ namespace Attendance_Management_System.Classes
 
         // Properties
         public string Name { get { return name; } private set { { name = value; } } }
-        public List<string> Classesid { get { return classesid; } private set { { classesid = value; } } }
+        public List<string> ClassesIds { get { return classesid; } private set { { classesid = value; } } }
 
         // Constructor
         public StudentData(string email) : base(email)
@@ -31,7 +31,7 @@ namespace Attendance_Management_System.Classes
 
             foreach (XmlNode c in classes)
             {
-                Classesid.Add(c.Attributes["id"].Value);
+                ClassesIds.Add(c.Attributes["id"].Value);
             }
         }
     }

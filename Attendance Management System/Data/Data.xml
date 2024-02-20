@@ -4,7 +4,7 @@
     <attendance-record>
       <date>2024-02-16</date>
       <class>
-        <id>CL-1</id>
+        <id>CL-2</id>
       </class>
       <student id="ST-1">
         <status>Present</status>
@@ -13,18 +13,18 @@
         <status>Absent</status>
       </student>
     </attendance-record>
-	  <attendance-record>
-		  <date>2022-03-11</date>
-		  <class>
-			  <id>CL-1</id>
-		  </class>
-		  <student id="ST-1">
-			  <status>Absent</status>
-		  </student>
-		  <student id="ST-3">
-			  <status>Absent</status>
-		  </student>
-	  </attendance-record>
+    <attendance-record>
+      <date>2022-03-11</date>
+      <class>
+        <id>CL-1</id>
+      </class>
+      <student id="ST-1">
+        <status>Absent</status>
+      </student>
+      <student id="ST-3">
+        <status>Absent</status>
+      </student>
+    </attendance-record>
   </attendance-records>
   <students>
     <student id="ST-1">
@@ -99,7 +99,7 @@
     <user id="ST-1" />
   </session>
   <configs>
-    <language>EN</language>
+    <language>AR</language>
     <dateFormats>DD-MM-YYYY</dateFormats>
     <coolDown>false</coolDown>
     <coolDownStartDate>0</coolDownStartDate>

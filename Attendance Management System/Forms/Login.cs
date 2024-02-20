@@ -86,19 +86,19 @@ namespace Attendance_Management_System
             if (Validation.IsLoginValid(textBoxEmail.Text, textBoxPassword.Text))
             {
                 Session session = new Session(textBoxEmail.Text);
-                if(session.CurrentUser.Role == "Admin")
+                if (session.CurrentUser.Role == "Admin")
                 {
                     Admin Admin = new Admin();
                     Admin.Show();
                 }
-                else if(session.CurrentUser.Role == "Teacher")
+                else if (session.CurrentUser.Role == "Teacher")
                 {
                     Teacher Teacher = new Teacher(session);
                     Teacher.Show();
                 }
-                else if(session.CurrentUser.Role == "Student")
+                else if (session.CurrentUser.Role == "Student")
                 {
-                    StudentDashboard studentDashboard = new StudentDashboard();
+                    StudentDashboard studentDashboard = new StudentDashboard(session);
                     studentDashboard.Show();
                 }
                 Hide();
@@ -116,6 +116,11 @@ namespace Attendance_Management_System
         {
             FormForgetPassword formForgetPassword = new FormForgetPassword();
             formForgetPassword.Show();
+
+        }
+
+        private void textBoxEmail_TextChanged(object sender, EventArgs e)
+        {
 
         }
     }
