@@ -60,6 +60,12 @@
         <class>CL-1</class>
       </classes>
     </student>
+    <student id="ST-5">
+      <name>ramy</name>
+      <classes>
+        <class>CL-1</class>
+      </classes>
+    </student>
   </students>
   <teachers>
     <teacher id="TE-1">
@@ -77,6 +83,12 @@
     </teacher>
     <teacher id="TE-9">
       <name>DALIA</name>
+      <courses>
+        <course>CL-1</course>
+      </courses>
+    </teacher>
+    <teacher id="TE-99">
+      <name>hany</name>
       <courses>
         <course>CL-1</course>
       </courses>
@@ -135,68 +147,32 @@
       <student id="ST-3" />
     </class>
     <class>
-      <name>MATH</name>
-      <id>CL-4</id>
-      <teacher id="CL-4" />
-    </class>
-    <class>
-      <name>science</name>
-      <id>CL-9</id>
-      <teacher id="CL-9" />
-    </class>
-    <class>
-      <name>math</name>
-      <id>CL-10</id>
+      <name>Math</name>
+      <id>CL-5</id>
       <teacher id="TE-1" />
-    </class>
-    <class>
-      <name>math</name>
-      <id>CL-55</id>
-      <teacher id="TE-1" />
-      <student id="ST-2" />
+      <student id="ST-3" />
       <student id="ST-2" />
       <student id="ST-3" />
       <student id="ST-1" />
       <student id="ST-2" />
       <student id="ST-3" />
-    </class>
-    <class>
-      <name>math</name>
-      <id>CL-22</id>
-      <teacher id="TE-1" />
-      <student id="ST-2" />
-      <student id="ST-1" />
-      <student id="ST-2" />
-    </class>
-    <class>
-      <name>math</name>
-      <id>CL-20</id>
-      <teacher id="TE-1" />
-      <student id="ST-2" />
-      <student id="ST-1" />
-      <student id="ST-2" />
-    </class>
-    <class>
-      <name>math</name>
-      <id>CL-77</id>
-      <teacher id="TE-1" />
-      <student id="ST-1" />
-      <student id="ST-1" />
-      <student id="ST-2" />
     </class>
     <class>
       <name>math</name>
       <id>CL-12</id>
       <teacher id="TE-1" />
+      <student id="ST-1" />
+      <student id="ST-1" />
+      <student id="ST-3" />
+    </class>
+    <class>
+      <name>math</name>
+      <id>CL-10</id>
+      <teacher id="TE-1" />
       <student id="ST-2" />
       <student id="ST-1" />
       <student id="ST-2" />
-    </class>
-    <class>
-      <name>MATH</name>
-      <id>CL-90</id>
-      <teacher id="TE-1" />
-      <student id="ST-3" />
+      <student id="ST-1" />
       <student id="ST-2" />
       <student id="ST-3" />
     </class>

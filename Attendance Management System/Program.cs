@@ -13,6 +13,7 @@ namespace Attendance_Management_System
             ApplicationConfiguration.Initialize();
             //Application.Run(new Login());
             Application.Run(new Admin());
+            //XMLManagement.Trans();
         }
     }
 }

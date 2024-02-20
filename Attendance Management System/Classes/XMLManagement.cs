@@ -12,6 +12,12 @@ using static System.Net.Mime.MediaTypeNames;
 
 namespace Attendance_Management_System.Classes
 {
+    public class SchoolClass
+    {
+        public string Id { get; set; }
+        public string Name { get; set; }
+    }
+
     internal class XMLManagement
     {
         public static XmlDocument ReadAllDocument()
@@ -76,7 +82,7 @@ namespace Attendance_Management_System.Classes
             return userNode;
         }
        
-        public static bool AddnewStudent(string name,string id,string classname)
+        public static bool AddnewStudent(string name,string password,string id,string classname)
         {
             try
             {
@@ -91,6 +97,11 @@ namespace Attendance_Management_System.Classes
                 XmlAttribute idAttribute = XmlDoc.CreateAttribute("id");
                 idAttribute.Value = id;
                 newstudent.Attributes.Append(idAttribute);
+
+
+                XmlNode passnewstudent = XmlDoc.CreateElement("password");
+                passnewstudent.InnerText = password;
+                newstudent.AppendChild(namenewstudent);
 
                 XmlNode classesnewstudent = XmlDoc.CreateElement("classes");
                 XmlNode classnewstudent = XmlDoc.CreateElement("class");
@@ -111,29 +122,33 @@ namespace Attendance_Management_System.Classes
           
 
         }
-        public static bool AddnewTeacher(string name, string id, string classname)
+        public static bool AddnewTeacher(string name,string password, string id, string classname)
         {
             try
             {
                 XmlDocument XmlDoc = ReadAllDocument();
                 XmlNode target = XmlDoc.SelectSingleNode("/school/teachers");
 
-                XmlNode newstudent = XmlDoc.CreateElement("teacher");
-                XmlNode namenewstudent = XmlDoc.CreateElement("name");
-                namenewstudent.InnerText = name;
-                newstudent.AppendChild(namenewstudent);
+                XmlNode newteacher = XmlDoc.CreateElement("teacher");
+                XmlNode namenewteacher = XmlDoc.CreateElement("name");
+                namenewteacher.InnerText = name;
+                newteacher.AppendChild(namenewteacher);
+
+                XmlNode passnewteacher = XmlDoc.CreateElement("password");
+                passnewteacher.InnerText = password;
+                newteacher.AppendChild(namenewteacher);
 
                 XmlAttribute idAttribute = XmlDoc.CreateAttribute("id");
                 idAttribute.Value = id;
-                newstudent.Attributes.Append(idAttribute);
+                newteacher.Attributes.Append(idAttribute);
 
-                XmlNode classesnewstudent = XmlDoc.CreateElement("courses");
-                XmlNode classnewstudent = XmlDoc.CreateElement("course");
-                classnewstudent.InnerText = classname;
-                classesnewstudent.AppendChild(classnewstudent);
-                newstudent.AppendChild(classesnewstudent);
+                XmlNode classesnewteacher = XmlDoc.CreateElement("courses");
+                XmlNode classnewteacher = XmlDoc.CreateElement("course");
+                classnewteacher.InnerText = classname;
+                classesnewteacher.AppendChild(classnewteacher);
+                newteacher.AppendChild(classesnewteacher);
 
-                target.AppendChild(newstudent);
+                target.AppendChild(newteacher);
 
                 XmlDoc.Save(Configs.DataPath);
                 return true;
@@ -204,6 +219,48 @@ namespace Attendance_Management_System.Classes
                 list.Add(idValue);
             }
             return list;
+        }
+
+        public static List<SchoolClass> Trans()
+        {
+            List<SchoolClass> classList = new List<SchoolClass>();
+
+            try
+            {
+                XmlDocument xmlInput = ReadAllDocument();
+
+                XslCompiledTransform xslt = new XslCompiledTransform();
+                xslt.Load(Configs.FilterCLassPath);
+
+                using (StringWriter sw = new StringWriter())
+                {
+                    using (XmlWriter xw = XmlWriter.Create(sw, xslt.OutputSettings))
+                    {
+                        xslt.Transform(xmlInput, null, xw);
+                        xw.Flush();
+
+                        // Load the transformed XML into an XmlDocument
+                        XmlDocument transformedXml = new XmlDocument();
+                        transformedXml.LoadXml(sw.ToString());
+
+                        // Select all "class" elements and extract their information
+                        XmlNodeList classNodes = transformedXml.SelectNodes(Configs.ClassesPath);
+                        foreach (XmlNode classNode in classNodes)
+                        {
+                            SchoolClass schoolClass = new SchoolClass();
+                            schoolClass.Id = classNode.SelectSingleNode("id")?.InnerText;
+                            schoolClass.Name = classNode.SelectSingleNode("name")?.InnerText;
+                            classList.Add(schoolClass);
+                        }
+                    }
+                }
+            }
+            catch (Exception ex)
+            {
+                Console.WriteLine("Error: " + ex.Message);
+            }
+
+            return classList;
         }
 
     }

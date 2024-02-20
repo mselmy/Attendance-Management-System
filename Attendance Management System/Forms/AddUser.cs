@@ -43,7 +43,10 @@ namespace Attendance_Management_System.Forms
             pictureBoxErrorMessage11.Visible = false;
             labelErrorMessage12.Visible = false;
             pictureBoxErrorMessage12.Visible = false;
-
+            passwordpictureBox2.Visible = false;
+            passwordpictureBox1.Visible = false;
+            passwordlabel1.Visible= false;
+            passwordlabel2.Visible= false;
             List<string> idList = XMLManagement.NodesToList(Configs.ClassesPath, "id");
             List<string> studentidList = XMLManagement.GetIdofAllSt_Th(Configs.StudentsPath, "id");
             List<string> teacheridList = XMLManagement.GetIdofAllSt_Th(Configs.TeachersPath, "id");
@@ -75,6 +78,7 @@ namespace Attendance_Management_System.Forms
             string name = nameStudenttextBox.Text;
             string ID = IdStudenttextBox.Text;
             string classname = classcombBox.Text;
+            string password=passswordstdtextBox.Text;
             if (!Validation.IsnameValid(name))
             {
                 pictureBoxErrorMessage.Visible = true;
@@ -85,7 +89,9 @@ namespace Attendance_Management_System.Forms
                 labelErrorMessage2.Visible = false;
                 labelErrorMessage3.Visible = false;
                 pictureBoxErrorMessage3.Visible = false;
-               
+                passwordpictureBox1.Visible = false;
+                passwordlabel1.Visible = false;
+
 
             }
             else if (!Validation.IsclassValid(classname, XMLManagement.NodesToList(Configs.ClassesPath, "id")))
@@ -98,7 +104,9 @@ namespace Attendance_Management_System.Forms
                 labelErrorMessage.Visible = false;
                 labelErrorMessage3.Visible = false;
                 pictureBoxErrorMessage3.Visible = false;
-          
+                passwordpictureBox1.Visible = false;
+                passwordlabel1.Visible = false;
+
 
 
             }
@@ -112,6 +120,8 @@ namespace Attendance_Management_System.Forms
                 labelErrorMessage2.Visible = true;
                 labelErrorMessage3.Visible = false;
                 pictureBoxErrorMessage3.Visible = false;
+                passwordpictureBox1.Visible = false;
+                passwordlabel1.Visible = false;
 
 
             }
@@ -123,10 +133,25 @@ namespace Attendance_Management_System.Forms
                 labelErrorMessage1.Visible = false;
                 pictureBoxErrorMessage2.Visible = false;
                 labelErrorMessage2.Visible = false;
+                passwordpictureBox1.Visible = false;
+                passwordlabel1.Visible = false;
                 labelErrorMessage3.Visible = true;
                 pictureBoxErrorMessage3.Visible = true;
 
 
+            }
+            else if(!Validation.IspasswordComplexValid(password))
+            {
+                pictureBoxErrorMessage.Visible = false;
+                labelErrorMessage.Visible = false;
+                pictureBoxErrorMessage1.Visible = false;
+                labelErrorMessage1.Visible = false;
+                pictureBoxErrorMessage2.Visible = false;
+                labelErrorMessage2.Visible = false;
+                labelErrorMessage3.Visible = false;
+                pictureBoxErrorMessage3.Visible = false;
+                passwordpictureBox1.Visible = true;
+                passwordlabel1.Visible = true;
             }
             else
             {
@@ -138,10 +163,13 @@ namespace Attendance_Management_System.Forms
                 labelErrorMessage2.Visible = false;
                 labelErrorMessage3.Visible = false;
                 pictureBoxErrorMessage3.Visible = false;
+                passwordpictureBox1.Visible = false;
+                passwordlabel1.Visible = false;
                 nameStudenttextBox.Clear();
                 IdStudenttextBox.Clear();
                 classcombBox.SelectedIndex = 0;
-                if (XMLManagement.AddnewStudent(name, ID, classname))
+                passswordstdtextBox.Clear();
+                if (XMLManagement.AddnewStudent(name,password, ID, classname))
                 {
                     MessageBox.Show("The Student has been Added successfully");
                 }
@@ -159,6 +187,7 @@ namespace Attendance_Management_System.Forms
             string name = nameTeachertextBox.Text;
             string ID = IdTeachertextBox.Text;
             string classname = classTeachercombBox.Text;
+            string password = passwordtextBox2.Text;
             if (!Validation.IsnameValid(name))
             {
                 pictureBoxErrorMessage4.Visible = true;
@@ -169,6 +198,8 @@ namespace Attendance_Management_System.Forms
                 labelErrorMessage6.Visible = false;
                 labelErrorMessage7.Visible = false;
                 pictureBoxErrorMessage7.Visible = false;
+                passwordpictureBox2.Visible = false;
+                passwordlabel2.Visible = false;
 
 
             }
@@ -182,6 +213,8 @@ namespace Attendance_Management_System.Forms
                 labelErrorMessage5.Visible = false;
                 labelErrorMessage4.Visible = false;
                 pictureBoxErrorMessage4.Visible = false;
+                passwordpictureBox2.Visible = false;
+                passwordlabel2.Visible = false;
 
 
             }
@@ -195,7 +228,8 @@ namespace Attendance_Management_System.Forms
                 labelErrorMessage6.Visible = true;
                 labelErrorMessage7.Visible = false;
                 pictureBoxErrorMessage7.Visible = false;
-
+                passwordpictureBox2.Visible = false;
+                passwordlabel2.Visible = false;
 
             }
             else if (Validation.IsIdUnique(ID, XMLManagement.GetIdofAllSt_Th(Configs.TeachersPath, "id")))
@@ -208,8 +242,23 @@ namespace Attendance_Management_System.Forms
                 labelErrorMessage4.Visible = false;
                 labelErrorMessage5.Visible = true;
                 pictureBoxErrorMessage5.Visible = true;
+                passwordpictureBox2.Visible = false;
+                passwordlabel2.Visible = false;
 
 
+            }
+            else if(!Validation.IspasswordComplexValid(password))
+            {
+                pictureBoxErrorMessage7.Visible = false;
+                labelErrorMessage7.Visible = false;
+                pictureBoxErrorMessage6.Visible = false;
+                labelErrorMessage6.Visible = false;
+                pictureBoxErrorMessage4.Visible = false;
+                labelErrorMessage4.Visible = false;
+                labelErrorMessage5.Visible = false;
+                pictureBoxErrorMessage5.Visible = false;
+                passwordpictureBox2.Visible = true;
+                passwordlabel2.Visible = true;
             }
             else
             {
@@ -221,10 +270,13 @@ namespace Attendance_Management_System.Forms
                 labelErrorMessage6.Visible = false;
                 labelErrorMessage7.Visible = false;
                 pictureBoxErrorMessage7.Visible = false;
+                passwordpictureBox2.Visible = false;
+                passwordlabel2.Visible = false;
                 nameTeachertextBox.Clear();
                 IdTeachertextBox.Clear();
                 classTeachercombBox.SelectedIndex = 0;
-                if (XMLManagement.AddnewTeacher(name, ID, classname))
+                passwordtextBox2.Clear();
+                if (XMLManagement.AddnewTeacher(name,password, ID, classname))
                 {
                     MessageBox.Show("The Teacher has been Added successfully");
                 }
@@ -287,7 +339,7 @@ namespace Attendance_Management_System.Forms
 
             }
 
-            else if (!Validation.IsIdValid("CL",Idclass ))
+            else if (!Validation.IsIdValid("CL", Idclass))
             {
                 pictureBoxErrorMessage10.Visible = false;
                 labelErrorMessage10.Visible = false;
@@ -333,7 +385,7 @@ namespace Attendance_Management_System.Forms
                 nameClasstextBox.Clear();
                 classIdtextBox.Clear();
                 IdTeachertextBox.Clear();
-                if (XMLManagement.AddnewClass(name,Idclass, IdTeacher, students))
+                if (XMLManagement.AddnewClass(name, Idclass, IdTeacher, students))
                 {
                     students.Clear();
                     MessageBox.Show("The Class has been Added successfully");
@@ -358,5 +410,7 @@ namespace Attendance_Management_System.Forms
             }
 
         }
+
+       
     }
 }

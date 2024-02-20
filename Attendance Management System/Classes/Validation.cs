@@ -93,5 +93,17 @@ namespace Attendance_Management_System.Classes
 
         }
 
+        public static bool IspasswordComplexValid( string password)
+        {
+            string pattern = @"^(?=.*[a-z])(?=.*[A-Z])(?=.*\d)[a-zA-Z\d]{8,}$";
+            Regex idreg = new Regex(pattern);
+            Match match = idreg.Match(password);
+            if (match.Success)
+            {
+                return true;
+            }
+            return false;
+
+        }
     }
 }
