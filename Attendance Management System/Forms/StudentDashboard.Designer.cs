@@ -1,6 +1,6 @@
 ﻿namespace File_Management_Class.Forms
 {
-    partial class Student
+    partial class StudentDashboard
     {
         /// <summary>
         /// Required designer variable.
@@ -29,7 +29,7 @@
         private void InitializeComponent()
         {
             components = new System.ComponentModel.Container();
-            System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(Student));
+            System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(StudentDashboard));
             panel1 = new Panel();
             label_Time = new Label();
             label5 = new Label();
@@ -40,6 +40,9 @@
             label_date = new Label();
             pictureBox2 = new PictureBox();
             dataGridView1 = new DataGridView();
+            Column1 = new DataGridViewTextBoxColumn();
+            Column2 = new DataGridViewTextBoxColumn();
+            Column3 = new DataGridViewTextBoxColumn();
             label3_studentName = new Label();
             pictureBox1 = new PictureBox();
             label_titl = new Label();
@@ -69,7 +72,6 @@
             // 
             panel1.AutoSizeMode = AutoSizeMode.GrowAndShrink;
             panel1.BackColor = Color.Teal;
-            panel1.BorderStyle = BorderStyle.Fixed3D;
             panel1.Controls.Add(label_Time);
             panel1.Controls.Add(label5);
             panel1.Controls.Add(label4);
@@ -84,6 +86,7 @@
             panel1.Controls.Add(label_titl);
             panel1.Controls.Add(label2);
             panel1.Dock = DockStyle.Fill;
+            panel1.Font = new Font("Century Gothic", 12F, FontStyle.Bold);
             panel1.Location = new Point(0, 0);
             panel1.Name = "panel1";
             panel1.Size = new Size(1122, 562);
@@ -96,7 +99,7 @@
             label_Time.BackColor = Color.White;
             label_Time.Location = new Point(413, 153);
             label_Time.Name = "label_Time";
-            label_Time.Size = new Size(50, 25);
+            label_Time.Size = new Size(36, 23);
             label_Time.TabIndex = 18;
             label_Time.Text = "{y}";
             label_Time.Click += label_Time_Click;
@@ -107,7 +110,7 @@
             label5.BackColor = Color.White;
             label5.Location = new Point(0, 0);
             label5.Name = "label5";
-            label5.Size = new Size(73, 25);
+            label5.Size = new Size(70, 23);
             label5.TabIndex = 17;
             label5.Text = "label5";
             // 
@@ -116,7 +119,7 @@
             label4.AutoSize = true;
             label4.Location = new Point(0, 0);
             label4.Name = "label4";
-            label4.Size = new Size(73, 25);
+            label4.Size = new Size(70, 23);
             label4.TabIndex = 16;
             label4.Text = "label4";
             // 
@@ -125,7 +128,7 @@
             label3.AutoSize = true;
             label3.Location = new Point(0, 0);
             label3.Name = "label3";
-            label3.Size = new Size(73, 25);
+            label3.Size = new Size(70, 23);
             label3.TabIndex = 15;
             label3.Text = "label3";
             // 
@@ -137,7 +140,7 @@
             label1.ForeColor = Color.White;
             label1.Location = new Point(413, 103);
             label1.Name = "label1";
-            label1.Size = new Size(61, 25);
+            label1.Size = new Size(55, 23);
             label1.TabIndex = 14;
             label1.Text = "Time";
             // 
@@ -167,7 +170,7 @@
             pictureBox2.ErrorImage = (Image)resources.GetObject("pictureBox2.ErrorImage");
             pictureBox2.Image = (Image)resources.GetObject("pictureBox2.Image");
             pictureBox2.InitialImage = (Image)resources.GetObject("pictureBox2.InitialImage");
-            pictureBox2.Location = new Point(650, 467);
+            pictureBox2.Location = new Point(757, 443);
             pictureBox2.Name = "pictureBox2";
             pictureBox2.Size = new Size(78, 62);
             pictureBox2.SizeMode = PictureBoxSizeMode.Zoom;
@@ -178,13 +181,38 @@
             // dataGridView1
             // 
             dataGridView1.BackgroundColor = Color.White;
-            dataGridView1.ColumnHeadersHeightSizeMode = DataGridViewColumnHeadersHeightSizeMode.AutoSize;
-            dataGridView1.Location = new Point(21, 225);
+            dataGridView1.ColumnHeadersHeight = 29;
+            dataGridView1.Columns.AddRange(new DataGridViewColumn[] { Column1, Column2, Column3 });
+            dataGridView1.Location = new Point(82, 242);
             dataGridView1.Name = "dataGridView1";
             dataGridView1.RowHeadersWidth = 51;
-            dataGridView1.Size = new Size(465, 304);
+            dataGridView1.Size = new Size(429, 167);
             dataGridView1.TabIndex = 8;
             dataGridView1.CellContentClick += dataGridView1_CellContentClick;
+            // 
+            // Column1
+            // 
+            Column1.HeaderText = "Date";
+            Column1.MinimumWidth = 6;
+            Column1.Name = "Column1";
+            Column1.ReadOnly = true;
+            Column1.Width = 125;
+            // 
+            // Column2
+            // 
+            Column2.HeaderText = "Class Id";
+            Column2.MinimumWidth = 6;
+            Column2.Name = "Column2";
+            Column2.ReadOnly = true;
+            Column2.Width = 125;
+            // 
+            // Column3
+            // 
+            Column3.HeaderText = "Status";
+            Column3.MinimumWidth = 6;
+            Column3.Name = "Column3";
+            Column3.ReadOnly = true;
+            Column3.Width = 125;
             // 
             // label3_studentName
             // 
@@ -201,7 +229,7 @@
             // pictureBox1
             // 
             pictureBox1.Image = (Image)resources.GetObject("pictureBox1.Image");
-            pictureBox1.Location = new Point(547, 41);
+            pictureBox1.Location = new Point(569, 76);
             pictureBox1.Name = "pictureBox1";
             pictureBox1.Size = new Size(201, 154);
             pictureBox1.SizeMode = PictureBoxSizeMode.Zoom;
@@ -230,7 +258,7 @@
             label2.ForeColor = Color.White;
             label2.Location = new Point(234, 103);
             label2.Name = "label2";
-            label2.Size = new Size(59, 25);
+            label2.Size = new Size(56, 23);
             label2.TabIndex = 3;
             label2.Text = "Date";
             // 
@@ -335,7 +363,7 @@
             // 
             timer1.Tick += timer1_Tick;
             // 
-            // Student
+            // StudentDashboard
             // 
             AutoScaleDimensions = new SizeF(13F, 25F);
             AutoScaleMode = AutoScaleMode.Font;
@@ -346,7 +374,7 @@
             Font = new Font("Verdana", 12F, FontStyle.Regular, GraphicsUnit.Point, 0);
             FormBorderStyle = FormBorderStyle.None;
             Margin = new Padding(4);
-            Name = "Student";
+            Name = "StudentDashboard";
             Text = "Student";
             Load += Student_Load;
             panel1.ResumeLayout(false);
@@ -391,5 +419,8 @@
         private Label label_Time;
         private Label label5;
         private System.Windows.Forms.Timer timer1;
+        private DataGridViewTextBoxColumn Column1;
+        private DataGridViewTextBoxColumn Column2;
+        private DataGridViewTextBoxColumn Column3;
     }
 }

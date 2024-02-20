@@ -10,7 +10,7 @@ using static System.Net.Mime.MediaTypeNames;
 
 namespace Attendance_Management_System.Classes
 {
-    internal class XMLManagement
+    public class XMLManagement
     {
         public static XmlDocument ReadAllDocument()
         {

@@ -10,13 +10,14 @@ using System.Threading.Tasks;
 using System.Windows.Forms;
 using Attendance_Management_System;
 using Attendance_Management_System.Classes;
+using static System.Windows.Forms.VisualStyles.VisualStyleElement;
 
 namespace File_Management_Class.Forms
 {
-    public partial class Student : Form
+    public partial class StudentDashboard : Form
     {
         System.Timers.Timer timer;
-        public Student()
+        public StudentDashboard()
         {
             InitializeComponent();
             timer = new System.Timers.Timer();
@@ -27,14 +28,37 @@ namespace File_Management_Class.Forms
 
             // LoadDataFromXml();
         }
-     
 
+        //      <attendance-record>
+        //	<date>2024-02-16</date>
+        //	<class>
+        //		<id>CL-1</id>
+        //	</class>
+        //	<student id = "ST-1" >
+
+        //              < status > Present </ status >
+
+        //          </ student >
+
+        //          < student id="ST-2">
+        //		<status>Absent</status>
+        //	</student>
+        //</attendance-record>
 
 
         private void Student_Load(object sender, EventArgs e)
-        { 
+        {
             label_date.Text = DateTime.Now.ToString("yyyy-MM-dd");
-           
+
+            var AttendanceRecordList = StudentXMLManagement.GetStudentAttendanceRecords();
+
+            foreach (var AttendanceRecord in AttendanceRecordList)
+            {
+                foreach (var student in AttendanceRecord.Students)
+                {
+                    dataGridView1.Rows.Add(AttendanceRecord.Date, AttendanceRecord.ClassId, student.Status);
+                }
+            }
         }
 
 
@@ -81,10 +105,10 @@ namespace File_Management_Class.Forms
 
         }
 
-       /* private void Minimize(object sender, EventArgs e)
-        {
-            WindowState = FormWindowState.Minimized;
-        }*/
+        /* private void Minimize(object sender, EventArgs e)
+         {
+             WindowState = FormWindowState.Minimized;
+         }*/
 
         private void Maximize(object sender, EventArgs e)
         {
@@ -135,7 +159,7 @@ namespace File_Management_Class.Forms
 
         private void timer1_Tick(object sender, EventArgs e)
         {
-           
+
 
         }
 
