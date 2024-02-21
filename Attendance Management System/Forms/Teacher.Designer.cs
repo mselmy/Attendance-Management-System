@@ -57,6 +57,7 @@
             title2label = new Label();
             NameLabel = new Label();
             HelloLable = new Label();
+            ViewPanel = new Panel();
             panel1.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)pictureBox1).BeginInit();
             flowLayoutPanel1.SuspendLayout();
@@ -91,6 +92,7 @@
             TakeAttendanceButton.Cursor = Cursors.Hand;
             TakeAttendanceButton.Name = "TakeAttendanceButton";
             TakeAttendanceButton.UseVisualStyleBackColor = false;
+            TakeAttendanceButton.Click += TakeAttendanceButton_Click;
             // 
             // ViewAttendanceButton
             // 
@@ -293,11 +295,18 @@
             HelloLable.Name = "HelloLable";
             HelloLable.Click += HelloLable_Click;
             // 
+            // ViewPanel
+            // 
+            resources.ApplyResources(ViewPanel, "ViewPanel");
+            ViewPanel.Name = "ViewPanel";
+            ViewPanel.Paint += ViewPanel_Paint;
+            // 
             // Teacher
             // 
             resources.ApplyResources(this, "$this");
             AutoScaleMode = AutoScaleMode.Font;
             BackColor = Color.White;
+            Controls.Add(ViewPanel);
             Controls.Add(HelloLable);
             Controls.Add(NameLabel);
             Controls.Add(title2label);
@@ -353,5 +362,6 @@
         private Button TakeAttendanceButton;
         private Button ViewAttendanceButton;
         private Label HelloLable;
+        private Panel ViewPanel;
     }
 }

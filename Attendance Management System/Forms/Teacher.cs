@@ -1,5 +1,7 @@
 ﻿using Attendance_Management_System.Classes;
+using Attendance_Management_System.Forms;
 using System.CodeDom.Compiler;
+using System.Drawing.Text;
 using System.Globalization;
 using System.Windows.Forms;
 
@@ -86,6 +88,23 @@ namespace Attendance_Management_System
         private void saveButton_Click(object sender, EventArgs e)
         {
             XMLManagement.SaveXMLFileWindow();
+        }
+
+        private void TakeAttendanceButton_Click(object sender, EventArgs e)
+        {
+            ViewPanel.Controls.Clear();
+            TakeAttendance takeAttendance = new TakeAttendance(session);
+            ViewPanel.Controls.Add(takeAttendance);
+        }
+
+        private void TakeAttendance_Load(object sender, EventArgs e)
+        {
+
+        }
+
+        private void ViewPanel_Paint(object sender, PaintEventArgs e)
+        {
+
         }
     }
 }
