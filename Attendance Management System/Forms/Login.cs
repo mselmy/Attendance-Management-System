@@ -1,5 +1,5 @@
 using Attendance_Management_System.Classes;
-using File_Management_Class.Forms;
+using Attendance_Management_System.Forms;
 
 namespace Attendance_Management_System
 {
@@ -98,7 +98,7 @@ namespace Attendance_Management_System
                 }
                 else if (session.CurrentUser.Role == "Student")
                 {
-                    StudentDashboard studentDashboard = new StudentDashboard(session);
+                    StudentDashBoard2 studentDashboard = new StudentDashBoard2(session);
                     studentDashboard.Show();
                 }
                 Hide();
@@ -120,6 +120,11 @@ namespace Attendance_Management_System
         }
 
         private void textBoxEmail_TextChanged(object sender, EventArgs e)
+        {
+
+        }
+
+        private void textBoxPassword_TextChanged(object sender, EventArgs e)
         {
 
         }

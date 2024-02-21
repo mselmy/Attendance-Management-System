@@ -1,5 +1,4 @@
 using Attendance_Management_System.Forms;
-using File_Management_Class.Forms;
 
 namespace Attendance_Management_System
 {
@@ -15,7 +14,7 @@ namespace Attendance_Management_System
             // see https://aka.ms/applicationconfiguration.
             ApplicationConfiguration.Initialize();
             Application.Run(new Login());
-           // Application.Run(new StudentDashboard(new Classes.Session("selmy@gmail.com")));
+            Application.Run(new StudentDashBoard2(new Classes.Session("selmy@gmail.com")));
         }
     }
 }
