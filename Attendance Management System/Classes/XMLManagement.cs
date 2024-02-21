@@ -75,6 +75,13 @@ namespace Attendance_Management_System.Classes
             return userNode;
         }
 
+        public static XmlNode? GetNode(string xPath)
+        {
+            XmlDocument XmlDoc = ReadAllDocument();
+            XmlNode? userNode = XmlDoc.SelectSingleNode(xPath);
+            return userNode;
+        }
+
         public static void UpdateNode(string nodePath, string target, string value,string updatedTarger, string newValue)
         {
             XmlDocument XmlDoc = ReadAllDocument();
