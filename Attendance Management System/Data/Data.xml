@@ -12,6 +12,39 @@
       <student id="ST-2">
         <status>Absent</status>
       </student>
+      <student id="ST-3">
+        <status>Present</status>
+      </student>
+    </attendance-record>
+    <attendance-record>
+      <date>2024-02-06</date>
+      <class>
+        <id>CL-1</id>
+      </class>
+      <student id="ST-1">
+        <status>Present</status>
+      </student>
+      <student id="ST-2">
+        <status>Present</status>
+      </student>
+      <student id="ST-3">
+        <status>Absent</status>
+      </student>
+    </attendance-record>
+    <attendance-record>
+      <date>2024-02-10</date>
+      <class>
+        <id>CL-1</id>
+      </class>
+      <student id="ST-1">
+        <status>Absent</status>
+      </student>
+      <student id="ST-2">
+        <status>Present</status>
+      </student>
+      <student id="ST-3">
+        <status>Absent</status>
+      </student>
     </attendance-record>
   </attendance-records>
   <students>
@@ -77,6 +110,14 @@
     <class>
       <id>CL-1</id>
       <name>Math</name>
+      <teacher id="TE-1" />
+      <student id="ST-1" />
+      <student id="ST-2" />
+      <student id="ST-3" />
+    </class>
+    <class>
+      <id>CL-2</id>
+      <name>Science</name>
       <teacher id="TE-1" />
       <student id="ST-1" />
       <student id="ST-2" />
