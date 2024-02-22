@@ -98,7 +98,7 @@ namespace Attendance_Management_System
                 }
                 else if (session.CurrentUser.Role == "Student")
                 {
-                    StudentDashBoard2 studentDashboard = new StudentDashBoard2(session);
+                    StudentDashBoard studentDashboard = new StudentDashBoard(session);
                     studentDashboard.Show();
                 }
                 Hide();

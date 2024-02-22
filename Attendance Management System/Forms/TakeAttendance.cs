@@ -48,7 +48,7 @@ namespace Attendance_Management_System.Forms
             foreach (string courseId in courseIds)
             {
                 XmlNode course = courses.SelectSingleNode("class[id='" + courseId + "']");
-                courseNames.Add(course.SelectSingleNode("name").InnerText + " " + courseId);
+                courseNames.Add(course.SelectSingleNode("name").InnerText + ", " + courseId);
             }
             CourseComboBox.DataSource = courseNames;
         }
@@ -73,7 +73,7 @@ namespace Attendance_Management_System.Forms
             dataGridView1.Rows.Clear();
             studentIds.Clear();
             students.Clear();
-            string courseId = CourseComboBox.SelectedValue.ToString().Split(' ')[1];
+            string courseId = CourseComboBox.SelectedValue.ToString().Split(", ")[1];
             XmlNode course = courses.SelectSingleNode("class[id='" + courseId + "']");
             List<string> attendanceStatus = new List<string>();
             XmlNode? attendanceRecord = AttendanceManager.isAttendanceTaken(courseId, date: dateTimePicker.Value);
@@ -119,7 +119,7 @@ namespace Attendance_Management_System.Forms
         private void SaveAttendanceButton_Click(object sender, EventArgs e)
         {
             XmlDocument xmlDoc = XMLManagement.ReadAllDocument();
-            string courseId = CourseComboBox.SelectedValue.ToString().Split(' ')[1];
+            string courseId = CourseComboBox.SelectedValue.ToString().Split(", ")[1];
             XmlNode? attendanceRecord = AttendanceManager.isAttendanceTaken(courseId, date: dateTimePicker.Value);
 
             if (attendanceRecord != null)

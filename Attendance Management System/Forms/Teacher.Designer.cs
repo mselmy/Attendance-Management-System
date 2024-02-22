@@ -31,7 +31,6 @@
             System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(Teacher));
             panel1 = new Panel();
             TakeAttendanceButton = new Button();
-            ViewAttendanceButton = new Button();
             SettingButton = new Button();
             EditPasswordButton = new Button();
             pictureBox1 = new PictureBox();
@@ -73,7 +72,6 @@
             resources.ApplyResources(panel1, "panel1");
             panel1.BackColor = Color.SlateGray;
             panel1.Controls.Add(TakeAttendanceButton);
-            panel1.Controls.Add(ViewAttendanceButton);
             panel1.Controls.Add(SettingButton);
             panel1.Controls.Add(EditPasswordButton);
             panel1.Controls.Add(pictureBox1);
@@ -93,15 +91,6 @@
             TakeAttendanceButton.Name = "TakeAttendanceButton";
             TakeAttendanceButton.UseVisualStyleBackColor = false;
             TakeAttendanceButton.Click += TakeAttendanceButton_Click;
-            // 
-            // ViewAttendanceButton
-            // 
-            resources.ApplyResources(ViewAttendanceButton, "ViewAttendanceButton");
-            ViewAttendanceButton.BackColor = Color.SlateGray;
-            ViewAttendanceButton.Cursor = Cursors.Hand;
-            ViewAttendanceButton.Name = "ViewAttendanceButton";
-            ViewAttendanceButton.UseVisualStyleBackColor = false;
-            ViewAttendanceButton.Click += ViewAttendanceButton_Click;
             // 
             // SettingButton
             // 
@@ -360,7 +349,6 @@
         private Button SettingButton;
         private Button EditPasswordButton;
         private Button TakeAttendanceButton;
-        private Button ViewAttendanceButton;
         private Label HelloLable;
         private Panel ViewPanel;
     }

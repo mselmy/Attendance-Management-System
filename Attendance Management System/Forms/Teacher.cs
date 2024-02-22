@@ -83,6 +83,7 @@ namespace Attendance_Management_System
         {
             Controls.Clear();
             InitializeComponent();
+            NameLabel.Text = user?.Name;
         }
 
         private void saveButton_Click(object sender, EventArgs e)

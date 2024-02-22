@@ -15,11 +15,11 @@ using System.Globalization;
 
 namespace Attendance_Management_System.Forms
 {
-    public partial class StudentDashBoard2 : Form
+    public partial class StudentDashBoard : Form
     {
         System.Timers.Timer timer;
         Session session;
-        public StudentDashBoard2(Session _session)
+        public StudentDashBoard(Session _session)
         {
             InitializeComponent();
             timer = new System.Timers.Timer();

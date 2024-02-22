@@ -40,12 +40,12 @@ namespace Attendance_Management_System.Forms
             label1 = new Label();
             dateTimePicker = new DateTimePicker();
             dataGridView1 = new DataGridView();
-            labelErrorMessage = new Label();
-            SaveAttendanceButton = new Button();
             ID = new DataGridViewTextBoxColumn();
             StudentName = new DataGridViewTextBoxColumn();
             StatusCheckBox = new DataGridViewCheckBoxColumn();
             Status = new DataGridViewTextBoxColumn();
+            labelErrorMessage = new Label();
+            SaveAttendanceButton = new Button();
             ((System.ComponentModel.ISupportInitialize)dataGridView1).BeginInit();
             SuspendLayout();
             // 
@@ -93,14 +93,14 @@ namespace Attendance_Management_System.Forms
             // dateTimePicker
             // 
             dateTimePicker.Anchor = AnchorStyles.None;
-            dateTimePicker.CustomFormat = "DD/MM/YYYY";
+            dateTimePicker.CustomFormat = "yyyy-MM-dd";
             dateTimePicker.Format = DateTimePickerFormat.Short;
             dateTimePicker.Location = new Point(657, 38);
             dateTimePicker.MaxDate = new DateTime(2024, 2, 21, 2, 4, 5, 928);
             dateTimePicker.Name = "dateTimePicker";
             dateTimePicker.Size = new Size(336, 27);
             dateTimePicker.TabIndex = 2;
-            dateTimePicker.Value = new DateTime(2024, 2, 20, 0, 0, 0, 0);
+            dateTimePicker.Value = new DateTime(2024, 2, 21, 0, 0, 0, 0);
             dateTimePicker.ValueChanged += dateTimePicker_ValueChanged;
             // 
             // dataGridView1
@@ -158,34 +158,6 @@ namespace Attendance_Management_System.Forms
             dataGridView1.TabIndex = 0;
             dataGridView1.CellContentClick += dataGridView1_CellContentClick;
             // 
-            // labelErrorMessage
-            // 
-            labelErrorMessage.AutoSize = true;
-            labelErrorMessage.Font = new Font("Century Gothic", 16.2F, FontStyle.Bold, GraphicsUnit.Point, 0);
-            labelErrorMessage.ForeColor = Color.FromArgb(192, 0, 0);
-            labelErrorMessage.Location = new Point(157, 99);
-            labelErrorMessage.Name = "labelErrorMessage";
-            labelErrorMessage.Size = new Size(1255, 34);
-            labelErrorMessage.TabIndex = 14;
-            labelErrorMessage.Text = "Attendance is already recorded any changes will change in the original attendance record";
-            // 
-            // SaveAttendanceButton
-            // 
-            SaveAttendanceButton.BackColor = Color.SlateGray;
-            SaveAttendanceButton.Cursor = Cursors.Hand;
-            SaveAttendanceButton.FlatAppearance.BorderSize = 0;
-            SaveAttendanceButton.FlatStyle = FlatStyle.Flat;
-            SaveAttendanceButton.Font = new Font("Century Gothic", 16.2F, FontStyle.Bold);
-            SaveAttendanceButton.ForeColor = Color.White;
-            SaveAttendanceButton.ImeMode = ImeMode.NoControl;
-            SaveAttendanceButton.Location = new Point(594, 823);
-            SaveAttendanceButton.Name = "SaveAttendanceButton";
-            SaveAttendanceButton.Size = new Size(310, 47);
-            SaveAttendanceButton.TabIndex = 15;
-            SaveAttendanceButton.Text = "Save Attendance";
-            SaveAttendanceButton.UseVisualStyleBackColor = false;
-            SaveAttendanceButton.Click += SaveAttendanceButton_Click;
-            // 
             // ID
             // 
             ID.HeaderText = "ID";
@@ -213,6 +185,34 @@ namespace Attendance_Management_System.Forms
             Status.HeaderText = "Current Attendance Status";
             Status.MinimumWidth = 6;
             Status.Name = "Status";
+            // 
+            // labelErrorMessage
+            // 
+            labelErrorMessage.AutoSize = true;
+            labelErrorMessage.Font = new Font("Century Gothic", 16.2F, FontStyle.Bold, GraphicsUnit.Point, 0);
+            labelErrorMessage.ForeColor = Color.FromArgb(192, 0, 0);
+            labelErrorMessage.Location = new Point(157, 99);
+            labelErrorMessage.Name = "labelErrorMessage";
+            labelErrorMessage.Size = new Size(1255, 34);
+            labelErrorMessage.TabIndex = 14;
+            labelErrorMessage.Text = "Attendance is already recorded any changes will change in the original attendance record";
+            // 
+            // SaveAttendanceButton
+            // 
+            SaveAttendanceButton.BackColor = Color.SlateGray;
+            SaveAttendanceButton.Cursor = Cursors.Hand;
+            SaveAttendanceButton.FlatAppearance.BorderSize = 0;
+            SaveAttendanceButton.FlatStyle = FlatStyle.Flat;
+            SaveAttendanceButton.Font = new Font("Century Gothic", 16.2F, FontStyle.Bold);
+            SaveAttendanceButton.ForeColor = Color.White;
+            SaveAttendanceButton.ImeMode = ImeMode.NoControl;
+            SaveAttendanceButton.Location = new Point(594, 823);
+            SaveAttendanceButton.Name = "SaveAttendanceButton";
+            SaveAttendanceButton.Size = new Size(310, 47);
+            SaveAttendanceButton.TabIndex = 15;
+            SaveAttendanceButton.Text = "Save Attendance";
+            SaveAttendanceButton.UseVisualStyleBackColor = false;
+            SaveAttendanceButton.Click += SaveAttendanceButton_Click;
             // 
             // TakeAttendance
             // 
