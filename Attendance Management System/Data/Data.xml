@@ -12,6 +12,39 @@
       <student id="ST-2">
         <status>Absent</status>
       </student>
+      <student id="ST-3">
+        <status>Present</status>
+      </student>
+    </attendance-record>
+    <attendance-record>
+      <date>2024-02-06</date>
+      <class>
+        <id>CL-1</id>
+      </class>
+      <student id="ST-1">
+        <status>Present</status>
+      </student>
+      <student id="ST-2">
+        <status>Present</status>
+      </student>
+      <student id="ST-3">
+        <status>Absent</status>
+      </student>
+    </attendance-record>
+    <attendance-record>
+      <date>2024-02-10</date>
+      <class>
+        <id>CL-1</id>
+      </class>
+      <student id="ST-1">
+        <status>Absent</status>
+      </student>
+      <student id="ST-2">
+        <status>Present</status>
+      </student>
+      <student id="ST-3">
+        <status>Absent</status>
+      </student>
     </attendance-record>
   </attendance-records>
   <students>
@@ -36,36 +69,6 @@
         <class id="CL-2" />
       </classes>
     </student>
-    <student id="ST-6">
-      <name>ramy</name>
-      <classes>
-        <class>CL-1</class>
-      </classes>
-    </student>
-    <student id="ST-8">
-      <name>hasnaa</name>
-      <classes>
-        <class>CL-1</class>
-      </classes>
-    </student>
-    <student id="ST-20">
-      <name>ramy</name>
-      <classes>
-        <class>CL-1</class>
-      </classes>
-    </student>
-    <student id="ST-4">
-      <name>CENa</name>
-      <classes>
-        <class>CL-1</class>
-      </classes>
-    </student>
-    <student id="ST-5">
-      <name>ramy</name>
-      <classes>
-        <class>CL-1</class>
-      </classes>
-    </student>
   </students>
   <teachers>
     <teacher id="TE-1">
@@ -73,24 +76,6 @@
       <courses>
         <course id="CL-1" />
         <course id="CL-2" />
-      </courses>
-    </teacher>
-    <teacher id="TE-6">
-      <name>ER</name>
-      <courses>
-        <course>CL-1</course>
-      </courses>
-    </teacher>
-    <teacher id="TE-9">
-      <name>DALIA</name>
-      <courses>
-        <course>CL-1</course>
-      </courses>
-    </teacher>
-    <teacher id="TE-99">
-      <name>hany</name>
-      <courses>
-        <course>CL-1</course>
       </courses>
     </teacher>
   </teachers>
@@ -132,46 +117,8 @@
     </class>
     <class>
       <id>CL-2</id>
-      <name>Math</name>
+      <name>Science</name>
       <teacher id="TE-1" />
-      <student id="ST-1" />
-      <student id="ST-2" />
-      <student id="ST-3" />
-    </class>
-    <class>
-      <id>CL-3</id>
-      <name>Math</name>
-      <teacher id="TE-1" />
-      <student id="ST-1" />
-      <student id="ST-2" />
-      <student id="ST-3" />
-    </class>
-    <class>
-      <name>Math</name>
-      <id>CL-5</id>
-      <teacher id="TE-1" />
-      <student id="ST-3" />
-      <student id="ST-2" />
-      <student id="ST-3" />
-      <student id="ST-1" />
-      <student id="ST-2" />
-      <student id="ST-3" />
-    </class>
-    <class>
-      <name>math</name>
-      <id>CL-12</id>
-      <teacher id="TE-1" />
-      <student id="ST-1" />
-      <student id="ST-1" />
-      <student id="ST-3" />
-    </class>
-    <class>
-      <name>math</name>
-      <id>CL-10</id>
-      <teacher id="TE-1" />
-      <student id="ST-2" />
-      <student id="ST-1" />
-      <student id="ST-2" />
       <student id="ST-1" />
       <student id="ST-2" />
       <student id="ST-3" />
