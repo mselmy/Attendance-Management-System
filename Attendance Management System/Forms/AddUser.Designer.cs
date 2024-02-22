@@ -31,6 +31,11 @@
             System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(AddUser));
             Addtab = new TabControl();
             addStudenttabPage = new TabPage();
+            passwordpictureBox1 = new PictureBox();
+            passwordlabel1 = new Label();
+            passswordstdtextBox = new TextBox();
+            label13 = new Label();
+            panel11 = new Panel();
             pictureBoxErrorMessage3 = new PictureBox();
             labelErrorMessage3 = new Label();
             pictureBoxErrorMessage2 = new PictureBox();
@@ -52,6 +57,11 @@
             panel6 = new Panel();
             label1 = new Label();
             AddteachertabPage = new TabPage();
+            panel12 = new Panel();
+            passwordpictureBox2 = new PictureBox();
+            passwordlabel2 = new Label();
+            passwordtextBox2 = new TextBox();
+            label14 = new Label();
             pictureBoxErrorMessage5 = new PictureBox();
             labelErrorMessage5 = new Label();
             pictureBoxErrorMessage6 = new PictureBox();
@@ -98,24 +108,16 @@
             label4 = new Label();
             panel1 = new Panel();
             label3 = new Label();
-            passwordpictureBox1 = new PictureBox();
-            passwordlabel1 = new Label();
-            passswordstdtextBox = new TextBox();
-            label13 = new Label();
-            panel11 = new Panel();
-            passwordpictureBox2 = new PictureBox();
-            passwordlabel2 = new Label();
-            passwordtextBox2 = new TextBox();
-            label14 = new Label();
-            panel12 = new Panel();
             Addtab.SuspendLayout();
             addStudenttabPage.SuspendLayout();
+            ((System.ComponentModel.ISupportInitialize)passwordpictureBox1).BeginInit();
             ((System.ComponentModel.ISupportInitialize)pictureBoxErrorMessage3).BeginInit();
             ((System.ComponentModel.ISupportInitialize)pictureBoxErrorMessage2).BeginInit();
             ((System.ComponentModel.ISupportInitialize)pictureBoxErrorMessage1).BeginInit();
             ((System.ComponentModel.ISupportInitialize)pictureBoxErrorMessage).BeginInit();
             ((System.ComponentModel.ISupportInitialize)pictureBox2).BeginInit();
             AddteachertabPage.SuspendLayout();
+            ((System.ComponentModel.ISupportInitialize)passwordpictureBox2).BeginInit();
             ((System.ComponentModel.ISupportInitialize)pictureBoxErrorMessage5).BeginInit();
             ((System.ComponentModel.ISupportInitialize)pictureBoxErrorMessage6).BeginInit();
             ((System.ComponentModel.ISupportInitialize)pictureBoxErrorMessage7).BeginInit();
@@ -128,8 +130,6 @@
             ((System.ComponentModel.ISupportInitialize)pictureBoxErrorMessage8).BeginInit();
             ((System.ComponentModel.ISupportInitialize)pictureBoxErrorMessage9).BeginInit();
             ((System.ComponentModel.ISupportInitialize)pictureBox3).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)passwordpictureBox1).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)passwordpictureBox2).BeginInit();
             SuspendLayout();
             // 
             // Addtab
@@ -179,6 +179,54 @@
             addStudenttabPage.Size = new Size(1030, 570);
             addStudenttabPage.TabIndex = 0;
             addStudenttabPage.Text = "Add Student";
+            // 
+            // passwordpictureBox1
+            // 
+            passwordpictureBox1.Image = (Image)resources.GetObject("passwordpictureBox1.Image");
+            passwordpictureBox1.Location = new Point(73, 329);
+            passwordpictureBox1.Name = "passwordpictureBox1";
+            passwordpictureBox1.Size = new Size(25, 23);
+            passwordpictureBox1.SizeMode = PictureBoxSizeMode.Zoom;
+            passwordpictureBox1.TabIndex = 34;
+            passwordpictureBox1.TabStop = false;
+            // 
+            // passwordlabel1
+            // 
+            passwordlabel1.AutoSize = true;
+            passwordlabel1.Font = new Font("Century Gothic", 10.2F, FontStyle.Regular, GraphicsUnit.Point, 0);
+            passwordlabel1.ForeColor = Color.FromArgb(192, 0, 0);
+            passwordlabel1.Location = new Point(101, 331);
+            passwordlabel1.Name = "passwordlabel1";
+            passwordlabel1.Size = new Size(560, 24);
+            passwordlabel1.TabIndex = 33;
+            passwordlabel1.Text = "Make the password complex and not less than 8 char";
+            // 
+            // passswordstdtextBox
+            // 
+            passswordstdtextBox.BorderStyle = BorderStyle.None;
+            passswordstdtextBox.Location = new Point(92, 283);
+            passswordstdtextBox.Name = "passswordstdtextBox";
+            passswordstdtextBox.Size = new Size(270, 27);
+            passswordstdtextBox.TabIndex = 32;
+            // 
+            // label13
+            // 
+            label13.AutoSize = true;
+            label13.Font = new Font("Segoe UI", 12F, FontStyle.Bold, GraphicsUnit.Point, 0);
+            label13.ForeColor = Color.SlateGray;
+            label13.Location = new Point(84, 242);
+            label13.Name = "label13";
+            label13.Size = new Size(129, 32);
+            label13.TabIndex = 31;
+            label13.Text = "Password:";
+            // 
+            // panel11
+            // 
+            panel11.BackColor = Color.Goldenrod;
+            panel11.Location = new Point(88, 313);
+            panel11.Name = "panel11";
+            panel11.Size = new Size(270, 2);
+            panel11.TabIndex = 30;
             // 
             // pictureBoxErrorMessage3
             // 
@@ -412,9 +460,57 @@
             AddteachertabPage.Location = new Point(4, 4);
             AddteachertabPage.Name = "AddteachertabPage";
             AddteachertabPage.Padding = new Padding(3);
-            AddteachertabPage.Size = new Size(1030, 570);
+            AddteachertabPage.Size = new Size(1030, 573);
             AddteachertabPage.TabIndex = 1;
             AddteachertabPage.Text = "Add Teacher";
+            // 
+            // panel12
+            // 
+            panel12.BackColor = Color.Goldenrod;
+            panel12.Location = new Point(90, 315);
+            panel12.Name = "panel12";
+            panel12.Size = new Size(270, 2);
+            panel12.TabIndex = 41;
+            // 
+            // passwordpictureBox2
+            // 
+            passwordpictureBox2.Image = (Image)resources.GetObject("passwordpictureBox2.Image");
+            passwordpictureBox2.Location = new Point(64, 330);
+            passwordpictureBox2.Name = "passwordpictureBox2";
+            passwordpictureBox2.Size = new Size(25, 23);
+            passwordpictureBox2.SizeMode = PictureBoxSizeMode.Zoom;
+            passwordpictureBox2.TabIndex = 40;
+            passwordpictureBox2.TabStop = false;
+            // 
+            // passwordlabel2
+            // 
+            passwordlabel2.AutoSize = true;
+            passwordlabel2.Font = new Font("Century Gothic", 10.2F, FontStyle.Regular, GraphicsUnit.Point, 0);
+            passwordlabel2.ForeColor = Color.FromArgb(192, 0, 0);
+            passwordlabel2.Location = new Point(93, 328);
+            passwordlabel2.Name = "passwordlabel2";
+            passwordlabel2.Size = new Size(560, 24);
+            passwordlabel2.TabIndex = 39;
+            passwordlabel2.Text = "Make the password complex and not less than 8 char";
+            // 
+            // passwordtextBox2
+            // 
+            passwordtextBox2.BorderStyle = BorderStyle.None;
+            passwordtextBox2.Location = new Point(91, 283);
+            passwordtextBox2.Name = "passwordtextBox2";
+            passwordtextBox2.Size = new Size(270, 27);
+            passwordtextBox2.TabIndex = 38;
+            // 
+            // label14
+            // 
+            label14.AutoSize = true;
+            label14.Font = new Font("Segoe UI", 12F, FontStyle.Bold, GraphicsUnit.Point, 0);
+            label14.ForeColor = Color.SlateGray;
+            label14.Location = new Point(84, 240);
+            label14.Name = "label14";
+            label14.Size = new Size(129, 32);
+            label14.TabIndex = 37;
+            label14.Text = "Password:";
             // 
             // pictureBoxErrorMessage5
             // 
@@ -648,7 +744,7 @@
             AddclasstabPage.Location = new Point(4, 4);
             AddclasstabPage.Name = "AddclasstabPage";
             AddclasstabPage.Padding = new Padding(3);
-            AddclasstabPage.Size = new Size(1030, 570);
+            AddclasstabPage.Size = new Size(1030, 573);
             AddclasstabPage.TabIndex = 2;
             AddclasstabPage.Text = "Add Class";
             // 
@@ -907,102 +1003,6 @@
             label3.TabIndex = 1;
             label3.Text = "Add Class";
             // 
-            // passwordpictureBox1
-            // 
-            passwordpictureBox1.Image = (Image)resources.GetObject("passwordpictureBox1.Image");
-            passwordpictureBox1.Location = new Point(73, 329);
-            passwordpictureBox1.Name = "passwordpictureBox1";
-            passwordpictureBox1.Size = new Size(25, 23);
-            passwordpictureBox1.SizeMode = PictureBoxSizeMode.Zoom;
-            passwordpictureBox1.TabIndex = 34;
-            passwordpictureBox1.TabStop = false;
-            // 
-            // passwordlabel1
-            // 
-            passwordlabel1.AutoSize = true;
-            passwordlabel1.Font = new Font("Century Gothic", 10.2F, FontStyle.Regular, GraphicsUnit.Point, 0);
-            passwordlabel1.ForeColor = Color.FromArgb(192, 0, 0);
-            passwordlabel1.Location = new Point(101, 331);
-            passwordlabel1.Name = "passwordlabel1";
-            passwordlabel1.Size = new Size(560, 24);
-            passwordlabel1.TabIndex = 33;
-            passwordlabel1.Text = "Make the password complex and not less than 8 char";
-            // 
-            // passswordstdtextBox
-            // 
-            passswordstdtextBox.BorderStyle = BorderStyle.None;
-            passswordstdtextBox.Location = new Point(92, 283);
-            passswordstdtextBox.Name = "passswordstdtextBox";
-            passswordstdtextBox.Size = new Size(270, 27);
-            passswordstdtextBox.TabIndex = 32;
-            // 
-            // label13
-            // 
-            label13.AutoSize = true;
-            label13.Font = new Font("Segoe UI", 12F, FontStyle.Bold, GraphicsUnit.Point, 0);
-            label13.ForeColor = Color.SlateGray;
-            label13.Location = new Point(84, 242);
-            label13.Name = "label13";
-            label13.Size = new Size(129, 32);
-            label13.TabIndex = 31;
-            label13.Text = "Password:";
-            // 
-            // panel11
-            // 
-            panel11.BackColor = Color.Goldenrod;
-            panel11.Location = new Point(88, 313);
-            panel11.Name = "panel11";
-            panel11.Size = new Size(270, 2);
-            panel11.TabIndex = 30;
-            // 
-            // passwordpictureBox2
-            // 
-            passwordpictureBox2.Image = (Image)resources.GetObject("passwordpictureBox2.Image");
-            passwordpictureBox2.Location = new Point(64, 330);
-            passwordpictureBox2.Name = "passwordpictureBox2";
-            passwordpictureBox2.Size = new Size(25, 23);
-            passwordpictureBox2.SizeMode = PictureBoxSizeMode.Zoom;
-            passwordpictureBox2.TabIndex = 40;
-            passwordpictureBox2.TabStop = false;
-            // 
-            // passwordlabel2
-            // 
-            passwordlabel2.AutoSize = true;
-            passwordlabel2.Font = new Font("Century Gothic", 10.2F, FontStyle.Regular, GraphicsUnit.Point, 0);
-            passwordlabel2.ForeColor = Color.FromArgb(192, 0, 0);
-            passwordlabel2.Location = new Point(93, 328);
-            passwordlabel2.Name = "passwordlabel2";
-            passwordlabel2.Size = new Size(560, 24);
-            passwordlabel2.TabIndex = 39;
-            passwordlabel2.Text = "Make the password complex and not less than 8 char";
-            // 
-            // passwordtextBox2
-            // 
-            passwordtextBox2.BorderStyle = BorderStyle.None;
-            passwordtextBox2.Location = new Point(91, 283);
-            passwordtextBox2.Name = "passwordtextBox2";
-            passwordtextBox2.Size = new Size(270, 27);
-            passwordtextBox2.TabIndex = 38;
-            // 
-            // label14
-            // 
-            label14.AutoSize = true;
-            label14.Font = new Font("Segoe UI", 12F, FontStyle.Bold, GraphicsUnit.Point, 0);
-            label14.ForeColor = Color.SlateGray;
-            label14.Location = new Point(84, 240);
-            label14.Name = "label14";
-            label14.Size = new Size(129, 32);
-            label14.TabIndex = 37;
-            label14.Text = "Password:";
-            // 
-            // panel12
-            // 
-            panel12.BackColor = Color.Goldenrod;
-            panel12.Location = new Point(90, 315);
-            panel12.Name = "panel12";
-            panel12.Size = new Size(270, 2);
-            panel12.TabIndex = 41;
-            // 
             // AddUser
             // 
             AutoScaleDimensions = new SizeF(11F, 28F);
@@ -1012,9 +1012,11 @@
             Font = new Font("Segoe UI", 10F, FontStyle.Regular, GraphicsUnit.Point, 0);
             Name = "AddUser";
             Size = new Size(1116, 660);
+            Load += AddUser_Load;
             Addtab.ResumeLayout(false);
             addStudenttabPage.ResumeLayout(false);
             addStudenttabPage.PerformLayout();
+            ((System.ComponentModel.ISupportInitialize)passwordpictureBox1).EndInit();
             ((System.ComponentModel.ISupportInitialize)pictureBoxErrorMessage3).EndInit();
             ((System.ComponentModel.ISupportInitialize)pictureBoxErrorMessage2).EndInit();
             ((System.ComponentModel.ISupportInitialize)pictureBoxErrorMessage1).EndInit();
@@ -1022,6 +1024,7 @@
             ((System.ComponentModel.ISupportInitialize)pictureBox2).EndInit();
             AddteachertabPage.ResumeLayout(false);
             AddteachertabPage.PerformLayout();
+            ((System.ComponentModel.ISupportInitialize)passwordpictureBox2).EndInit();
             ((System.ComponentModel.ISupportInitialize)pictureBoxErrorMessage5).EndInit();
             ((System.ComponentModel.ISupportInitialize)pictureBoxErrorMessage6).EndInit();
             ((System.ComponentModel.ISupportInitialize)pictureBoxErrorMessage7).EndInit();
@@ -1035,8 +1038,6 @@
             ((System.ComponentModel.ISupportInitialize)pictureBoxErrorMessage8).EndInit();
             ((System.ComponentModel.ISupportInitialize)pictureBoxErrorMessage9).EndInit();
             ((System.ComponentModel.ISupportInitialize)pictureBox3).EndInit();
-            ((System.ComponentModel.ISupportInitialize)passwordpictureBox1).EndInit();
-            ((System.ComponentModel.ISupportInitialize)passwordpictureBox2).EndInit();
             ResumeLayout(false);
         }
 

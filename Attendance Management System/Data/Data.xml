@@ -2,9 +2,30 @@
 <school>
   <attendance-records>
     <attendance-record>
-      <date>2024-02-16</date>
+      <date>2024-01-16</date>
       <class>
         <id>CL-1</id>
+      </class>
+      <student id="ST-1">
+        <status>Present</status>
+      </student>
+      <student id="ST-2">
+        <status>Absent</status>
+      </student>
+    </attendance-record>
+    <attendance-record>
+      <date>2024-02-16</date>
+      <class>
+        <id>CL-2</id>
+      </class>
+      <student id="ST-2">
+        <status>Absent</status>
+      </student>
+    </attendance-record>
+    <attendance-record>
+      <date>2024-01-01</date>
+      <class>
+        <id>CL-2</id>
       </class>
       <student id="ST-1">
         <status>Present</status>
@@ -170,6 +191,17 @@
       <id>CL-10</id>
       <teacher id="TE-1" />
       <student id="ST-2" />
+      <student id="ST-1" />
+      <student id="ST-2" />
+      <student id="ST-1" />
+      <student id="ST-2" />
+      <student id="ST-3" />
+    </class>
+    <class>
+      <name>Math</name>
+      <id>CL-8</id>
+      <teacher id="TE-1" />
+      <student id="ST-1" />
       <student id="ST-1" />
       <student id="ST-2" />
       <student id="ST-1" />
