@@ -7,7 +7,7 @@ using System.Xml;
 
 namespace Attendance_Management_System.Classes
 {
-    internal class Student : User
+    internal class StudentData : User
     {
         // Variables
         private string name;
@@ -15,10 +15,10 @@ namespace Attendance_Management_System.Classes
 
         // Properties
         public string Name { get { return name; } private set { { name = value; } } }
-        public List<string> Classesid { get { return classesid; } private set { { classesid = value; } } }
+        public List<string> ClassesIds { get { return classesid; } private set { { classesid = value; } } }
 
         // Constructor
-        public Student(string email) : base(email)
+        public StudentData(string email) : base(email)
         {
             Name = XMLManagement.GetNode(Configs.StudentsPath, "@id", base.ID).SelectSingleNode("name").InnerText;
 
@@ -31,7 +31,7 @@ namespace Attendance_Management_System.Classes
 
             foreach (XmlNode c in classes)
             {
-                Classesid.Add(c.Attributes["id"].Value);
+                ClassesIds.Add(c.Attributes["id"].Value);
             }
         }
     }

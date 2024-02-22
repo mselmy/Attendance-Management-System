@@ -1,5 +1,6 @@
 ﻿using System;
 using System.Collections.Generic;
+using System.Globalization;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
@@ -24,15 +25,30 @@ namespace Attendance_Management_System.Classes
         public static string FilterClassDateRange = @"../../../Data/ClassdateRange.xslt";
         public static string FilterStudentDateRange = @"../../../Data/StudentdateRange.xslt";
         public static string FilterWarning = @"../../../Data/NoAbsent.xslt";
-
-
-
-
-
         public static string AttendenceRecordpath = @" / school/attendance-records/attendance-record";
-
-
         public static string language = "EN";
         public static string dateFormate = "dd/MM/yyyy";
+
+        public static void ChangeLanguage()
+        {
+            CultureInfo newCulture;
+            if (language == "AR")
+            {
+                newCulture = new CultureInfo("ar-EG");
+            }
+            else
+            {
+                newCulture = new CultureInfo("en-US");
+            }
+            Thread.CurrentThread.CurrentUICulture = newCulture;
+            Thread.CurrentThread.CurrentCulture = newCulture;
+        }
+
+        public static void setLanguage(string lang)
+        {
+            language = lang;
+            XMLManagement.UpdateNode("/school/configs", "language", language);
+            ChangeLanguage();
+        }
     }
 }

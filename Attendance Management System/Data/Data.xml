@@ -1,5 +1,5 @@
 ﻿<?xml version="1.0" encoding="UTF-8"?>
-<school>
+<school xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="C:\Users\engmo\Desktop\Final\Attendance-Management-System\Attendance Management System\Data\Data-Schema.xsd">
   <attendance-records>
     <attendance-record>
       <date>2024-01-16</date>
@@ -11,6 +11,102 @@
       </student>
       <student id="ST-2">
         <status>Absent</status>
+      </student>
+      <student id="ST-3">
+        <status>Present</status>
+      </student>
+      <student id="ST-4">
+        <status>Present</status>
+      </student>
+      <student id="ST-5">
+        <status>Present</status>
+      </student>
+      <student id="ST-6">
+        <status>Absent</status>
+      </student>
+      <student id="ST-7">
+        <status>Absent</status>
+      </student>
+      <student id="ST-8">
+        <status>Absent</status>
+      </student>
+      <student id="ST-9">
+        <status>Present</status>
+      </student>
+      <student id="ST-10">
+        <status>Present</status>
+      </student>
+    </attendance-record>
+    <attendance-record>
+      <date>2024-02-17</date>
+      <class>
+        <id>CL-3</id>
+      </class>
+      <student id="ST-1">
+        <status>Absent</status>
+      </student>
+      <student id="ST-2">
+        <status>Present</status>
+      </student>
+      <student id="ST-3">
+        <status>Absent</status>
+      </student>
+      <student id="ST-4">
+        <status>Present</status>
+      </student>
+      <student id="ST-5">
+        <status>Present</status>
+      </student>
+      <student id="ST-6">
+        <status>Present</status>
+      </student>
+      <student id="ST-7">
+        <status>Present</status>
+      </student>
+      <student id="ST-8">
+        <status>Present</status>
+      </student>
+      <student id="ST-9">
+        <status>Present</status>
+      </student>
+      <student id="ST-10">
+        <status>Present</status>
+      </student>
+    </attendance-record>
+    <attendance-record>
+      <date>2024-02-17</date>
+      <class>
+        <id>CL-1</id>
+      </class>
+      <student id="ST-1">
+        <status>Present</status>
+      </student>
+      <student id="ST-2">
+        <status>Absent</status>
+      </student>
+      <student id="ST-3">
+        <status>Present</status>
+      </student>
+      <student id="ST-4">
+        <status>Absent</status>
+      </student>
+      <student id="ST-5">
+        <status>Present</status>
+      </student>
+      <student id="ST-6">
+        <status>Present</status>
+      </student>
+      <student id="ST-7">
+        <status>Present</status>
+      </student>
+      <student id="ST-8">
+        <status>Absent</status>
+      </student>
+      <student id="ST-9">
+        <status>Present</status>
+      </student>
+      <student id="ST-10">
+        <status>Present</status>
       </student>
     </attendance-record>
     <attendance-record>
@@ -41,6 +137,9 @@
       <classes>
         <class id="CL-1" />
         <class id="CL-2" />
+        <class id="CL-3" />
+        <class id="CL-4" />
+        <class id="CL-5" />
       </classes>
     </student>
     <student id="ST-2">
@@ -48,6 +147,9 @@
       <classes>
         <class id="CL-1" />
         <class id="CL-2" />
+        <class id="CL-3" />
+        <class id="CL-4" />
+        <class id="CL-5" />
       </classes>
     </student>
     <student id="ST-3">
@@ -55,36 +157,79 @@
       <classes>
         <class id="CL-1" />
         <class id="CL-2" />
-      </classes>
-    </student>
-    <student id="ST-6">
-      <name>ramy</name>
-      <classes>
-        <class>CL-1</class>
-      </classes>
-    </student>
-    <student id="ST-8">
-      <name>hasnaa</name>
-      <classes>
-        <class>CL-1</class>
-      </classes>
-    </student>
-    <student id="ST-20">
-      <name>ramy</name>
-      <classes>
-        <class>CL-1</class>
+        <class id="CL-3" />
+        <class id="CL-4" />
+        <class id="CL-5" />
       </classes>
     </student>
     <student id="ST-4">
-      <name>CENa</name>
+      <name>Selmy4</name>
       <classes>
-        <class>CL-1</class>
+        <class id="CL-1" />
+        <class id="CL-2" />
+        <class id="CL-3" />
+        <class id="CL-4" />
+        <class id="CL-5" />
       </classes>
     </student>
     <student id="ST-5">
-      <name>ramy</name>
+      <name>Selmy5</name>
       <classes>
-        <class>CL-1</class>
+        <class id="CL-1" />
+        <class id="CL-2" />
+        <class id="CL-3" />
+        <class id="CL-4" />
+        <class id="CL-5" />
+      </classes>
+    </student>
+    <student id="ST-6">
+      <name>Selmy6</name>
+      <classes>
+        <class id="CL-1" />
+        <class id="CL-2" />
+        <class id="CL-3" />
+        <class id="CL-4" />
+        <class id="CL-5" />
+      </classes>
+    </student>
+    <student id="ST-7">
+      <name>Selmy7</name>
+      <classes>
+        <class id="CL-1" />
+        <class id="CL-2" />
+        <class id="CL-3" />
+        <class id="CL-4" />
+        <class id="CL-5" />
+      </classes>
+    </student>
+    <student id="ST-8">
+      <name>Selmy8</name>
+      <classes>
+        <class id="CL-1" />
+        <class id="CL-2" />
+        <class id="CL-3" />
+        <class id="CL-4" />
+        <class id="CL-5" />
+      </classes>
+    </student>
+    <student id="ST-9">
+      <name>Selmy9</name>
+      <classes>
+        <class id="CL-1" />
+        <class id="CL-2" />
+        <class id="CL-3" />
+        <class id="CL-4" />
+        <class id="CL-5" />
+      </classes>
+    </student>
+    <student id="ST-10">
+      <name>Selmy10</name>
+      <classes>
+        <class id="CL-1" />
+        <class id="CL-2" />
+        <class id="CL-3" />
+        <class id="CL-4" />
+        <class id="CL-5" />
       </classes>
     </student>
   </students>
@@ -96,22 +241,12 @@
         <course id="CL-2" />
       </courses>
     </teacher>
-    <teacher id="TE-6">
-      <name>ER</name>
+    <teacher id="TE-2">
+      <name>Nada2</name>
       <courses>
-        <course>CL-1</course>
-      </courses>
-    </teacher>
-    <teacher id="TE-9">
-      <name>DALIA</name>
-      <courses>
-        <course>CL-1</course>
-      </courses>
-    </teacher>
-    <teacher id="TE-99">
-      <name>hany</name>
-      <courses>
-        <course>CL-1</course>
+        <course id="CL-3" />
+        <course id="CL-4" />
+        <course id="CL-5" />
       </courses>
     </teacher>
   </teachers>
@@ -130,8 +265,86 @@
       <fired>false</fired>
     </user>
     <user>
+      <id>ST-2</id>
+      <email>selmy2@gmail.com</email>
+      <password>selmy</password>
+      <role>Student</role>
+      <warning>false</warning>
+      <fired>false</fired>
+    </user>
+    <user>
+      <id>ST-3</id>
+      <email>selmy3@gmail.com</email>
+      <password>selmy</password>
+      <role>Student</role>
+      <warning>false</warning>
+      <fired>false</fired>
+    </user>
+    <user>
+      <id>ST-4</id>
+      <email>selmy4@gmail.com</email>
+      <password>selmy</password>
+      <role>Student</role>
+      <warning>false</warning>
+      <fired>false</fired>
+    </user>
+    <user>
+      <id>ST-5</id>
+      <email>selmy5@gmail.com</email>
+      <password>selmy</password>
+      <role>Student</role>
+      <warning>false</warning>
+      <fired>false</fired>
+    </user>
+    <user>
+      <id>ST-6</id>
+      <email>selmy6@gmail.com</email>
+      <password>selmy</password>
+      <role>Student</role>
+      <warning>false</warning>
+      <fired>false</fired>
+    </user>
+    <user>
+      <id>ST-7</id>
+      <email>selmy7@gmail.com</email>
+      <password>selmy</password>
+      <role>Student</role>
+      <warning>false</warning>
+      <fired>false</fired>
+    </user>
+    <user>
+      <id>ST-8</id>
+      <email>selmy8@gmail.com</email>
+      <password>selmy</password>
+      <role>Student</role>
+      <warning>false</warning>
+      <fired>false</fired>
+    </user>
+    <user>
+      <id>ST-9</id>
+      <email>selmy9@gmail.com</email>
+      <password>selmy</password>
+      <role>Student</role>
+      <warning>false</warning>
+      <fired>false</fired>
+    </user>
+    <user>
+      <id>ST-10</id>
+      <email>selmy10@gmail.com</email>
+      <password>selmy</password>
+      <role>Student</role>
+      <warning>false</warning>
+      <fired>false</fired>
+    </user>
+    <user>
       <id>TE-1</id>
       <email>nada@gmail.com</email>
+      <password>nada</password>
+      <role>Teacher</role>
+    </user>
+    <user>
+      <id>TE-2</id>
+      <email>nada2@gmail.com</email>
       <password>nada</password>
       <role>Teacher</role>
     </user>
@@ -150,52 +363,73 @@
       <student id="ST-1" />
       <student id="ST-2" />
       <student id="ST-3" />
+      <student id="ST-4" />
+      <student id="ST-5" />
+      <student id="ST-6" />
+      <student id="ST-7" />
+      <student id="ST-8" />
+      <student id="ST-9" />
+      <student id="ST-10" />
     </class>
     <class>
       <id>CL-2</id>
-      <name>Math</name>
+      <name>Science</name>
       <teacher id="TE-1" />
       <student id="ST-1" />
       <student id="ST-2" />
       <student id="ST-3" />
+      <student id="ST-4" />
+      <student id="ST-5" />
+      <student id="ST-6" />
+      <student id="ST-7" />
+      <student id="ST-8" />
+      <student id="ST-9" />
+      <student id="ST-10" />
     </class>
     <class>
       <id>CL-3</id>
-      <name>Math</name>
-      <teacher id="TE-1" />
+      <name>Prim Language</name>
+      <teacher id="TE-2" />
       <student id="ST-1" />
       <student id="ST-2" />
       <student id="ST-3" />
+      <student id="ST-4" />
+      <student id="ST-5" />
+      <student id="ST-6" />
+      <student id="ST-7" />
+      <student id="ST-8" />
+      <student id="ST-9" />
+      <student id="ST-10" />
     </class>
     <class>
-      <name>Math</name>
+      <id>CL-4</id>
+      <name>Sec Language</name>
+      <teacher id="TE-2" />
+      <student id="ST-1" />
+      <student id="ST-2" />
+      <student id="ST-3" />
+      <student id="ST-4" />
+      <student id="ST-5" />
+      <student id="ST-6" />
+      <student id="ST-7" />
+      <student id="ST-8" />
+      <student id="ST-9" />
+      <student id="ST-10" />
+    </class>
+    <class>
       <id>CL-5</id>
-      <teacher id="TE-1" />
-      <student id="ST-3" />
-      <student id="ST-2" />
-      <student id="ST-3" />
+      <name>Geography</name>
+      <teacher id="TE-2" />
       <student id="ST-1" />
       <student id="ST-2" />
       <student id="ST-3" />
-    </class>
-    <class>
-      <name>math</name>
-      <id>CL-12</id>
-      <teacher id="TE-1" />
-      <student id="ST-1" />
-      <student id="ST-1" />
-      <student id="ST-3" />
-    </class>
-    <class>
-      <name>math</name>
-      <id>CL-10</id>
-      <teacher id="TE-1" />
-      <student id="ST-2" />
-      <student id="ST-1" />
-      <student id="ST-2" />
-      <student id="ST-1" />
-      <student id="ST-2" />
-      <student id="ST-3" />
+      <student id="ST-4" />
+      <student id="ST-5" />
+      <student id="ST-6" />
+      <student id="ST-7" />
+      <student id="ST-8" />
+      <student id="ST-9" />
+      <student id="ST-10" />
     </class>
     <class>
       <name>Math</name>
@@ -214,7 +448,7 @@
   </session>
   <configs>
     <language>EN</language>
-    <dateFormats>DD-MM-YYYY</dateFormats>
+    <dateFormats>dd-MM-YYYY</dateFormats>
     <coolDown>false</coolDown>
     <coolDownStartDate>0</coolDownStartDate>
   </configs>
