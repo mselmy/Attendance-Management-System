@@ -12,13 +12,13 @@ namespace Attendance_Management_System.Classes
         public static int GetNumberofClasses()
         {
             List<string> classes = XMLManagement.NodesToList(Configs.ClassesPath  ,"id");
-            int numberofClasses = classes.Capacity;
+            int numberofClasses = classes.Count;
             return numberofClasses; 
         }
         public static int GetNumberofTeachers()
         {
             int result = 0;
-            List<string> users = XMLManagement.NodesToList(Configs.UsersPath, "id");
+            List<string> users = XMLManagement.GetIdofAllSt_Th(Configs.TeachersPath, "id");
             foreach (string user in users)
             {
                 if(IsuserTeacher(user))
@@ -32,7 +32,7 @@ namespace Attendance_Management_System.Classes
         public static int GetNumberofStudents()
         {
             int result = 0;
-            List<string> users = XMLManagement.NodesToList(Configs.UsersPath, "id");
+            List<string> users = XMLManagement.GetIdofAllSt_Th(Configs.StudentsPath, "id");
             foreach (string user in users)
             {
                 if (IsuserStudent(user))

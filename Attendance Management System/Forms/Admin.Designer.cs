@@ -30,6 +30,7 @@
         {
             System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(Admin));
             panel1 = new Panel();
+            AddButton = new Button();
             DeleteButton = new Button();
             EditButton = new Button();
             pictureBox1 = new PictureBox();
@@ -39,7 +40,7 @@
             logoutButton = new Button();
             ExitButton = new Button();
             attendenceReportButton = new Button();
-            AddButton = new Button();
+            DashboardButton = new Button();
             flowLayoutPanel1 = new FlowLayoutPanel();
             adminDashboard = new GroupBox();
             pictureBox5 = new PictureBox();
@@ -57,6 +58,7 @@
             pictureBox2 = new PictureBox();
             nameLabel = new Label();
             admindashboard1 = new admindashboard();
+            addUser1 = new Forms.AddUser();
             panel1.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)pictureBox1).BeginInit();
             flowLayoutPanel1.SuspendLayout();
@@ -71,6 +73,7 @@
             // panel1
             // 
             panel1.BackColor = Color.SlateGray;
+            panel1.Controls.Add(AddButton);
             panel1.Controls.Add(DeleteButton);
             panel1.Controls.Add(EditButton);
             panel1.Controls.Add(pictureBox1);
@@ -80,19 +83,33 @@
             panel1.Controls.Add(logoutButton);
             panel1.Controls.Add(ExitButton);
             panel1.Controls.Add(attendenceReportButton);
-            panel1.Controls.Add(AddButton);
+            panel1.Controls.Add(DashboardButton);
             panel1.Location = new Point(0, -16);
             panel1.Margin = new Padding(4);
             panel1.Name = "panel1";
             panel1.Size = new Size(322, 1279);
             panel1.TabIndex = 1;
             // 
+            // AddButton
+            // 
+            AddButton.BackColor = Color.SlateGray;
+            AddButton.Cursor = Cursors.Hand;
+            AddButton.FlatStyle = FlatStyle.Flat;
+            AddButton.Location = new Point(0, 255);
+            AddButton.Margin = new Padding(4);
+            AddButton.Name = "AddButton";
+            AddButton.Size = new Size(322, 89);
+            AddButton.TabIndex = 14;
+            AddButton.Text = "Add";
+            AddButton.UseVisualStyleBackColor = false;
+            AddButton.Click += AddButton_Click;
+            // 
             // DeleteButton
             // 
             DeleteButton.BackColor = Color.SlateGray;
             DeleteButton.Cursor = Cursors.Hand;
             DeleteButton.FlatStyle = FlatStyle.Flat;
-            DeleteButton.Location = new Point(0, 684);
+            DeleteButton.Location = new Point(0, 748);
             DeleteButton.Margin = new Padding(4);
             DeleteButton.Name = "DeleteButton";
             DeleteButton.Size = new Size(322, 89);
@@ -105,7 +122,7 @@
             EditButton.BackColor = Color.SlateGray;
             EditButton.Cursor = Cursors.Hand;
             EditButton.FlatStyle = FlatStyle.Flat;
-            EditButton.Location = new Point(0, 596);
+            EditButton.Location = new Point(0, 671);
             EditButton.Margin = new Padding(4);
             EditButton.Name = "EditButton";
             EditButton.Size = new Size(322, 89);
@@ -132,7 +149,7 @@
             loadButton.BackColor = Color.SlateGray;
             loadButton.Cursor = Cursors.Hand;
             loadButton.FlatStyle = FlatStyle.Flat;
-            loadButton.Location = new Point(0, 421);
+            loadButton.Location = new Point(0, 504);
             loadButton.Margin = new Padding(4);
             loadButton.Name = "loadButton";
             loadButton.Size = new Size(322, 89);
@@ -145,7 +162,7 @@
             saveButton.BackColor = Color.SlateGray;
             saveButton.Cursor = Cursors.Hand;
             saveButton.FlatStyle = FlatStyle.Flat;
-            saveButton.Location = new Point(0, 334);
+            saveButton.Location = new Point(0, 421);
             saveButton.Margin = new Padding(4);
             saveButton.Name = "saveButton";
             saveButton.Size = new Size(322, 89);
@@ -158,7 +175,7 @@
             searchButton.BackColor = Color.SlateGray;
             searchButton.Cursor = Cursors.Hand;
             searchButton.FlatStyle = FlatStyle.Flat;
-            searchButton.Location = new Point(0, 247);
+            searchButton.Location = new Point(0, 337);
             searchButton.Margin = new Padding(4);
             searchButton.Name = "searchButton";
             searchButton.Size = new Size(322, 89);
@@ -174,7 +191,7 @@
             logoutButton.FlatStyle = FlatStyle.Flat;
             logoutButton.Font = new Font("Segoe UI", 11F, FontStyle.Bold);
             logoutButton.ForeColor = SystemColors.ButtonHighlight;
-            logoutButton.Location = new Point(0, 860);
+            logoutButton.Location = new Point(0, 916);
             logoutButton.Margin = new Padding(4);
             logoutButton.Name = "logoutButton";
             logoutButton.Size = new Size(322, 89);
@@ -189,7 +206,7 @@
             ExitButton.FlatStyle = FlatStyle.Flat;
             ExitButton.Font = new Font("Segoe UI", 11F, FontStyle.Bold);
             ExitButton.ForeColor = SystemColors.ButtonHighlight;
-            ExitButton.Location = new Point(0, 771);
+            ExitButton.Location = new Point(0, 827);
             ExitButton.Margin = new Padding(4);
             ExitButton.Name = "ExitButton";
             ExitButton.Size = new Size(322, 89);
@@ -202,7 +219,7 @@
             attendenceReportButton.BackColor = Color.SlateGray;
             attendenceReportButton.Cursor = Cursors.Hand;
             attendenceReportButton.FlatStyle = FlatStyle.Flat;
-            attendenceReportButton.Location = new Point(0, 508);
+            attendenceReportButton.Location = new Point(0, 587);
             attendenceReportButton.Margin = new Padding(4);
             attendenceReportButton.Name = "attendenceReportButton";
             attendenceReportButton.Size = new Size(322, 89);
@@ -210,19 +227,20 @@
             attendenceReportButton.Text = "Attendence report";
             attendenceReportButton.UseVisualStyleBackColor = false;
             // 
-            // AddButton
+            // DashboardButton
             // 
-            AddButton.BackColor = Color.SlateGray;
-            AddButton.Cursor = Cursors.Hand;
-            AddButton.FlatAppearance.BorderSize = 0;
-            AddButton.FlatStyle = FlatStyle.Flat;
-            AddButton.Location = new Point(0, 179);
-            AddButton.Margin = new Padding(4);
-            AddButton.Name = "AddButton";
-            AddButton.Size = new Size(322, 89);
-            AddButton.TabIndex = 3;
-            AddButton.Text = "Add";
-            AddButton.UseVisualStyleBackColor = false;
+            DashboardButton.BackColor = Color.SlateGray;
+            DashboardButton.Cursor = Cursors.Hand;
+            DashboardButton.FlatAppearance.BorderSize = 0;
+            DashboardButton.FlatStyle = FlatStyle.Flat;
+            DashboardButton.Location = new Point(0, 180);
+            DashboardButton.Margin = new Padding(4);
+            DashboardButton.Name = "DashboardButton";
+            DashboardButton.Size = new Size(322, 89);
+            DashboardButton.TabIndex = 3;
+            DashboardButton.Text = "Dashboard";
+            DashboardButton.UseVisualStyleBackColor = false;
+            DashboardButton.Click += DashboardButton_Click;
             // 
             // flowLayoutPanel1
             // 
@@ -407,12 +425,22 @@
             admindashboard1.TabIndex = 17;
             admindashboard1.VisibleChanged += admindashboard1_VisibleChanged;
             // 
+            // addUser1
+            // 
+            addUser1.BackColor = Color.White;
+            addUser1.Font = new Font("Segoe UI", 10F, FontStyle.Regular, GraphicsUnit.Point, 0);
+            addUser1.Location = new Point(427, 123);
+            addUser1.Name = "addUser1";
+            addUser1.Size = new Size(1462, 866);
+            addUser1.TabIndex = 18;
+            // 
             // Admin
             // 
             AutoScaleDimensions = new SizeF(13F, 30F);
             AutoScaleMode = AutoScaleMode.Font;
             BackColor = Color.White;
             ClientSize = new Size(1924, 1050);
+            Controls.Add(addUser1);
             Controls.Add(admindashboard1);
             Controls.Add(nameLabel);
             Controls.Add(title2label);
@@ -447,7 +475,7 @@
 
         private Panel panel1;
         private FlowLayoutPanel flowLayoutPanel1;
-        private Button AddButton;
+        private Button DashboardButton;
         private Button loadButton;
         private Button saveButton;
         private Button searchButton;
@@ -473,5 +501,7 @@
         private PictureBox pictureBox4;
         private PictureBox pictureBox3;
         private admindashboard admindashboard1;
+        private Button AddButton;
+        private Forms.AddUser addUser1;
     }
 }

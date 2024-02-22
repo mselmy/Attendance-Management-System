@@ -17,6 +17,7 @@ namespace Attendance_Management_System.Classes
         public static string StudentsClassesPath = "/school/students/student";
         public static string AdminsPath = "/school/admins/admin";
         public static string ClassesPath = "/school/classes/class";
+        public static string FilterCLassPath = @"../../../Data/classes.xslt";
         public static string AttendenceRecordpath = @"/school/attendance-records/attendance-record";
         public static string language = "EN";
         public static string dateFormate = "dd/MM/yyyy";
