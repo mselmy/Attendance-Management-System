@@ -17,6 +17,5 @@ namespace Attendance_Management_System
         {
             InitializeComponent();
         }
-
     }
 }
