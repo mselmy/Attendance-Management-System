@@ -37,8 +37,10 @@ namespace Attendance_Management_System
             DataTable dt = ds.Tables[0];
             mostAbStTable.DataSource = dt;
             mostAbStTable.Visible = true;
+            
             foreach (DataGridViewColumn column in mostAbStTable.Columns)
             {
+                column.AutoSizeMode = DataGridViewAutoSizeColumnMode.Fill;
                 column.Width = 300;
             }
             mostAbStTable.AutoResizeColumns(DataGridViewAutoSizeColumnsMode.AllCells);

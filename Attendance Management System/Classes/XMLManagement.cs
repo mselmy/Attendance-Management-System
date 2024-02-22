@@ -79,6 +79,13 @@ namespace Attendance_Management_System.Classes
             return userNode;
         }
 
+        public static string GetNodeValue(string xPath)
+        {
+            XmlDocument XmlDoc = ReadAllDocument();
+            XmlNode? userNode = XmlDoc.SelectSingleNode(xPath);
+            return userNode?.InnerText ?? "";
+        }
+
         public static bool AddnewStudent(string name, string password, string id, string classname)
         {
             try
