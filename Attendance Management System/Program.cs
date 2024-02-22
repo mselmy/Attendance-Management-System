@@ -1,3 +1,5 @@
+using Attendance_Management_System.Forms;
+
 namespace Attendance_Management_System
 {
     internal static class Program

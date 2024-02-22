@@ -25,5 +25,8 @@
     <Compile Update="Forms\TakeAttendance.cs">
       <SubType>UserControl</SubType>
     </Compile>
+    <Compile Update="Forms\StudentDashBoard2.cs">
+      <SubType>Form</SubType>
+    </Compile>
   </ItemGroup>
 </Project>

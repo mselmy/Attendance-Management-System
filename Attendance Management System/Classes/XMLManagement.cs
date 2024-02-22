@@ -19,7 +19,7 @@ namespace Attendance_Management_System.Classes
         public string Name { get; set; }
     }
 
-    internal class XMLManagement
+    public class XMLManagement
     {
         public static XmlDocument ReadAllDocument()
         {

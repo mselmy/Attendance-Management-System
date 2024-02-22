@@ -28,7 +28,7 @@ namespace Attendance_Management_System.Classes
             }
             else if (role == "Student")
             {
-                //CurrentUser = new StudentData(email);
+                CurrentUser = new StudentData(email);
             }
         }
 

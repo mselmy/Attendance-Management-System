@@ -246,6 +246,7 @@
             textBoxPassword.Size = new Size(230, 23);
             textBoxPassword.TabIndex = 2;
             textBoxPassword.UseSystemPasswordChar = true;
+            textBoxPassword.TextChanged += textBoxPassword_TextChanged;
             // 
             // Login
             // 
