@@ -58,6 +58,21 @@
         <status>Absent</status>
       </student>
     </attendance-record>
+    <attendance-record>
+      <date>2024-02-20</date>
+      <class>
+        <id>CL-2</id>
+      </class>
+      <student id="ST-1">
+        <status>Absent</status>
+      </student>
+      <student id="ST-2">
+        <status>Absent</status>
+      </student>
+      <student id="ST-3">
+        <status>Absent</status>
+      </student>
+    </attendance-record>
   </attendance-records>
   <students>
     <student id="ST-1">
@@ -140,7 +155,7 @@
     <user id="ST-1" />
   </session>
   <configs>
-    <language>AR</language>
+    <language>EN</language>
     <dateFormats>DD-MM-YYYY</dateFormats>
     <coolDown>false</coolDown>
     <coolDownStartDate>0</coolDownStartDate>

@@ -89,17 +89,15 @@
             // 
             // panel1
             // 
+            resources.ApplyResources(panel1, "panel1");
             panel1.BackColor = Color.FromArgb(67, 3, 125);
             panel1.Controls.Add(panel6);
             panel1.Controls.Add(panel2);
-            panel1.Dock = DockStyle.Left;
-            panel1.Location = new Point(0, 0);
             panel1.Name = "panel1";
-            panel1.Size = new Size(258, 738);
-            panel1.TabIndex = 0;
             // 
             // panel6
             // 
+            resources.ApplyResources(panel6, "panel6");
             panel6.BackColor = Color.Teal;
             panel6.Controls.Add(lodoutpic);
             panel6.Controls.Add(button6);
@@ -108,363 +106,234 @@
             panel6.Controls.Add(button3);
             panel6.Controls.Add(button2);
             panel6.Controls.Add(panelside);
-            panel6.Dock = DockStyle.Fill;
-            panel6.Location = new Point(0, 180);
             panel6.Name = "panel6";
-            panel6.Size = new Size(258, 558);
-            panel6.TabIndex = 6;
             // 
             // lodoutpic
             // 
-            lodoutpic.Anchor = AnchorStyles.Bottom | AnchorStyles.Left;
-            lodoutpic.Image = (Image)resources.GetObject("lodoutpic.Image");
-            lodoutpic.Location = new Point(49, 455);
+            resources.ApplyResources(lodoutpic, "lodoutpic");
             lodoutpic.Name = "lodoutpic";
-            lodoutpic.Size = new Size(125, 82);
-            lodoutpic.SizeMode = PictureBoxSizeMode.Zoom;
-            lodoutpic.TabIndex = 20;
             lodoutpic.TabStop = false;
             lodoutpic.Click += lodoutpic_Click;
             // 
             // button6
             // 
+            resources.ApplyResources(button6, "button6");
             button6.BackColor = Color.Teal;
-            button6.Dock = DockStyle.Top;
             button6.ForeColor = Color.White;
-            button6.Location = new Point(0, 208);
             button6.Name = "button6";
-            button6.Size = new Size(258, 52);
-            button6.TabIndex = 10;
-            button6.Text = "Print";
             button6.UseVisualStyleBackColor = false;
             // 
             // button5
             // 
+            resources.ApplyResources(button5, "button5");
             button5.BackColor = Color.Teal;
-            button5.Dock = DockStyle.Top;
             button5.ForeColor = Color.White;
-            button5.Location = new Point(0, 156);
             button5.Name = "button5";
-            button5.Size = new Size(258, 52);
-            button5.TabIndex = 9;
-            button5.Text = "Report";
             button5.UseVisualStyleBackColor = false;
             // 
             // button4
             // 
+            resources.ApplyResources(button4, "button4");
             button4.BackColor = Color.Teal;
-            button4.Dock = DockStyle.Top;
             button4.ForeColor = Color.White;
-            button4.Location = new Point(0, 104);
             button4.Name = "button4";
-            button4.Size = new Size(258, 52);
-            button4.TabIndex = 8;
-            button4.Text = "Arabic";
             button4.UseVisualStyleBackColor = false;
+            button4.Click += button4_Click;
             // 
             // button3
             // 
+            resources.ApplyResources(button3, "button3");
             button3.BackColor = Color.Teal;
-            button3.Dock = DockStyle.Top;
             button3.ForeColor = Color.White;
-            button3.Location = new Point(0, 52);
             button3.Name = "button3";
-            button3.Size = new Size(258, 52);
-            button3.TabIndex = 7;
-            button3.Text = "English";
             button3.UseVisualStyleBackColor = false;
+            button3.Click += button3_Click;
             // 
             // button2
             // 
-            button2.Dock = DockStyle.Top;
+            resources.ApplyResources(button2, "button2");
             button2.FlatAppearance.BorderSize = 0;
-            button2.FlatStyle = FlatStyle.Flat;
             button2.ForeColor = Color.White;
-            button2.ImageAlign = ContentAlignment.MiddleLeft;
-            button2.Location = new Point(0, 0);
             button2.Name = "button2";
-            button2.Size = new Size(258, 52);
-            button2.TabIndex = 6;
-            button2.Text = "Dashboard";
             button2.UseVisualStyleBackColor = true;
             button2.Click += button2_Click;
             // 
             // panelside
             // 
+            resources.ApplyResources(panelside, "panelside");
             panelside.BackColor = Color.White;
             panelside.Controls.Add(button1);
-            panelside.Location = new Point(0, 0);
             panelside.Name = "panelside";
-            panelside.Size = new Size(8, 47);
-            panelside.TabIndex = 0;
             // 
             // button1
             // 
-            button1.Location = new Point(0, 0);
+            resources.ApplyResources(button1, "button1");
             button1.Name = "button1";
-            button1.Size = new Size(94, 29);
-            button1.TabIndex = 0;
-            button1.Text = "button1";
             button1.UseVisualStyleBackColor = true;
             // 
             // panel2
             // 
+            resources.ApplyResources(panel2, "panel2");
             panel2.BackColor = Color.Teal;
             panel2.Controls.Add(panel4);
             panel2.Controls.Add(panel3);
             panel2.Controls.Add(label1);
             panel2.Controls.Add(pictureBox1);
             panel2.Controls.Add(panel5);
-            panel2.Dock = DockStyle.Top;
-            panel2.Location = new Point(0, 0);
             panel2.Name = "panel2";
-            panel2.Size = new Size(258, 180);
-            panel2.TabIndex = 0;
             panel2.Paint += panel2_Paint_2;
             // 
             // panel4
             // 
-            panel4.Location = new Point(258, 4);
+            resources.ApplyResources(panel4, "panel4");
             panel4.Name = "panel4";
-            panel4.Size = new Size(942, 165);
-            panel4.TabIndex = 3;
             // 
             // panel3
             // 
-            panel3.Location = new Point(261, 12);
+            resources.ApplyResources(panel3, "panel3");
             panel3.Name = "panel3";
-            panel3.Size = new Size(250, 125);
-            panel3.TabIndex = 3;
             // 
             // label1
             // 
-            label1.AutoSize = true;
+            resources.ApplyResources(label1, "label1");
             label1.ForeColor = Color.White;
-            label1.Location = new Point(32, 112);
             label1.Name = "label1";
-            label1.Size = new Size(203, 25);
-            label1.TabIndex = 1;
-            label1.Text = "Student Attendance";
             label1.Click += label1_Click;
             // 
             // pictureBox1
             // 
-            pictureBox1.Image = (Image)resources.GetObject("pictureBox1.Image");
-            pictureBox1.Location = new Point(81, 4);
+            resources.ApplyResources(pictureBox1, "pictureBox1");
             pictureBox1.Name = "pictureBox1";
-            pictureBox1.Size = new Size(93, 87);
-            pictureBox1.SizeMode = PictureBoxSizeMode.Zoom;
-            pictureBox1.TabIndex = 0;
             pictureBox1.TabStop = false;
             // 
             // panel5
             // 
-            panel5.Anchor = AnchorStyles.Top | AnchorStyles.Right;
+            resources.ApplyResources(panel5, "panel5");
             panel5.BackColor = Color.Teal;
             panel5.Controls.Add(label7);
             panel5.Controls.Add(label6);
             panel5.Controls.Add(labelstudentname);
             panel5.Controls.Add(label4);
-            panel5.Location = new Point(258, 84);
             panel5.Name = "panel5";
-            panel5.Size = new Size(1044, 125);
-            panel5.TabIndex = 3;
             // 
             // label7
             // 
-            label7.AutoSize = true;
+            resources.ApplyResources(label7, "label7");
             label7.BackColor = Color.Teal;
             label7.ForeColor = Color.White;
-            label7.Location = new Point(166, 80);
             label7.Name = "label7";
-            label7.Size = new Size(87, 25);
-            label7.TabIndex = 8;
-            label7.Text = "Student";
             // 
             // label6
             // 
-            label6.AutoSize = true;
+            resources.ApplyResources(label6, "label6");
             label6.BackColor = Color.Teal;
             label6.ForeColor = Color.White;
-            label6.Location = new Point(67, 79);
             label6.Name = "label6";
-            label6.Size = new Size(62, 25);
-            label6.TabIndex = 7;
-            label6.Text = "Role:";
             // 
             // labelstudentname
             // 
-            labelstudentname.AutoSize = true;
+            resources.ApplyResources(labelstudentname, "labelstudentname");
             labelstudentname.BackColor = Color.Teal;
             labelstudentname.ForeColor = Color.White;
-            labelstudentname.Location = new Point(200, 23);
             labelstudentname.Name = "labelstudentname";
-            labelstudentname.Size = new Size(23, 25);
-            labelstudentname.TabIndex = 6;
-            labelstudentname.Text = "x";
             // 
             // label4
             // 
-            label4.AutoSize = true;
+            resources.ApplyResources(label4, "label4");
             label4.BackColor = Color.Teal;
             label4.ForeColor = Color.White;
-            label4.Location = new Point(50, 23);
             label4.Name = "label4";
-            label4.Size = new Size(109, 25);
-            label4.TabIndex = 5;
-            label4.Text = "Welcome:";
             // 
             // flowLayoutPanel1
             // 
+            resources.ApplyResources(flowLayoutPanel1, "flowLayoutPanel1");
             flowLayoutPanel1.BackColor = Color.White;
             flowLayoutPanel1.Controls.Add(paneltop);
-            flowLayoutPanel1.Dock = DockStyle.Top;
-            flowLayoutPanel1.Location = new Point(258, 0);
             flowLayoutPanel1.Name = "flowLayoutPanel1";
-            flowLayoutPanel1.Size = new Size(1042, 0);
-            flowLayoutPanel1.TabIndex = 2;
             // 
             // paneltop
             // 
+            resources.ApplyResources(paneltop, "paneltop");
             paneltop.BackColor = Color.FromArgb(67, 3, 125);
-            paneltop.Dock = DockStyle.Bottom;
-            paneltop.Location = new Point(3, 3);
             paneltop.Name = "paneltop";
-            paneltop.Size = new Size(942, 165);
-            paneltop.TabIndex = 0;
             // 
             // labelsearchclass
             // 
-            labelsearchclass.AutoSize = true;
+            resources.ApplyResources(labelsearchclass, "labelsearchclass");
             labelsearchclass.BackColor = Color.White;
-            labelsearchclass.Font = new Font("Century", 12F, FontStyle.Bold);
-            labelsearchclass.Location = new Point(308, 307);
             labelsearchclass.Name = "labelsearchclass";
-            labelsearchclass.Size = new Size(105, 23);
-            labelsearchclass.TabIndex = 1;
-            labelsearchclass.Text = "By Class ";
             // 
             // label3
             // 
-            label3.AutoSize = true;
-            label3.Location = new Point(336, 35);
+            resources.ApplyResources(label3, "label3");
             label3.Name = "label3";
-            label3.Size = new Size(0, 25);
-            label3.TabIndex = 4;
             // 
             // pictureBox2
             // 
-            pictureBox2.Anchor = AnchorStyles.Bottom | AnchorStyles.Right;
-            pictureBox2.Image = (Image)resources.GetObject("pictureBox2.Image");
-            pictureBox2.Location = new Point(1122, 635);
+            resources.ApplyResources(pictureBox2, "pictureBox2");
             pictureBox2.Name = "pictureBox2";
-            pictureBox2.Size = new Size(166, 91);
-            pictureBox2.SizeMode = PictureBoxSizeMode.Zoom;
-            pictureBox2.TabIndex = 5;
             pictureBox2.TabStop = false;
             // 
             // labelDate
             // 
-            labelDate.AutoSize = true;
-            labelDate.Font = new Font("Century", 12F, FontStyle.Bold, GraphicsUnit.Point, 0);
-            labelDate.Location = new Point(329, 13);
+            resources.ApplyResources(labelDate, "labelDate");
             labelDate.Name = "labelDate";
-            labelDate.Size = new Size(73, 23);
-            labelDate.TabIndex = 13;
-            labelDate.Text = "Date :";
             // 
             // labeldatetoday
             // 
-            labeldatetoday.AutoSize = true;
-            labeldatetoday.Location = new Point(438, 11);
+            resources.ApplyResources(labeldatetoday, "labeldatetoday");
             labeldatetoday.Name = "labeldatetoday";
-            labeldatetoday.Size = new Size(70, 25);
-            labeldatetoday.TabIndex = 0;
-            labeldatetoday.Text = "label5";
             labeldatetoday.Click += labeldatetoday_Click;
             // 
             // label5
             // 
-            label5.AutoSize = true;
-            label5.Font = new Font("Century", 12F, FontStyle.Bold);
+            resources.ApplyResources(label5, "label5");
             label5.ForeColor = SystemColors.ControlText;
-            label5.Location = new Point(643, 13);
             label5.Name = "label5";
-            label5.Size = new Size(68, 23);
-            label5.TabIndex = 14;
-            label5.Text = "Time:";
             label5.Click += label5_Click;
             // 
             // labeltimenow
             // 
-            labeltimenow.AutoSize = true;
-            labeltimenow.Location = new Point(748, 13);
+            resources.ApplyResources(labeltimenow, "labeltimenow");
             labeltimenow.Name = "labeltimenow";
-            labeltimenow.Size = new Size(70, 25);
-            labeltimenow.TabIndex = 15;
-            labeltimenow.Text = "label8";
             labeltimenow.Click += labeltimenow_Click;
             // 
             // ExitPic
             // 
-            ExitPic.Anchor = AnchorStyles.Top | AnchorStyles.Right;
-            ExitPic.Image = (Image)resources.GetObject("ExitPic.Image");
-            ExitPic.Location = new Point(1163, 7);
+            resources.ApplyResources(ExitPic, "ExitPic");
             ExitPic.Name = "ExitPic";
-            ExitPic.Size = new Size(125, 62);
-            ExitPic.SizeMode = PictureBoxSizeMode.Zoom;
-            ExitPic.TabIndex = 16;
             ExitPic.TabStop = false;
             ExitPic.Click += ExitPic_Click;
             // 
             // label2
             // 
-            label2.AutoSize = true;
-            label2.Font = new Font("Century", 12F, FontStyle.Bold);
+            resources.ApplyResources(label2, "label2");
             label2.ForeColor = Color.Teal;
-            label2.Location = new Point(308, 246);
             label2.Name = "label2";
-            label2.Size = new Size(94, 23);
-            label2.TabIndex = 18;
-            label2.Text = "Search :";
             // 
             // labelsearchbydate
             // 
-            labelsearchbydate.AutoSize = true;
-            labelsearchbydate.Font = new Font("Century", 12F, FontStyle.Bold);
-            labelsearchbydate.Location = new Point(652, 307);
+            resources.ApplyResources(labelsearchbydate, "labelsearchbydate");
             labelsearchbydate.Name = "labelsearchbydate";
-            labelsearchbydate.Size = new Size(59, 23);
-            labelsearchbydate.TabIndex = 19;
-            labelsearchbydate.Text = "Date";
             // 
             // dateTimePicker1
             // 
-            dateTimePicker1.CustomFormat = "yyyy-MM-dd";
-            dateTimePicker1.Font = new Font("Century Gothic", 12F, FontStyle.Bold);
+            resources.ApplyResources(dateTimePicker1, "dateTimePicker1");
             dateTimePicker1.Format = DateTimePickerFormat.Custom;
-            dateTimePicker1.Location = new Point(748, 304);
             dateTimePicker1.Name = "dateTimePicker1";
-            dateTimePicker1.Size = new Size(178, 32);
-            dateTimePicker1.TabIndex = 20;
             dateTimePicker1.ValueChanged += dateTimePicker1_ValueChanged;
             // 
             // comboBox1
             // 
+            resources.ApplyResources(comboBox1, "comboBox1");
             comboBox1.FormattingEnabled = true;
-            comboBox1.Location = new Point(419, 303);
             comboBox1.Name = "comboBox1";
-            comboBox1.Size = new Size(151, 33);
-            comboBox1.TabIndex = 21;
             comboBox1.SelectedIndexChanged += comboBox1_SelectedIndexChanged;
             // 
             // buttonclear
             // 
-            buttonclear.Location = new Point(962, 301);
+            resources.ApplyResources(buttonclear, "buttonclear");
             buttonclear.Name = "buttonclear";
-            buttonclear.Size = new Size(94, 29);
-            buttonclear.TabIndex = 22;
-            buttonclear.Text = "clear";
             buttonclear.UseVisualStyleBackColor = true;
             buttonclear.Click += buttonclear_Click;
             // 
@@ -474,91 +343,66 @@
             // 
             // labelwlcom
             // 
-            labelwlcom.AutoSize = true;
-            labelwlcom.Font = new Font("Century", 15F, FontStyle.Bold);
+            resources.ApplyResources(labelwlcom, "labelwlcom");
             labelwlcom.ForeColor = Color.Teal;
-            labelwlcom.Location = new Point(317, 112);
             labelwlcom.Name = "labelwlcom";
-            labelwlcom.Size = new Size(126, 29);
-            labelwlcom.TabIndex = 23;
-            labelwlcom.Text = "Welcom :";
             // 
             // labelusername
             // 
-            labelusername.AutoSize = true;
-            labelusername.Font = new Font("Century", 15F, FontStyle.Bold);
-            labelusername.Location = new Point(447, 112);
+            resources.ApplyResources(labelusername, "labelusername");
+            labelusername.ForeColor = Color.Teal;
             labelusername.Name = "labelusername";
-            labelusername.Size = new Size(27, 29);
-            labelusername.TabIndex = 24;
-            labelusername.Text = "x";
             labelusername.Click += labelusername_Click;
             // 
             // labelrole
             // 
-            labelrole.AutoSize = true;
+            resources.ApplyResources(labelrole, "labelrole");
             labelrole.BackColor = Color.White;
-            labelrole.Font = new Font("Century", 15F, FontStyle.Bold);
             labelrole.ForeColor = Color.Teal;
-            labelrole.Location = new Point(667, 114);
             labelrole.Name = "labelrole";
-            labelrole.Size = new Size(76, 29);
-            labelrole.TabIndex = 25;
-            labelrole.Text = "Role:";
             // 
             // label11
             // 
-            label11.AutoSize = true;
-            label11.Font = new Font("Century", 15F, FontStyle.Bold);
-            label11.Location = new Point(787, 114);
+            resources.ApplyResources(label11, "label11");
             label11.Name = "label11";
-            label11.Size = new Size(113, 29);
-            label11.TabIndex = 26;
-            label11.Text = "Student";
             // 
             // dataGridView2
             // 
+            resources.ApplyResources(dataGridView2, "dataGridView2");
             dataGridView2.AllowUserToAddRows = false;
             dataGridView2.AllowUserToDeleteRows = false;
             dataGridView2.AutoSizeColumnsMode = DataGridViewAutoSizeColumnsMode.Fill;
             dataGridView2.BackgroundColor = Color.White;
+            dataGridView2.BorderStyle = BorderStyle.None;
             dataGridView2.ColumnHeadersBorderStyle = DataGridViewHeaderBorderStyle.Single;
             dataGridView2.ColumnHeadersHeightSizeMode = DataGridViewColumnHeadersHeightSizeMode.AutoSize;
             dataGridView2.Columns.AddRange(new DataGridViewColumn[] { Column4, Column5, Column6 });
-            dataGridView2.Location = new Point(317, 375);
             dataGridView2.Name = "dataGridView2";
             dataGridView2.ReadOnly = true;
-            dataGridView2.RowHeadersWidth = 51;
-            dataGridView2.Size = new Size(760, 188);
-            dataGridView2.TabIndex = 27;
             // 
             // Column4
             // 
-            Column4.HeaderText = "Date";
-            Column4.MinimumWidth = 6;
+            resources.ApplyResources(Column4, "Column4");
             Column4.Name = "Column4";
             Column4.ReadOnly = true;
             // 
             // Column5
             // 
-            Column5.HeaderText = "Class";
-            Column5.MinimumWidth = 6;
+            resources.ApplyResources(Column5, "Column5");
             Column5.Name = "Column5";
             Column5.ReadOnly = true;
             // 
             // Column6
             // 
-            Column6.HeaderText = "Status";
-            Column6.MinimumWidth = 6;
+            resources.ApplyResources(Column6, "Column6");
             Column6.Name = "Column6";
             Column6.ReadOnly = true;
             // 
             // StudentDashBoard2
             // 
-            AutoScaleDimensions = new SizeF(13F, 25F);
+            resources.ApplyResources(this, "$this");
             AutoScaleMode = AutoScaleMode.Font;
             BackColor = Color.White;
-            ClientSize = new Size(1300, 738);
             Controls.Add(dataGridView2);
             Controls.Add(label11);
             Controls.Add(labelrole);
@@ -579,14 +423,9 @@
             Controls.Add(flowLayoutPanel1);
             Controls.Add(labelsearchclass);
             Controls.Add(panel1);
-            Font = new Font("Microsoft Sans Serif", 12F, FontStyle.Bold);
             ForeColor = SystemColors.ControlText;
             FormBorderStyle = FormBorderStyle.None;
-            Icon = (Icon)resources.GetObject("$this.Icon");
-            Margin = new Padding(5, 4, 5, 4);
             Name = "StudentDashBoard2";
-            StartPosition = FormStartPosition.CenterScreen;
-            Text = "Student";
             WindowState = FormWindowState.Maximized;
             Load += StudentDashBoard2_Load;
             panel1.ResumeLayout(false);

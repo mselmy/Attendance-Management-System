@@ -11,6 +11,7 @@ using System.Windows.Forms;
 using Attendance_Management_System;
 using Attendance_Management_System.Classes;
 using static System.Windows.Forms.VisualStyles.VisualStyleElement;
+using System.Globalization;
 
 namespace Attendance_Management_System.Forms
 {
@@ -68,16 +69,7 @@ namespace Attendance_Management_System.Forms
         private void StudentDashBoard2_Load(object sender, EventArgs e)
         {
 
-            labeldatetoday.Text = DateTime.Now.ToString("yyyy-MM-dd");
-
-            StudentData studentData = (StudentData)session.CurrentUser;
-            labelusername.Text = studentData.Name;
-
-            comboBox1.DataSource = studentData.ClassesIds;
-            comboBox1.SelectedItem = null;
-
-            viewAttendance();
-
+            FillPage();
         }
 
 
@@ -200,6 +192,43 @@ namespace Attendance_Management_System.Forms
         }
 
         private void labelusername_Click(object sender, EventArgs e)
+        {
+
+        }
+
+        private void FillPage()
+        {
+            labeldatetoday.Text = DateTime.Now.ToString("yyyy-MM-dd");
+
+            StudentData studentData = (StudentData)session.CurrentUser;
+            labelusername.Text = studentData.Name;
+
+            comboBox1.DataSource = studentData.ClassesIds;
+            comboBox1.SelectedItem = null;
+
+            viewAttendance();
+        }
+
+        private void button4_Click(object sender, EventArgs e)
+        {
+            Thread.CurrentThread.CurrentUICulture = new CultureInfo("ar-EG");
+            Thread.CurrentThread.CurrentCulture = new CultureInfo("ar-EG");
+            Controls.Clear();
+            InitializeComponent();
+            FillPage();
+        }
+
+        private void button3_Click(object sender, EventArgs e)
+        {
+            Thread.CurrentThread.CurrentUICulture = new CultureInfo("en-US");
+            Thread.CurrentThread.CurrentCulture = new CultureInfo("en-US");
+            Controls.Clear();
+            InitializeComponent();
+
+            FillPage();
+        }
+
+        private void dataGridView2_CellContentClick(object sender, DataGridViewCellEventArgs e)
         {
 
         }
