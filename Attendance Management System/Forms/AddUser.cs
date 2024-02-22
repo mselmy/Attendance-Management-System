@@ -1,9 +1,11 @@
 ﻿using System;
+using System.Collections;
 using System.Collections.Generic;
 using System.ComponentModel;
 using System.Data;
 using System.Drawing;
 using System.Linq;
+using System.Security.Cryptography.X509Certificates;
 using System.Text;
 using System.Threading.Tasks;
 using System.Windows.Forms;
@@ -13,10 +15,19 @@ namespace Attendance_Management_System.Forms
 {
     public partial class AddUser : UserControl
     {
-        private List<string> students = new List<string>();
+        private static List<string> students=new List<string>();
+        private static List<string> idList;
+        private static List<string> teacheridList;
+        private static List<string> studentidList;
+
         public AddUser()
         {
             InitializeComponent();
+            IntializeUi();
+
+        }
+        private void IntializeUi()
+        {
             pictureBoxErrorMessage.Visible = false;
             labelErrorMessage.Visible = false;
             pictureBoxErrorMessage1.Visible = false;
@@ -45,12 +56,18 @@ namespace Attendance_Management_System.Forms
             pictureBoxErrorMessage12.Visible = false;
             passwordpictureBox2.Visible = false;
             passwordpictureBox1.Visible = false;
-            passwordlabel1.Visible= false;
-            passwordlabel2.Visible= false;
-            List<string> idList = XMLManagement.NodesToList(Configs.ClassesPath, "id");
-            List<string> studentidList = XMLManagement.GetIdofAllSt_Th(Configs.StudentsPath, "id");
-            List<string> teacheridList = XMLManagement.GetIdofAllSt_Th(Configs.TeachersPath, "id");
+            passwordlabel1.Visible = false;
+            passwordlabel2.Visible = false;
 
+        }
+        private void Intilaize()
+        {
+            idList = XMLManagement.NodesToList(Configs.ClassesPath, "id");
+            studentidList = XMLManagement.GetIdofAllSt_Th(Configs.StudentsPath, "id");
+            teacheridList = XMLManagement.GetIdofAllSt_Th(Configs.TeachersPath, "id");
+        }
+        private void populateTheList()
+        {
             foreach (string id in idList)
             {
                 classcombBox.Items.Add(id);
@@ -69,16 +86,15 @@ namespace Attendance_Management_System.Forms
             classcombBox.SelectedIndex = 0;
             classteachercomboBox.SelectedIndex = 0;
 
-
-
         }
 
         private void addStudentButton_Click(object sender, EventArgs e)
         {
+
             string name = nameStudenttextBox.Text;
             string ID = IdStudenttextBox.Text;
             string classname = classcombBox.Text;
-            string password=passswordstdtextBox.Text;
+            string password = passswordstdtextBox.Text;
             if (!Validation.IsnameValid(name))
             {
                 pictureBoxErrorMessage.Visible = true;
@@ -140,7 +156,7 @@ namespace Attendance_Management_System.Forms
 
 
             }
-            else if(!Validation.IspasswordComplexValid(password))
+            else if (!Validation.IspasswordComplexValid(password))
             {
                 pictureBoxErrorMessage.Visible = false;
                 labelErrorMessage.Visible = false;
@@ -169,7 +185,7 @@ namespace Attendance_Management_System.Forms
                 IdStudenttextBox.Clear();
                 classcombBox.SelectedIndex = 0;
                 passswordstdtextBox.Clear();
-                if (XMLManagement.AddnewStudent(name,password, ID, classname))
+                if (XMLManagement.AddnewStudent(name, password, ID, classname))
                 {
                     MessageBox.Show("The Student has been Added successfully");
                 }
@@ -247,7 +263,7 @@ namespace Attendance_Management_System.Forms
 
 
             }
-            else if(!Validation.IspasswordComplexValid(password))
+            else if (!Validation.IspasswordComplexValid(password))
             {
                 pictureBoxErrorMessage7.Visible = false;
                 labelErrorMessage7.Visible = false;
@@ -276,7 +292,7 @@ namespace Attendance_Management_System.Forms
                 IdTeachertextBox.Clear();
                 classTeachercombBox.SelectedIndex = 0;
                 passwordtextBox2.Clear();
-                if (XMLManagement.AddnewTeacher(name,password, ID, classname))
+                if (XMLManagement.AddnewTeacher(name, password, ID, classname))
                 {
                     MessageBox.Show("The Teacher has been Added successfully");
                 }
@@ -411,6 +427,11 @@ namespace Attendance_Management_System.Forms
 
         }
 
-       
+        private void AddUser_Load(object sender, EventArgs e)
+        {
+                Intilaize();
+                populateTheList();
+            
+        }
     }
 }

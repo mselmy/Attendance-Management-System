@@ -58,7 +58,8 @@
             pictureBox2 = new PictureBox();
             nameLabel = new Label();
             admindashboard1 = new admindashboard();
-            addUser1 = new Forms.AddUser();
+            attendencdeReport1 = new Forms.AttendencdeReport();
+            addUser2 = new Forms.AddUser();
             panel1.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)pictureBox1).BeginInit();
             flowLayoutPanel1.SuspendLayout();
@@ -226,6 +227,7 @@
             attendenceReportButton.TabIndex = 6;
             attendenceReportButton.Text = "Attendence report";
             attendenceReportButton.UseVisualStyleBackColor = false;
+            attendenceReportButton.Click += attendenceReportButton_Click;
             // 
             // DashboardButton
             // 
@@ -420,19 +422,29 @@
             // 
             admindashboard1.BackColor = SystemColors.ButtonHighlight;
             admindashboard1.Location = new Point(442, 104);
+            admindashboard1.Margin = new Padding(3, 2, 3, 2);
             admindashboard1.Name = "admindashboard1";
             admindashboard1.Size = new Size(1410, 943);
             admindashboard1.TabIndex = 17;
             admindashboard1.VisibleChanged += admindashboard1_VisibleChanged;
             // 
-            // addUser1
+            // attendencdeReport1
             // 
-            addUser1.BackColor = Color.White;
-            addUser1.Font = new Font("Segoe UI", 10F, FontStyle.Regular, GraphicsUnit.Point, 0);
-            addUser1.Location = new Point(427, 123);
-            addUser1.Name = "addUser1";
-            addUser1.Size = new Size(1462, 866);
-            addUser1.TabIndex = 18;
+            attendencdeReport1.BackColor = SystemColors.ButtonHighlight;
+            attendencdeReport1.Font = new Font("Segoe UI", 9F, FontStyle.Regular, GraphicsUnit.Point, 0);
+            attendencdeReport1.Location = new Point(393, 130);
+            attendencdeReport1.Name = "attendencdeReport1";
+            attendencdeReport1.Size = new Size(1476, 802);
+            attendencdeReport1.TabIndex = 19;
+            // 
+            // addUser2
+            // 
+            addUser2.BackColor = Color.White;
+            addUser2.Font = new Font("Segoe UI", 10F, FontStyle.Regular, GraphicsUnit.Point, 0);
+            addUser2.Location = new Point(385, 121);
+            addUser2.Name = "addUser2";
+            addUser2.Size = new Size(1484, 847);
+            addUser2.TabIndex = 20;
             // 
             // Admin
             // 
@@ -440,7 +452,8 @@
             AutoScaleMode = AutoScaleMode.Font;
             BackColor = Color.White;
             ClientSize = new Size(1924, 1050);
-            Controls.Add(addUser1);
+            Controls.Add(addUser2);
+            Controls.Add(attendencdeReport1);
             Controls.Add(admindashboard1);
             Controls.Add(nameLabel);
             Controls.Add(title2label);
@@ -502,6 +515,7 @@
         private PictureBox pictureBox3;
         private admindashboard admindashboard1;
         private Button AddButton;
-        private Forms.AddUser addUser1;
+        private Forms.AttendencdeReport attendencdeReport1;
+        private Forms.AddUser addUser2;
     }
 }

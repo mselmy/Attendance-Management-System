@@ -29,6 +29,7 @@
         private void InitializeComponent()
         {
             System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(admindashboard));
+            DataGridViewCellStyle dataGridViewCellStyle1 = new DataGridViewCellStyle();
             NoClassButton = new Button();
             NostudentsButton = new Button();
             NoTeacherButton = new Button();
@@ -37,10 +38,6 @@
             pictureBox2 = new PictureBox();
             flowLayoutPanel1 = new FlowLayoutPanel();
             mostAbStTable = new DataGridView();
-            ID = new DataGridViewTextBoxColumn();
-            namestudent = new DataGridViewTextBoxColumn();
-            Class = new DataGridViewTextBoxColumn();
-            Noabsent = new DataGridViewTextBoxColumn();
             label1 = new Label();
             ((System.ComponentModel.ISupportInitialize)pictureBox3).BeginInit();
             ((System.ComponentModel.ISupportInitialize)pictureBox1).BeginInit();
@@ -143,42 +140,20 @@
             // 
             // mostAbStTable
             // 
-            mostAbStTable.BackgroundColor = SystemColors.GradientInactiveCaption;
+            mostAbStTable.BackgroundColor = Color.White;
+            mostAbStTable.BorderStyle = BorderStyle.None;
             mostAbStTable.ColumnHeadersHeightSizeMode = DataGridViewColumnHeadersHeightSizeMode.AutoSize;
-            mostAbStTable.Columns.AddRange(new DataGridViewColumn[] { ID, namestudent, Class, Noabsent });
             mostAbStTable.Location = new Point(87, 454);
+            mostAbStTable.MinimumSize = new Size(1000, 500);
             mostAbStTable.Name = "mostAbStTable";
+            mostAbStTable.ReadOnly = true;
             mostAbStTable.RowHeadersWidth = 62;
-            mostAbStTable.Size = new Size(1265, 213);
+            dataGridViewCellStyle1.BackColor = Color.AliceBlue;
+            dataGridViewCellStyle1.ForeColor = Color.FromArgb(0, 0, 64);
+            dataGridViewCellStyle1.SelectionBackColor = Color.SkyBlue;
+            mostAbStTable.RowsDefaultCellStyle = dataGridViewCellStyle1;
+            mostAbStTable.Size = new Size(1265, 500);
             mostAbStTable.TabIndex = 20;
-            // 
-            // ID
-            // 
-            ID.HeaderText = "ID";
-            ID.MinimumWidth = 8;
-            ID.Name = "ID";
-            ID.Width = 300;
-            // 
-            // namestudent
-            // 
-            namestudent.HeaderText = "Name";
-            namestudent.MinimumWidth = 8;
-            namestudent.Name = "namestudent";
-            namestudent.Width = 300;
-            // 
-            // Class
-            // 
-            Class.HeaderText = "Class";
-            Class.MinimumWidth = 8;
-            Class.Name = "Class";
-            Class.Width = 300;
-            // 
-            // Noabsent
-            // 
-            Noabsent.HeaderText = "No Absent";
-            Noabsent.MinimumWidth = 8;
-            Noabsent.Name = "Noabsent";
-            Noabsent.Width = 300;
             // 
             // label1
             // 
@@ -227,10 +202,6 @@
         private PictureBox pictureBox2;
         private FlowLayoutPanel flowLayoutPanel1;
         private DataGridView mostAbStTable;
-        private DataGridViewTextBoxColumn ID;
-        private DataGridViewTextBoxColumn namestudent;
-        private DataGridViewTextBoxColumn Class;
-        private DataGridViewTextBoxColumn Noabsent;
         private Label label1;
     }
 }

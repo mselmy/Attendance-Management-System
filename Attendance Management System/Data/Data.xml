@@ -2,7 +2,7 @@
 <school xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="C:\Users\engmo\Desktop\Final\Attendance-Management-System\Attendance Management System\Data\Data-Schema.xsd">
   <attendance-records>
     <attendance-record>
-      <date>2024-02-16</date>
+      <date>2024-01-16</date>
       <class>
         <id>CL-1</id>
       </class>
@@ -107,6 +107,27 @@
       </student>
       <student id="ST-10">
         <status>Present</status>
+      </student>
+    </attendance-record>
+    <attendance-record>
+      <date>2024-02-16</date>
+      <class>
+        <id>CL-2</id>
+      </class>
+      <student id="ST-2">
+        <status>Absent</status>
+      </student>
+    </attendance-record>
+    <attendance-record>
+      <date>2024-01-01</date>
+      <class>
+        <id>CL-2</id>
+      </class>
+      <student id="ST-1">
+        <status>Present</status>
+      </student>
+      <student id="ST-2">
+        <status>Absent</status>
       </student>
     </attendance-record>
   </attendance-records>
@@ -409,6 +430,17 @@
       <student id="ST-8" />
       <student id="ST-9" />
       <student id="ST-10" />
+    </class>
+    <class>
+      <name>Math</name>
+      <id>CL-8</id>
+      <teacher id="TE-1" />
+      <student id="ST-1" />
+      <student id="ST-1" />
+      <student id="ST-2" />
+      <student id="ST-1" />
+      <student id="ST-2" />
+      <student id="ST-3" />
     </class>
   </classes>
   <session>

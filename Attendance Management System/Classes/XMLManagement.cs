@@ -6,6 +6,7 @@ using System.IO;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
+using System.Windows.Forms;
 using System.Xml;
 using System.Xml.Linq;
 using System.Xml.Xsl;
@@ -13,11 +14,6 @@ using static System.Net.Mime.MediaTypeNames;
 
 namespace Attendance_Management_System.Classes
 {
-    public class SchoolClass
-    {
-        public string Id { get; set; }
-        public string Name { get; set; }
-    }
 
     public class XMLManagement
     {
@@ -82,8 +78,8 @@ namespace Attendance_Management_System.Classes
             XmlNode? userNode = XmlDoc.SelectSingleNode(xPath);
             return userNode;
         }
-       
-        public static bool AddnewStudent(string name,string password,string id,string classname)
+
+        public static bool AddnewStudent(string name, string password, string id, string classname)
         {
             try
             {
@@ -116,14 +112,14 @@ namespace Attendance_Management_System.Classes
                 return true;
 
             }
-            catch 
+            catch
             {
                 return false;
             }
-          
+
 
         }
-        public static bool AddnewTeacher(string name,string password, string id, string classname)
+        public static bool AddnewTeacher(string name, string password, string id, string classname)
         {
             try
             {
@@ -162,7 +158,7 @@ namespace Attendance_Management_System.Classes
 
 
         }
-        public static bool AddnewClass(string name, string id,string teacherid,List<string> students)
+        public static bool AddnewClass(string name, string id, string teacherid, List<string> students)
         {
             try
             {
@@ -221,48 +217,9 @@ namespace Attendance_Management_System.Classes
             }
             return list;
         }
-
-        public static List<SchoolClass> Trans()
-        {
-            List<SchoolClass> classList = new List<SchoolClass>();
-
-            try
-            {
-                XmlDocument xmlInput = ReadAllDocument();
-
-                XslCompiledTransform xslt = new XslCompiledTransform();
-                xslt.Load(Configs.FilterCLassPath);
-
-                using (StringWriter sw = new StringWriter())
-                {
-                    using (XmlWriter xw = XmlWriter.Create(sw, xslt.OutputSettings))
-                    {
-                        xslt.Transform(xmlInput, null, xw);
-                        xw.Flush();
-
-                        // Load the transformed XML into an XmlDocument
-                        XmlDocument transformedXml = new XmlDocument();
-                        transformedXml.LoadXml(sw.ToString());
-
-                        // Select all "class" elements and extract their information
-                        XmlNodeList classNodes = transformedXml.SelectNodes(Configs.ClassesPath);
-                        foreach (XmlNode classNode in classNodes)
-                        {
-                            SchoolClass schoolClass = new SchoolClass();
-                            schoolClass.Id = classNode.SelectSingleNode("id")?.InnerText;
-                            schoolClass.Name = classNode.SelectSingleNode("name")?.InnerText;
-                            classList.Add(schoolClass);
-                        }
-                    }
-                }
-            }
-            catch (Exception ex)
-            {
-                Console.WriteLine("Error: " + ex.Message);
-            }
-
-            return classList;
-        }
+        
+           
+    
 
 
         public static XmlNode? GetNode(string xPath)
