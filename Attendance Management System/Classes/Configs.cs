@@ -26,7 +26,7 @@ namespace Attendance_Management_System.Classes
         public static string FilterStudentDateRange = @"../../../Data/StudentdateRange.xslt";
         public static string FilterWarning = @"../../../Data/NoAbsent.xslt";
         public static string AttendenceRecordpath = @" / school/attendance-records/attendance-record";
-        public static string language = "EN";
+        public static string language = "en-US";
         public static string dateFormate = "dd/MM/yyyy";
 
         public static void ChangeLanguage()
@@ -48,6 +48,12 @@ namespace Attendance_Management_System.Classes
         {
             language = lang;
             XMLManagement.UpdateNode("/school/configs", "language", language);
+            ChangeLanguage();
+        }
+
+        public static void checkLanguage()
+        {
+            language = XMLManagement.GetNodeValue("/school/configs/language");
             ChangeLanguage();
         }
     }

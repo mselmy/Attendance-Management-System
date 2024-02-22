@@ -7,6 +7,7 @@ namespace Attendance_Management_System
     {
         public Login()
         {
+            Configs.checkLanguage();
             InitializeComponent();
         }
 
@@ -88,7 +89,7 @@ namespace Attendance_Management_System
                 Session session = new Session(textBoxEmail.Text);
                 if (session.CurrentUser.Role == "Admin")
                 {
-                    Admin Admin = new Admin();
+                    Admin Admin = new Admin(session);
                     Admin.Show();
                 }
                 else if (session.CurrentUser.Role == "Teacher")

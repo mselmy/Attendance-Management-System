@@ -130,6 +130,42 @@
         <status>Absent</status>
       </student>
     </attendance-record>
+    <attendance-record>
+      <date>2024-02-01</date>
+      <class>
+        <id>CL-1</id>
+      </class>
+      <student id="ST-1">
+        <status>Absent</status>
+      </student>
+      <student id="ST-2">
+        <status>Absent</status>
+      </student>
+      <student id="ST-3">
+        <status>Present</status>
+      </student>
+      <student id="ST-4">
+        <status>Present</status>
+      </student>
+      <student id="ST-5">
+        <status>Present</status>
+      </student>
+      <student id="ST-6">
+        <status>Absent</status>
+      </student>
+      <student id="ST-7">
+        <status>Absent</status>
+      </student>
+      <student id="ST-8">
+        <status>Absent</status>
+      </student>
+      <student id="ST-9">
+        <status>Absent</status>
+      </student>
+      <student id="ST-10">
+        <status>Absent</status>
+      </student>
+    </attendance-record>
   </attendance-records>
   <students>
     <student id="ST-1">
@@ -431,23 +467,12 @@
       <student id="ST-9" />
       <student id="ST-10" />
     </class>
-    <class>
-      <name>Math</name>
-      <id>CL-8</id>
-      <teacher id="TE-1" />
-      <student id="ST-1" />
-      <student id="ST-1" />
-      <student id="ST-2" />
-      <student id="ST-1" />
-      <student id="ST-2" />
-      <student id="ST-3" />
-    </class>
   </classes>
   <session>
     <user id="ST-1" />
   </session>
   <configs>
-    <language>EN</language>
+    <language>AR</language>
     <dateFormats>dd-MM-YYYY</dateFormats>
     <coolDown>false</coolDown>
     <coolDownStartDate>0</coolDownStartDate>
