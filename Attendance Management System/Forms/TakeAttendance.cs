@@ -143,7 +143,6 @@ namespace Attendance_Management_System.Forms
                 MessageBox.Show("Attendance Taken Successfully");
             }
             showAttendance();
-
         }
     }
 }

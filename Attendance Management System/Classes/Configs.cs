@@ -10,6 +10,7 @@ namespace Attendance_Management_System.Classes
     internal class Configs
     {
         public static string DataPath = @"../../../Data/Data.xml";
+        public static string BackupPath = @"../../../Data/Backup/Backup";
         public static string UsersPath = "/school/users/user";
         public static string StudentsPath = "/school/students/student";
         public static string TeachersPath = "/school/teachers/teacher";
