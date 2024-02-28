@@ -1,4 +1,5 @@
 ﻿using System;
+using System.Collections;
 using System.Collections.Generic;
 using System.Data;
 using System.Data.SqlTypes;
@@ -15,8 +16,11 @@ using static System.Net.Mime.MediaTypeNames;
 namespace Attendance_Management_System.Classes
 {
 
-    public class XMLManagement
+    public static class XMLManagement
     {
+
+        private static Queue<string> BackupPathes = new Queue<string>();
+
         public static XmlDocument ReadAllDocument()
         {
             XmlDocument XmlDoc = new XmlDocument();
@@ -407,6 +411,18 @@ namespace Attendance_Management_System.Classes
                 throw;
             }
             return true;
+        }
+
+        public static void BackupXMLFile()
+        {
+            string path = Configs.BackupPath + DateTime.Now.ToString("yyyy-MM-dd-HH-mm-ss") + ".xml";
+            SaveXMLFile(path);
+            // save the path in queue and auto delete the oldest 10nth file
+            BackupPathes.Enqueue(path);
+            if (BackupPathes.Count > 10)
+            {
+                File.Delete(BackupPathes.Dequeue());
+            }
         }
 
         public static void SaveXMLFileWindow()
