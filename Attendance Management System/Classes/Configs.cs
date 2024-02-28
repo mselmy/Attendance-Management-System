@@ -36,7 +36,6 @@ namespace Attendance_Management_System.Classes
         public static string FilterStudentClass = @"./Data/StudentClassDateRange.xslt";
         public static string FilterWarning = @"./Data/NoAbsent.xslt";*/
 
-
         public static string UsersPath = "/school/users/user";
         public static string StudentsPath = "/school/students/student";
         public static string TeachersPath = "/school/teachers/teacher";
