@@ -15,55 +15,36 @@ using iText.Pdfa;
 using System.Diagnostics.Eventing.Reader;
 using iTextSharp.text.pdf;
 using iTextSharp.text;
-//using static System.Runtime.InteropServices.JavaScript.JSType;
-
 
 namespace Attendance_Management_System.Forms
 {
-    public partial class AttendencdeReport : UserControl
+    public partial class StudentReport : UserControl
     {
         DateTime FirstDate;
         DateTime LastDate;
-        string ClassId;
         string StudId;
-        List<string> classidList;
-        List<string> studidList;
         string Data;
-
-
-
-        public AttendencdeReport()
+        string ClassId;
+        HashSet<string> classidList;
+        public StudentReport()
         {
             InitializeComponent();
             LastDate = DateTime.Today;
             FirstDate = DateTime.Today.AddMonths(-1);
-            classcombBox1.DropDownStyle = ComboBoxStyle.DropDownList;
-            StudentcomboBox2.DropDownStyle = ComboBoxStyle.DropDownList;
-
-
-
+            StudId = "ST-2";
         }
-
-        private void dateTimePicker2_ValueChanged(object sender, EventArgs e)
+        public void FillClassCombo()
         {
-            LastDate = dateTimePicker2.Value;
-            GetData();
+            classidList = XMLManagement.GetClassForStudent(StudId);
         }
-        private void dateTimePicker1_ValueChanged(object sender, EventArgs e)
+        private void populateTheList()
         {
-            FirstDate = dateTimePicker1.Value;
-            if (dateTimePicker1.Value > dateTimePicker2.Value)
+            foreach (string id in classidList)
             {
-                MessageBox.Show("Start date cannot be after end date.");
-                return;
+                classcomboBox.Items.Add(id);
             }
-            GetData();
-        }
 
-        private void classcombBox1_SelectedIndexChanged(object sender, EventArgs e)
-        {
-            ClassId = classcombBox1.Text;
-            GetData();
+
         }
 
         private void dateTimePicker3_ValueChanged(object sender, EventArgs e)
@@ -75,65 +56,16 @@ namespace Attendance_Management_System.Forms
                 return;
             }
             GetStudentData();
-        }
 
+        }
         private void dateTimePicker4_ValueChanged(object sender, EventArgs e)
         {
-            LastDate = dateTimePicker4.Value;
+            LastDate = dateTimePicker3.Value;
             GetStudentData();
-
-        }
-
-        private void StudentcomboBox2_SelectedIndexChanged(object sender, EventArgs e)
-        {
-            StudId = StudentcomboBox2.Text;
-            GetStudentData();
-
-        }
-
-        public void GetData()
-        {
-            if (string.IsNullOrEmpty(ClassId))
-            {
-              
-                String fdate = FirstDate.ToString("yyyy-MM-dd");
-                String ldate = LastDate.ToString("yyyy-MM-dd");
-
-                Dictionary<string, string> parameters = new Dictionary<string, string>();
-                parameters.Add("startDate", fdate);
-                parameters.Add("endDate", ldate);
-
-                SelectTableFromClassPage(Configs.FilterDateRangePath, parameters);
-            }
-            else
-            {
-
-                String fdate = FirstDate.ToString("yyyy-MM-dd");
-                String ldate = LastDate.ToString("yyyy-MM-dd");
-
-                Dictionary<string, string> parameters = new Dictionary<string, string>();
-                parameters.Add("startDate", fdate);
-                parameters.Add("endDate", ldate);
-                parameters.Add("Id", ClassId);
-
-                SelectTableFromClassPage(Configs.FilterClassDateRange, parameters);
-            }
         }
         public void GetStudentData()
         {
-            if (string.IsNullOrEmpty(StudId))
-            {
-               
-                String fdate = FirstDate.ToString("yyyy-MM-dd");
-                String ldate = LastDate.ToString("yyyy-MM-dd");
-
-                Dictionary<string, string> parameters = new Dictionary<string, string>();
-                parameters.Add("startDate", fdate);
-                parameters.Add("endDate", ldate);
-
-                SelectTableFromStudentPage(Configs.FilterDateRangePath, parameters);
-            }
-            else
+            if (string.IsNullOrEmpty(ClassId))
             {
                 String fdate = FirstDate.ToString("yyyy-MM-dd");
                 String ldate = LastDate.ToString("yyyy-MM-dd");
@@ -142,63 +74,27 @@ namespace Attendance_Management_System.Forms
                 parameters.Add("startDate", fdate);
                 parameters.Add("endDate", ldate);
                 parameters.Add("Id", StudId);
-
                 SelectTableFromStudentPage(Configs.FilterStudentDateRange, parameters);
             }
-        }
+            else
+            {
+                String fdate = FirstDate.ToString("yyyy-MM-dd");
+                String ldate = LastDate.ToString("yyyy-MM-dd");
 
-        public void FillClassCombo()
-        {
-            classidList = XMLManagement.NodesToList(Configs.ClassesPath, "id");
-            studidList = XMLManagement.GetIdofAllSt_Th(Configs.StudentsPath, "id");
-        }
-        private void populateTheList()
-        {
-            foreach (string id in classidList)
-            {
-                classcombBox1.Items.Add(id);
-            }
-            foreach (string id in studidList)
-            {
-                StudentcomboBox2.Items.Add(id);
+                Dictionary<string, string> parameters = new Dictionary<string, string>();
+                parameters.Add("startDate", fdate);
+                parameters.Add("endDate", ldate);
+                parameters.Add("studId", StudId);
+                parameters.Add("classId", ClassId);
+
+                SelectTableFromStudentPage(Configs.FilterStudentClass, parameters);
             }
 
-        }     
-        private void AttendencdeReport_Load(object sender, EventArgs e)
-        {
-
-            FillClassCombo();
-            populateTheList();
-        }
-        public string AttendenceReport(string path, Dictionary<string, string> parameters)
-        {
-            XmlDocument XmlDoc = XMLManagement.ReadAllDocument();
-            XslCompiledTransform transform = new XslCompiledTransform();
-            transform.Load(path);
-            XsltArgumentList args = new XsltArgumentList();
-            foreach (var parameter in parameters)
-            {
-                args.AddParam(parameter.Key, "", parameter.Value);
-            }
-            using (StringWriter sw = new StringWriter())
-            {
-                using (XmlTextWriter writer = new XmlTextWriter(sw))
-                {
-                    transform.Transform(XmlDoc, args, writer);
-                }
-                string resultXml = sw.ToString();
-                if (resultXml == "<records />")
-                {
-                    MessageBox.Show("No data found.", "Message ", MessageBoxButtons.OK, MessageBoxIcon.Error);
-                    return "";
-                }
-                Data = resultXml;
-                return resultXml;
-            }
         }
         public void SelectTableFromStudentPage(string path, Dictionary<string, string> parameters)
         {
-            string resultXml = AttendenceReport(path, parameters);
+            string resultXml = GenerateReport.AttendenceReport(path, parameters);
+            Data = resultXml;
             if (string.IsNullOrEmpty(resultXml))
             {
                 return;
@@ -218,47 +114,17 @@ namespace Attendance_Management_System.Forms
             Sattendence.AutoResizeColumns(DataGridViewAutoSizeColumnsMode.AllCells);
         }
 
-        public void SelectTableFromClassPage(string path, Dictionary<string, string> parameters)
-        {
-            string resultXml = AttendenceReport(path, parameters);
-            if (string.IsNullOrEmpty(resultXml))
-            {
-                return;
-            }
-            DataSet ds = new DataSet();
-            using (StringReader sr = new StringReader(resultXml))
-            {
-                ds.ReadXml(sr);
-            }
-            DataTable dt = ds.Tables[0];
-            Attendence.DataSource = dt;
-            Attendence.Visible = true;
-            foreach (DataGridViewColumn column in Attendence.Columns)
-            {
-                column.Width = 300;
-            }
-            Attendence.AutoResizeColumns(DataGridViewAutoSizeColumnsMode.AllCells);
-        }
-
         private void Pdf_Click(object sender, EventArgs e)
         {
             ConvertToPdf();
-        }
-        private void excel2_Click(object sender, EventArgs e)
-        {
-            SaveExcelFile();
-        }
-
-        private void Pdf2_Click_1(object sender, EventArgs e)
-        {
-            ConvertToPdf();
-
         }
 
         private void excel_Click(object sender, EventArgs e)
         {
             SaveExcelFile();
+
         }
+
         public void ConvertToPdf()
         {
             if (!string.IsNullOrEmpty(Data))
@@ -421,6 +287,18 @@ namespace Attendance_Management_System.Forms
             }
         }
 
-       
+
+        private void classcomboBox_SelectedIndexChanged(object sender, EventArgs e)
+        {
+            ClassId = classcomboBox.Text;
+            GetStudentData();
+        }
+        private void StudentReport_Load(object sender, EventArgs e)
+        {
+            FillClassCombo();
+            populateTheList();
+
+        }
+
     }
 }

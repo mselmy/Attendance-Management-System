@@ -61,6 +61,7 @@
             admindashboard1 = new admindashboard();
             attendencdeReport1 = new Forms.AttendencdeReport();
             addUser2 = new Forms.AddUser();
+            edit1 = new Forms.Edit();
             panel1.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)pictureBox1).BeginInit();
             flowLayoutPanel1.SuspendLayout();
@@ -123,6 +124,7 @@
             EditButton.Cursor = Cursors.Hand;
             EditButton.Name = "EditButton";
             EditButton.UseVisualStyleBackColor = false;
+            EditButton.Click += EditButton_Click;
             // 
             // pictureBox1
             // 
@@ -326,11 +328,18 @@
             addUser2.BackColor = Color.White;
             addUser2.Name = "addUser2";
             // 
+            // edit1
+            // 
+            resources.ApplyResources(edit1, "edit1");
+            edit1.BackColor = SystemColors.ButtonHighlight;
+            edit1.Name = "edit1";
+            // 
             // Admin
             // 
             resources.ApplyResources(this, "$this");
             AutoScaleMode = AutoScaleMode.Font;
             BackColor = Color.White;
+            Controls.Add(edit1);
             Controls.Add(addUser2);
             Controls.Add(attendencdeReport1);
             Controls.Add(admindashboard1);
@@ -392,5 +401,6 @@
         private Forms.AttendencdeReport attendencdeReport1;
         private Forms.AddUser addUser2;
         private Button SettingButton;
+        private Forms.Edit edit1;
     }
 }

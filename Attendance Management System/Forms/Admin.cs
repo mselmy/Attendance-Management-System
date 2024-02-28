@@ -27,6 +27,7 @@ namespace Attendance_Management_System
             admindashboard1.Visible = true;
             addUser2.Visible = false;
             attendencdeReport1.Visible = false;
+            edit1.Visible = false;
         }
 
         private void admindashboard1_VisibleChanged(object sender, EventArgs e)
@@ -48,6 +49,7 @@ namespace Attendance_Management_System
             admindashboard1.Visible = true;
             addUser2.Visible = false;
             attendencdeReport1.Visible = false;
+            edit1.Visible = false;
 
         }
 
@@ -56,12 +58,16 @@ namespace Attendance_Management_System
             admindashboard1.Visible = false;
             addUser2.Visible = true;
             attendencdeReport1.Visible = false;
+            edit1.Visible = false;
+
         }
         private void attendenceReportButton_Click(object sender, EventArgs e)
         {
             admindashboard1.Visible = false;
             addUser2.Visible = false;
             attendencdeReport1.Visible = true;
+            edit1.Visible = false;
+
         }
 
         private void saveButton_Click(object sender, EventArgs e)
@@ -92,6 +98,15 @@ namespace Attendance_Management_System
         {
             Setting setting = new Setting(refresh);
             setting.Show();
+        }
+
+        private void EditButton_Click(object sender, EventArgs e)
+        {
+            admindashboard1.Visible = false;
+            addUser2.Visible = false;
+            attendencdeReport1.Visible = false;
+            edit1.Visible = true;
+
         }
     }
 }
