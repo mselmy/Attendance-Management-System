@@ -33,7 +33,6 @@
             panel1 = new Panel();
             panel6 = new Panel();
             lodoutpic = new PictureBox();
-            button6 = new Button();
             button5 = new Button();
             button4 = new Button();
             button3 = new Button();
@@ -74,6 +73,7 @@
             Column4 = new DataGridViewTextBoxColumn();
             Column5 = new DataGridViewTextBoxColumn();
             Column6 = new DataGridViewTextBoxColumn();
+            mainPanel = new Panel();
             panel1.SuspendLayout();
             panel6.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)lodoutpic).BeginInit();
@@ -100,7 +100,6 @@
             resources.ApplyResources(panel6, "panel6");
             panel6.BackColor = Color.Teal;
             panel6.Controls.Add(lodoutpic);
-            panel6.Controls.Add(button6);
             panel6.Controls.Add(button5);
             panel6.Controls.Add(button4);
             panel6.Controls.Add(button3);
@@ -115,14 +114,6 @@
             lodoutpic.TabStop = false;
             lodoutpic.Click += lodoutpic_Click;
             // 
-            // button6
-            // 
-            resources.ApplyResources(button6, "button6");
-            button6.BackColor = Color.Teal;
-            button6.ForeColor = Color.White;
-            button6.Name = "button6";
-            button6.UseVisualStyleBackColor = false;
-            // 
             // button5
             // 
             resources.ApplyResources(button5, "button5");
@@ -130,6 +121,7 @@
             button5.ForeColor = Color.White;
             button5.Name = "button5";
             button5.UseVisualStyleBackColor = false;
+            button5.Click += button5_Click;
             // 
             // button4
             // 
@@ -398,11 +390,17 @@
             Column6.Name = "Column6";
             Column6.ReadOnly = true;
             // 
-            // StudentDashBoard2
+            // mainPanel
+            // 
+            resources.ApplyResources(mainPanel, "mainPanel");
+            mainPanel.Name = "mainPanel";
+            // 
+            // StudentDashBoard
             // 
             resources.ApplyResources(this, "$this");
             AutoScaleMode = AutoScaleMode.Font;
             BackColor = Color.White;
+            Controls.Add(mainPanel);
             Controls.Add(dataGridView2);
             Controls.Add(label11);
             Controls.Add(labelrole);
@@ -425,7 +423,7 @@
             Controls.Add(panel1);
             ForeColor = SystemColors.ControlText;
             FormBorderStyle = FormBorderStyle.None;
-            Name = "StudentDashBoard2";
+            Name = "StudentDashBoard";
             WindowState = FormWindowState.Maximized;
             Load += StudentDashBoard2_Load;
             panel1.ResumeLayout(false);
@@ -467,7 +465,6 @@
         private Panel panelside;
         private Button button2;
         private Button button1;
-        private Button button6;
         private Button button5;
         private Button button4;
         private Button button3;
@@ -491,5 +488,6 @@
         private DataGridViewTextBoxColumn Column4;
         private DataGridViewTextBoxColumn Column5;
         private DataGridViewTextBoxColumn Column6;
+        private Panel mainPanel;
     }
 }

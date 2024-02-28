@@ -58,14 +58,10 @@
             // 
             // Reporttab
             // 
-            Reporttab.Alignment = TabAlignment.Bottom;
-            Reporttab.Anchor = AnchorStyles.None;
+            resources.ApplyResources(Reporttab, "Reporttab");
             Reporttab.Controls.Add(StudenttabPage);
-            Reporttab.Location = new Point(48, 33);
             Reporttab.Name = "Reporttab";
             Reporttab.SelectedIndex = 0;
-            Reporttab.Size = new Size(1228, 631);
-            Reporttab.TabIndex = 2;
             // 
             // StudenttabPage
             // 
@@ -84,70 +80,45 @@
             StudenttabPage.Controls.Add(label11);
             StudenttabPage.Controls.Add(panel7);
             StudenttabPage.Controls.Add(panel9);
-            StudenttabPage.Location = new Point(4, 4);
+            resources.ApplyResources(StudenttabPage, "StudenttabPage");
             StudenttabPage.Name = "StudenttabPage";
-            StudenttabPage.Padding = new Padding(3);
-            StudenttabPage.Size = new Size(1220, 593);
-            StudenttabPage.TabIndex = 1;
-            StudenttabPage.Text = "Student Report";
             // 
             // classcomboBox
             // 
             classcomboBox.FormattingEnabled = true;
-            classcomboBox.Location = new Point(875, 100);
+            resources.ApplyResources(classcomboBox, "classcomboBox");
             classcomboBox.Name = "classcomboBox";
-            classcomboBox.Size = new Size(246, 33);
-            classcomboBox.TabIndex = 54;
             classcomboBox.SelectedIndexChanged += classcomboBox_SelectedIndexChanged;
             // 
             // label1
             // 
-            label1.AutoSize = true;
-            label1.Font = new Font("Segoe UI", 12F, FontStyle.Bold, GraphicsUnit.Point, 0);
+            resources.ApplyResources(label1, "label1");
             label1.ForeColor = Color.SlateGray;
-            label1.Location = new Point(875, 70);
             label1.Name = "label1";
-            label1.Size = new Size(78, 32);
-            label1.TabIndex = 53;
-            label1.Text = "Class:";
             // 
             // panel1
             // 
             panel1.BackColor = Color.Goldenrod;
-            panel1.Location = new Point(875, 139);
+            resources.ApplyResources(panel1, "panel1");
             panel1.Name = "panel1";
-            panel1.Size = new Size(246, 2);
-            panel1.TabIndex = 38;
             // 
             // pictureBox1
             // 
-            pictureBox1.Image = (Image)resources.GetObject("pictureBox1.Image");
-            pictureBox1.Location = new Point(10, 11);
+            resources.ApplyResources(pictureBox1, "pictureBox1");
             pictureBox1.Name = "pictureBox1";
-            pictureBox1.Size = new Size(103, 130);
-            pictureBox1.SizeMode = PictureBoxSizeMode.Zoom;
-            pictureBox1.TabIndex = 51;
             pictureBox1.TabStop = false;
             // 
             // excel
             // 
-            excel.Image = (Image)resources.GetObject("excel.Image");
-            excel.Location = new Point(1078, 6);
+            resources.ApplyResources(excel, "excel");
             excel.Name = "excel";
-            excel.Size = new Size(65, 78);
-            excel.SizeMode = PictureBoxSizeMode.Zoom;
-            excel.TabIndex = 50;
             excel.TabStop = false;
             excel.Click += excel_Click;
             // 
             // Pdf
             // 
-            Pdf.Image = (Image)resources.GetObject("Pdf.Image");
-            Pdf.Location = new Point(1149, 6);
+            resources.ApplyResources(Pdf, "Pdf");
             Pdf.Name = "Pdf";
-            Pdf.Size = new Size(65, 78);
-            Pdf.SizeMode = PictureBoxSizeMode.Zoom;
-            Pdf.TabIndex = 49;
             Pdf.TabStop = false;
             Pdf.Click += Pdf_Click;
             // 
@@ -175,7 +146,7 @@
             dataGridViewCellStyle2.SelectionForeColor = SystemColors.InactiveCaptionText;
             dataGridViewCellStyle2.WrapMode = DataGridViewTriState.False;
             Sattendence.DefaultCellStyle = dataGridViewCellStyle2;
-            Sattendence.Location = new Point(80, 210);
+            resources.ApplyResources(Sattendence, "Sattendence");
             Sattendence.Name = "Sattendence";
             Sattendence.ReadOnly = true;
             Sattendence.RowHeadersBorderStyle = DataGridViewHeaderBorderStyle.None;
@@ -187,89 +158,60 @@
             dataGridViewCellStyle3.SelectionForeColor = SystemColors.ControlText;
             dataGridViewCellStyle3.WrapMode = DataGridViewTriState.True;
             Sattendence.RowHeadersDefaultCellStyle = dataGridViewCellStyle3;
-            Sattendence.RowHeadersWidth = 80;
             Sattendence.RowTemplate.DefaultCellStyle.BackColor = Color.Honeydew;
             Sattendence.RowTemplate.DefaultCellStyle.ForeColor = Color.FromArgb(0, 0, 64);
             Sattendence.RowTemplate.DefaultCellStyle.SelectionBackColor = Color.Green;
             Sattendence.RowTemplate.DefaultCellStyle.SelectionForeColor = Color.White;
-            Sattendence.ScrollBars = ScrollBars.Vertical;
-            Sattendence.Size = new Size(1078, 348);
-            Sattendence.TabIndex = 48;
-            Sattendence.Visible = false;
             // 
             // dateTimePicker4
             // 
-            dateTimePicker4.Location = new Point(433, 102);
+            resources.ApplyResources(dateTimePicker4, "dateTimePicker4");
             dateTimePicker4.Name = "dateTimePicker4";
-            dateTimePicker4.Size = new Size(241, 31);
-            dateTimePicker4.TabIndex = 40;
             dateTimePicker4.ValueChanged += dateTimePicker4_ValueChanged;
             // 
             // dateTimePicker3
             // 
-            dateTimePicker3.Location = new Point(126, 102);
+            resources.ApplyResources(dateTimePicker3, "dateTimePicker3");
             dateTimePicker3.Name = "dateTimePicker3";
-            dateTimePicker3.Size = new Size(256, 31);
-            dateTimePicker3.TabIndex = 47;
             dateTimePicker3.ValueChanged += dateTimePicker3_ValueChanged;
             // 
             // label2
             // 
-            label2.AutoSize = true;
-            label2.Font = new Font("Segoe UI", 12F, FontStyle.Bold, GraphicsUnit.Point, 0);
+            resources.ApplyResources(label2, "label2");
             label2.ForeColor = Color.SlateGray;
-            label2.Location = new Point(132, 70);
             label2.Name = "label2";
-            label2.Size = new Size(80, 32);
-            label2.TabIndex = 46;
-            label2.Text = "From:";
             // 
             // label8
             // 
-            label8.AutoSize = true;
-            label8.Font = new Font("Segoe UI", 12F, FontStyle.Bold, GraphicsUnit.Point, 0);
+            resources.ApplyResources(label8, "label8");
             label8.ForeColor = Color.SlateGray;
-            label8.Location = new Point(436, 70);
             label8.Name = "label8";
-            label8.Size = new Size(48, 32);
-            label8.TabIndex = 45;
-            label8.Text = "To:";
             // 
             // label11
             // 
-            label11.AutoSize = true;
-            label11.Font = new Font("Segoe UI", 12F, FontStyle.Bold, GraphicsUnit.Point, 0);
+            resources.ApplyResources(label11, "label11");
             label11.ForeColor = Color.Goldenrod;
-            label11.Location = new Point(119, 18);
             label11.Name = "label11";
-            label11.Size = new Size(92, 32);
-            label11.TabIndex = 35;
-            label11.Text = "Report";
             // 
             // panel7
             // 
             panel7.BackColor = Color.Goldenrod;
-            panel7.Location = new Point(436, 139);
+            resources.ApplyResources(panel7, "panel7");
             panel7.Name = "panel7";
-            panel7.Size = new Size(246, 2);
-            panel7.TabIndex = 37;
             // 
             // panel9
             // 
             panel9.BackColor = Color.Goldenrod;
-            panel9.Location = new Point(129, 139);
+            resources.ApplyResources(panel9, "panel9");
             panel9.Name = "panel9";
-            panel9.Size = new Size(255, 2);
-            panel9.TabIndex = 36;
             // 
             // StudentReport
             // 
-            AutoScaleDimensions = new SizeF(10F, 25F);
+            resources.ApplyResources(this, "$this");
             AutoScaleMode = AutoScaleMode.Font;
             BackColor = SystemColors.ButtonHighlight;
             Controls.Add(Reporttab);
             Name = "StudentReport";
-            Size = new Size(1324, 697);
             Load += StudentReport_Load;
             Reporttab.ResumeLayout(false);
             StudenttabPage.ResumeLayout(false);

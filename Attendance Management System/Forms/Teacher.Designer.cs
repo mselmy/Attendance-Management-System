@@ -132,6 +132,7 @@
             attendenceReportButton.Cursor = Cursors.Hand;
             attendenceReportButton.Name = "attendenceReportButton";
             attendenceReportButton.UseVisualStyleBackColor = false;
+            attendenceReportButton.Click += attendenceReportButton_Click;
             // 
             // saveButton
             // 

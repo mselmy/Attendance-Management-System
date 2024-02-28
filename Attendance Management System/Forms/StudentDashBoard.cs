@@ -22,11 +22,12 @@ namespace Attendance_Management_System.Forms
         public StudentDashBoard(Session _session)
         {
             InitializeComponent();
+            session = _session;
+            mainPanel.Visible = false;
             timer = new System.Timers.Timer();
             timer.Interval = 1000;
             timer.Elapsed += labeltimenow_Click;
             timer.Start();
-            session = _session;
         }
 
         private void panel2_Paint(object sender, PaintEventArgs e)
@@ -51,7 +52,7 @@ namespace Attendance_Management_System.Forms
 
         private void button2_Click(object sender, EventArgs e)
         {
-
+            mainPanel.Visible = false;
         }
 
         private void lodoutpic_Click(object sender, EventArgs e)
@@ -231,6 +232,14 @@ namespace Attendance_Management_System.Forms
         private void dataGridView2_CellContentClick(object sender, DataGridViewCellEventArgs e)
         {
 
+        }
+
+        private void button5_Click(object sender, EventArgs e)
+        {
+            mainPanel.Visible = true;
+            StudentReport studentReport = new StudentReport(session);
+            mainPanel.Controls.Add(studentReport);
+            mainPanel.Size = new Size(1150, 700);
         }
     }
 }

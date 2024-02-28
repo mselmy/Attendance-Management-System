@@ -30,14 +30,16 @@ namespace Attendance_Management_System.Forms
         HashSet<string> studidList;
         string Data;
         String TeacherId;
+        Session session;
 
-        public TeacherReport()
+        public TeacherReport(Session _session)
         {
             InitializeComponent();
             LastDate = DateTime.Today;
             FirstDate = DateTime.Today.AddMonths(-1);
             classcombBox1.DropDownStyle = ComboBoxStyle.DropDownList;
-            TeacherId = "TE-1";
+            session = _session;
+            TeacherId = session.CurrentUser.ID;
 
         }
 

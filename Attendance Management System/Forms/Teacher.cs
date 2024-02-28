@@ -107,5 +107,12 @@ namespace Attendance_Management_System
         {
 
         }
+
+        private void attendenceReportButton_Click(object sender, EventArgs e)
+        {
+            ViewPanel.Controls.Clear();
+            TeacherReport teacherReport = new TeacherReport(session);
+            ViewPanel.Controls.Add(teacherReport);
+        }
     }
 }

@@ -26,12 +26,15 @@ namespace Attendance_Management_System.Forms
         string Data;
         string ClassId;
         HashSet<string> classidList;
-        public StudentReport()
+        Session session;
+
+        public StudentReport(Session _session)
         {
             InitializeComponent();
             LastDate = DateTime.Today;
             FirstDate = DateTime.Today.AddMonths(-1);
-            StudId = "ST-2";
+            session = _session;
+            StudId = session.CurrentUser.ID;
         }
         public void FillClassCombo()
         {
