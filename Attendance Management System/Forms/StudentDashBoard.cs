@@ -244,5 +244,17 @@ namespace Attendance_Management_System.Forms
             mainPanel.Controls.Add(studentReport);
             mainPanel.Size = new Size(1150, 700);
         }
+
+ 
+        private void mainPanel_Paint(object sender, PaintEventArgs e)
+        {
+
+        }
+
+        private void changePassword_Click_1(object sender, EventArgs e)
+        {
+            ChangePassword formChangePassword = new ChangePassword(session);
+            formChangePassword.Show();
+        }
     }
 }

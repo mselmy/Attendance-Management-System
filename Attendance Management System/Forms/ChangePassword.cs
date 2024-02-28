@@ -33,35 +33,35 @@ namespace Attendance_Management_System.Forms
         {
             if (Validation.IsLoginValid(session.CurrentUser.Email, oldPassword.Text))
             {
-                oldPassword.Visible = false;
+                oldError.Visible = false;
                 oldT.Visible = false;
 
                 if (Validation.IspasswordComplexValid(newPassword.Text))
                 {
-                    newPassword.Visible = false;
+                    newError.Visible = false;
                     newT.Visible = false;
 
                     if (newPassword.Text == confirmPassword.Text)
                     {
-                        confirmPassword.Visible = false;
+                        confirmError.Visible = false;
                         confirmT.Visible = false;
                         DataXMLManagement.UpdatePassword(session.CurrentUser.Email, newPassword.Text);
                     }
                     else
                     {
-                        confirmPassword.Visible = true;
+                        confirmError.Visible = true;
                         confirmT.Visible = true;
                     }
                 }
                 else
                 {
-                    newPassword.Visible = true;
+                    newError.Visible = true;
                     newT.Visible = true;
                 }
             }
             else
             {
-                oldPassword.Visible = true;
+                oldError.Visible = true;
                 oldT.Visible = true;
             }
         }

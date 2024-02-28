@@ -73,6 +73,7 @@
             Column5 = new DataGridViewTextBoxColumn();
             Column6 = new DataGridViewTextBoxColumn();
             mainPanel = new Panel();
+            changePassword = new Button();
             panel1.SuspendLayout();
             panel6.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)lodoutpic).BeginInit();
@@ -98,6 +99,7 @@
             // 
             resources.ApplyResources(panel6, "panel6");
             panel6.BackColor = Color.Teal;
+            panel6.Controls.Add(changePassword);
             panel6.Controls.Add(lodoutpic);
             panel6.Controls.Add(button5);
             panel6.Controls.Add(button3);
@@ -383,6 +385,16 @@
             // 
             resources.ApplyResources(mainPanel, "mainPanel");
             mainPanel.Name = "mainPanel";
+            mainPanel.Paint += mainPanel_Paint;
+            // 
+            // changePassword
+            // 
+            resources.ApplyResources(changePassword, "changePassword");
+            changePassword.BackColor = Color.Teal;
+            changePassword.ForeColor = Color.White;
+            changePassword.Name = "changePassword";
+            changePassword.UseVisualStyleBackColor = false;
+            changePassword.Click += changePassword_Click_1;
             // 
             // StudentDashBoard
             // 
@@ -476,6 +488,7 @@
         private DataGridViewTextBoxColumn Column4;
         private DataGridViewTextBoxColumn Column5;
         private DataGridViewTextBoxColumn Column6;
+        private Button changePassword;
         private Panel mainPanel;
     }
 }

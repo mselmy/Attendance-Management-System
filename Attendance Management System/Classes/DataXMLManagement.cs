@@ -128,10 +128,13 @@ namespace Attendance_Management_System.Classes
 
         public static void UpdatePassword(string email, string newPassword)
         {
-            XmlDocument XmlDoc = XMLManagement.ReadAllDocument();
-            XmlNode? user = XMLManagement.GetNode(Configs.UsersPath, "email", email);
-            user.SelectSingleNode("password").InnerText = newPassword;
-            XmlDoc.Save(Configs.DataPath);
+            XmlDocument xmlDoc = XMLManagement.ReadAllDocument();
+            XmlNode? userNode = xmlDoc.SelectSingleNode($"{Configs.UsersPath}[email='{email}']");
+            if (userNode != null)
+            {
+                userNode.SelectSingleNode("password").InnerText = newPassword;
+                xmlDoc.Save(Configs.DataPath);
+            }
         }
 
     }
