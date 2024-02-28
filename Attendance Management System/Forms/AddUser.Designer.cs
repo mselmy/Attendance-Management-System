@@ -150,6 +150,7 @@
             Addtab.Controls.Add(AddclasstabPage);
             Addtab.Name = "Addtab";
             Addtab.SelectedIndex = 0;
+            Addtab.Selected += Addtab_Selected;
             // 
             // addStudenttabPage
             // 

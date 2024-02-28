@@ -65,6 +65,7 @@
             // 
             // StudenttabPage
             // 
+            resources.ApplyResources(StudenttabPage, "StudenttabPage");
             StudenttabPage.BackColor = Color.White;
             StudenttabPage.Controls.Add(classcomboBox);
             StudenttabPage.Controls.Add(label1);
@@ -80,13 +81,12 @@
             StudenttabPage.Controls.Add(label11);
             StudenttabPage.Controls.Add(panel7);
             StudenttabPage.Controls.Add(panel9);
-            resources.ApplyResources(StudenttabPage, "StudenttabPage");
             StudenttabPage.Name = "StudenttabPage";
             // 
             // classcomboBox
             // 
-            classcomboBox.FormattingEnabled = true;
             resources.ApplyResources(classcomboBox, "classcomboBox");
+            classcomboBox.FormattingEnabled = true;
             classcomboBox.Name = "classcomboBox";
             classcomboBox.SelectedIndexChanged += classcomboBox_SelectedIndexChanged;
             // 
@@ -98,8 +98,8 @@
             // 
             // panel1
             // 
-            panel1.BackColor = Color.Goldenrod;
             resources.ApplyResources(panel1, "panel1");
+            panel1.BackColor = Color.Goldenrod;
             panel1.Name = "panel1";
             // 
             // pictureBox1
@@ -124,6 +124,7 @@
             // 
             // Sattendence
             // 
+            resources.ApplyResources(Sattendence, "Sattendence");
             Sattendence.AutoSizeColumnsMode = DataGridViewAutoSizeColumnsMode.AllCells;
             Sattendence.AutoSizeRowsMode = DataGridViewAutoSizeRowsMode.AllCells;
             Sattendence.BackgroundColor = SystemColors.ButtonHighlight;
@@ -146,7 +147,6 @@
             dataGridViewCellStyle2.SelectionForeColor = SystemColors.InactiveCaptionText;
             dataGridViewCellStyle2.WrapMode = DataGridViewTriState.False;
             Sattendence.DefaultCellStyle = dataGridViewCellStyle2;
-            resources.ApplyResources(Sattendence, "Sattendence");
             Sattendence.Name = "Sattendence";
             Sattendence.ReadOnly = true;
             Sattendence.RowHeadersBorderStyle = DataGridViewHeaderBorderStyle.None;
@@ -195,14 +195,14 @@
             // 
             // panel7
             // 
-            panel7.BackColor = Color.Goldenrod;
             resources.ApplyResources(panel7, "panel7");
+            panel7.BackColor = Color.Goldenrod;
             panel7.Name = "panel7";
             // 
             // panel9
             // 
-            panel9.BackColor = Color.Goldenrod;
             resources.ApplyResources(panel9, "panel9");
+            panel9.BackColor = Color.Goldenrod;
             panel9.Name = "panel9";
             // 
             // StudentReport

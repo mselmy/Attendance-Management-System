@@ -221,11 +221,14 @@ namespace Attendance_Management_System.Forms
 
         private void button3_Click(object sender, EventArgs e)
         {
-            Thread.CurrentThread.CurrentUICulture = new CultureInfo("en-US");
-            Thread.CurrentThread.CurrentCulture = new CultureInfo("en-US");
+            Setting setting = new Setting(refresh);
+            setting.Show();
+        }
+
+        private void refresh()
+        {
             Controls.Clear();
             InitializeComponent();
-
             FillPage();
         }
 

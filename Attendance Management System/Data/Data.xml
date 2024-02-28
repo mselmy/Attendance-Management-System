@@ -175,6 +175,12 @@
         <class id="CL-5" />
       </classes>
     </student>
+    <student id="ST-999">
+      <name>test</name>
+      <classes>
+        <class id="CL-3" />
+      </classes>
+    </student>
   </students>
   <teachers>
     <teacher id="TE-1">
@@ -296,6 +302,12 @@
       <email>nayira@gmail.com</email>
       <password>nayira</password>
       <role>Admin</role>
+    </user>
+    <user>
+      <id>ST-999</id>
+      <email>test@gmail.com</email>
+      <password>Test@123456</password>
+      <role>Student</role>
     </user>
   </users>
   <classes>

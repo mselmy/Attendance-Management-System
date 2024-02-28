@@ -555,69 +555,67 @@ namespace Attendance_Management_System.Forms
             classIdtextBox.Text = GenerateID("CL");
             IdTeachertextBox.Text = GenerateID("TE");
         }
-    
-static string GenerateID(string entityType)
-    {
-        XmlDocument doc = XMLManagement.ReadAllDocument();
 
-        int maxId = 0;
-
-        switch (entityType)
+        static string GenerateID(string entityType)
         {
-            case "TE":
-                maxId = GetMaxAttributeId(doc,"teacher");
-                break;
+            XmlDocument doc = XMLManagement.ReadAllDocument();
+
+            int maxId = 0;
+
+            switch (entityType)
+            {
+                case "TE":
+                    maxId = GetMaxAttributeId(doc, "teacher");
+                    break;
                 case "ST":
-                maxId = GetMaxAttributeId(doc,"student");
-                break;
-            case "CL":
-                maxId = GetMaxElementId(doc, "id");
-                break;
-            default:
-                throw new ArgumentException("Invalid entity type");
+                    maxId = GetMaxAttributeId(doc, "student");
+                    break;
+                case "CL":
+                    maxId = GetMaxElementId(doc, "id");
+                    break;
+                default:
+                    throw new ArgumentException("Invalid entity type");
+            }
+
+            string newId = entityType + "-" + (maxId + 1);
+            return newId;
         }
 
-        string newId = entityType + "-" + (maxId + 1);
-        return newId;
-    }
-
-    static int GetMaxAttributeId(XmlDocument doc, string attributeName)
-    {
-        int maxId = 0;
-        XmlNodeList nodeList = doc.GetElementsByTagName(attributeName);
-
-        foreach (XmlNode node in nodeList)
+        static int GetMaxAttributeId(XmlDocument doc, string attributeName)
         {
-            int id = int.Parse(node.Attributes["id"].Value.Substring(3));
-            maxId = Math.Max(maxId, id);
+            int maxId = 0;
+            XmlNodeList nodeList = doc.GetElementsByTagName(attributeName);
+
+            foreach (XmlNode node in nodeList)
+            {
+                int id = int.Parse(node.Attributes["id"].Value.Substring(3));
+                maxId = Math.Max(maxId, id);
+            }
+
+            return maxId;
         }
 
-        return maxId;
-    }
-
-    static int GetMaxElementId(XmlDocument doc, string elementName)
-    {
-        int maxId = 0;
-        XmlNodeList nodeList = doc.GetElementsByTagName(elementName);
-
-        foreach (XmlNode node in nodeList)
+        static int GetMaxElementId(XmlDocument doc, string elementName)
         {
-            int id = int.Parse(node.InnerText.Substring(3));
-            maxId = Math.Max(maxId, id);
+            int maxId = 0;
+            XmlNodeList nodeList = doc.GetElementsByTagName(elementName);
+
+            foreach (XmlNode node in nodeList)
+            {
+                int id = int.Parse(node.InnerText.Substring(3));
+                maxId = Math.Max(maxId, id);
+            }
+
+            return maxId;
         }
 
-        return maxId;
+        private void Addtab_Selected(object sender, TabControlEventArgs e)
+        {
+            Intilaize();
+            populateTheList();
+            IdStudenttextBox.Text = GenerateID("ST");
+            classIdtextBox.Text = GenerateID("CL");
+            IdTeachertextBox.Text = GenerateID("TE");
+        }
     }
-
-
-
-
-
-
-
-
-
-
-
-}
 }

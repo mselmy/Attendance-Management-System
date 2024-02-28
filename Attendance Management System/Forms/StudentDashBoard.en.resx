@@ -118,12 +118,6 @@
     <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </resheader>
   <assembly alias="System.Drawing" name="System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" />
-  <data name="panel6.Size" type="System.Drawing.Size, System.Drawing">
-    <value>258, 870</value>
-  </data>
-  <data name="panel1.Size" type="System.Drawing.Size, System.Drawing">
-    <value>258, 1050</value>
-  </data>
   <data name="lodoutpic.Image" type="System.Drawing.Bitmap, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
     <value>
         iVBORw0KGgoAAAANSUhEUgAAAgAAAAIACAYAAAD0eNT6AAAABGdBTUEAALGPC/xhBQAAAAlwSFlzAAAO
@@ -345,29 +339,11 @@
         SUVORK5CYII=
 </value>
   </data>
-  <data name="lodoutpic.Location" type="System.Drawing.Point, System.Drawing">
-    <value>49, 767</value>
-  </data>
   <data name="button5.Location" type="System.Drawing.Point, System.Drawing">
     <value>0, 104</value>
   </data>
-  <data name="button5.Text" xml:space="preserve">
-    <value>تقرير</value>
-  </data>
   <data name="button3.Text" xml:space="preserve">
-    <value>الإعدادات</value>
-  </data>
-  <data name="button2.Text" xml:space="preserve">
-    <value>نافذة الحضور</value>
-  </data>
-  <data name="label1.Location" type="System.Drawing.Point, System.Drawing">
-    <value>71, 112</value>
-  </data>
-  <data name="label1.Size" type="System.Drawing.Size, System.Drawing">
-    <value>117, 25</value>
-  </data>
-  <data name="label1.Text" xml:space="preserve">
-    <value>حضور الطالب</value>
+    <value>Settings</value>
   </data>
   <data name="pictureBox1.Image" type="System.Drawing.Bitmap, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
     <value>
@@ -949,21 +925,6 @@
         n/QRBEEQBEEQBEEQBHF3Tjvt/wHFEjq5jwLOAQAAAABJRU5ErkJggg==
 </value>
   </data>
-  <data name="flowLayoutPanel1.Size" type="System.Drawing.Size, System.Drawing">
-    <value>1542, 0</value>
-  </data>
-  <data name="labelsearchclass.Location" type="System.Drawing.Point, System.Drawing">
-    <value>682, 408</value>
-  </data>
-  <data name="labelsearchclass.Size" type="System.Drawing.Size, System.Drawing">
-    <value>70, 29</value>
-  </data>
-  <data name="labelsearchclass.Text" xml:space="preserve">
-    <value>الفصل</value>
-  </data>
-  <data name="label3.Location" type="System.Drawing.Point, System.Drawing">
-    <value>963, 192</value>
-  </data>
   <data name="pictureBox2.Image" type="System.Drawing.Bitmap, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
     <value>
         iVBORw0KGgoAAAANSUhEUgAAAOEAAADhCAMAAAAJbSJIAAAABGdBTUEAALGPC/xhBQAAAG9QTFRFAKuU
@@ -1054,33 +1015,6 @@
         XdbaFIs4+PtR8TzeruvQPVPXlISk7fLjevhvMd8983uWFUWRZff8+y2OMr0mW+eQwVCz2f8AkrvyCb6s
         fhoAAAAASUVORK5CYII=
 </value>
-  </data>
-  <data name="pictureBox2.Location" type="System.Drawing.Point, System.Drawing">
-    <value>1622, 994</value>
-  </data>
-  <data name="labelDate.Location" type="System.Drawing.Point, System.Drawing">
-    <value>1043, 190</value>
-  </data>
-  <data name="labelDate.Size" type="System.Drawing.Size, System.Drawing">
-    <value>75, 29</value>
-  </data>
-  <data name="labelDate.Text" xml:space="preserve">
-    <value>التاريخ</value>
-  </data>
-  <data name="labeldatetoday.Location" type="System.Drawing.Point, System.Drawing">
-    <value>886, 190</value>
-  </data>
-  <data name="label5.Location" type="System.Drawing.Point, System.Drawing">
-    <value>1382, 190</value>
-  </data>
-  <data name="label5.Size" type="System.Drawing.Size, System.Drawing">
-    <value>65, 29</value>
-  </data>
-  <data name="label5.Text" xml:space="preserve">
-    <value>الوقت</value>
-  </data>
-  <data name="labeltimenow.Location" type="System.Drawing.Point, System.Drawing">
-    <value>1179, 190</value>
   </data>
   <data name="ExitPic.Image" type="System.Drawing.Bitmap, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
     <value>
@@ -1350,83 +1284,8 @@
         6rPVNsjPOzoM3H9Q26a2UW0rh+kBbKen5/8DAybz1cvg5sEAAAAASUVORK5CYII=
 </value>
   </data>
-  <data name="ExitPic.Location" type="System.Drawing.Point, System.Drawing">
-    <value>1663, 7</value>
-  </data>
-  <data name="label2.Location" type="System.Drawing.Point, System.Drawing">
-    <value>1182, 408</value>
-  </data>
-  <data name="label2.Size" type="System.Drawing.Size, System.Drawing">
-    <value>135, 29</value>
-  </data>
-  <data name="label2.Text" xml:space="preserve">
-    <value>تصنيف حسب</value>
-  </data>
-  <data name="labelsearchbydate.Location" type="System.Drawing.Point, System.Drawing">
-    <value>1036, 408</value>
-  </data>
-  <data name="labelsearchbydate.Size" type="System.Drawing.Size, System.Drawing">
-    <value>75, 29</value>
-  </data>
-  <data name="labelsearchbydate.Text" xml:space="preserve">
-    <value>التاريخ</value>
-  </data>
-  <data name="dateTimePicker1.Location" type="System.Drawing.Point, System.Drawing">
-    <value>852, 406</value>
-  </data>
-  <data name="comboBox1.Location" type="System.Drawing.Point, System.Drawing">
-    <value>525, 406</value>
-  </data>
-  <data name="buttonclear.Location" type="System.Drawing.Point, System.Drawing">
-    <value>387, 404</value>
-  </data>
-  <data name="buttonclear.Text" xml:space="preserve">
-    <value>حذف</value>
-  </data>
-  <data name="labelwlcom.Location" type="System.Drawing.Point, System.Drawing">
-    <value>1294, 42</value>
-  </data>
-  <data name="labelwlcom.Size" type="System.Drawing.Size, System.Drawing">
-    <value>163, 76</value>
-  </data>
-  <data name="labelwlcom.Text" xml:space="preserve">
-    <value>مرحبا</value>
-  </data>
-  <data name="labelusername.Location" type="System.Drawing.Point, System.Drawing">
-    <value>1012, 42</value>
-  </data>
-  <data name="labelrole.Location" type="System.Drawing.Point, System.Drawing">
-    <value>1363, 136</value>
-  </data>
-  <data name="labelrole.Size" type="System.Drawing.Size, System.Drawing">
-    <value>80, 29</value>
-  </data>
-  <data name="labelrole.Text" xml:space="preserve">
-    <value>الوظيفه</value>
-  </data>
-  <data name="label11.Location" type="System.Drawing.Point, System.Drawing">
-    <value>1270, 136</value>
-  </data>
-  <data name="label11.Size" type="System.Drawing.Size, System.Drawing">
-    <value>61, 29</value>
-  </data>
-  <data name="label11.Text" xml:space="preserve">
-    <value>طالب</value>
-  </data>
-  <data name="Column4.HeaderText" xml:space="preserve">
-    <value>التاريخ</value>
-  </data>
-  <data name="Column5.HeaderText" xml:space="preserve">
-    <value>الفصل</value>
-  </data>
-  <data name="Column6.HeaderText" xml:space="preserve">
-    <value>الحاله</value>
-  </data>
   <data name="mainPanel.Size" type="System.Drawing.Size, System.Drawing">
-    <value>1150, 700</value>
-  </data>
-  <data name="$this.ClientSize" type="System.Drawing.Size, System.Drawing">
-    <value>1800, 1050</value>
+    <value>200, 100</value>
   </data>
   <data name="$this.Icon" type="System.Drawing.Icon, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
     <value>
