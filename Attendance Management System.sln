@@ -5,6 +5,12 @@ VisualStudioVersion = 17.8.34408.163
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Attendance Management System", "Attendance Management System\Attendance Management System.csproj", "{46276BAF-A0F0-4B89-B9A5-98DB0E7FB4E8}"
 EndProject
+Project("{54435603-DBB4-11D2-8724-00A0C9A8B90C}") = "Setup", "Setup\Setup.vdproj", "{0D1D0373-D61E-42E2-825B-4558E16C7AF3}"
+EndProject
+Project("{54435603-DBB4-11D2-8724-00A0C9A8B90C}") = "Setup2", "Setup2\Setup2.vdproj", "{98039763-71D8-4515-958A-101D473D0116}"
+EndProject
+Project("{54435603-DBB4-11D2-8724-00A0C9A8B90C}") = "Setup3", "Setup3\Setup3.vdproj", "{87EC2E67-F7DB-4386-9B1C-9647212410BE}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -15,6 +21,12 @@ Global
 		{46276BAF-A0F0-4B89-B9A5-98DB0E7FB4E8}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{46276BAF-A0F0-4B89-B9A5-98DB0E7FB4E8}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{46276BAF-A0F0-4B89-B9A5-98DB0E7FB4E8}.Release|Any CPU.Build.0 = Release|Any CPU
+		{0D1D0373-D61E-42E2-825B-4558E16C7AF3}.Debug|Any CPU.ActiveCfg = Debug
+		{0D1D0373-D61E-42E2-825B-4558E16C7AF3}.Release|Any CPU.ActiveCfg = Release
+		{98039763-71D8-4515-958A-101D473D0116}.Debug|Any CPU.ActiveCfg = Debug
+		{98039763-71D8-4515-958A-101D473D0116}.Release|Any CPU.ActiveCfg = Release
+		{87EC2E67-F7DB-4386-9B1C-9647212410BE}.Debug|Any CPU.ActiveCfg = Debug
+		{87EC2E67-F7DB-4386-9B1C-9647212410BE}.Release|Any CPU.ActiveCfg = Release
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

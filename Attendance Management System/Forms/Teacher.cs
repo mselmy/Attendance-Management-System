@@ -96,6 +96,7 @@ namespace Attendance_Management_System
             ViewPanel.Controls.Clear();
             TakeAttendance takeAttendance = new TakeAttendance(session);
             ViewPanel.Controls.Add(takeAttendance);
+            ViewPanel.Size = new Size(1502, 900);
         }
 
         private void TakeAttendance_Load(object sender, EventArgs e)
@@ -113,6 +114,7 @@ namespace Attendance_Management_System
             ViewPanel.Controls.Clear();
             TeacherReport teacherReport = new TeacherReport(session);
             ViewPanel.Controls.Add(teacherReport);
+            ViewPanel.Size = new Size(1502, 900);
         }
     }
 }
