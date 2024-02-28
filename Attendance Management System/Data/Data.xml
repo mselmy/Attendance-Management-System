@@ -379,7 +379,7 @@
     <user id="ST-1" />
   </session>
   <configs>
-    <language>AR</language>
+    <language>EN</language>
     <dateFormats>dd-MM-YYYY</dateFormats>
     <coolDown>false</coolDown>
     <coolDownStartDate>0</coolDownStartDate>

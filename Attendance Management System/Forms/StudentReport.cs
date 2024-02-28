@@ -63,7 +63,7 @@ namespace Attendance_Management_System.Forms
         }
         private void dateTimePicker4_ValueChanged(object sender, EventArgs e)
         {
-            LastDate = dateTimePicker3.Value;
+            LastDate = dateTimePicker4.Value;
             GetStudentData();
         }
         public void GetStudentData()
