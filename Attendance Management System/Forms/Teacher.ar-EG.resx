@@ -2030,10 +2030,10 @@
 </value>
   </data>
   <data name="title1label.Size" type="System.Drawing.Size, System.Drawing">
-    <value>120, 50</value>
+    <value>136, 50</value>
   </data>
   <data name="title1label.Text" xml:space="preserve">
-    <value>الغياب</value>
+    <value>الحضور</value>
   </data>
   <data name="title2label.Location" type="System.Drawing.Point, System.Drawing">
     <value>442, 5</value>

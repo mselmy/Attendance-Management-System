@@ -333,6 +333,7 @@
             resources.ApplyResources(edit1, "edit1");
             edit1.BackColor = SystemColors.ButtonHighlight;
             edit1.Name = "edit1";
+            edit1.Load += edit1_Load;
             // 
             // Admin
             // 
@@ -350,6 +351,7 @@
             Controls.Add(panel1);
             Controls.Add(pictureBox2);
             ForeColor = SystemColors.ButtonHighlight;
+            FormBorderStyle = FormBorderStyle.None;
             Name = "Admin";
             WindowState = FormWindowState.Maximized;
             Load += Admin_Load;

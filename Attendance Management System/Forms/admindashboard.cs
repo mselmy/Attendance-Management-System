@@ -20,7 +20,7 @@ namespace Attendance_Management_System
 
         }
 
-        public void GenenrateWarningTable(string threshold="3")
+        public void GenenrateWarningTable(string threshold="1")
         {
             AttendencdeReport attendencdeReport = new AttendencdeReport();
             Dictionary<string, string> map = new Dictionary<string, string>();

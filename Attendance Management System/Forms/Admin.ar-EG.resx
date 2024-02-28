@@ -117,8 +117,17 @@
   <resheader name="writer">
     <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </resheader>
+  <data name="SettingButton.Text" xml:space="preserve">
+    <value>إعدادات</value>
+  </data>
   <data name="AddButton.Text" xml:space="preserve">
     <value>اضف</value>
+  </data>
+  <data name="DeleteButton.Text" xml:space="preserve">
+    <value>حذف</value>
+  </data>
+  <data name="EditButton.Text" xml:space="preserve">
+    <value>تعديل</value>
   </data>
   <assembly alias="System.Drawing" name="System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" />
   <data name="pictureBox1.Image" type="System.Drawing.Bitmap, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
@@ -700,6 +709,27 @@
         Z4+yN9jHTK5lnGDamwAAAKFBPu3Lo3mPsSVM6oI/04rJQOA19iPTjtFfpOZJ7ZMaKLVQaqLUxjPYYBY0
         n/QRBEEQBEEQBEEQBHF3Tjvt/wHFEjq5jwLOAQAAAABJRU5ErkJggg==
 </value>
+  </data>
+  <data name="loadButton.Text" xml:space="preserve">
+    <value>تحميل</value>
+  </data>
+  <data name="saveButton.Text" xml:space="preserve">
+    <value>حفظ</value>
+  </data>
+  <data name="searchButton.Text" xml:space="preserve">
+    <value>البحث</value>
+  </data>
+  <data name="logoutButton.Text" xml:space="preserve">
+    <value>تسجيل الخروج</value>
+  </data>
+  <data name="ExitButton.Text" xml:space="preserve">
+    <value>خروج</value>
+  </data>
+  <data name="attendenceReportButton.Text" xml:space="preserve">
+    <value>تقرير الحضور</value>
+  </data>
+  <data name="DashboardButton.Text" xml:space="preserve">
+    <value>لوحة المعلومات</value>
   </data>
   <data name="pictureBox5.Image" type="System.Drawing.Bitmap, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
     <value>
@@ -2117,6 +2147,21 @@
         BFr+RcZdnNsAAAAASUVORK5CYII=
 </value>
   </data>
+  <data name="title1label.Size" type="System.Drawing.Size, System.Drawing">
+    <value>136, 50</value>
+  </data>
+  <data name="title1label.Text" xml:space="preserve">
+    <value>الحضور</value>
+  </data>
+  <data name="title2label.Location" type="System.Drawing.Point, System.Drawing">
+    <value>451, -2</value>
+  </data>
+  <data name="title2label.Size" type="System.Drawing.Size, System.Drawing">
+    <value>174, 50</value>
+  </data>
+  <data name="title2label.Text" xml:space="preserve">
+    <value>نظام رصد</value>
+  </data>
   <data name="pictureBox2.Image" type="System.Drawing.Bitmap, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
     <value>
         iVBORw0KGgoAAAANSUhEUgAAAgAAAAIACAYAAAD0eNT6AAAABGdBTUEAALGPC/xhBQAAAAlwSFlzAAAO
@@ -2696,6 +2741,13 @@
         Z4+yN9jHTK5lnGDamwAAAKFBPu3Lo3mPsSVM6oI/04rJQOA19iPTjtFfpOZJ7ZMaKLVQaqLUxjPYYBY0
         n/QRBEEQBEEQBEEQBHF3Tjvt/wHFEjq5jwLOAQAAAABJRU5ErkJggg==
 </value>
+  </data>
+  <assembly alias="System.Windows.Forms" name="System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" />
+  <data name="edit1.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>2, 2, 2, 2</value>
+  </data>
+  <data name="edit1.Size" type="System.Drawing.Size, System.Drawing">
+    <value>1019, 556</value>
   </data>
   <data name="$this.Icon" type="System.Drawing.Icon, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
     <value>

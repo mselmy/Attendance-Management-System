@@ -18,9 +18,9 @@ namespace Attendance_Management_System
         public Admin(Session _session)
         {
             Configs.ChangeLanguage();
-            InitializeComponent();
             session = _session;
             user = _session.CurrentUser as AdminData;
+            InitializeComponent();
         }
         private void Admin_Load(object sender, EventArgs e)
         {
@@ -38,8 +38,6 @@ namespace Attendance_Management_System
                 admindashboard1.NoClassButton.Text = Handleloadadmin.GetNumberofClasses() + " Classes";
                 admindashboard1.NostudentsButton.Text = Handleloadadmin.GetNumberofStudents() + " Students";
                 admindashboard1.GenenrateWarningTable();
-
-
             }
 
         }
@@ -92,6 +90,17 @@ namespace Attendance_Management_System
         {
             Controls.Clear();
             InitializeComponent();
+            admindashboard1.Visible = true;
+            addUser2.Visible = false;
+            attendencdeReport1.Visible = false;
+            edit1.Visible = false;
+            if (admindashboard1.Visible)
+            {
+                admindashboard1.NoTeacherButton.Text = Handleloadadmin.GetNumberofTeachers() + " Teachers";
+                admindashboard1.NoClassButton.Text = Handleloadadmin.GetNumberofClasses() + " Classes";
+                admindashboard1.NostudentsButton.Text = Handleloadadmin.GetNumberofStudents() + " Students";
+                admindashboard1.GenenrateWarningTable();
+            }
         }
 
         private void SettingButton_Click(object sender, EventArgs e)
@@ -106,6 +115,11 @@ namespace Attendance_Management_System
             addUser2.Visible = false;
             attendencdeReport1.Visible = false;
             edit1.Visible = true;
+
+        }
+
+        private void edit1_Load(object sender, EventArgs e)
+        {
 
         }
     }
