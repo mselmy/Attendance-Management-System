@@ -48,7 +48,6 @@ namespace Attendance_Management_System.Classes
             list.AddRange(from XmlNode node in nodeList select node.Attributes[target].Value);
             return list;
         }*/
-
         /*public static List<string> GetSingleNodeAttributes(string nodePath, string target)
         {
             List<string> list = new List<string>();
@@ -90,12 +89,13 @@ namespace Attendance_Management_System.Classes
             return userNode?.InnerText ?? "";
         }
 
-        public static bool AddnewStudent(string name, string password, string id, string classname)
+        public static bool AddnewStudent(string name, string password,string email, string id, List<string> classname)
         {
             try
             {
                 XmlDocument XmlDoc = ReadAllDocument();
                 XmlNode target = XmlDoc.SelectSingleNode("/school/students");
+                XmlNode targetuser = XmlDoc.SelectSingleNode("/school/users");
 
                 XmlNode newstudent = XmlDoc.CreateElement("student");
                 XmlNode namenewstudent = XmlDoc.CreateElement("name");
@@ -106,18 +106,44 @@ namespace Attendance_Management_System.Classes
                 idAttribute.Value = id;
                 newstudent.Attributes.Append(idAttribute);
 
+                XmlNode classesnewstudent = XmlDoc.CreateElement("classes");
+                foreach (string item in classname)
+                {
+                    XmlNode classnewstudent = XmlDoc.CreateElement("class");
+                    XmlAttribute idclassAttribute = XmlDoc.CreateAttribute("id");
+                    idclassAttribute.Value = item;
+                    classnewstudent.Attributes.Append(idclassAttribute);
+                    classesnewstudent.AppendChild(classnewstudent);
+
+                }
+                newstudent.AppendChild(classesnewstudent);
+
+
+               
+                target.AppendChild(newstudent);
+
+
+
+                XmlNode newuser = XmlDoc.CreateElement("user");
+
+                XmlNode idnewuser = XmlDoc.CreateElement("id");
+                idnewuser.InnerText = id;
+                newuser.AppendChild(idnewuser);
+
+                XmlNode emailnewuser = XmlDoc.CreateElement("email");
+                emailnewuser.InnerText = email;
+                newuser.AppendChild(emailnewuser);
 
                 XmlNode passnewstudent = XmlDoc.CreateElement("password");
                 passnewstudent.InnerText = password;
-                newstudent.AppendChild(namenewstudent);
+                newuser.AppendChild(passnewstudent);
 
-                XmlNode classesnewstudent = XmlDoc.CreateElement("classes");
-                XmlNode classnewstudent = XmlDoc.CreateElement("class");
-                classnewstudent.InnerText = classname;
-                classesnewstudent.AppendChild(classnewstudent);
-                newstudent.AppendChild(classesnewstudent);
+                XmlNode rolenewstudent = XmlDoc.CreateElement("role");
+                rolenewstudent.InnerText = "Student";
+                newuser.AppendChild(rolenewstudent);
 
-                target.AppendChild(newstudent);
+                targetuser.AppendChild(newuser);
+
 
                 XmlDoc.Save(Configs.DataPath);
                 return true;
@@ -130,33 +156,55 @@ namespace Attendance_Management_System.Classes
 
 
         }
-        public static bool AddnewTeacher(string name, string password, string id, string classname)
+        public static bool AddnewTeacher(string name, string password,string email, string id, List<string> classname)
         {
             try
             {
                 XmlDocument XmlDoc = ReadAllDocument();
                 XmlNode target = XmlDoc.SelectSingleNode("/school/teachers");
+                XmlNode targetuser = XmlDoc.SelectSingleNode("/school/users");
+
 
                 XmlNode newteacher = XmlDoc.CreateElement("teacher");
-                XmlNode namenewteacher = XmlDoc.CreateElement("name");
-                namenewteacher.InnerText = name;
-                newteacher.AppendChild(namenewteacher);
-
-                XmlNode passnewteacher = XmlDoc.CreateElement("password");
-                passnewteacher.InnerText = password;
-                newteacher.AppendChild(namenewteacher);
-
                 XmlAttribute idAttribute = XmlDoc.CreateAttribute("id");
                 idAttribute.Value = id;
                 newteacher.Attributes.Append(idAttribute);
 
-                XmlNode classesnewteacher = XmlDoc.CreateElement("courses");
-                XmlNode classnewteacher = XmlDoc.CreateElement("course");
-                classnewteacher.InnerText = classname;
-                classesnewteacher.AppendChild(classnewteacher);
-                newteacher.AppendChild(classesnewteacher);
+                XmlNode namenewteacher = XmlDoc.CreateElement("name");
+                namenewteacher.InnerText = name;
+                newteacher.AppendChild(namenewteacher);
 
+                XmlNode classesnewteacher = XmlDoc.CreateElement("courses");
+
+                foreach (string item in classname)
+                {
+                    XmlNode classnewteacher = XmlDoc.CreateElement("course");
+                    XmlAttribute idclassAttribute = XmlDoc.CreateAttribute("id");
+                    idclassAttribute.Value = item;
+                    classnewteacher.Attributes.Append(idclassAttribute);
+                    classesnewteacher.AppendChild(classnewteacher);
+                }
+                newteacher.AppendChild(classesnewteacher);
                 target.AppendChild(newteacher);
+                XmlNode newuser = XmlDoc.CreateElement("user");
+
+                XmlNode idnewuser = XmlDoc.CreateElement("id");
+                idnewuser.InnerText = id;
+                newuser.AppendChild(idnewuser);
+
+                XmlNode emailnewuser = XmlDoc.CreateElement("email");
+                emailnewuser.InnerText = email;
+                newuser.AppendChild(emailnewuser);
+
+                XmlNode passnewuser = XmlDoc.CreateElement("password");
+                passnewuser.InnerText = password;
+                newuser.AppendChild(passnewuser);
+
+                XmlNode rolenewuser = XmlDoc.CreateElement("role");
+                rolenewuser.InnerText = "Teacher";
+                newuser.AppendChild(rolenewuser);
+
+                targetuser.AppendChild(newuser);
 
                 XmlDoc.Save(Configs.DataPath);
                 return true;
@@ -228,9 +276,57 @@ namespace Attendance_Management_System.Classes
             }
             return list;
         }
-        
-           
-    
+        public static List<string> GetClassesForTeacher(string nodePath, string targetTeacherId)
+        {
+            List<string> classIds = new List<string>();
+            XmlDocument xmlDoc = ReadAllDocument();
+
+            string xPathExpression = $"{nodePath}[@id='{targetTeacherId}']/courses/course/@id";
+
+            XmlNodeList nodeList = xmlDoc.SelectNodes(xPathExpression);
+
+            foreach (XmlNode node in nodeList)
+            {
+                classIds.Add(node.Value);
+            }
+
+            return classIds;
+        }
+        public static HashSet<string> GetStudentsForTeacher(List<string> TargetClasses)
+        {
+            HashSet<string> studentIds = new HashSet<string>(); 
+            XmlDocument xmlDoc = ReadAllDocument();
+
+            string xPathExpression;
+
+            foreach (string classId in TargetClasses)
+            {
+                xPathExpression = $"school/classes/class[id='{classId}']/student/@id";
+                XmlNodeList nodeList = xmlDoc.SelectNodes(xPathExpression);
+                foreach (XmlNode node in nodeList)
+                {
+                    studentIds.Add(node.Value);
+                }
+            }
+
+            return studentIds;
+        }
+        public static HashSet<string> GetClassForStudent(string Targetstudent)
+        {
+            HashSet<string> classIds = new HashSet<string>();
+            XmlDocument xmlDoc = ReadAllDocument();
+
+            string xPathExpression;
+
+                xPathExpression = $"school/students/student[@id='{Targetstudent}']/classes/class/@id";
+                XmlNodeList nodeList = xmlDoc.SelectNodes(xPathExpression);
+                foreach (XmlNode node in nodeList)
+                {
+                    classIds.Add(node.Value);
+                }
+          
+            return classIds;
+        }
 
 
         public static XmlNode? GetNode(string xPath)
@@ -347,5 +443,13 @@ namespace Attendance_Management_System.Classes
                 }
             }
         }
-    }
+
+
+
+
+
+
+
+
+}
 }

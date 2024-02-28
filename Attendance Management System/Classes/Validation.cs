@@ -92,10 +92,35 @@ namespace Attendance_Management_System.Classes
             return flag;
 
         }
+        public static bool ISEmailVal(string email)
+        {
+            string pattern = @"^[a-zA-Z0-9._%+-]+@[a-zA-Z0-9-]+\.[a-zA-Z]{2,}(?:\.[a-zA-Z]{2,})?$";
+            Regex idreg = new Regex(pattern);
+            Match match = idreg.Match(email);
+            if (match.Success)
+            {
+                return true;
+            }
+            return false;
 
+        }
+
+        public static bool IsEmailUnique(string email,List<string> emailValues)
+        {
+            bool flag = false;
+            foreach (string value in emailValues)
+            {
+                if (email == value)
+                {
+                    flag = true;
+                }
+            }
+            return flag;
+        }
+          
         public static bool IspasswordComplexValid( string password)
         {
-            string pattern = @"^(?=.*[a-z])(?=.*[A-Z])(?=.*\d)[a-zA-Z\d]{8,}$";
+            string pattern = @"(?=.*\d)(?=.*[a-zA-Z])(?=.*[^a-zA-Z0-9]).{8,}";
             Regex idreg = new Regex(pattern);
             Match match = idreg.Match(password);
             if (match.Success)

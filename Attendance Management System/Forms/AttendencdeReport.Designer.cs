@@ -28,6 +28,7 @@
         /// </summary>
         private void InitializeComponent()
         {
+            System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(AttendencdeReport));
             DataGridViewCellStyle dataGridViewCellStyle1 = new DataGridViewCellStyle();
             DataGridViewCellStyle dataGridViewCellStyle2 = new DataGridViewCellStyle();
             DataGridViewCellStyle dataGridViewCellStyle3 = new DataGridViewCellStyle();
@@ -37,6 +38,8 @@
             DataGridViewCellStyle dataGridViewCellStyle7 = new DataGridViewCellStyle();
             Start = new Label();
             StudenttabPage = new TabPage();
+            excel2 = new PictureBox();
+            Pdf2 = new PictureBox();
             Sattendence = new DataGridView();
             dateTimePicker4 = new DateTimePicker();
             dateTimePicker3 = new DateTimePicker();
@@ -49,6 +52,8 @@
             panel7 = new Panel();
             panel9 = new Panel();
             classReporttabPage = new TabPage();
+            excel = new PictureBox();
+            Pdf = new PictureBox();
             Attendence = new DataGridView();
             dateTimePicker2 = new DateTimePicker();
             dateTimePicker1 = new DateTimePicker();
@@ -62,8 +67,12 @@
             label1 = new Label();
             Reporttab = new TabControl();
             StudenttabPage.SuspendLayout();
+            ((System.ComponentModel.ISupportInitialize)excel2).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)Pdf2).BeginInit();
             ((System.ComponentModel.ISupportInitialize)Sattendence).BeginInit();
             classReporttabPage.SuspendLayout();
+            ((System.ComponentModel.ISupportInitialize)excel).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)Pdf).BeginInit();
             ((System.ComponentModel.ISupportInitialize)Attendence).BeginInit();
             Reporttab.SuspendLayout();
             SuspendLayout();
@@ -82,6 +91,8 @@
             // StudenttabPage
             // 
             StudenttabPage.BackColor = Color.White;
+            StudenttabPage.Controls.Add(excel2);
+            StudenttabPage.Controls.Add(Pdf2);
             StudenttabPage.Controls.Add(Sattendence);
             StudenttabPage.Controls.Add(dateTimePicker4);
             StudenttabPage.Controls.Add(dateTimePicker3);
@@ -99,6 +110,28 @@
             StudenttabPage.Size = new Size(1220, 593);
             StudenttabPage.TabIndex = 1;
             StudenttabPage.Text = "Student Report";
+            // 
+            // excel2
+            // 
+            excel2.Image = (Image)resources.GetObject("excel2.Image");
+            excel2.Location = new Point(1078, 6);
+            excel2.Name = "excel2";
+            excel2.Size = new Size(65, 78);
+            excel2.SizeMode = PictureBoxSizeMode.Zoom;
+            excel2.TabIndex = 50;
+            excel2.TabStop = false;
+            excel2.Click += excel2_Click;
+            // 
+            // Pdf2
+            // 
+            Pdf2.Image = (Image)resources.GetObject("Pdf2.Image");
+            Pdf2.Location = new Point(1149, 6);
+            Pdf2.Name = "Pdf2";
+            Pdf2.Size = new Size(65, 78);
+            Pdf2.SizeMode = PictureBoxSizeMode.Zoom;
+            Pdf2.TabIndex = 49;
+            Pdf2.TabStop = false;
+            Pdf2.Click += Pdf2_Click_1;
             // 
             // Sattendence
             // 
@@ -124,7 +157,7 @@
             dataGridViewCellStyle2.SelectionForeColor = SystemColors.InactiveCaptionText;
             dataGridViewCellStyle2.WrapMode = DataGridViewTriState.False;
             Sattendence.DefaultCellStyle = dataGridViewCellStyle2;
-            Sattendence.Location = new Point(225, 214);
+            Sattendence.Location = new Point(80, 210);
             Sattendence.Name = "Sattendence";
             Sattendence.ReadOnly = true;
             Sattendence.RowHeadersBorderStyle = DataGridViewHeaderBorderStyle.None;
@@ -142,7 +175,7 @@
             Sattendence.RowTemplate.DefaultCellStyle.SelectionBackColor = Color.Green;
             Sattendence.RowTemplate.DefaultCellStyle.SelectionForeColor = Color.White;
             Sattendence.ScrollBars = ScrollBars.Vertical;
-            Sattendence.Size = new Size(933, 344);
+            Sattendence.Size = new Size(1078, 348);
             Sattendence.TabIndex = 48;
             Sattendence.Visible = false;
             // 
@@ -243,6 +276,8 @@
             // classReporttabPage
             // 
             classReporttabPage.BackColor = Color.White;
+            classReporttabPage.Controls.Add(excel);
+            classReporttabPage.Controls.Add(Pdf);
             classReporttabPage.Controls.Add(Attendence);
             classReporttabPage.Controls.Add(dateTimePicker2);
             classReporttabPage.Controls.Add(dateTimePicker1);
@@ -261,6 +296,28 @@
             classReporttabPage.Size = new Size(1220, 593);
             classReporttabPage.TabIndex = 0;
             classReporttabPage.Text = "Class Report";
+            // 
+            // excel
+            // 
+            excel.Image = (Image)resources.GetObject("excel.Image");
+            excel.Location = new Point(1078, 0);
+            excel.Name = "excel";
+            excel.Size = new Size(65, 78);
+            excel.SizeMode = PictureBoxSizeMode.Zoom;
+            excel.TabIndex = 43;
+            excel.TabStop = false;
+            excel.Click += excel_Click;
+            // 
+            // Pdf
+            // 
+            Pdf.Image = (Image)resources.GetObject("Pdf.Image");
+            Pdf.Location = new Point(1149, 0);
+            Pdf.Name = "Pdf";
+            Pdf.Size = new Size(65, 78);
+            Pdf.SizeMode = PictureBoxSizeMode.Zoom;
+            Pdf.TabIndex = 42;
+            Pdf.TabStop = false;
+            Pdf.Click += Pdf_Click;
             // 
             // Attendence
             // 
@@ -286,7 +343,7 @@
             dataGridViewCellStyle5.SelectionForeColor = SystemColors.InactiveCaptionText;
             dataGridViewCellStyle5.WrapMode = DataGridViewTriState.False;
             Attendence.DefaultCellStyle = dataGridViewCellStyle5;
-            Attendence.Location = new Point(225, 214);
+            Attendence.Location = new Point(68, 214);
             Attendence.Name = "Attendence";
             Attendence.ReadOnly = true;
             Attendence.RowHeadersBorderStyle = DataGridViewHeaderBorderStyle.None;
@@ -306,7 +363,7 @@
             Attendence.RowTemplate.DefaultCellStyle.SelectionBackColor = Color.Green;
             Attendence.RowTemplate.DefaultCellStyle.SelectionForeColor = Color.White;
             Attendence.ScrollBars = ScrollBars.Vertical;
-            Attendence.Size = new Size(782, 344);
+            Attendence.Size = new Size(1130, 344);
             Attendence.TabIndex = 41;
             Attendence.Visible = false;
             // 
@@ -425,16 +482,19 @@
             Load += AttendencdeReport_Load;
             StudenttabPage.ResumeLayout(false);
             StudenttabPage.PerformLayout();
+            ((System.ComponentModel.ISupportInitialize)excel2).EndInit();
+            ((System.ComponentModel.ISupportInitialize)Pdf2).EndInit();
             ((System.ComponentModel.ISupportInitialize)Sattendence).EndInit();
             classReporttabPage.ResumeLayout(false);
             classReporttabPage.PerformLayout();
+            ((System.ComponentModel.ISupportInitialize)excel).EndInit();
+            ((System.ComponentModel.ISupportInitialize)Pdf).EndInit();
             ((System.ComponentModel.ISupportInitialize)Attendence).EndInit();
             Reporttab.ResumeLayout(false);
             ResumeLayout(false);
         }
 
         #endregion
-        private TextBox nameStudenttextBox;
         private Label label;
         private Label Start;
         private TabPage StudenttabPage;
@@ -466,5 +526,9 @@
         private DataGridViewTextBoxColumn Class;
         private DataGridViewTextBoxColumn Noabsent;
         private DataGridView Sattendence;
+        private PictureBox Pdf;
+        private PictureBox excel;
+        private PictureBox excel2;
+        private PictureBox Pdf2;
     }
 }

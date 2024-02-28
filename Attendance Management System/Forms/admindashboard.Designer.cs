@@ -39,6 +39,9 @@
             flowLayoutPanel1 = new FlowLayoutPanel();
             mostAbStTable = new DataGridView();
             label1 = new Label();
+            warningtextbox = new TextBox();
+            panel13 = new Panel();
+            label2 = new Label();
             ((System.ComponentModel.ISupportInitialize)pictureBox3).BeginInit();
             ((System.ComponentModel.ISupportInitialize)pictureBox1).BeginInit();
             ((System.ComponentModel.ISupportInitialize)pictureBox2).BeginInit();
@@ -143,8 +146,7 @@
             mostAbStTable.BackgroundColor = Color.White;
             mostAbStTable.BorderStyle = BorderStyle.None;
             mostAbStTable.ColumnHeadersHeightSizeMode = DataGridViewColumnHeadersHeightSizeMode.AutoSize;
-            mostAbStTable.Location = new Point(87, 454);
-            mostAbStTable.MinimumSize = new Size(1000, 500);
+            mostAbStTable.Location = new Point(63, 503);
             mostAbStTable.Name = "mostAbStTable";
             mostAbStTable.ReadOnly = true;
             mostAbStTable.RowHeadersWidth = 62;
@@ -152,7 +154,8 @@
             dataGridViewCellStyle1.ForeColor = Color.FromArgb(0, 0, 64);
             dataGridViewCellStyle1.SelectionBackColor = Color.SkyBlue;
             mostAbStTable.RowsDefaultCellStyle = dataGridViewCellStyle1;
-            mostAbStTable.Size = new Size(1265, 500);
+            mostAbStTable.ScrollBars = ScrollBars.Vertical;
+            mostAbStTable.Size = new Size(1289, 381);
             mostAbStTable.TabIndex = 20;
             // 
             // label1
@@ -168,11 +171,43 @@
             label1.TabIndex = 21;
             label1.Text = "Need Warning";
             // 
+            // warningtextbox
+            // 
+            warningtextbox.BorderStyle = BorderStyle.None;
+            warningtextbox.Location = new Point(1082, 452);
+            warningtextbox.Name = "warningtextbox";
+            warningtextbox.Size = new Size(270, 24);
+            warningtextbox.TabIndex = 26;
+            warningtextbox.Text = "3";
+            warningtextbox.TextChanged += warningtextbox_TextChanged;
+            // 
+            // panel13
+            // 
+            panel13.BackColor = Color.Goldenrod;
+            panel13.Location = new Point(1082, 482);
+            panel13.Name = "panel13";
+            panel13.Size = new Size(270, 2);
+            panel13.TabIndex = 27;
+            // 
+            // label2
+            // 
+            label2.AutoSize = true;
+            label2.Font = new Font("Segoe UI", 9F, FontStyle.Bold, GraphicsUnit.Point, 0);
+            label2.ForeColor = Color.SlateGray;
+            label2.Location = new Point(1080, 424);
+            label2.Name = "label2";
+            label2.Size = new Size(193, 25);
+            label2.TabIndex = 28;
+            label2.Text = "No Of Absent exceed";
+            // 
             // admindashboard
             // 
             AutoScaleDimensions = new SizeF(10F, 25F);
             AutoScaleMode = AutoScaleMode.Font;
             BackColor = SystemColors.ButtonHighlight;
+            Controls.Add(label2);
+            Controls.Add(panel13);
+            Controls.Add(warningtextbox);
             Controls.Add(flowLayoutPanel1);
             Controls.Add(pictureBox2);
             Controls.Add(mostAbStTable);
@@ -203,5 +238,8 @@
         private FlowLayoutPanel flowLayoutPanel1;
         private DataGridView mostAbStTable;
         private Label label1;
+        private TextBox warningtextbox;
+        private Panel panel13;
+        private Label label2;
     }
 }

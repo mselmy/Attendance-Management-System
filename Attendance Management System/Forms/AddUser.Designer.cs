@@ -31,6 +31,12 @@
             System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(AddUser));
             Addtab = new TabControl();
             addStudenttabPage = new TabPage();
+            emailexisterrormessage = new Label();
+            emailtextBox = new TextBox();
+            emailnotvaliderrormessage = new Label();
+            panel13 = new Panel();
+            label10 = new Label();
+            classStudlistBox = new ListBox();
             passwordpictureBox1 = new PictureBox();
             passwordlabel1 = new Label();
             passswordstdtextBox = new TextBox();
@@ -42,7 +48,6 @@
             labelErrorMessage2 = new Label();
             pictureBoxErrorMessage1 = new PictureBox();
             labelErrorMessage1 = new Label();
-            classcombBox = new ComboBox();
             panel4 = new Panel();
             label7 = new Label();
             pictureBoxErrorMessage = new PictureBox();
@@ -57,6 +62,13 @@
             panel6 = new Panel();
             label1 = new Label();
             AddteachertabPage = new TabPage();
+            emailexistmessage2 = new Label();
+            emailTtextBox = new TextBox();
+            emailnotvalidmessage2 = new Label();
+            panel14 = new Panel();
+            label19 = new Label();
+            TeacherClasslistBox = new ListBox();
+            panel15 = new Panel();
             panel12 = new Panel();
             passwordpictureBox2 = new PictureBox();
             passwordlabel2 = new Label();
@@ -69,7 +81,6 @@
             IdTeachertextBox = new TextBox();
             label16 = new Label();
             panel7 = new Panel();
-            classTeachercombBox = new ComboBox();
             pictureBoxErrorMessage7 = new PictureBox();
             labelErrorMessage7 = new Label();
             pictureBoxErrorMessage4 = new PictureBox();
@@ -77,7 +88,6 @@
             pictureBox1 = new PictureBox();
             addTeacherButton = new Button();
             label11 = new Label();
-            panel8 = new Panel();
             nameTeachertextBox = new TextBox();
             label12 = new Label();
             panel9 = new Panel();
@@ -148,6 +158,12 @@
             // addStudenttabPage
             // 
             addStudenttabPage.BackColor = Color.White;
+            addStudenttabPage.Controls.Add(emailexisterrormessage);
+            addStudenttabPage.Controls.Add(emailtextBox);
+            addStudenttabPage.Controls.Add(emailnotvaliderrormessage);
+            addStudenttabPage.Controls.Add(panel13);
+            addStudenttabPage.Controls.Add(label10);
+            addStudenttabPage.Controls.Add(classStudlistBox);
             addStudenttabPage.Controls.Add(passwordpictureBox1);
             addStudenttabPage.Controls.Add(passwordlabel1);
             addStudenttabPage.Controls.Add(passswordstdtextBox);
@@ -159,7 +175,6 @@
             addStudenttabPage.Controls.Add(labelErrorMessage2);
             addStudenttabPage.Controls.Add(pictureBoxErrorMessage1);
             addStudenttabPage.Controls.Add(labelErrorMessage1);
-            addStudenttabPage.Controls.Add(classcombBox);
             addStudenttabPage.Controls.Add(panel4);
             addStudenttabPage.Controls.Add(label7);
             addStudenttabPage.Controls.Add(pictureBoxErrorMessage);
@@ -179,6 +194,67 @@
             addStudenttabPage.Size = new Size(1030, 570);
             addStudenttabPage.TabIndex = 0;
             addStudenttabPage.Text = "Add Student";
+            // 
+            // emailexisterrormessage
+            // 
+            emailexisterrormessage.AutoSize = true;
+            emailexisterrormessage.Font = new Font("Century Gothic", 10.2F, FontStyle.Regular, GraphicsUnit.Point, 0);
+            emailexisterrormessage.ForeColor = Color.FromArgb(192, 0, 0);
+            emailexisterrormessage.Location = new Point(662, 437);
+            emailexisterrormessage.Name = "emailexisterrormessage";
+            emailexisterrormessage.Size = new Size(262, 24);
+            emailexisterrormessage.TabIndex = 39;
+            emailexisterrormessage.Text = "This email is already exists";
+            // 
+            // emailtextBox
+            // 
+            emailtextBox.BorderStyle = BorderStyle.None;
+            emailtextBox.Location = new Point(650, 399);
+            emailtextBox.Name = "emailtextBox";
+            emailtextBox.Size = new Size(270, 27);
+            emailtextBox.TabIndex = 38;
+            // 
+            // emailnotvaliderrormessage
+            // 
+            emailnotvaliderrormessage.AutoSize = true;
+            emailnotvaliderrormessage.Font = new Font("Century Gothic", 10.2F, FontStyle.Regular, GraphicsUnit.Point, 0);
+            emailnotvaliderrormessage.ForeColor = Color.FromArgb(192, 0, 0);
+            emailnotvaliderrormessage.Location = new Point(640, 437);
+            emailnotvaliderrormessage.Name = "emailnotvaliderrormessage";
+            emailnotvaliderrormessage.Size = new Size(274, 24);
+            emailnotvaliderrormessage.TabIndex = 37;
+            emailnotvaliderrormessage.Text = "please Enter a valid email";
+            // 
+            // panel13
+            // 
+            panel13.BackColor = Color.Goldenrod;
+            panel13.Location = new Point(650, 432);
+            panel13.Name = "panel13";
+            panel13.Size = new Size(270, 2);
+            panel13.TabIndex = 15;
+            // 
+            // label10
+            // 
+            label10.AutoSize = true;
+            label10.Font = new Font("Segoe UI", 12F, FontStyle.Bold, GraphicsUnit.Point, 0);
+            label10.ForeColor = Color.SlateGray;
+            label10.Location = new Point(650, 364);
+            label10.Name = "label10";
+            label10.Size = new Size(83, 32);
+            label10.TabIndex = 36;
+            label10.Text = "Email:";
+            // 
+            // classStudlistBox
+            // 
+            classStudlistBox.BorderStyle = BorderStyle.None;
+            classStudlistBox.FormattingEnabled = true;
+            classStudlistBox.ItemHeight = 28;
+            classStudlistBox.Location = new Point(650, 226);
+            classStudlistBox.Name = "classStudlistBox";
+            classStudlistBox.ScrollAlwaysVisible = true;
+            classStudlistBox.SelectionMode = SelectionMode.MultiSimple;
+            classStudlistBox.Size = new Size(282, 84);
+            classStudlistBox.TabIndex = 35;
             // 
             // passwordpictureBox1
             // 
@@ -231,7 +307,7 @@
             // pictureBoxErrorMessage3
             // 
             pictureBoxErrorMessage3.Image = (Image)resources.GetObject("pictureBoxErrorMessage3.Image");
-            pictureBoxErrorMessage3.Location = new Point(600, 208);
+            pictureBoxErrorMessage3.Location = new Point(620, 160);
             pictureBoxErrorMessage3.Name = "pictureBoxErrorMessage3";
             pictureBoxErrorMessage3.Size = new Size(25, 23);
             pictureBoxErrorMessage3.SizeMode = PictureBoxSizeMode.Zoom;
@@ -243,7 +319,7 @@
             labelErrorMessage3.AutoSize = true;
             labelErrorMessage3.Font = new Font("Century Gothic", 10.2F, FontStyle.Regular, GraphicsUnit.Point, 0);
             labelErrorMessage3.ForeColor = Color.FromArgb(192, 0, 0);
-            labelErrorMessage3.Location = new Point(628, 207);
+            labelErrorMessage3.Location = new Point(650, 160);
             labelErrorMessage3.Name = "labelErrorMessage3";
             labelErrorMessage3.Size = new Size(214, 24);
             labelErrorMessage3.TabIndex = 28;
@@ -252,7 +328,7 @@
             // pictureBoxErrorMessage2
             // 
             pictureBoxErrorMessage2.Image = (Image)resources.GetObject("pictureBoxErrorMessage2.Image");
-            pictureBoxErrorMessage2.Location = new Point(563, 208);
+            pictureBoxErrorMessage2.Location = new Point(569, 163);
             pictureBoxErrorMessage2.Name = "pictureBoxErrorMessage2";
             pictureBoxErrorMessage2.Size = new Size(25, 23);
             pictureBoxErrorMessage2.SizeMode = PictureBoxSizeMode.Zoom;
@@ -264,7 +340,7 @@
             labelErrorMessage2.AutoSize = true;
             labelErrorMessage2.Font = new Font("Century Gothic", 10.2F, FontStyle.Regular, GraphicsUnit.Point, 0);
             labelErrorMessage2.ForeColor = Color.FromArgb(192, 0, 0);
-            labelErrorMessage2.Location = new Point(590, 208);
+            labelErrorMessage2.Location = new Point(590, 160);
             labelErrorMessage2.Name = "labelErrorMessage2";
             labelErrorMessage2.Size = new Size(401, 24);
             labelErrorMessage2.TabIndex = 26;
@@ -273,7 +349,7 @@
             // pictureBoxErrorMessage1
             // 
             pictureBoxErrorMessage1.Image = (Image)resources.GetObject("pictureBoxErrorMessage1.Image");
-            pictureBoxErrorMessage1.Location = new Point(602, 327);
+            pictureBoxErrorMessage1.Location = new Point(603, 325);
             pictureBoxErrorMessage1.Name = "pictureBoxErrorMessage1";
             pictureBoxErrorMessage1.Size = new Size(25, 23);
             pictureBoxErrorMessage1.SizeMode = PictureBoxSizeMode.Zoom;
@@ -285,27 +361,18 @@
             labelErrorMessage1.AutoSize = true;
             labelErrorMessage1.Font = new Font("Century Gothic", 10.2F, FontStyle.Regular, GraphicsUnit.Point, 0);
             labelErrorMessage1.ForeColor = Color.FromArgb(192, 0, 0);
-            labelErrorMessage1.Location = new Point(633, 326);
+            labelErrorMessage1.Location = new Point(633, 322);
             labelErrorMessage1.Name = "labelErrorMessage1";
             labelErrorMessage1.Size = new Size(320, 24);
             labelErrorMessage1.TabIndex = 24;
             labelErrorMessage1.Text = "Please select one from the List";
             // 
-            // classcombBox
-            // 
-            classcombBox.FlatStyle = FlatStyle.Flat;
-            classcombBox.FormattingEnabled = true;
-            classcombBox.Location = new Point(627, 271);
-            classcombBox.Name = "classcombBox";
-            classcombBox.Size = new Size(275, 36);
-            classcombBox.TabIndex = 23;
-            // 
             // panel4
             // 
             panel4.BackColor = Color.Goldenrod;
-            panel4.Location = new Point(630, 308);
+            panel4.Location = new Point(647, 315);
             panel4.Name = "panel4";
-            panel4.Size = new Size(270, 2);
+            panel4.Size = new Size(289, 2);
             panel4.TabIndex = 22;
             // 
             // label7
@@ -313,7 +380,7 @@
             label7.AutoSize = true;
             label7.Font = new Font("Segoe UI", 12F, FontStyle.Bold, GraphicsUnit.Point, 0);
             label7.ForeColor = Color.SlateGray;
-            label7.Location = new Point(629, 243);
+            label7.Location = new Point(650, 184);
             label7.Name = "label7";
             label7.Size = new Size(78, 32);
             label7.TabIndex = 21;
@@ -367,7 +434,7 @@
             // IdStudenttextBox
             // 
             IdStudenttextBox.BorderStyle = BorderStyle.None;
-            IdStudenttextBox.Location = new Point(632, 163);
+            IdStudenttextBox.Location = new Point(650, 122);
             IdStudenttextBox.Name = "IdStudenttextBox";
             IdStudenttextBox.Size = new Size(270, 27);
             IdStudenttextBox.TabIndex = 16;
@@ -377,7 +444,7 @@
             label8.AutoSize = true;
             label8.Font = new Font("Segoe UI", 12F, FontStyle.Bold, GraphicsUnit.Point, 0);
             label8.ForeColor = Color.SlateGray;
-            label8.Location = new Point(632, 122);
+            label8.Location = new Point(650, 88);
             label8.Name = "label8";
             label8.Size = new Size(94, 32);
             label8.TabIndex = 15;
@@ -386,7 +453,7 @@
             // panel5
             // 
             panel5.BackColor = Color.Goldenrod;
-            panel5.Location = new Point(630, 193);
+            panel5.Location = new Point(650, 155);
             panel5.Name = "panel5";
             panel5.Size = new Size(270, 2);
             panel5.TabIndex = 14;
@@ -432,6 +499,13 @@
             // AddteachertabPage
             // 
             AddteachertabPage.BackColor = Color.White;
+            AddteachertabPage.Controls.Add(emailexistmessage2);
+            AddteachertabPage.Controls.Add(emailTtextBox);
+            AddteachertabPage.Controls.Add(emailnotvalidmessage2);
+            AddteachertabPage.Controls.Add(panel14);
+            AddteachertabPage.Controls.Add(label19);
+            AddteachertabPage.Controls.Add(TeacherClasslistBox);
+            AddteachertabPage.Controls.Add(panel15);
             AddteachertabPage.Controls.Add(panel12);
             AddteachertabPage.Controls.Add(passwordpictureBox2);
             AddteachertabPage.Controls.Add(passwordlabel2);
@@ -444,7 +518,6 @@
             AddteachertabPage.Controls.Add(IdTeachertextBox);
             AddteachertabPage.Controls.Add(label16);
             AddteachertabPage.Controls.Add(panel7);
-            AddteachertabPage.Controls.Add(classTeachercombBox);
             AddteachertabPage.Controls.Add(pictureBoxErrorMessage7);
             AddteachertabPage.Controls.Add(labelErrorMessage7);
             AddteachertabPage.Controls.Add(pictureBoxErrorMessage4);
@@ -452,7 +525,6 @@
             AddteachertabPage.Controls.Add(pictureBox1);
             AddteachertabPage.Controls.Add(addTeacherButton);
             AddteachertabPage.Controls.Add(label11);
-            AddteachertabPage.Controls.Add(panel8);
             AddteachertabPage.Controls.Add(nameTeachertextBox);
             AddteachertabPage.Controls.Add(label12);
             AddteachertabPage.Controls.Add(panel9);
@@ -460,9 +532,78 @@
             AddteachertabPage.Location = new Point(4, 4);
             AddteachertabPage.Name = "AddteachertabPage";
             AddteachertabPage.Padding = new Padding(3);
-            AddteachertabPage.Size = new Size(1030, 573);
+            AddteachertabPage.Size = new Size(1030, 570);
             AddteachertabPage.TabIndex = 1;
             AddteachertabPage.Text = "Add Teacher";
+            // 
+            // emailexistmessage2
+            // 
+            emailexistmessage2.AutoSize = true;
+            emailexistmessage2.Font = new Font("Century Gothic", 10.2F, FontStyle.Regular, GraphicsUnit.Point, 0);
+            emailexistmessage2.ForeColor = Color.FromArgb(192, 0, 0);
+            emailexistmessage2.Location = new Point(596, 443);
+            emailexistmessage2.Name = "emailexistmessage2";
+            emailexistmessage2.Size = new Size(262, 24);
+            emailexistmessage2.TabIndex = 52;
+            emailexistmessage2.Text = "This email is already exists";
+            // 
+            // emailTtextBox
+            // 
+            emailTtextBox.BorderStyle = BorderStyle.None;
+            emailTtextBox.Location = new Point(597, 405);
+            emailTtextBox.Name = "emailTtextBox";
+            emailTtextBox.Size = new Size(270, 27);
+            emailTtextBox.TabIndex = 51;
+            // 
+            // emailnotvalidmessage2
+            // 
+            emailnotvalidmessage2.AutoSize = true;
+            emailnotvalidmessage2.Font = new Font("Century Gothic", 10.2F, FontStyle.Regular, GraphicsUnit.Point, 0);
+            emailnotvalidmessage2.ForeColor = Color.FromArgb(192, 0, 0);
+            emailnotvalidmessage2.Location = new Point(597, 443);
+            emailnotvalidmessage2.Name = "emailnotvalidmessage2";
+            emailnotvalidmessage2.Size = new Size(274, 24);
+            emailnotvalidmessage2.TabIndex = 50;
+            emailnotvalidmessage2.Text = "please Enter a valid email";
+            // 
+            // panel14
+            // 
+            panel14.BackColor = Color.Goldenrod;
+            panel14.Location = new Point(595, 438);
+            panel14.Name = "panel14";
+            panel14.Size = new Size(270, 2);
+            panel14.TabIndex = 42;
+            // 
+            // label19
+            // 
+            label19.AutoSize = true;
+            label19.Font = new Font("Segoe UI", 12F, FontStyle.Bold, GraphicsUnit.Point, 0);
+            label19.ForeColor = Color.SlateGray;
+            label19.Location = new Point(595, 352);
+            label19.Name = "label19";
+            label19.Size = new Size(83, 32);
+            label19.TabIndex = 49;
+            label19.Text = "Email:";
+            // 
+            // TeacherClasslistBox
+            // 
+            TeacherClasslistBox.BorderStyle = BorderStyle.None;
+            TeacherClasslistBox.FormattingEnabled = true;
+            TeacherClasslistBox.ItemHeight = 28;
+            TeacherClasslistBox.Location = new Point(595, 206);
+            TeacherClasslistBox.Name = "TeacherClasslistBox";
+            TeacherClasslistBox.ScrollAlwaysVisible = true;
+            TeacherClasslistBox.SelectionMode = SelectionMode.MultiSimple;
+            TeacherClasslistBox.Size = new Size(282, 84);
+            TeacherClasslistBox.TabIndex = 48;
+            // 
+            // panel15
+            // 
+            panel15.BackColor = Color.Goldenrod;
+            panel15.Location = new Point(595, 298);
+            panel15.Name = "panel15";
+            panel15.Size = new Size(289, 2);
+            panel15.TabIndex = 44;
             // 
             // panel12
             // 
@@ -487,7 +628,7 @@
             passwordlabel2.AutoSize = true;
             passwordlabel2.Font = new Font("Century Gothic", 10.2F, FontStyle.Regular, GraphicsUnit.Point, 0);
             passwordlabel2.ForeColor = Color.FromArgb(192, 0, 0);
-            passwordlabel2.Location = new Point(93, 328);
+            passwordlabel2.Location = new Point(90, 331);
             passwordlabel2.Name = "passwordlabel2";
             passwordlabel2.Size = new Size(560, 24);
             passwordlabel2.TabIndex = 39;
@@ -515,7 +656,7 @@
             // pictureBoxErrorMessage5
             // 
             pictureBoxErrorMessage5.Image = (Image)resources.GetObject("pictureBoxErrorMessage5.Image");
-            pictureBoxErrorMessage5.Location = new Point(505, 185);
+            pictureBoxErrorMessage5.Location = new Point(571, 136);
             pictureBoxErrorMessage5.Name = "pictureBoxErrorMessage5";
             pictureBoxErrorMessage5.Size = new Size(25, 23);
             pictureBoxErrorMessage5.SizeMode = PictureBoxSizeMode.Zoom;
@@ -527,7 +668,7 @@
             labelErrorMessage5.AutoSize = true;
             labelErrorMessage5.Font = new Font("Century Gothic", 10.2F, FontStyle.Regular, GraphicsUnit.Point, 0);
             labelErrorMessage5.ForeColor = Color.FromArgb(192, 0, 0);
-            labelErrorMessage5.Location = new Point(533, 184);
+            labelErrorMessage5.Location = new Point(597, 138);
             labelErrorMessage5.Name = "labelErrorMessage5";
             labelErrorMessage5.Size = new Size(214, 24);
             labelErrorMessage5.TabIndex = 35;
@@ -536,7 +677,7 @@
             // pictureBoxErrorMessage6
             // 
             pictureBoxErrorMessage6.Image = (Image)resources.GetObject("pictureBoxErrorMessage6.Image");
-            pictureBoxErrorMessage6.Location = new Point(465, 185);
+            pictureBoxErrorMessage6.Location = new Point(571, 136);
             pictureBoxErrorMessage6.Name = "pictureBoxErrorMessage6";
             pictureBoxErrorMessage6.Size = new Size(25, 23);
             pictureBoxErrorMessage6.SizeMode = PictureBoxSizeMode.Zoom;
@@ -548,7 +689,7 @@
             labelErrorMessage6.AutoSize = true;
             labelErrorMessage6.Font = new Font("Century Gothic", 10.2F, FontStyle.Regular, GraphicsUnit.Point, 0);
             labelErrorMessage6.ForeColor = Color.FromArgb(192, 0, 0);
-            labelErrorMessage6.Location = new Point(495, 185);
+            labelErrorMessage6.Location = new Point(592, 141);
             labelErrorMessage6.Name = "labelErrorMessage6";
             labelErrorMessage6.Size = new Size(402, 24);
             labelErrorMessage6.TabIndex = 33;
@@ -557,7 +698,7 @@
             // IdTeachertextBox
             // 
             IdTeachertextBox.BorderStyle = BorderStyle.None;
-            IdTeachertextBox.Location = new Point(537, 140);
+            IdTeachertextBox.Location = new Point(600, 94);
             IdTeachertextBox.Name = "IdTeachertextBox";
             IdTeachertextBox.Size = new Size(270, 27);
             IdTeachertextBox.TabIndex = 32;
@@ -567,7 +708,7 @@
             label16.AutoSize = true;
             label16.Font = new Font("Segoe UI", 12F, FontStyle.Bold, GraphicsUnit.Point, 0);
             label16.ForeColor = Color.SlateGray;
-            label16.Location = new Point(537, 99);
+            label16.Location = new Point(597, 47);
             label16.Name = "label16";
             label16.Size = new Size(94, 32);
             label16.TabIndex = 31;
@@ -576,24 +717,15 @@
             // panel7
             // 
             panel7.BackColor = Color.Goldenrod;
-            panel7.Location = new Point(535, 170);
+            panel7.Location = new Point(597, 127);
             panel7.Name = "panel7";
             panel7.Size = new Size(270, 2);
             panel7.TabIndex = 30;
             // 
-            // classTeachercombBox
-            // 
-            classTeachercombBox.FlatStyle = FlatStyle.Flat;
-            classTeachercombBox.FormattingEnabled = true;
-            classTeachercombBox.Location = new Point(541, 268);
-            classTeachercombBox.Name = "classTeachercombBox";
-            classTeachercombBox.Size = new Size(275, 36);
-            classTeachercombBox.TabIndex = 27;
-            // 
             // pictureBoxErrorMessage7
             // 
             pictureBoxErrorMessage7.Image = (Image)resources.GetObject("pictureBoxErrorMessage7.Image");
-            pictureBoxErrorMessage7.Location = new Point(523, 328);
+            pictureBoxErrorMessage7.Location = new Point(565, 305);
             pictureBoxErrorMessage7.Name = "pictureBoxErrorMessage7";
             pictureBoxErrorMessage7.Size = new Size(25, 23);
             pictureBoxErrorMessage7.SizeMode = PictureBoxSizeMode.Zoom;
@@ -605,7 +737,7 @@
             labelErrorMessage7.AutoSize = true;
             labelErrorMessage7.Font = new Font("Century Gothic", 10.2F, FontStyle.Regular, GraphicsUnit.Point, 0);
             labelErrorMessage7.ForeColor = Color.FromArgb(192, 0, 0);
-            labelErrorMessage7.Location = new Point(551, 328);
+            labelErrorMessage7.Location = new Point(592, 305);
             labelErrorMessage7.Name = "labelErrorMessage7";
             labelErrorMessage7.Size = new Size(320, 24);
             labelErrorMessage7.TabIndex = 25;
@@ -661,19 +793,11 @@
             label11.AutoSize = true;
             label11.Font = new Font("Segoe UI", 12F, FontStyle.Bold, GraphicsUnit.Point, 0);
             label11.ForeColor = Color.SlateGray;
-            label11.Location = new Point(541, 235);
+            label11.Location = new Point(592, 171);
             label11.Name = "label11";
             label11.Size = new Size(102, 32);
             label11.TabIndex = 15;
             label11.Text = "Classes:";
-            // 
-            // panel8
-            // 
-            panel8.BackColor = Color.Goldenrod;
-            panel8.Location = new Point(545, 305);
-            panel8.Name = "panel8";
-            panel8.Size = new Size(270, 2);
-            panel8.TabIndex = 14;
             // 
             // nameTeachertextBox
             // 
@@ -901,7 +1025,6 @@
             StudentInClasslistBox.SelectionMode = SelectionMode.MultiSimple;
             StudentInClasslistBox.Size = new Size(270, 84);
             StudentInClasslistBox.TabIndex = 20;
-            StudentInClasslistBox.SelectedIndexChanged += StudentInClasslistBox_SelectedIndexChanged;
             // 
             // pictureBox3
             // 
@@ -1064,7 +1187,6 @@
         private Label label9;
         private Panel panel6;
         private Label label11;
-        private Panel panel8;
         private TextBox nameTeachertextBox;
         private Label label12;
         private Panel panel9;
@@ -1078,7 +1200,6 @@
         private PictureBox pictureBoxErrorMessage;
         private Panel panel4;
         private Label label7;
-        private ComboBox classcombBox;
         private PictureBox pictureBoxErrorMessage2;
         private Label labelErrorMessage2;
         private PictureBox pictureBoxErrorMessage1;
@@ -1089,7 +1210,6 @@
         private Label labelErrorMessage7;
         private PictureBox pictureBoxErrorMessage4;
         private Label labelErrorMessage4;
-        private ComboBox classTeachercombBox;
         private PictureBox pictureBoxErrorMessage5;
         private Label labelErrorMessage5;
         private PictureBox pictureBoxErrorMessage6;
@@ -1122,5 +1242,18 @@
         private Label passwordlabel2;
         private TextBox passwordtextBox2;
         private Label label14;
+        private ListBox classStudlistBox;
+        private Label label10;
+        private Label emailnotvaliderrormessage;
+        private Panel panel13;
+        private Label emailexisterrormessage;
+        private TextBox emailtextBox;
+        private Label emailexistmessage2;
+        private TextBox emailTtextBox;
+        private Label emailnotvalidmessage2;
+        private Panel panel14;
+        private Label label19;
+        private ListBox TeacherClasslistBox;
+        private Panel panel15;
     }
 }
