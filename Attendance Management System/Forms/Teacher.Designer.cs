@@ -57,20 +57,8 @@
             NameLabel = new Label();
             HelloLable = new Label();
             ViewPanel = new Panel();
-            classtabPage = new TabPage();
-            dataGridView3 = new DataGridView();
-            dataGridViewTextBoxColumn3 = new DataGridViewTextBoxColumn();
-            dataGridViewTextBoxColumn4 = new DataGridViewTextBoxColumn();
-            ClassSearch = new Button();
-            textBox3 = new TextBox();
-            textBox4 = new TextBox();
-            label5 = new Label();
-            panel2 = new Panel();
-            label6 = new Label();
-            panel3 = new Panel();
-            label4 = new Label();
-            StudenttabPage = new TabPage();
-            admindashboard2 = new admindashboard();
+            SearchPanel = new TabControl();
+            addStudenttabPage = new TabPage();
             dataGridView2 = new DataGridView();
             Column1 = new DataGridViewTextBoxColumn();
             Column2 = new DataGridViewTextBoxColumn();
@@ -79,13 +67,24 @@
             label7 = new Label();
             studentSearch = new Button();
             IdStudenttextBox = new TextBox();
-            nameStudenttextBox = new TextBox();
             label8 = new Label();
             panel5 = new Panel();
+            nameStudenttextBox = new TextBox();
             label9 = new Label();
             panel6 = new Panel();
             label2 = new Label();
-            SearchPanel = new TabControl();
+            classtabPage = new TabPage();
+            dataGridView3 = new DataGridView();
+            dataGridViewTextBoxColumn3 = new DataGridViewTextBoxColumn();
+            dataGridViewTextBoxColumn4 = new DataGridViewTextBoxColumn();
+            ClassSearch = new Button();
+            textBox3 = new TextBox();
+            label5 = new Label();
+            panel2 = new Panel();
+            textBox4 = new TextBox();
+            label6 = new Label();
+            panel3 = new Panel();
+            label4 = new Label();
             panel1.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)pictureBox1).BeginInit();
             flowLayoutPanel1.SuspendLayout();
@@ -95,11 +94,11 @@
             ((System.ComponentModel.ISupportInitialize)pictureBox3).BeginInit();
             ((System.ComponentModel.ISupportInitialize)mostAbStTable).BeginInit();
             ViewPanel.SuspendLayout();
+            SearchPanel.SuspendLayout();
+            addStudenttabPage.SuspendLayout();
+            ((System.ComponentModel.ISupportInitialize)dataGridView2).BeginInit();
             classtabPage.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)dataGridView3).BeginInit();
-            StudenttabPage.SuspendLayout();
-            ((System.ComponentModel.ISupportInitialize)dataGridView2).BeginInit();
-            SearchPanel.SuspendLayout();
             SuspendLayout();
             // 
             // panel1
@@ -327,122 +326,31 @@
             ViewPanel.Name = "ViewPanel";
             ViewPanel.Paint += ViewPanel_Paint;
             // 
-            // classtabPage
+            // SearchPanel
             // 
-            resources.ApplyResources(classtabPage, "classtabPage");
-            classtabPage.BackColor = Color.White;
-            classtabPage.Controls.Add(dataGridView3);
-            classtabPage.Controls.Add(ClassSearch);
-            classtabPage.Controls.Add(textBox3);
-            classtabPage.Controls.Add(textBox4);
-            classtabPage.Controls.Add(label5);
-            classtabPage.Controls.Add(panel2);
-            classtabPage.Controls.Add(label6);
-            classtabPage.Controls.Add(panel3);
-            classtabPage.Controls.Add(label4);
-            classtabPage.Name = "classtabPage";
+            resources.ApplyResources(SearchPanel, "SearchPanel");
+            SearchPanel.Controls.Add(addStudenttabPage);
+            SearchPanel.Controls.Add(classtabPage);
+            SearchPanel.Name = "SearchPanel";
+            SearchPanel.SelectedIndex = 0;
             // 
-            // dataGridView3
+            // addStudenttabPage
             // 
-            resources.ApplyResources(dataGridView3, "dataGridView3");
-            dataGridView3.AllowUserToAddRows = false;
-            dataGridView3.AllowUserToDeleteRows = false;
-            dataGridView3.AutoSizeColumnsMode = DataGridViewAutoSizeColumnsMode.Fill;
-            dataGridView3.BackgroundColor = Color.White;
-            dataGridView3.BorderStyle = BorderStyle.None;
-            dataGridView3.ColumnHeadersBorderStyle = DataGridViewHeaderBorderStyle.Single;
-            dataGridView3.ColumnHeadersHeightSizeMode = DataGridViewColumnHeadersHeightSizeMode.AutoSize;
-            dataGridView3.Columns.AddRange(new DataGridViewColumn[] { dataGridViewTextBoxColumn3, dataGridViewTextBoxColumn4 });
-            dataGridView3.Name = "dataGridView3";
-            dataGridView3.ReadOnly = true;
-            // 
-            // dataGridViewTextBoxColumn3
-            // 
-            resources.ApplyResources(dataGridViewTextBoxColumn3, "dataGridViewTextBoxColumn3");
-            dataGridViewTextBoxColumn3.Name = "dataGridViewTextBoxColumn3";
-            dataGridViewTextBoxColumn3.ReadOnly = true;
-            // 
-            // dataGridViewTextBoxColumn4
-            // 
-            resources.ApplyResources(dataGridViewTextBoxColumn4, "dataGridViewTextBoxColumn4");
-            dataGridViewTextBoxColumn4.Name = "dataGridViewTextBoxColumn4";
-            dataGridViewTextBoxColumn4.ReadOnly = true;
-            // 
-            // ClassSearch
-            // 
-            resources.ApplyResources(ClassSearch, "ClassSearch");
-            ClassSearch.BackColor = Color.DarkGreen;
-            ClassSearch.ForeColor = SystemColors.ButtonHighlight;
-            ClassSearch.Name = "ClassSearch";
-            ClassSearch.UseVisualStyleBackColor = false;
-            ClassSearch.Click += ClassSearch_Click;
-            // 
-            // textBox3
-            // 
-            resources.ApplyResources(textBox3, "textBox3");
-            textBox3.BorderStyle = BorderStyle.None;
-            textBox3.Name = "textBox3";
-            // 
-            // textBox4
-            // 
-            resources.ApplyResources(textBox4, "textBox4");
-            textBox4.BorderStyle = BorderStyle.None;
-            textBox4.Name = "textBox4";
-            // 
-            // label5
-            // 
-            resources.ApplyResources(label5, "label5");
-            label5.ForeColor = Color.SlateGray;
-            label5.Name = "label5";
-            // 
-            // panel2
-            // 
-            resources.ApplyResources(panel2, "panel2");
-            panel2.BackColor = Color.Goldenrod;
-            panel2.Name = "panel2";
-            // 
-            // label6
-            // 
-            resources.ApplyResources(label6, "label6");
-            label6.ForeColor = Color.SlateGray;
-            label6.Name = "label6";
-            // 
-            // panel3
-            // 
-            resources.ApplyResources(panel3, "panel3");
-            panel3.BackColor = Color.Goldenrod;
-            panel3.Name = "panel3";
-            // 
-            // label4
-            // 
-            resources.ApplyResources(label4, "label4");
-            label4.ForeColor = Color.Goldenrod;
-            label4.Name = "label4";
-            // 
-            // StudenttabPage
-            // 
-            resources.ApplyResources(StudenttabPage, "StudenttabPage");
-            StudenttabPage.BackColor = Color.White;
-            StudenttabPage.Controls.Add(admindashboard2);
-            StudenttabPage.Controls.Add(dataGridView2);
-            StudenttabPage.Controls.Add(classcombBox);
-            StudenttabPage.Controls.Add(panel4);
-            StudenttabPage.Controls.Add(label7);
-            StudenttabPage.Controls.Add(studentSearch);
-            StudenttabPage.Controls.Add(IdStudenttextBox);
-            StudenttabPage.Controls.Add(nameStudenttextBox);
-            StudenttabPage.Controls.Add(label8);
-            StudenttabPage.Controls.Add(panel5);
-            StudenttabPage.Controls.Add(label9);
-            StudenttabPage.Controls.Add(panel6);
-            StudenttabPage.Controls.Add(label2);
-            StudenttabPage.Name = "StudenttabPage";
-            // 
-            // admindashboard2
-            // 
-            resources.ApplyResources(admindashboard2, "admindashboard2");
-            admindashboard2.BackColor = SystemColors.ButtonHighlight;
-            admindashboard2.Name = "admindashboard2";
+            resources.ApplyResources(addStudenttabPage, "addStudenttabPage");
+            addStudenttabPage.BackColor = Color.White;
+            addStudenttabPage.Controls.Add(dataGridView2);
+            addStudenttabPage.Controls.Add(classcombBox);
+            addStudenttabPage.Controls.Add(panel4);
+            addStudenttabPage.Controls.Add(label7);
+            addStudenttabPage.Controls.Add(studentSearch);
+            addStudenttabPage.Controls.Add(IdStudenttextBox);
+            addStudenttabPage.Controls.Add(label8);
+            addStudenttabPage.Controls.Add(panel5);
+            addStudenttabPage.Controls.Add(nameStudenttextBox);
+            addStudenttabPage.Controls.Add(label9);
+            addStudenttabPage.Controls.Add(panel6);
+            addStudenttabPage.Controls.Add(label2);
+            addStudenttabPage.Name = "addStudenttabPage";
             // 
             // dataGridView2
             // 
@@ -495,19 +403,13 @@
             studentSearch.ForeColor = SystemColors.ButtonHighlight;
             studentSearch.Name = "studentSearch";
             studentSearch.UseVisualStyleBackColor = false;
-            studentSearch.Click += studentSearch_Click;
+            studentSearch.Click += studentSearch_Click_1;
             // 
             // IdStudenttextBox
             // 
             resources.ApplyResources(IdStudenttextBox, "IdStudenttextBox");
             IdStudenttextBox.BorderStyle = BorderStyle.None;
             IdStudenttextBox.Name = "IdStudenttextBox";
-            // 
-            // nameStudenttextBox
-            // 
-            resources.ApplyResources(nameStudenttextBox, "nameStudenttextBox");
-            nameStudenttextBox.BorderStyle = BorderStyle.None;
-            nameStudenttextBox.Name = "nameStudenttextBox";
             // 
             // label8
             // 
@@ -520,6 +422,12 @@
             resources.ApplyResources(panel5, "panel5");
             panel5.BackColor = Color.Goldenrod;
             panel5.Name = "panel5";
+            // 
+            // nameStudenttextBox
+            // 
+            resources.ApplyResources(nameStudenttextBox, "nameStudenttextBox");
+            nameStudenttextBox.BorderStyle = BorderStyle.None;
+            nameStudenttextBox.Name = "nameStudenttextBox";
             // 
             // label9
             // 
@@ -539,13 +447,97 @@
             label2.ForeColor = Color.Goldenrod;
             label2.Name = "label2";
             // 
-            // SearchPanel
+            // classtabPage
             // 
-            resources.ApplyResources(SearchPanel, "SearchPanel");
-            SearchPanel.Controls.Add(StudenttabPage);
-            SearchPanel.Controls.Add(classtabPage);
-            SearchPanel.Name = "SearchPanel";
-            SearchPanel.SelectedIndex = 0;
+            resources.ApplyResources(classtabPage, "classtabPage");
+            classtabPage.BackColor = Color.White;
+            classtabPage.Controls.Add(dataGridView3);
+            classtabPage.Controls.Add(ClassSearch);
+            classtabPage.Controls.Add(textBox3);
+            classtabPage.Controls.Add(label5);
+            classtabPage.Controls.Add(panel2);
+            classtabPage.Controls.Add(textBox4);
+            classtabPage.Controls.Add(label6);
+            classtabPage.Controls.Add(panel3);
+            classtabPage.Controls.Add(label4);
+            classtabPage.Name = "classtabPage";
+            // 
+            // dataGridView3
+            // 
+            resources.ApplyResources(dataGridView3, "dataGridView3");
+            dataGridView3.AllowUserToAddRows = false;
+            dataGridView3.AllowUserToDeleteRows = false;
+            dataGridView3.AutoSizeColumnsMode = DataGridViewAutoSizeColumnsMode.Fill;
+            dataGridView3.BackgroundColor = Color.White;
+            dataGridView3.BorderStyle = BorderStyle.None;
+            dataGridView3.ColumnHeadersBorderStyle = DataGridViewHeaderBorderStyle.Single;
+            dataGridView3.ColumnHeadersHeightSizeMode = DataGridViewColumnHeadersHeightSizeMode.AutoSize;
+            dataGridView3.Columns.AddRange(new DataGridViewColumn[] { dataGridViewTextBoxColumn3, dataGridViewTextBoxColumn4 });
+            dataGridView3.Name = "dataGridView3";
+            dataGridView3.ReadOnly = true;
+            // 
+            // dataGridViewTextBoxColumn3
+            // 
+            resources.ApplyResources(dataGridViewTextBoxColumn3, "dataGridViewTextBoxColumn3");
+            dataGridViewTextBoxColumn3.Name = "dataGridViewTextBoxColumn3";
+            dataGridViewTextBoxColumn3.ReadOnly = true;
+            // 
+            // dataGridViewTextBoxColumn4
+            // 
+            resources.ApplyResources(dataGridViewTextBoxColumn4, "dataGridViewTextBoxColumn4");
+            dataGridViewTextBoxColumn4.Name = "dataGridViewTextBoxColumn4";
+            dataGridViewTextBoxColumn4.ReadOnly = true;
+            // 
+            // ClassSearch
+            // 
+            resources.ApplyResources(ClassSearch, "ClassSearch");
+            ClassSearch.BackColor = Color.DarkGreen;
+            ClassSearch.ForeColor = SystemColors.ButtonHighlight;
+            ClassSearch.Name = "ClassSearch";
+            ClassSearch.UseVisualStyleBackColor = false;
+            ClassSearch.Click += ClassSearch_Click_1;
+            // 
+            // textBox3
+            // 
+            resources.ApplyResources(textBox3, "textBox3");
+            textBox3.BorderStyle = BorderStyle.None;
+            textBox3.Name = "textBox3";
+            // 
+            // label5
+            // 
+            resources.ApplyResources(label5, "label5");
+            label5.ForeColor = Color.SlateGray;
+            label5.Name = "label5";
+            // 
+            // panel2
+            // 
+            resources.ApplyResources(panel2, "panel2");
+            panel2.BackColor = Color.Goldenrod;
+            panel2.Name = "panel2";
+            // 
+            // textBox4
+            // 
+            resources.ApplyResources(textBox4, "textBox4");
+            textBox4.BorderStyle = BorderStyle.None;
+            textBox4.Name = "textBox4";
+            // 
+            // label6
+            // 
+            resources.ApplyResources(label6, "label6");
+            label6.ForeColor = Color.SlateGray;
+            label6.Name = "label6";
+            // 
+            // panel3
+            // 
+            resources.ApplyResources(panel3, "panel3");
+            panel3.BackColor = Color.Goldenrod;
+            panel3.Name = "panel3";
+            // 
+            // label4
+            // 
+            resources.ApplyResources(label4, "label4");
+            label4.ForeColor = Color.Goldenrod;
+            label4.Name = "label4";
             // 
             // Teacher
             // 
@@ -574,13 +566,13 @@
             ((System.ComponentModel.ISupportInitialize)pictureBox3).EndInit();
             ((System.ComponentModel.ISupportInitialize)mostAbStTable).EndInit();
             ViewPanel.ResumeLayout(false);
+            SearchPanel.ResumeLayout(false);
+            addStudenttabPage.ResumeLayout(false);
+            addStudenttabPage.PerformLayout();
+            ((System.ComponentModel.ISupportInitialize)dataGridView2).EndInit();
             classtabPage.ResumeLayout(false);
             classtabPage.PerformLayout();
             ((System.ComponentModel.ISupportInitialize)dataGridView3).EndInit();
-            StudenttabPage.ResumeLayout(false);
-            StudenttabPage.PerformLayout();
-            ((System.ComponentModel.ISupportInitialize)dataGridView2).EndInit();
-            SearchPanel.ResumeLayout(false);
             ResumeLayout(false);
             PerformLayout();
         }
@@ -616,20 +608,8 @@
         private Button TakeAttendanceButton;
         private Label HelloLable;
         private Panel ViewPanel;
-        private TabPage classtabPage;
-        private DataGridView dataGridView3;
-        private DataGridViewTextBoxColumn dataGridViewTextBoxColumn3;
-        private DataGridViewTextBoxColumn dataGridViewTextBoxColumn4;
-        private Button ClassSearch;
-        private TextBox textBox3;
-        private TextBox textBox4;
-        private Label label5;
-        private Panel panel2;
-        private Label label6;
-        private Panel panel3;
-        private Label label4;
-        private TabPage StudenttabPage;
-        private admindashboard admindashboard2;
+        private TabControl SearchPanel;
+        private TabPage addStudenttabPage;
         private DataGridView dataGridView2;
         private DataGridViewTextBoxColumn Column1;
         private DataGridViewTextBoxColumn Column2;
@@ -638,12 +618,23 @@
         private Label label7;
         private Button studentSearch;
         private TextBox IdStudenttextBox;
-        private TextBox nameStudenttextBox;
         private Label label8;
         private Panel panel5;
+        private TextBox nameStudenttextBox;
         private Label label9;
         private Panel panel6;
         private Label label2;
-        private TabControl SearchPanel;
+        private TabPage classtabPage;
+        private DataGridView dataGridView3;
+        private DataGridViewTextBoxColumn dataGridViewTextBoxColumn3;
+        private DataGridViewTextBoxColumn dataGridViewTextBoxColumn4;
+        private Button ClassSearch;
+        private TextBox textBox3;
+        private Label label5;
+        private Panel panel2;
+        private TextBox textBox4;
+        private Label label6;
+        private Panel panel3;
+        private Label label4;
     }
 }

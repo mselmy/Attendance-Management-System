@@ -144,7 +144,7 @@ namespace Attendance_Management_System
             SearchPanel.Visible = false;
         }
 
-        private void studentSearch_Click(object sender, EventArgs e)
+        private void studentSearch_Click_1(object sender, EventArgs e)
         {
             dataGridView2.Rows.Clear();
 
@@ -164,7 +164,7 @@ namespace Attendance_Management_System
             }
         }
 
-        private void ClassSearch_Click(object sender, EventArgs e)
+        private void ClassSearch_Click_1(object sender, EventArgs e)
         {
             dataGridView3.Rows.Clear();
 

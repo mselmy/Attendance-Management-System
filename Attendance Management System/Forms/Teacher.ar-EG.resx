@@ -121,36 +121,17 @@
   <data name="TakeAttendanceButton.Location" type="System.Drawing.Point, System.Drawing">
     <value>0, 366</value>
   </data>
-  <assembly alias="System.Windows.Forms" name="System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" />
-  <data name="TakeAttendanceButton.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
-    <value>8, 8, 8, 8</value>
-  </data>
-  <data name="TakeAttendanceButton.Size" type="System.Drawing.Size, System.Drawing">
-    <value>644, 178</value>
-  </data>
   <data name="TakeAttendanceButton.Text" xml:space="preserve">
     <value>رصد الغياب</value>
   </data>
   <data name="SettingButton.Location" type="System.Drawing.Point, System.Drawing">
     <value>0, 1434</value>
   </data>
-  <data name="SettingButton.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
-    <value>8, 8, 8, 8</value>
-  </data>
-  <data name="SettingButton.Size" type="System.Drawing.Size, System.Drawing">
-    <value>644, 178</value>
-  </data>
   <data name="SettingButton.Text" xml:space="preserve">
     <value>إعدادات</value>
   </data>
   <data name="EditPasswordButton.Location" type="System.Drawing.Point, System.Drawing">
     <value>0, 1256</value>
-  </data>
-  <data name="EditPasswordButton.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
-    <value>8, 8, 8, 8</value>
-  </data>
-  <data name="EditPasswordButton.Size" type="System.Drawing.Size, System.Drawing">
-    <value>644, 178</value>
   </data>
   <data name="EditPasswordButton.Text" xml:space="preserve">
     <value>تعديل كلمة السر</value>
@@ -596,23 +577,8 @@
         x+Q4v5wojCDInznqqP8HjoRfl/LgkogAAAAASUVORK5CYII=
 </value>
   </data>
-  <data name="pictureBox1.Location" type="System.Drawing.Point, System.Drawing">
-    <value>0, 58</value>
-  </data>
-  <data name="pictureBox1.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
-    <value>8, 8, 8, 8</value>
-  </data>
-  <data name="pictureBox1.Size" type="System.Drawing.Size, System.Drawing">
-    <value>644, 292</value>
-  </data>
   <data name="loadButton.Location" type="System.Drawing.Point, System.Drawing">
     <value>0, 1078</value>
-  </data>
-  <data name="loadButton.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
-    <value>8, 8, 8, 8</value>
-  </data>
-  <data name="loadButton.Size" type="System.Drawing.Size, System.Drawing">
-    <value>644, 178</value>
   </data>
   <data name="loadButton.Text" xml:space="preserve">
     <value>تحميل</value>
@@ -620,23 +586,11 @@
   <data name="attendenceReportButton.Location" type="System.Drawing.Point, System.Drawing">
     <value>0, 544</value>
   </data>
-  <data name="attendenceReportButton.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
-    <value>8, 8, 8, 8</value>
-  </data>
-  <data name="attendenceReportButton.Size" type="System.Drawing.Size, System.Drawing">
-    <value>644, 178</value>
-  </data>
   <data name="attendenceReportButton.Text" xml:space="preserve">
     <value>تقرير الغياب</value>
   </data>
   <data name="saveButton.Location" type="System.Drawing.Point, System.Drawing">
     <value>0, 900</value>
-  </data>
-  <data name="saveButton.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
-    <value>8, 8, 8, 8</value>
-  </data>
-  <data name="saveButton.Size" type="System.Drawing.Size, System.Drawing">
-    <value>644, 178</value>
   </data>
   <data name="saveButton.Text" xml:space="preserve">
     <value>حفظ</value>
@@ -644,23 +598,11 @@
   <data name="searchButton.Location" type="System.Drawing.Point, System.Drawing">
     <value>0, 722</value>
   </data>
-  <data name="searchButton.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
-    <value>8, 8, 8, 8</value>
-  </data>
-  <data name="searchButton.Size" type="System.Drawing.Size, System.Drawing">
-    <value>644, 178</value>
-  </data>
   <data name="searchButton.Text" xml:space="preserve">
     <value>بحث</value>
   </data>
   <data name="logoutButton.Location" type="System.Drawing.Point, System.Drawing">
     <value>0, 1790</value>
-  </data>
-  <data name="logoutButton.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
-    <value>8, 8, 8, 8</value>
-  </data>
-  <data name="logoutButton.Size" type="System.Drawing.Size, System.Drawing">
-    <value>644, 178</value>
   </data>
   <data name="logoutButton.Text" xml:space="preserve">
     <value>تسجيل الخروج</value>
@@ -668,23 +610,8 @@
   <data name="ExitButton.Location" type="System.Drawing.Point, System.Drawing">
     <value>0, 1612</value>
   </data>
-  <data name="ExitButton.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
-    <value>8, 8, 8, 8</value>
-  </data>
-  <data name="ExitButton.Size" type="System.Drawing.Size, System.Drawing">
-    <value>644, 178</value>
-  </data>
   <data name="ExitButton.Text" xml:space="preserve">
     <value>خروج</value>
-  </data>
-  <data name="panel1.Location" type="System.Drawing.Point, System.Drawing">
-    <value>0, -32</value>
-  </data>
-  <data name="panel1.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
-    <value>8, 8, 8, 8</value>
-  </data>
-  <data name="panel1.Size" type="System.Drawing.Size, System.Drawing">
-    <value>644, 2558</value>
   </data>
   <data name="pictureBox5.Image" type="System.Drawing.Bitmap, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
     <value>
@@ -1190,15 +1117,6 @@
         POG8o0EVIFG4+bPmqxpJmJWiYWFhYQmBcs45/x9wEXZSUPj3uAAAAABJRU5ErkJggg==
 </value>
   </data>
-  <data name="pictureBox5.Location" type="System.Drawing.Point, System.Drawing">
-    <value>1318, 274</value>
-  </data>
-  <data name="pictureBox5.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
-    <value>6, 6, 6, 6</value>
-  </data>
-  <data name="pictureBox5.Size" type="System.Drawing.Size, System.Drawing">
-    <value>174, 184</value>
-  </data>
   <data name="pictureBox4.Image" type="System.Drawing.Bitmap, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
     <value>
         iVBORw0KGgoAAAANSUhEUgAAAgAAAAIACAYAAAD0eNT6AAAABGdBTUEAALGPC/xhBQAAAAlwSFlzAAAN
@@ -1696,15 +1614,6 @@
         yQ/q//1/CD5+7N5LLYUAAAAASUVORK5CYII=
 </value>
   </data>
-  <data name="pictureBox4.Location" type="System.Drawing.Point, System.Drawing">
-    <value>2286, 274</value>
-  </data>
-  <data name="pictureBox4.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
-    <value>6, 6, 6, 6</value>
-  </data>
-  <data name="pictureBox4.Size" type="System.Drawing.Size, System.Drawing">
-    <value>160, 184</value>
-  </data>
   <data name="pictureBox3.Image" type="System.Drawing.Bitmap, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
     <value>
         iVBORw0KGgoAAAANSUhEUgAAAgAAAAIACAYAAAD0eNT6AAAABGdBTUEAALGPC/xhBQAAAAlwSFlzAAAN
@@ -2120,63 +2029,6 @@
         BFr+RcZdnNsAAAAASUVORK5CYII=
 </value>
   </data>
-  <data name="pictureBox3.Location" type="System.Drawing.Point, System.Drawing">
-    <value>336, 274</value>
-  </data>
-  <data name="pictureBox3.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
-    <value>6, 6, 6, 6</value>
-  </data>
-  <data name="pictureBox3.Size" type="System.Drawing.Size, System.Drawing">
-    <value>180, 184</value>
-  </data>
-  <data name="mostAbStTable.Location" type="System.Drawing.Point, System.Drawing">
-    <value>300, 902</value>
-  </data>
-  <data name="mostAbStTable.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
-    <value>6, 6, 6, 6</value>
-  </data>
-  <data name="mostAbStTable.Size" type="System.Drawing.Size, System.Drawing">
-    <value>2532, 468</value>
-  </data>
-  <data name="flowLayoutPanel2.Location" type="System.Drawing.Point, System.Drawing">
-    <value>0, 832</value>
-  </data>
-  <data name="flowLayoutPanel2.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
-    <value>8, 8, 8, 8</value>
-  </data>
-  <data name="flowLayoutPanel2.Size" type="System.Drawing.Size, System.Drawing">
-    <value>3976, 20</value>
-  </data>
-  <data name="label1.Location" type="System.Drawing.Point, System.Drawing">
-    <value>10, 734</value>
-  </data>
-  <data name="label1.Size" type="System.Drawing.Size, System.Drawing">
-    <value>395, 72</value>
-  </data>
-  <data name="adminDashboard.Location" type="System.Drawing.Point, System.Drawing">
-    <value>6, 6</value>
-  </data>
-  <data name="adminDashboard.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
-    <value>6, 6, 6, 6</value>
-  </data>
-  <data name="adminDashboard.Padding" type="System.Windows.Forms.Padding, System.Windows.Forms">
-    <value>6, 6, 6, 6</value>
-  </data>
-  <data name="adminDashboard.Size" type="System.Drawing.Size, System.Drawing">
-    <value>3202, 1946</value>
-  </data>
-  <data name="flowLayoutPanel1.Location" type="System.Drawing.Point, System.Drawing">
-    <value>644, 130</value>
-  </data>
-  <data name="flowLayoutPanel1.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
-    <value>8, 8, 8, 8</value>
-  </data>
-  <data name="flowLayoutPanel1.Size" type="System.Drawing.Size, System.Drawing">
-    <value>3976, 20</value>
-  </data>
-  <data name="title1label.Location" type="System.Drawing.Point, System.Drawing">
-    <value>644, 10</value>
-  </data>
   <data name="title1label.Size" type="System.Drawing.Size, System.Drawing">
     <value>271, 99</value>
   </data>
@@ -2192,337 +2044,17 @@
   <data name="title2label.Text" xml:space="preserve">
     <value>نظام رصد</value>
   </data>
-  <data name="NameLabel.Location" type="System.Drawing.Point, System.Drawing">
-    <value>2562, 18</value>
-  </data>
-  <data name="NameLabel.Size" type="System.Drawing.Size, System.Drawing">
-    <value>245, 89</value>
-  </data>
-  <data name="HelloLable.Location" type="System.Drawing.Point, System.Drawing">
-    <value>2352, 18</value>
-  </data>
   <data name="HelloLable.Size" type="System.Drawing.Size, System.Drawing">
     <value>183, 89</value>
   </data>
   <data name="HelloLable.Text" xml:space="preserve">
     <value>مرحبا</value>
   </data>
-  <assembly alias="System.Windows.Forms" name="System.Windows.Forms, Culture=neutral, PublicKeyToken=b77a5c561934e089" />
-  <data name="SearchPanel.Alignment" type="System.Windows.Forms.TabAlignment, System.Windows.Forms">
-    <value>Bottom</value>
-  </data>
-  <data name="SearchPanel.Anchor" type="System.Windows.Forms.AnchorStyles, System.Windows.Forms">
-    <value>None</value>
-  </data>
-  <data name="admindashboard2.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
-    <value>4, 4, 4, 4</value>
-  </data>
-  <data name="admindashboard2.Size" type="System.Drawing.Size, System.Drawing">
-    <value>5950, 3885</value>
-  </data>
-  <assembly alias="mscorlib" name="mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" />
-  <data name="Column1.MinimumWidth" type="System.Int32, mscorlib">
-    <value>6</value>
-  </data>
-  <data name="Column2.MinimumWidth" type="System.Int32, mscorlib">
-    <value>6</value>
-  </data>
-  <data name="dataGridView2.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
-    <value>6, 6, 6, 6</value>
-  </data>
-  <data name="dataGridView2.Size" type="System.Drawing.Size, System.Drawing">
-    <value>2125, 1230</value>
-  </data>
-  <data name="classcombBox.FlatStyle" type="System.Windows.Forms.FlatStyle, System.Windows.Forms">
-    <value>Flat</value>
-  </data>
-  <data name="classcombBox.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
-    <value>6, 6, 6, 6</value>
-  </data>
-  <data name="classcombBox.Size" type="System.Drawing.Size, System.Drawing">
-    <value>580, 58</value>
-  </data>
-  <data name="panel4.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
-    <value>6, 6, 6, 6</value>
-  </data>
-  <data name="panel4.Size" type="System.Drawing.Size, System.Drawing">
-    <value>574, 4</value>
-  </data>
-  <data name="label7.AutoSize" type="System.Boolean, mscorlib">
-    <value>True</value>
-  </data>
-  <data name="label7.Font" type="System.Drawing.Font, System.Drawing">
-    <value>Segoe UI, 12pt, style=Bold</value>
-  </data>
-  <data name="label7.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
-    <value>NoControl</value>
-  </data>
-  <data name="label7.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
-    <value>6, 0, 6, 0</value>
-  </data>
-  <data name="label7.Size" type="System.Drawing.Size, System.Drawing">
-    <value>128, 54</value>
-  </data>
-  <data name="label7.Text" xml:space="preserve">
-    <value>Class:</value>
-  </data>
-  <data name="studentSearch.FlatStyle" type="System.Windows.Forms.FlatStyle, System.Windows.Forms">
-    <value>Flat</value>
-  </data>
-  <data name="studentSearch.Font" type="System.Drawing.Font, System.Drawing">
-    <value>Segoe UI, 12pt, style=Bold</value>
-  </data>
-  <data name="studentSearch.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
-    <value>NoControl</value>
-  </data>
-  <data name="studentSearch.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
-    <value>6, 6, 6, 6</value>
-  </data>
-  <data name="studentSearch.Size" type="System.Drawing.Size, System.Drawing">
-    <value>251, 103</value>
-  </data>
-  <data name="studentSearch.Text" xml:space="preserve">
-    <value>Search</value>
-  </data>
-  <data name="IdStudenttextBox.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
-    <value>6, 6, 6, 6</value>
-  </data>
-  <data name="IdStudenttextBox.Size" type="System.Drawing.Size, System.Drawing">
-    <value>574, 49</value>
-  </data>
-  <data name="nameStudenttextBox.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
-    <value>6, 6, 6, 6</value>
-  </data>
-  <data name="nameStudenttextBox.Size" type="System.Drawing.Size, System.Drawing">
-    <value>574, 49</value>
-  </data>
-  <data name="label8.AutoSize" type="System.Boolean, mscorlib">
-    <value>True</value>
-  </data>
-  <data name="label8.Font" type="System.Drawing.Font, System.Drawing">
-    <value>Segoe UI, 12pt, style=Bold</value>
-  </data>
-  <data name="label8.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
-    <value>NoControl</value>
-  </data>
-  <data name="label8.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
-    <value>6, 0, 6, 0</value>
-  </data>
-  <data name="label8.Size" type="System.Drawing.Size, System.Drawing">
-    <value>155, 54</value>
-  </data>
-  <data name="label8.Text" xml:space="preserve">
-    <value>Reg.Id:</value>
-  </data>
-  <data name="panel5.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
-    <value>6, 6, 6, 6</value>
-  </data>
-  <data name="panel5.Size" type="System.Drawing.Size, System.Drawing">
-    <value>574, 4</value>
-  </data>
-  <data name="label9.AutoSize" type="System.Boolean, mscorlib">
-    <value>True</value>
-  </data>
-  <data name="label9.Font" type="System.Drawing.Font, System.Drawing">
-    <value>Segoe UI, 12pt, style=Bold</value>
-  </data>
-  <data name="label9.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
-    <value>NoControl</value>
-  </data>
-  <data name="label9.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
-    <value>6, 0, 6, 0</value>
-  </data>
-  <data name="label9.Size" type="System.Drawing.Size, System.Drawing">
-    <value>147, 54</value>
-  </data>
-  <data name="label9.Text" xml:space="preserve">
-    <value>Name:</value>
-  </data>
-  <data name="panel6.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
-    <value>6, 6, 6, 6</value>
-  </data>
-  <data name="panel6.Size" type="System.Drawing.Size, System.Drawing">
-    <value>574, 4</value>
-  </data>
-  <data name="label2.AutoSize" type="System.Boolean, mscorlib">
-    <value>True</value>
-  </data>
-  <data name="label2.Font" type="System.Drawing.Font, System.Drawing">
-    <value>Segoe UI, 12pt, style=Bold</value>
-  </data>
-  <data name="label2.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
-    <value>NoControl</value>
-  </data>
-  <data name="label2.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
-    <value>6, 0, 6, 0</value>
-  </data>
-  <data name="label2.Size" type="System.Drawing.Size, System.Drawing">
-    <value>307, 54</value>
-  </data>
-  <data name="label2.Text" xml:space="preserve">
-    <value>Search Student</value>
-  </data>
-  <data name="StudenttabPage.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
-    <value>6, 6, 6, 6</value>
-  </data>
-  <data name="StudenttabPage.Padding" type="System.Windows.Forms.Padding, System.Windows.Forms">
-    <value>6, 6, 6, 6</value>
-  </data>
-  <data name="StudenttabPage.Size" type="System.Drawing.Size, System.Drawing">
-    <value>2566, 1647</value>
-  </data>
-  <data name="StudenttabPage.Text" xml:space="preserve">
-    <value> Students</value>
-  </data>
-  <data name="dataGridViewTextBoxColumn3.MinimumWidth" type="System.Int32, mscorlib">
-    <value>6</value>
-  </data>
-  <data name="dataGridViewTextBoxColumn4.MinimumWidth" type="System.Int32, mscorlib">
-    <value>6</value>
-  </data>
-  <data name="dataGridView3.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
-    <value>6, 6, 6, 6</value>
-  </data>
-  <data name="dataGridView3.Size" type="System.Drawing.Size, System.Drawing">
-    <value>2125, 1074</value>
-  </data>
-  <data name="ClassSearch.FlatStyle" type="System.Windows.Forms.FlatStyle, System.Windows.Forms">
-    <value>Flat</value>
-  </data>
-  <data name="ClassSearch.Font" type="System.Drawing.Font, System.Drawing">
-    <value>Segoe UI, 12pt, style=Bold</value>
-  </data>
-  <data name="ClassSearch.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
-    <value>NoControl</value>
-  </data>
-  <data name="ClassSearch.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
-    <value>6, 6, 6, 6</value>
-  </data>
-  <data name="ClassSearch.Size" type="System.Drawing.Size, System.Drawing">
-    <value>251, 103</value>
-  </data>
-  <data name="ClassSearch.Text" xml:space="preserve">
-    <value>Search</value>
-  </data>
-  <data name="textBox3.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
-    <value>6, 6, 6, 6</value>
-  </data>
-  <data name="textBox3.Size" type="System.Drawing.Size, System.Drawing">
-    <value>574, 49</value>
-  </data>
-  <data name="textBox4.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
-    <value>6, 6, 6, 6</value>
-  </data>
-  <data name="textBox4.Size" type="System.Drawing.Size, System.Drawing">
-    <value>574, 49</value>
-  </data>
-  <data name="label5.AutoSize" type="System.Boolean, mscorlib">
-    <value>True</value>
-  </data>
-  <data name="label5.Font" type="System.Drawing.Font, System.Drawing">
-    <value>Segoe UI, 12pt, style=Bold</value>
-  </data>
-  <data name="label5.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
-    <value>NoControl</value>
-  </data>
-  <data name="label5.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
-    <value>6, 0, 6, 0</value>
-  </data>
-  <data name="label5.Size" type="System.Drawing.Size, System.Drawing">
-    <value>155, 54</value>
-  </data>
-  <data name="label5.Text" xml:space="preserve">
-    <value>Reg.Id:</value>
-  </data>
-  <data name="panel2.Location" type="System.Drawing.Point, System.Drawing">
-    <value>115, 409</value>
-  </data>
-  <data name="panel2.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
-    <value>6, 6, 6, 6</value>
-  </data>
-  <data name="panel2.Size" type="System.Drawing.Size, System.Drawing">
-    <value>574, 4</value>
-  </data>
-  <data name="panel2.TabIndex" type="System.Int32, mscorlib">
-    <value>43</value>
-  </data>
-  <data name="label6.AutoSize" type="System.Boolean, mscorlib">
-    <value>True</value>
-  </data>
-  <data name="label6.Font" type="System.Drawing.Font, System.Drawing">
-    <value>Segoe UI, 12pt, style=Bold</value>
-  </data>
-  <data name="label6.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
-    <value>NoControl</value>
-  </data>
-  <data name="label6.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
-    <value>6, 0, 6, 0</value>
-  </data>
-  <data name="label6.Size" type="System.Drawing.Size, System.Drawing">
-    <value>147, 54</value>
-  </data>
-  <data name="label6.Text" xml:space="preserve">
-    <value>Name:</value>
-  </data>
-  <data name="panel3.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
-    <value>6, 6, 6, 6</value>
-  </data>
-  <data name="panel3.Size" type="System.Drawing.Size, System.Drawing">
-    <value>574, 4</value>
-  </data>
-  <data name="label4.AutoSize" type="System.Boolean, mscorlib">
-    <value>True</value>
-  </data>
-  <data name="label4.Font" type="System.Drawing.Font, System.Drawing">
-    <value>Segoe UI, 12pt, style=Bold</value>
-  </data>
-  <data name="label4.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
-    <value>NoControl</value>
-  </data>
-  <data name="label4.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
-    <value>6, 0, 6, 0</value>
-  </data>
-  <data name="label4.Size" type="System.Drawing.Size, System.Drawing">
-    <value>293, 54</value>
-  </data>
-  <data name="label4.Text" xml:space="preserve">
-    <value>Search Classes</value>
-  </data>
-  <data name="classtabPage.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
-    <value>6, 6, 6, 6</value>
-  </data>
-  <data name="classtabPage.Padding" type="System.Windows.Forms.Padding, System.Windows.Forms">
-    <value>6, 6, 6, 6</value>
-  </data>
-  <data name="classtabPage.Size" type="System.Drawing.Size, System.Drawing">
-    <value>2566, 1647</value>
-  </data>
-  <data name="classtabPage.Text" xml:space="preserve">
-    <value>Classes</value>
-  </data>
   <data name="SearchPanel.Location" type="System.Drawing.Point, System.Drawing">
-    <value>89, 76</value>
-  </data>
-  <data name="SearchPanel.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
-    <value>6, 6, 6, 6</value>
-  </data>
-  <data name="SearchPanel.Size" type="System.Drawing.Size, System.Drawing">
-    <value>2586, 1724</value>
-  </data>
-  <data name="ViewPanel.Location" type="System.Drawing.Point, System.Drawing">
-    <value>732, 224</value>
-  </data>
-  <data name="ViewPanel.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
-    <value>6, 6, 6, 6</value>
+    <value>57, 76</value>
   </data>
   <data name="ViewPanel.Size" type="System.Drawing.Size, System.Drawing">
     <value>3004, 1800</value>
-  </data>
-  <data name="$this.AutoScaleDimensions" type="System.Drawing.SizeF, System.Drawing">
-    <value>22, 50</value>
-  </data>
-  <data name="$this.ClientSize" type="System.Drawing.Size, System.Drawing">
-    <value>3844, 2100</value>
   </data>
   <data name="$this.Icon" type="System.Drawing.Icon, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
     <value>
@@ -3264,8 +2796,5 @@
         uI9QY3LkGK6YxF1pkdW0tvbj3ELgJuBKoJbDW3GLAQGkar8bWIdc41+HrPzTp61xICO5QC4ZegE7svPn
         HAFyjCZM5DJaK1LV7i8K0rbm4fD6joEUAhGkZT8xVc+Y/wePplJ617hHugAAAABJRU5ErkJggg==
 </value>
-  </data>
-  <data name="$this.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
-    <value>10, 10, 10, 10</value>
   </data>
 </root>
