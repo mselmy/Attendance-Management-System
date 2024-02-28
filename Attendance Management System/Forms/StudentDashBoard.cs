@@ -114,7 +114,7 @@ namespace Attendance_Management_System.Forms
         {
             dataGridView2.Rows.Clear();
 
-            var AttendanceRecordList = StudentXMLManagement.GetStudentAttendanceRecords();
+            var AttendanceRecordList = DataXMLManagement.GetStudentAttendanceRecords();
 
             foreach (var AttendanceRecord in AttendanceRecordList)
             {
@@ -131,7 +131,7 @@ namespace Attendance_Management_System.Forms
         {
             dataGridView2.Rows.Clear();
 
-            var AttendanceRecordList = StudentXMLManagement.GetStudentAttendanceRecords();
+            var AttendanceRecordList = DataXMLManagement.GetStudentAttendanceRecords();
 
             foreach (var AttendanceRecord in AttendanceRecordList)
             {
@@ -150,7 +150,7 @@ namespace Attendance_Management_System.Forms
         {
             dataGridView2.Rows.Clear();
 
-            var AttendanceRecordList = StudentXMLManagement.GetStudentAttendanceRecords();
+            var AttendanceRecordList = DataXMLManagement.GetStudentAttendanceRecords();
 
             foreach (var AttendanceRecord in AttendanceRecordList)
             {
