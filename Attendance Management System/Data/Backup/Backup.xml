@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="UTF-8"?>
+﻿<?xml version="1.0" encoding="UTF-8"?>
 <school xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="C:\Users\engmo\Desktop\Final\Attendance-Management-System\Attendance Management System\Data\Data-Schema.xsd">
   <attendance-records>
     <attendance-record>
@@ -380,7 +380,7 @@
   </session>
   <configs>
     <language>AR</language>
-    <dateFormats>Long</dateFormats>
+    <dateFormats>dd-MM-YYYY</dateFormats>
     <coolDown>false</coolDown>
     <coolDownStartDate>0</coolDownStartDate>
   </configs>
