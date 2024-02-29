@@ -118,398 +118,154 @@
     <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </resheader>
   <assembly alias="System.Drawing" name="System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" />
-  <data name="labelDate.Size" type="System.Drawing.Size, System.Drawing">
-    <value>86, 29</value>
-  </data>
-  <data name="&gt;&gt;comboBox1.ZOrder" xml:space="preserve">
-    <value>7</value>
-  </data>
-  <assembly alias="mscorlib" name="mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" />
-  <data name="panelside.TabIndex" type="System.Int32, mscorlib">
-    <value>0</value>
-  </data>
-  <data name="labelsearchclass.Text" xml:space="preserve">
-    <value>Class </value>
-  </data>
-  <data name="&gt;&gt;label5.Name" xml:space="preserve">
-    <value>label5</value>
-  </data>
-  <data name="button1.Location" type="System.Drawing.Point, System.Drawing">
-    <value>0, 0</value>
-  </data>
-  <data name="panel3.Size" type="System.Drawing.Size, System.Drawing">
-    <value>250, 125</value>
-  </data>
-  <data name="label4.Text" xml:space="preserve">
-    <value>Welcome:</value>
-  </data>
-  <data name="label11.Location" type="System.Drawing.Point, System.Drawing">
-    <value>445, 134</value>
-  </data>
-  <data name="&gt;&gt;label3.Type" xml:space="preserve">
-    <value>System.Windows.Forms.Label, System.Windows.Forms, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
-  </data>
-  <data name="&gt;&gt;label4.Parent" xml:space="preserve">
-    <value>panel5</value>
-  </data>
-  <data name="&gt;&gt;button2.Type" xml:space="preserve">
-    <value>System.Windows.Forms.Button, System.Windows.Forms, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
-  </data>
-  <data name="&gt;&gt;panel1.Type" xml:space="preserve">
-    <value>System.Windows.Forms.Panel, System.Windows.Forms, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
-  </data>
-  <data name="&gt;&gt;button4.Type" xml:space="preserve">
-    <value>System.Windows.Forms.Button, System.Windows.Forms, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
-  </data>
-  <data name="dateTimePicker1.Size" type="System.Drawing.Size, System.Drawing">
-    <value>178, 32</value>
-  </data>
-  <data name="&gt;&gt;button1.Parent" xml:space="preserve">
-    <value>panelside</value>
-  </data>
-  <data name="label2.Font" type="System.Drawing.Font, System.Drawing">
-    <value>Microsoft Sans Serif, 15pt, style=Bold</value>
-  </data>
-  <data name="&gt;&gt;labelsearchclass.Type" xml:space="preserve">
-    <value>System.Windows.Forms.Label, System.Windows.Forms, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
-  </data>
-  <data name="&gt;&gt;label3.Name" xml:space="preserve">
-    <value>label3</value>
-  </data>
-  <data name="&gt;&gt;labelDate.ZOrder" xml:space="preserve">
-    <value>15</value>
-  </data>
-  <assembly alias="System.Windows.Forms" name="System.Windows.Forms, Culture=neutral, PublicKeyToken=b77a5c561934e089" />
-  <data name="button3.Dock" type="System.Windows.Forms.DockStyle, System.Windows.Forms">
-    <value>Top</value>
-  </data>
-  <data name="$this.AutoScaleDimensions" type="System.Drawing.SizeF, System.Drawing">
-    <value>13, 25</value>
-  </data>
-  <data name="&gt;&gt;labelDate.Parent" xml:space="preserve">
-    <value>$this</value>
-  </data>
-  <data name="&gt;&gt;Column5.Type" xml:space="preserve">
-    <value>System.Windows.Forms.DataGridViewTextBoxColumn, System.Windows.Forms, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
-  </data>
-  <data name="&gt;&gt;pictureBox1.Type" xml:space="preserve">
-    <value>System.Windows.Forms.PictureBox, System.Windows.Forms, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
-  </data>
-  <data name="&gt;&gt;paneltop.Parent" xml:space="preserve">
-    <value>flowLayoutPanel1</value>
-  </data>
-  <data name="&gt;&gt;panel6.Parent" xml:space="preserve">
-    <value>panel1</value>
-  </data>
-  <data name="&gt;&gt;labeldatetoday.Name" xml:space="preserve">
-    <value>labeldatetoday</value>
-  </data>
-  <data name="&gt;&gt;labelsearchclass.ZOrder" xml:space="preserve">
-    <value>19</value>
-  </data>
-  <data name="&gt;&gt;button1.Type" xml:space="preserve">
-    <value>System.Windows.Forms.Button, System.Windows.Forms, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
-  </data>
-  <data name="&gt;&gt;panel5.Parent" xml:space="preserve">
-    <value>panel2</value>
-  </data>
-  <data name="button6.Size" type="System.Drawing.Size, System.Drawing">
-    <value>258, 52</value>
-  </data>
-  <data name="labelwlcom.AutoSize" type="System.Boolean, mscorlib">
-    <value>True</value>
-  </data>
-  <data name="&gt;&gt;labelrole.Name" xml:space="preserve">
-    <value>labelrole</value>
-  </data>
-  <data name="&gt;&gt;button2.Parent" xml:space="preserve">
-    <value>panel6</value>
-  </data>
-  <data name="&gt;&gt;flowLayoutPanel1.ZOrder" xml:space="preserve">
-    <value>18</value>
-  </data>
-  <data name="&gt;&gt;label4.Name" xml:space="preserve">
-    <value>label4</value>
-  </data>
-  <data name="pictureBox2.Image" type="System.Drawing.Bitmap, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
-    <value>
-        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
-        fhoAAAAASUVORK5CYII=
-</value>
-  </data>
-  <data name="labelsearchclass.AutoSize" type="System.Boolean, mscorlib">
-    <value>True</value>
-  </data>
-  <data name="&gt;&gt;panelside.Type" xml:space="preserve">
-    <value>System.Windows.Forms.Panel, System.Windows.Forms, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
-  </data>
-  <data name="lodoutpic.Anchor" type="System.Windows.Forms.AnchorStyles, System.Windows.Forms">
-    <value>Bottom, Left</value>
-  </data>
-  <data name="&gt;&gt;panel3.Parent" xml:space="preserve">
-    <value>panel2</value>
-  </data>
-  <data name="labeldatetoday.Size" type="System.Drawing.Size, System.Drawing">
-    <value>87, 29</value>
-  </data>
-  <data name="&gt;&gt;labelsearchbydate.Parent" xml:space="preserve">
-    <value>$this</value>
-  </data>
-  <data name="paneltop.Location" type="System.Drawing.Point, System.Drawing">
-    <value>3, 3</value>
-  </data>
-  <data name="&gt;&gt;labeltimenow.Parent" xml:space="preserve">
-    <value>$this</value>
-  </data>
-  <data name="&gt;&gt;labelDate.Type" xml:space="preserve">
-    <value>System.Windows.Forms.Label, System.Windows.Forms, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
-  </data>
-  <data name="labeltimenow.Font" type="System.Drawing.Font, System.Drawing">
-    <value>Microsoft Sans Serif, 15pt, style=Bold</value>
-  </data>
-  <data name="labelwlcom.Text" xml:space="preserve">
-    <value>Welcom</value>
-  </data>
-  <data name="button1.TabIndex" type="System.Int32, mscorlib">
-    <value>0</value>
-  </data>
-  <data name="&gt;&gt;paneltop.Name" xml:space="preserve">
-    <value>paneltop</value>
-  </data>
-  <data name="&gt;&gt;panel6.Name" xml:space="preserve">
-    <value>panel6</value>
-  </data>
-  <data name="mainPanel.TabIndex" type="System.Int32, mscorlib">
-    <value>28</value>
-  </data>
-  <data name="labeldatetoday.Font" type="System.Drawing.Font, System.Drawing">
-    <value>Microsoft Sans Serif, 15pt, style=Bold</value>
-  </data>
-  <data name="&gt;&gt;flowLayoutPanel1.Parent" xml:space="preserve">
-    <value>$this</value>
-  </data>
-  <data name="&gt;&gt;labeltimenow.ZOrder" xml:space="preserve">
-    <value>12</value>
-  </data>
-  <data name="&gt;&gt;label6.Type" xml:space="preserve">
-    <value>System.Windows.Forms.Label, System.Windows.Forms, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
-  </data>
-  <data name="&gt;&gt;labelsearchbydate.ZOrder" xml:space="preserve">
-    <value>9</value>
-  </data>
-  <data name="panel1.Dock" type="System.Windows.Forms.DockStyle, System.Windows.Forms">
-    <value>Left</value>
-  </data>
-  <data name="&gt;&gt;mainPanel.ZOrder" xml:space="preserve">
-    <value>0</value>
-  </data>
-  <data name="&gt;&gt;button3.Parent" xml:space="preserve">
-    <value>panel6</value>
-  </data>
-  <data name="pictureBox2.Size" type="System.Drawing.Size, System.Drawing">
-    <value>166, 91</value>
-  </data>
-  <data name="Column4.MinimumWidth" type="System.Int32, mscorlib">
-    <value>6</value>
-  </data>
-  <data name="&gt;&gt;panel5.ZOrder" xml:space="preserve">
-    <value>4</value>
-  </data>
-  <data name="button2.ImageAlign" type="System.Drawing.ContentAlignment, System.Drawing">
-    <value>MiddleLeft</value>
-  </data>
-  <data name="&gt;&gt;Column6.Type" xml:space="preserve">
-    <value>System.Windows.Forms.DataGridViewTextBoxColumn, System.Windows.Forms, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
-  </data>
-  <data name="&gt;&gt;label11.ZOrder" xml:space="preserve">
-    <value>2</value>
-  </data>
-  <data name="labeltimenow.Location" type="System.Drawing.Point, System.Drawing">
-    <value>766, 188</value>
+  <data name="panel6.Size" type="System.Drawing.Size, System.Drawing">
+    <value>258, 558</value>
   </data>
   <data name="label6.Location" type="System.Drawing.Point, System.Drawing">
     <value>67, 79</value>
   </data>
-  <data name="&gt;&gt;label3.Parent" xml:space="preserve">
-    <value>$this</value>
+  <data name="&gt;&gt;button4.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Button, System.Windows.Forms, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </data>
-  <data name="labelstudentname.Size" type="System.Drawing.Size, System.Drawing">
-    <value>23, 25</value>
+  <data name="&gt;&gt;label4.ZOrder" xml:space="preserve">
+    <value>3</value>
+  </data>
+  <data name="label11.Text" xml:space="preserve">
+    <value>Student</value>
   </data>
   <data name="&gt;&gt;pictureBox1.Parent" xml:space="preserve">
     <value>panel2</value>
   </data>
-  <data name="labelsearchclass.Font" type="System.Drawing.Font, System.Drawing">
+  <data name="&gt;&gt;button6.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Button, System.Windows.Forms, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;panel1.Name" xml:space="preserve">
+    <value>panel1</value>
+  </data>
+  <data name="label11.Font" type="System.Drawing.Font, System.Drawing">
     <value>Microsoft Sans Serif, 15pt, style=Bold</value>
   </data>
-  <data name="labelDate.Text" xml:space="preserve">
-    <value>Date :</value>
+  <data name="&gt;&gt;mainPanel.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Panel, System.Windows.Forms, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </data>
-  <data name="dateTimePicker1.Font" type="System.Drawing.Font, System.Drawing">
-    <value>Century Gothic, 12pt, style=Bold</value>
+  <data name="label2.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Microsoft Sans Serif, 15pt, style=Bold</value>
   </data>
-  <data name="labelstudentname.Location" type="System.Drawing.Point, System.Drawing">
-    <value>200, 23</value>
+  <data name="&gt;&gt;comboBox1.Parent" xml:space="preserve">
+    <value>$this</value>
   </data>
-  <data name="&gt;&gt;button5.Name" xml:space="preserve">
-    <value>button5</value>
+  <data name="&gt;&gt;labeldatetoday.Parent" xml:space="preserve">
+    <value>$this</value>
   </data>
-  <data name="label4.AutoSize" type="System.Boolean, mscorlib">
+  <assembly alias="mscorlib" name="mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" />
+  <data name="label6.TabIndex" type="System.Int32, mscorlib">
+    <value>7</value>
+  </data>
+  <data name="labeltimenow.Size" type="System.Drawing.Size, System.Drawing">
+    <value>87, 29</value>
+  </data>
+  <data name="labelsearchclass.TabIndex" type="System.Int32, mscorlib">
+    <value>1</value>
+  </data>
+  <assembly alias="System.Windows.Forms" name="System.Windows.Forms, Culture=neutral, PublicKeyToken=b77a5c561934e089" />
+  <data name="paneltop.Dock" type="System.Windows.Forms.DockStyle, System.Windows.Forms">
+    <value>Bottom</value>
+  </data>
+  <data name="label4.Location" type="System.Drawing.Point, System.Drawing">
+    <value>50, 23</value>
+  </data>
+  <data name="&gt;&gt;ExitPic.Type" xml:space="preserve">
+    <value>System.Windows.Forms.PictureBox, System.Windows.Forms, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;panel2.Name" xml:space="preserve">
+    <value>panel2</value>
+  </data>
+  <data name="label5.Text" xml:space="preserve">
+    <value>Time:</value>
+  </data>
+  <data name="button2.Dock" type="System.Windows.Forms.DockStyle, System.Windows.Forms">
+    <value>Top</value>
+  </data>
+  <data name="dateTimePicker1.CustomFormat" xml:space="preserve">
+    <value>yyyy-MM-dd</value>
+  </data>
+  <data name="labelsearchbydate.Size" type="System.Drawing.Size, System.Drawing">
+    <value>70, 29</value>
+  </data>
+  <data name="labelusername.Text" xml:space="preserve">
+    <value>x</value>
+  </data>
+  <data name="&gt;&gt;label2.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;label5.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="pictureBox2.Size" type="System.Drawing.Size, System.Drawing">
+    <value>166, 91</value>
+  </data>
+  <data name="&gt;&gt;label7.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;panelside.ZOrder" xml:space="preserve">
+    <value>5</value>
+  </data>
+  <data name="panelside.Size" type="System.Drawing.Size, System.Drawing">
+    <value>8, 47</value>
+  </data>
+  <data name="panel2.Location" type="System.Drawing.Point, System.Drawing">
+    <value>0, 0</value>
+  </data>
+  <data name="&gt;&gt;button4.Parent" xml:space="preserve">
+    <value>panel6</value>
+  </data>
+  <data name="&gt;&gt;$this.Name" xml:space="preserve">
+    <value>StudentDashBoard</value>
+  </data>
+  <data name="label11.Size" type="System.Drawing.Size, System.Drawing">
+    <value>107, 29</value>
+  </data>
+  <data name="pictureBox1.Location" type="System.Drawing.Point, System.Drawing">
+    <value>81, 4</value>
+  </data>
+  <data name="labelusername.AutoSize" type="System.Boolean, mscorlib">
     <value>True</value>
   </data>
-  <data name="pictureBox2.SizeMode" type="System.Windows.Forms.PictureBoxSizeMode, System.Windows.Forms">
-    <value>Zoom</value>
+  <data name="paneltop.Size" type="System.Drawing.Size, System.Drawing">
+    <value>942, 165</value>
   </data>
-  <data name="labeldatetoday.TabIndex" type="System.Int32, mscorlib">
-    <value>0</value>
+  <data name="&gt;&gt;labelsearchbydate.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </data>
-  <data name="&gt;&gt;flowLayoutPanel1.Name" xml:space="preserve">
-    <value>flowLayoutPanel1</value>
+  <data name="button2.ImageAlign" type="System.Drawing.ContentAlignment, System.Drawing">
+    <value>MiddleLeft</value>
   </data>
-  <data name="label7.AutoSize" type="System.Boolean, mscorlib">
+  <data name="labelDate.AutoSize" type="System.Boolean, mscorlib">
     <value>True</value>
   </data>
-  <data name="button3.Text" xml:space="preserve">
-    <value>English</value>
+  <data name="label3.Location" type="System.Drawing.Point, System.Drawing">
+    <value>371, 190</value>
   </data>
-  <data name="&gt;&gt;Column4.Type" xml:space="preserve">
-    <value>System.Windows.Forms.DataGridViewTextBoxColumn, System.Windows.Forms, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
-  </data>
-  <data name="label5.Size" type="System.Drawing.Size, System.Drawing">
-    <value>82, 29</value>
-  </data>
-  <data name="&gt;&gt;label7.ZOrder" xml:space="preserve">
-    <value>0</value>
-  </data>
-  <data name="&gt;&gt;panel1.ZOrder" xml:space="preserve">
-    <value>20</value>
-  </data>
-  <data name="labelrole.TabIndex" type="System.Int32, mscorlib">
-    <value>25</value>
-  </data>
-  <data name="&gt;&gt;pictureBox2.ZOrder" xml:space="preserve">
-    <value>16</value>
-  </data>
-  <data name="&gt;&gt;label1.ZOrder" xml:space="preserve">
-    <value>2</value>
-  </data>
-  <data name="labelstudentname.AutoSize" type="System.Boolean, mscorlib">
-    <value>True</value>
-  </data>
-  <data name="&gt;&gt;dateTimePicker1.ZOrder" xml:space="preserve">
-    <value>8</value>
-  </data>
-  <data name="$this.Font" type="System.Drawing.Font, System.Drawing">
-    <value>Microsoft Sans Serif, 12pt, style=Bold</value>
+  <data name="&gt;&gt;buttonclear.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Button, System.Windows.Forms, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </data>
   <data name="&gt;&gt;dateTimePicker1.Name" xml:space="preserve">
     <value>dateTimePicker1</value>
   </data>
-  <data name="&gt;&gt;label1.Type" xml:space="preserve">
+  <data name="&gt;&gt;labelrole.Type" xml:space="preserve">
     <value>System.Windows.Forms.Label, System.Windows.Forms, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </data>
-  <data name="button2.FlatStyle" type="System.Windows.Forms.FlatStyle, System.Windows.Forms">
-    <value>Flat</value>
+  <data name="mainPanel.TabIndex" type="System.Int32, mscorlib">
+    <value>28</value>
   </data>
-  <data name="labelwlcom.Location" type="System.Drawing.Point, System.Drawing">
-    <value>346, 40</value>
+  <data name="&gt;&gt;labelwlcom.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </data>
-  <data name="panel4.Size" type="System.Drawing.Size, System.Drawing">
-    <value>942, 165</value>
+  <data name="&gt;&gt;ExitPic.ZOrder" xml:space="preserve">
+    <value>11</value>
   </data>
-  <data name="&gt;&gt;button6.ZOrder" xml:space="preserve">
-    <value>1</value>
-  </data>
-  <data name="button2.Location" type="System.Drawing.Point, System.Drawing">
-    <value>0, 0</value>
-  </data>
-  <data name="panel1.TabIndex" type="System.Int32, mscorlib">
-    <value>0</value>
+  <data name="button4.Text" xml:space="preserve">
+    <value>Arabic</value>
   </data>
   <data name="lodoutpic.Image" type="System.Drawing.Bitmap, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
     <value>
@@ -732,119 +488,53 @@
         SUVORK5CYII=
 </value>
   </data>
-  <data name="ExitPic.Location" type="System.Drawing.Point, System.Drawing">
-    <value>1163, 7</value>
+  <data name="panel6.Location" type="System.Drawing.Point, System.Drawing">
+    <value>0, 180</value>
   </data>
-  <data name="button5.Location" type="System.Drawing.Point, System.Drawing">
-    <value>0, 156</value>
+  <data name="&gt;&gt;Column5.Type" xml:space="preserve">
+    <value>System.Windows.Forms.DataGridViewTextBoxColumn, System.Windows.Forms, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </data>
-  <data name="&gt;&gt;paneltop.Type" xml:space="preserve">
-    <value>System.Windows.Forms.Panel, System.Windows.Forms, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  <data name="&gt;&gt;buttonclear.Name" xml:space="preserve">
+    <value>buttonclear</value>
   </data>
-  <data name="&gt;&gt;panel3.Name" xml:space="preserve">
-    <value>panel3</value>
-  </data>
-  <data name="button6.TabIndex" type="System.Int32, mscorlib">
-    <value>10</value>
-  </data>
-  <data name="&gt;&gt;lodoutpic.Name" xml:space="preserve">
-    <value>lodoutpic</value>
-  </data>
-  <data name="&gt;&gt;flowLayoutPanel1.Type" xml:space="preserve">
-    <value>System.Windows.Forms.FlowLayoutPanel, System.Windows.Forms, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
-  </data>
-  <data name="&gt;&gt;Column4.Name" xml:space="preserve">
-    <value>Column4</value>
-  </data>
-  <data name="panel5.TabIndex" type="System.Int32, mscorlib">
-    <value>3</value>
-  </data>
-  <data name="labelDate.Font" type="System.Drawing.Font, System.Drawing">
-    <value>Microsoft Sans Serif, 15pt, style=Bold</value>
-  </data>
-  <data name="&gt;&gt;panel5.Name" xml:space="preserve">
-    <value>panel5</value>
-  </data>
-  <data name="pictureBox2.Location" type="System.Drawing.Point, System.Drawing">
-    <value>1122, 635</value>
-  </data>
-  <data name="&gt;&gt;label6.Name" xml:space="preserve">
-    <value>label6</value>
-  </data>
-  <data name="labelusername.Text" xml:space="preserve">
-    <value>x</value>
-  </data>
-  <data name="button3.Location" type="System.Drawing.Point, System.Drawing">
-    <value>0, 52</value>
-  </data>
-  <data name="&gt;&gt;ExitPic.Parent" xml:space="preserve">
-    <value>$this</value>
-  </data>
-  <data name="label11.AutoSize" type="System.Boolean, mscorlib">
-    <value>True</value>
-  </data>
-  <data name="labelDate.Location" type="System.Drawing.Point, System.Drawing">
-    <value>364, 188</value>
-  </data>
-  <data name="&gt;&gt;button5.ZOrder" xml:space="preserve">
-    <value>2</value>
-  </data>
-  <data name="&gt;&gt;mainPanel.Type" xml:space="preserve">
-    <value>System.Windows.Forms.Panel, System.Windows.Forms, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
-  </data>
-  <data name="&gt;&gt;mainPanel.Parent" xml:space="preserve">
-    <value>$this</value>
-  </data>
-  <data name="&gt;&gt;button5.Type" xml:space="preserve">
-    <value>System.Windows.Forms.Button, System.Windows.Forms, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
-  </data>
-  <data name="panel4.TabIndex" type="System.Int32, mscorlib">
-    <value>3</value>
-  </data>
-  <data name="&gt;&gt;labeltimenow.Type" xml:space="preserve">
-    <value>System.Windows.Forms.Label, System.Windows.Forms, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
-  </data>
-  <data name="&gt;&gt;dataGridView2.ZOrder" xml:space="preserve">
-    <value>1</value>
-  </data>
-  <data name="button6.Dock" type="System.Windows.Forms.DockStyle, System.Windows.Forms">
+  <data name="button5.Dock" type="System.Windows.Forms.DockStyle, System.Windows.Forms">
     <value>Top</value>
   </data>
-  <data name="&gt;&gt;labeltimenow.Name" xml:space="preserve">
-    <value>labeltimenow</value>
+  <data name="button1.Text" xml:space="preserve">
+    <value>button1</value>
   </data>
-  <data name="&gt;&gt;panel6.Type" xml:space="preserve">
-    <value>System.Windows.Forms.Panel, System.Windows.Forms, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  <data name="label2.TabIndex" type="System.Int32, mscorlib">
+    <value>18</value>
   </data>
-  <data name="&gt;&gt;pictureBox1.Name" xml:space="preserve">
-    <value>pictureBox1</value>
-  </data>
-  <data name="label3.TabIndex" type="System.Int32, mscorlib">
-    <value>4</value>
-  </data>
-  <data name="&gt;&gt;dataGridView2.Parent" xml:space="preserve">
-    <value>$this</value>
-  </data>
-  <data name="&gt;&gt;labeldatetoday.Type" xml:space="preserve">
-    <value>System.Windows.Forms.Label, System.Windows.Forms, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
-  </data>
-  <data name="comboBox1.Location" type="System.Drawing.Point, System.Drawing">
-    <value>617, 402</value>
-  </data>
-  <data name="button4.TabIndex" type="System.Int32, mscorlib">
-    <value>8</value>
-  </data>
-  <data name="label2.Text" xml:space="preserve">
-    <value>Filter By:</value>
-  </data>
-  <data name="flowLayoutPanel1.Size" type="System.Drawing.Size, System.Drawing">
-    <value>1042, 0</value>
+  <data name="&gt;&gt;label1.ZOrder" xml:space="preserve">
+    <value>2</value>
   </data>
   <data name="button2.Text" xml:space="preserve">
     <value>Dashboard</value>
   </data>
-  <data name="&gt;&gt;labelwlcom.Parent" xml:space="preserve">
+  <data name="&gt;&gt;dataGridView2.Type" xml:space="preserve">
+    <value>System.Windows.Forms.DataGridView, System.Windows.Forms, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="labelDate.TabIndex" type="System.Int32, mscorlib">
+    <value>13</value>
+  </data>
+  <data name="labeldatetoday.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Microsoft Sans Serif, 15pt, style=Bold</value>
+  </data>
+  <data name="&gt;&gt;buttonclear.Parent" xml:space="preserve">
     <value>$this</value>
+  </data>
+  <data name="&gt;&gt;button1.ZOrder" xml:space="preserve">
+    <value>0</value>
+  </data>
+  <data name="button6.Location" type="System.Drawing.Point, System.Drawing">
+    <value>0, 208</value>
+  </data>
+  <data name="&gt;&gt;button1.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Button, System.Windows.Forms, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="button5.TabIndex" type="System.Int32, mscorlib">
+    <value>9</value>
   </data>
   <data name="ExitPic.Image" type="System.Drawing.Bitmap, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
     <value>
@@ -1114,186 +804,667 @@
         6rPVNsjPOzoM3H9Q26a2UW0rh+kBbKen5/8DAybz1cvg5sEAAAAASUVORK5CYII=
 </value>
   </data>
-  <data name="&gt;&gt;panel3.ZOrder" xml:space="preserve">
-    <value>1</value>
-  </data>
-  <data name="labelsearchbydate.AutoSize" type="System.Boolean, mscorlib">
-    <value>True</value>
-  </data>
-  <data name="label5.Font" type="System.Drawing.Font, System.Drawing">
-    <value>Microsoft Sans Serif, 15pt, style=Bold</value>
-  </data>
-  <data name="labeltimenow.TabIndex" type="System.Int32, mscorlib">
-    <value>15</value>
-  </data>
-  <data name="panel3.Location" type="System.Drawing.Point, System.Drawing">
-    <value>261, 12</value>
-  </data>
-  <data name="dataGridView2.RowHeadersWidth" type="System.Int32, mscorlib">
-    <value>51</value>
+  <data name="&gt;&gt;labelstudentname.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </data>
   <data name="&gt;&gt;label3.ZOrder" xml:space="preserve">
     <value>17</value>
   </data>
-  <data name="label6.AutoSize" type="System.Boolean, mscorlib">
-    <value>True</value>
-  </data>
-  <data name="&gt;&gt;panel1.Name" xml:space="preserve">
-    <value>panel1</value>
-  </data>
-  <data name="Column6.MinimumWidth" type="System.Int32, mscorlib">
-    <value>6</value>
-  </data>
-  <data name="&gt;&gt;button1.ZOrder" xml:space="preserve">
-    <value>0</value>
-  </data>
-  <data name="pictureBox1.Location" type="System.Drawing.Point, System.Drawing">
-    <value>81, 4</value>
-  </data>
-  <data name="&gt;&gt;button6.Parent" xml:space="preserve">
-    <value>panel6</value>
-  </data>
-  <data name="panel1.Location" type="System.Drawing.Point, System.Drawing">
-    <value>0, 0</value>
-  </data>
   <data name="&gt;&gt;pictureBox2.Parent" xml:space="preserve">
     <value>$this</value>
   </data>
-  <data name="&gt;&gt;timer1.Type" xml:space="preserve">
-    <value>System.Windows.Forms.Timer, System.Windows.Forms, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  <data name="&gt;&gt;mainPanel.Name" xml:space="preserve">
+    <value>mainPanel</value>
   </data>
-  <data name="&gt;&gt;labelsearchbydate.Type" xml:space="preserve">
-    <value>System.Windows.Forms.Label, System.Windows.Forms, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
-  </data>
-  <data name="&gt;&gt;labelusername.Name" xml:space="preserve">
-    <value>labelusername</value>
-  </data>
-  <data name="lodoutpic.Location" type="System.Drawing.Point, System.Drawing">
-    <value>49, 455</value>
-  </data>
-  <data name="Column5.MinimumWidth" type="System.Int32, mscorlib">
-    <value>6</value>
-  </data>
-  <data name="label2.AutoSize" type="System.Boolean, mscorlib">
+  <data name="labelstudentname.AutoSize" type="System.Boolean, mscorlib">
     <value>True</value>
   </data>
-  <data name="&gt;&gt;labelrole.ZOrder" xml:space="preserve">
+  <data name="comboBox1.Location" type="System.Drawing.Point, System.Drawing">
+    <value>617, 402</value>
+  </data>
+  <data name="button6.Dock" type="System.Windows.Forms.DockStyle, System.Windows.Forms">
+    <value>Top</value>
+  </data>
+  <data name="panel5.TabIndex" type="System.Int32, mscorlib">
     <value>3</value>
   </data>
-  <data name="button3.TabIndex" type="System.Int32, mscorlib">
-    <value>7</value>
+  <data name="&gt;&gt;button6.Name" xml:space="preserve">
+    <value>button6</value>
   </data>
-  <data name="dataGridView2.TabIndex" type="System.Int32, mscorlib">
-    <value>27</value>
+  <data name="buttonclear.Location" type="System.Drawing.Point, System.Drawing">
+    <value>1173, 400</value>
+  </data>
+  <data name="&gt;&gt;button4.Name" xml:space="preserve">
+    <value>button4</value>
+  </data>
+  <data name="&gt;&gt;label5.Name" xml:space="preserve">
+    <value>label5</value>
+  </data>
+  <data name="&gt;&gt;button2.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Button, System.Windows.Forms, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;labelrole.Name" xml:space="preserve">
+    <value>labelrole</value>
+  </data>
+  <data name="&gt;&gt;panel2.Parent" xml:space="preserve">
+    <value>panel1</value>
+  </data>
+  <data name="&gt;&gt;panel6.Parent" xml:space="preserve">
+    <value>panel1</value>
+  </data>
+  <data name="&gt;&gt;dateTimePicker1.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="label5.Location" type="System.Drawing.Point, System.Drawing">
+    <value>661, 188</value>
+  </data>
+  <data name="panel3.TabIndex" type="System.Int32, mscorlib">
+    <value>3</value>
+  </data>
+  <data name="comboBox1.TabIndex" type="System.Int32, mscorlib">
+    <value>21</value>
+  </data>
+  <data name="&gt;&gt;labelDate.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;panel3.ZOrder" xml:space="preserve">
+    <value>1</value>
+  </data>
+  <data name="&gt;&gt;labelusername.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="button6.Text" xml:space="preserve">
+    <value>Save</value>
+  </data>
+  <data name="&gt;&gt;labeltimenow.ZOrder" xml:space="preserve">
+    <value>12</value>
+  </data>
+  <data name="&gt;&gt;label4.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;label3.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;labelDate.ZOrder" xml:space="preserve">
+    <value>15</value>
+  </data>
+  <data name="dateTimePicker1.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Century Gothic, 12pt, style=Bold</value>
+  </data>
+  <data name="label6.Size" type="System.Drawing.Size, System.Drawing">
+    <value>62, 25</value>
+  </data>
+  <data name="&gt;&gt;dateTimePicker1.ZOrder" xml:space="preserve">
+    <value>8</value>
+  </data>
+  <data name="&gt;&gt;labeltimenow.Name" xml:space="preserve">
+    <value>labeltimenow</value>
+  </data>
+  <data name="label7.Text" xml:space="preserve">
+    <value>Student</value>
+  </data>
+  <data name="dataGridView2.Size" type="System.Drawing.Size, System.Drawing">
+    <value>1000, 500</value>
+  </data>
+  <data name="&gt;&gt;dateTimePicker1.Type" xml:space="preserve">
+    <value>System.Windows.Forms.DateTimePicker, System.Windows.Forms, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;flowLayoutPanel1.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="labelsearchbydate.Text" xml:space="preserve">
+    <value>Date</value>
+  </data>
+  <data name="button2.Size" type="System.Drawing.Size, System.Drawing">
+    <value>258, 52</value>
   </data>
   <data name="dateTimePicker1.TabIndex" type="System.Int32, mscorlib">
     <value>20</value>
   </data>
-  <data name="panelside.Location" type="System.Drawing.Point, System.Drawing">
-    <value>0, 0</value>
+  <data name="&gt;&gt;buttonclear.ZOrder" xml:space="preserve">
+    <value>6</value>
   </data>
-  <data name="label2.Location" type="System.Drawing.Point, System.Drawing">
-    <value>366, 404</value>
+  <data name="&gt;&gt;button5.Parent" xml:space="preserve">
+    <value>panel6</value>
   </data>
-  <data name="button5.Dock" type="System.Windows.Forms.DockStyle, System.Windows.Forms">
-    <value>Top</value>
+  <data name="labelusername.TabIndex" type="System.Int32, mscorlib">
+    <value>24</value>
   </data>
-  <data name="button6.Location" type="System.Drawing.Point, System.Drawing">
-    <value>0, 208</value>
+  <data name="labelsearchclass.Text" xml:space="preserve">
+    <value>Class </value>
   </data>
-  <data name="label5.AutoSize" type="System.Boolean, mscorlib">
-    <value>True</value>
+  <data name="labelusername.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Microsoft Sans Serif, 40pt, style=Bold</value>
+  </data>
+  <data name="panel5.Size" type="System.Drawing.Size, System.Drawing">
+    <value>1044, 125</value>
+  </data>
+  <data name="pictureBox2.TabIndex" type="System.Int32, mscorlib">
+    <value>5</value>
+  </data>
+  <data name="Column5.MinimumWidth" type="System.Int32, mscorlib">
+    <value>6</value>
+  </data>
+  <data name="button6.Size" type="System.Drawing.Size, System.Drawing">
+    <value>258, 52</value>
+  </data>
+  <data name="&gt;&gt;label7.Parent" xml:space="preserve">
+    <value>panel5</value>
+  </data>
+  <data name="&gt;&gt;panel2.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Panel, System.Windows.Forms, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="label7.Location" type="System.Drawing.Point, System.Drawing">
+    <value>166, 80</value>
+  </data>
+  <data name="label3.TabIndex" type="System.Int32, mscorlib">
+    <value>4</value>
+  </data>
+  <data name="label4.Text" xml:space="preserve">
+    <value>Welcome:</value>
+  </data>
+  <data name="&gt;&gt;Column4.Name" xml:space="preserve">
+    <value>Column4</value>
+  </data>
+  <data name="&gt;&gt;dataGridView2.ZOrder" xml:space="preserve">
+    <value>1</value>
+  </data>
+  <data name="panel5.Location" type="System.Drawing.Point, System.Drawing">
+    <value>258, 84</value>
+  </data>
+  <data name="dataGridView2.TabIndex" type="System.Int32, mscorlib">
+    <value>27</value>
+  </data>
+  <data name="&gt;&gt;$this.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Form, System.Windows.Forms, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;dataGridView2.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;labelrole.Parent" xml:space="preserve">
+    <value>$this</value>
   </data>
   <assembly alias="System.Windows.Forms" name="System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" />
   <data name="$this.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
     <value>5, 4, 5, 4</value>
   </data>
-  <data name="&gt;&gt;button3.Name" xml:space="preserve">
-    <value>button3</value>
-  </data>
-  <data name="&gt;&gt;ExitPic.ZOrder" xml:space="preserve">
-    <value>11</value>
-  </data>
-  <data name="labelwlcom.Font" type="System.Drawing.Font, System.Drawing">
-    <value>Microsoft Sans Serif, 40pt, style=Bold</value>
-  </data>
-  <data name="labeltimenow.Size" type="System.Drawing.Size, System.Drawing">
-    <value>87, 29</value>
-  </data>
-  <data name="label1.Size" type="System.Drawing.Size, System.Drawing">
-    <value>203, 25</value>
-  </data>
-  <data name="button2.Dock" type="System.Windows.Forms.DockStyle, System.Windows.Forms">
-    <value>Top</value>
-  </data>
-  <data name="&gt;&gt;dataGridView2.Name" xml:space="preserve">
-    <value>dataGridView2</value>
-  </data>
-  <data name="&gt;&gt;button2.Name" xml:space="preserve">
-    <value>button2</value>
-  </data>
-  <data name="&gt;&gt;label6.Parent" xml:space="preserve">
-    <value>panel5</value>
-  </data>
-  <data name="label3.AutoSize" type="System.Boolean, mscorlib">
+  <data name="label4.AutoSize" type="System.Boolean, mscorlib">
     <value>True</value>
   </data>
-  <data name="&gt;&gt;labelusername.ZOrder" xml:space="preserve">
+  <data name="label5.TabIndex" type="System.Int32, mscorlib">
+    <value>14</value>
+  </data>
+  <data name="&gt;&gt;flowLayoutPanel1.Name" xml:space="preserve">
+    <value>flowLayoutPanel1</value>
+  </data>
+  <data name="&gt;&gt;labeldatetoday.ZOrder" xml:space="preserve">
+    <value>14</value>
+  </data>
+  <data name="&gt;&gt;labelusername.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="button4.Dock" type="System.Windows.Forms.DockStyle, System.Windows.Forms">
+    <value>Top</value>
+  </data>
+  <data name="pictureBox1.TabIndex" type="System.Int32, mscorlib">
+    <value>0</value>
+  </data>
+  <data name="&gt;&gt;panel4.Name" xml:space="preserve">
+    <value>panel4</value>
+  </data>
+  <data name="labeltimenow.Text" xml:space="preserve">
+    <value>label8</value>
+  </data>
+  <data name="&gt;&gt;label5.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="ExitPic.Anchor" type="System.Windows.Forms.AnchorStyles, System.Windows.Forms">
+    <value>Top, Right</value>
+  </data>
+  <data name="label5.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="&gt;&gt;paneltop.ZOrder" xml:space="preserve">
+    <value>0</value>
+  </data>
+  <data name="ExitPic.Location" type="System.Drawing.Point, System.Drawing">
+    <value>1163, 7</value>
+  </data>
+  <data name="button2.TabIndex" type="System.Int32, mscorlib">
+    <value>6</value>
+  </data>
+  <data name="&gt;&gt;panelside.Name" xml:space="preserve">
+    <value>panelside</value>
+  </data>
+  <data name="label5.Size" type="System.Drawing.Size, System.Drawing">
+    <value>82, 29</value>
+  </data>
+  <data name="pictureBox2.Location" type="System.Drawing.Point, System.Drawing">
+    <value>1122, 635</value>
+  </data>
+  <data name="&gt;&gt;lodoutpic.ZOrder" xml:space="preserve">
+    <value>1</value>
+  </data>
+  <data name="button3.TabIndex" type="System.Int32, mscorlib">
+    <value>7</value>
+  </data>
+  <data name="&gt;&gt;button3.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Button, System.Windows.Forms, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;comboBox1.ZOrder" xml:space="preserve">
+    <value>7</value>
+  </data>
+  <data name="label6.Text" xml:space="preserve">
+    <value>Role:</value>
+  </data>
+  <data name="&gt;&gt;label2.Name" xml:space="preserve">
+    <value>label2</value>
+  </data>
+  <data name="labeldatetoday.Location" type="System.Drawing.Point, System.Drawing">
+    <value>473, 188</value>
+  </data>
+  <data name="button1.TabIndex" type="System.Int32, mscorlib">
+    <value>0</value>
+  </data>
+  <data name="&gt;&gt;lodoutpic.Name" xml:space="preserve">
+    <value>lodoutpic</value>
+  </data>
+  <data name="labelstudentname.Text" xml:space="preserve">
+    <value>x</value>
+  </data>
+  <data name="&gt;&gt;pictureBox1.Type" xml:space="preserve">
+    <value>System.Windows.Forms.PictureBox, System.Windows.Forms, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="panel3.Size" type="System.Drawing.Size, System.Drawing">
+    <value>250, 125</value>
+  </data>
+  <data name="&gt;&gt;labelsearchbydate.Name" xml:space="preserve">
+    <value>labelsearchbydate</value>
+  </data>
+  <data name="labelrole.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Microsoft Sans Serif, 15pt, style=Bold</value>
+  </data>
+  <data name="panel6.Dock" type="System.Windows.Forms.DockStyle, System.Windows.Forms">
+    <value>Fill</value>
+  </data>
+  <data name="labelsearchbydate.TabIndex" type="System.Int32, mscorlib">
+    <value>19</value>
+  </data>
+  <data name="&gt;&gt;labelsearchclass.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="labelDate.Location" type="System.Drawing.Point, System.Drawing">
+    <value>364, 188</value>
+  </data>
+  <data name="&gt;&gt;button6.ZOrder" xml:space="preserve">
+    <value>1</value>
+  </data>
+  <data name="panel1.Location" type="System.Drawing.Point, System.Drawing">
+    <value>0, 0</value>
+  </data>
+  <data name="labelsearchclass.Location" type="System.Drawing.Point, System.Drawing">
+    <value>519, 404</value>
+  </data>
+  <data name="button1.Location" type="System.Drawing.Point, System.Drawing">
+    <value>0, 0</value>
+  </data>
+  <data name="&gt;&gt;label11.Name" xml:space="preserve">
+    <value>label11</value>
+  </data>
+  <data name="&gt;&gt;button2.ZOrder" xml:space="preserve">
     <value>4</value>
   </data>
-  <data name="button4.Text" xml:space="preserve">
-    <value>Arabic</value>
-  </data>
-  <data name="paneltop.Size" type="System.Drawing.Size, System.Drawing">
-    <value>942, 165</value>
+  <data name="pictureBox1.Size" type="System.Drawing.Size, System.Drawing">
+    <value>93, 87</value>
   </data>
   <data name="buttonclear.TabIndex" type="System.Int32, mscorlib">
     <value>22</value>
   </data>
-  <data name="button4.Location" type="System.Drawing.Point, System.Drawing">
-    <value>0, 104</value>
+  <data name="Column4.MinimumWidth" type="System.Int32, mscorlib">
+    <value>6</value>
   </data>
-  <data name="label7.TabIndex" type="System.Int32, mscorlib">
-    <value>8</value>
+  <data name="panel4.TabIndex" type="System.Int32, mscorlib">
+    <value>3</value>
   </data>
-  <data name="dateTimePicker1.CustomFormat" xml:space="preserve">
-    <value>yyyy-MM-dd</value>
+  <data name="labelwlcom.Text" xml:space="preserve">
+    <value>Welcom</value>
   </data>
-  <data name="Column5.HeaderText" xml:space="preserve">
-    <value>Class</value>
+  <data name="label3.Size" type="System.Drawing.Size, System.Drawing">
+    <value>0, 25</value>
   </data>
-  <data name="labelwlcom.TabIndex" type="System.Int32, mscorlib">
-    <value>23</value>
+  <data name="&gt;&gt;button1.Name" xml:space="preserve">
+    <value>button1</value>
   </data>
-  <data name="&gt;&gt;label5.Type" xml:space="preserve">
+  <data name="Column6.HeaderText" xml:space="preserve">
+    <value>Status</value>
+  </data>
+  <data name="pictureBox2.SizeMode" type="System.Windows.Forms.PictureBoxSizeMode, System.Windows.Forms">
+    <value>Zoom</value>
+  </data>
+  <data name="&gt;&gt;mainPanel.ZOrder" xml:space="preserve">
+    <value>0</value>
+  </data>
+  <data name="&gt;&gt;label3.Name" xml:space="preserve">
+    <value>label3</value>
+  </data>
+  <data name="$this.Text" xml:space="preserve">
+    <value>Student</value>
+  </data>
+  <data name="&gt;&gt;panel4.ZOrder" xml:space="preserve">
+    <value>0</value>
+  </data>
+  <data name="&gt;&gt;dataGridView2.Name" xml:space="preserve">
+    <value>dataGridView2</value>
+  </data>
+  <data name="&gt;&gt;button2.Parent" xml:space="preserve">
+    <value>panel6</value>
+  </data>
+  <data name="&gt;&gt;panel3.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Panel, System.Windows.Forms, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;label1.Name" xml:space="preserve">
+    <value>label1</value>
+  </data>
+  <data name="&gt;&gt;lodoutpic.Parent" xml:space="preserve">
+    <value>panel6</value>
+  </data>
+  <data name="&gt;&gt;Column4.Type" xml:space="preserve">
+    <value>System.Windows.Forms.DataGridViewTextBoxColumn, System.Windows.Forms, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;labeltimenow.Type" xml:space="preserve">
     <value>System.Windows.Forms.Label, System.Windows.Forms, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
-  </data>
-  <data name="labelsearchbydate.Font" type="System.Drawing.Font, System.Drawing">
-    <value>Microsoft Sans Serif, 15pt, style=Bold</value>
-  </data>
-  <data name="labelusername.TabIndex" type="System.Int32, mscorlib">
-    <value>24</value>
-  </data>
-  <data name="&gt;&gt;labelwlcom.ZOrder" xml:space="preserve">
-    <value>5</value>
   </data>
   <data name="mainPanel.Size" type="System.Drawing.Size, System.Drawing">
     <value>200, 100</value>
   </data>
-  <data name="&gt;&gt;pictureBox1.ZOrder" xml:space="preserve">
+  <data name="&gt;&gt;labelusername.ZOrder" xml:space="preserve">
+    <value>4</value>
+  </data>
+  <data name="button5.Text" xml:space="preserve">
+    <value>Report</value>
+  </data>
+  <data name="&gt;&gt;labelrole.ZOrder" xml:space="preserve">
     <value>3</value>
+  </data>
+  <data name="&gt;&gt;panel5.Parent" xml:space="preserve">
+    <value>panel2</value>
+  </data>
+  <data name="button3.Size" type="System.Drawing.Size, System.Drawing">
+    <value>258, 52</value>
+  </data>
+  <data name="&gt;&gt;pictureBox2.Name" xml:space="preserve">
+    <value>pictureBox2</value>
+  </data>
+  <data name="&gt;&gt;labelsearchclass.Name" xml:space="preserve">
+    <value>labelsearchclass</value>
+  </data>
+  <data name="button4.TabIndex" type="System.Int32, mscorlib">
+    <value>8</value>
+  </data>
+  <data name="&gt;&gt;label1.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;label11.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="panel6.TabIndex" type="System.Int32, mscorlib">
+    <value>6</value>
+  </data>
+  <data name="paneltop.Location" type="System.Drawing.Point, System.Drawing">
+    <value>3, 3</value>
+  </data>
+  <data name="&gt;&gt;ExitPic.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;label7.Name" xml:space="preserve">
+    <value>label7</value>
+  </data>
+  <data name="&gt;&gt;label4.Name" xml:space="preserve">
+    <value>label4</value>
+  </data>
+  <data name="&gt;&gt;label2.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;paneltop.Name" xml:space="preserve">
+    <value>paneltop</value>
+  </data>
+  <data name="button6.TabIndex" type="System.Int32, mscorlib">
+    <value>10</value>
+  </data>
+  <data name="labelrole.TabIndex" type="System.Int32, mscorlib">
+    <value>25</value>
   </data>
   <data name="labeltimenow.AutoSize" type="System.Boolean, mscorlib">
     <value>True</value>
   </data>
-  <data name="label1.AutoSize" type="System.Boolean, mscorlib">
+  <data name="&gt;&gt;label11.ZOrder" xml:space="preserve">
+    <value>2</value>
+  </data>
+  <data name="&gt;&gt;labeldatetoday.Name" xml:space="preserve">
+    <value>labeldatetoday</value>
+  </data>
+  <data name="&gt;&gt;panel2.ZOrder" xml:space="preserve">
+    <value>1</value>
+  </data>
+  <data name="dateTimePicker1.Size" type="System.Drawing.Size, System.Drawing">
+    <value>178, 32</value>
+  </data>
+  <data name="&gt;&gt;label11.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="panel2.TabIndex" type="System.Int32, mscorlib">
+    <value>0</value>
+  </data>
+  <data name="label1.Size" type="System.Drawing.Size, System.Drawing">
+    <value>203, 25</value>
+  </data>
+  <data name="label1.TabIndex" type="System.Int32, mscorlib">
+    <value>1</value>
+  </data>
+  <data name="labeldatetoday.TabIndex" type="System.Int32, mscorlib">
+    <value>0</value>
+  </data>
+  <data name="&gt;&gt;button5.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Button, System.Windows.Forms, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;labelsearchbydate.ZOrder" xml:space="preserve">
+    <value>9</value>
+  </data>
+  <data name="&gt;&gt;panel1.ZOrder" xml:space="preserve">
+    <value>20</value>
+  </data>
+  <data name="label5.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Microsoft Sans Serif, 15pt, style=Bold</value>
+  </data>
+  <data name="&gt;&gt;paneltop.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Panel, System.Windows.Forms, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;panel6.Name" xml:space="preserve">
+    <value>panel6</value>
+  </data>
+  <data name="dataGridView2.RowHeadersWidth" type="System.Int32, mscorlib">
+    <value>51</value>
+  </data>
+  <data name="&gt;&gt;labeltimenow.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="panel1.TabIndex" type="System.Int32, mscorlib">
+    <value>0</value>
+  </data>
+  <data name="flowLayoutPanel1.Dock" type="System.Windows.Forms.DockStyle, System.Windows.Forms">
+    <value>Top</value>
+  </data>
+  <data name="&gt;&gt;Column5.Name" xml:space="preserve">
+    <value>Column5</value>
+  </data>
+  <data name="lodoutpic.Anchor" type="System.Windows.Forms.AnchorStyles, System.Windows.Forms">
+    <value>Bottom, Left</value>
+  </data>
+  <data name="pictureBox1.SizeMode" type="System.Windows.Forms.PictureBoxSizeMode, System.Windows.Forms">
+    <value>Zoom</value>
+  </data>
+  <data name="paneltop.TabIndex" type="System.Int32, mscorlib">
+    <value>0</value>
+  </data>
+  <data name="&gt;&gt;labeldatetoday.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="labelrole.Text" xml:space="preserve">
+    <value>Role:</value>
+  </data>
+  <data name="&gt;&gt;label6.Name" xml:space="preserve">
+    <value>label6</value>
+  </data>
+  <data name="&gt;&gt;label2.ZOrder" xml:space="preserve">
+    <value>10</value>
+  </data>
+  <data name="Column5.HeaderText" xml:space="preserve">
+    <value>Class</value>
+  </data>
+  <data name="&gt;&gt;panel6.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Panel, System.Windows.Forms, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="labeldatetoday.AutoSize" type="System.Boolean, mscorlib">
     <value>True</value>
   </data>
-  <data name="panel6.Size" type="System.Drawing.Size, System.Drawing">
-    <value>258, 558</value>
+  <data name="label11.TabIndex" type="System.Int32, mscorlib">
+    <value>26</value>
   </data>
-  <data name="&gt;&gt;labeldatetoday.ZOrder" xml:space="preserve">
-    <value>14</value>
+  <data name="&gt;&gt;button2.Name" xml:space="preserve">
+    <value>button2</value>
+  </data>
+  <data name="pictureBox2.Anchor" type="System.Windows.Forms.AnchorStyles, System.Windows.Forms">
+    <value>Bottom, Right</value>
+  </data>
+  <data name="labeltimenow.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Microsoft Sans Serif, 15pt, style=Bold</value>
+  </data>
+  <data name="pictureBox2.Image" type="System.Drawing.Bitmap, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+    <value>
+        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
+        fhoAAAAASUVORK5CYII=
+</value>
+  </data>
+  <data name="&gt;&gt;ExitPic.Name" xml:space="preserve">
+    <value>ExitPic</value>
+  </data>
+  <data name="&gt;&gt;button3.ZOrder" xml:space="preserve">
+    <value>3</value>
+  </data>
+  <data name="labelwlcom.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="&gt;&gt;button6.Parent" xml:space="preserve">
+    <value>panel6</value>
+  </data>
+  <data name="&gt;&gt;button5.ZOrder" xml:space="preserve">
+    <value>2</value>
+  </data>
+  <data name="&gt;&gt;labelwlcom.Name" xml:space="preserve">
+    <value>labelwlcom</value>
+  </data>
+  <data name="&gt;&gt;flowLayoutPanel1.Type" xml:space="preserve">
+    <value>System.Windows.Forms.FlowLayoutPanel, System.Windows.Forms, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="labelrole.Location" type="System.Drawing.Point, System.Drawing">
+    <value>363, 134</value>
+  </data>
+  <data name="buttonclear.Size" type="System.Drawing.Size, System.Drawing">
+    <value>94, 36</value>
+  </data>
+  <data name="&gt;&gt;mainPanel.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="labelsearchclass.Size" type="System.Drawing.Size, System.Drawing">
+    <value>90, 29</value>
+  </data>
+  <data name="dataGridView2.Location" type="System.Drawing.Point, System.Drawing">
+    <value>375, 478</value>
   </data>
   <data name="pictureBox1.Image" type="System.Drawing.Bitmap, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
     <value>
@@ -1875,323 +2046,266 @@
         n/QRBEEQBEEQBEEQBHF3Tjvt/wHFEjq5jwLOAQAAAABJRU5ErkJggg==
 </value>
   </data>
-  <data name="&gt;&gt;label2.Type" xml:space="preserve">
-    <value>System.Windows.Forms.Label, System.Windows.Forms, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
-  </data>
-  <data name="&gt;&gt;labelsearchclass.Name" xml:space="preserve">
-    <value>labelsearchclass</value>
-  </data>
-  <data name="&gt;&gt;comboBox1.Type" xml:space="preserve">
-    <value>System.Windows.Forms.ComboBox, System.Windows.Forms, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
-  </data>
-  <data name="&gt;&gt;mainPanel.Name" xml:space="preserve">
-    <value>mainPanel</value>
-  </data>
-  <data name="&gt;&gt;panel4.ZOrder" xml:space="preserve">
-    <value>0</value>
-  </data>
-  <data name="&gt;&gt;label4.Type" xml:space="preserve">
-    <value>System.Windows.Forms.Label, System.Windows.Forms, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
-  </data>
-  <data name="label4.TabIndex" type="System.Int32, mscorlib">
-    <value>5</value>
-  </data>
-  <data name="&gt;&gt;dataGridView2.Type" xml:space="preserve">
-    <value>System.Windows.Forms.DataGridView, System.Windows.Forms, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
-  </data>
-  <data name="&gt;&gt;labelwlcom.Type" xml:space="preserve">
-    <value>System.Windows.Forms.Label, System.Windows.Forms, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
-  </data>
-  <data name="panel5.Location" type="System.Drawing.Point, System.Drawing">
-    <value>258, 84</value>
-  </data>
-  <data name="buttonclear.Text" xml:space="preserve">
-    <value>clear</value>
-  </data>
-  <data name="&gt;&gt;lodoutpic.ZOrder" xml:space="preserve">
-    <value>1</value>
-  </data>
-  <data name="labelusername.Font" type="System.Drawing.Font, System.Drawing">
-    <value>Microsoft Sans Serif, 40pt, style=Bold</value>
-  </data>
-  <data name="labelsearchbydate.Location" type="System.Drawing.Point, System.Drawing">
-    <value>863, 404</value>
-  </data>
-  <data name="&gt;&gt;labelDate.Name" xml:space="preserve">
-    <value>labelDate</value>
-  </data>
-  <data name="&gt;&gt;button3.ZOrder" xml:space="preserve">
-    <value>3</value>
-  </data>
-  <data name="button5.Text" xml:space="preserve">
-    <value>Report</value>
-  </data>
   <data name="&gt;&gt;panelside.Parent" xml:space="preserve">
     <value>panel6</value>
-  </data>
-  <data name="&gt;&gt;button4.Name" xml:space="preserve">
-    <value>button4</value>
-  </data>
-  <data name="label5.Text" xml:space="preserve">
-    <value>Time:</value>
-  </data>
-  <data name="&gt;&gt;panel5.Type" xml:space="preserve">
-    <value>System.Windows.Forms.Panel, System.Windows.Forms, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
-  </data>
-  <data name="&gt;&gt;ExitPic.Type" xml:space="preserve">
-    <value>System.Windows.Forms.PictureBox, System.Windows.Forms, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
-  </data>
-  <data name="panel6.Dock" type="System.Windows.Forms.DockStyle, System.Windows.Forms">
-    <value>Fill</value>
-  </data>
-  <data name="&gt;&gt;paneltop.ZOrder" xml:space="preserve">
-    <value>0</value>
-  </data>
-  <data name="button6.Text" xml:space="preserve">
-    <value>Save</value>
   </data>
   <data name="label2.Size" type="System.Drawing.Size, System.Drawing">
     <value>123, 29</value>
   </data>
-  <data name="labelsearchclass.Size" type="System.Drawing.Size, System.Drawing">
-    <value>90, 29</value>
+  <data name="label7.Size" type="System.Drawing.Size, System.Drawing">
+    <value>87, 25</value>
   </data>
-  <data name="&gt;&gt;timer1.Name" xml:space="preserve">
-    <value>timer1</value>
+  <data name="labeltimenow.Location" type="System.Drawing.Point, System.Drawing">
+    <value>766, 188</value>
   </data>
-  <data name="buttonclear.Size" type="System.Drawing.Size, System.Drawing">
-    <value>94, 36</value>
+  <data name="label1.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
   </data>
-  <data name="panel6.TabIndex" type="System.Int32, mscorlib">
-    <value>6</value>
+  <data name="panel2.Size" type="System.Drawing.Size, System.Drawing">
+    <value>258, 180</value>
   </data>
-  <data name="label2.TabIndex" type="System.Int32, mscorlib">
-    <value>18</value>
+  <data name="label7.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
   </data>
-  <data name="&gt;&gt;buttonclear.Type" xml:space="preserve">
-    <value>System.Windows.Forms.Button, System.Windows.Forms, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
-  </data>
-  <data name="pictureBox2.TabIndex" type="System.Int32, mscorlib">
-    <value>5</value>
-  </data>
-  <data name="&gt;&gt;button4.Parent" xml:space="preserve">
-    <value>panel6</value>
-  </data>
-  <data name="&gt;&gt;buttonclear.Parent" xml:space="preserve">
-    <value>$this</value>
-  </data>
-  <data name="&gt;&gt;labelstudentname.Name" xml:space="preserve">
-    <value>labelstudentname</value>
-  </data>
-  <data name="&gt;&gt;button2.ZOrder" xml:space="preserve">
-    <value>4</value>
-  </data>
-  <data name="Column4.HeaderText" xml:space="preserve">
-    <value>Date</value>
-  </data>
-  <data name="label11.TabIndex" type="System.Int32, mscorlib">
-    <value>26</value>
-  </data>
-  <data name="pictureBox1.SizeMode" type="System.Windows.Forms.PictureBoxSizeMode, System.Windows.Forms">
-    <value>Zoom</value>
-  </data>
-  <data name="labelstudentname.TabIndex" type="System.Int32, mscorlib">
-    <value>6</value>
-  </data>
-  <data name="&gt;&gt;labelstudentname.Type" xml:space="preserve">
-    <value>System.Windows.Forms.Label, System.Windows.Forms, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
-  </data>
-  <data name="flowLayoutPanel1.Location" type="System.Drawing.Point, System.Drawing">
-    <value>258, 0</value>
-  </data>
-  <data name="&gt;&gt;label5.Parent" xml:space="preserve">
-    <value>$this</value>
-  </data>
-  <data name="&gt;&gt;button5.Parent" xml:space="preserve">
-    <value>panel6</value>
-  </data>
-  <data name="labelrole.Text" xml:space="preserve">
-    <value>Role:</value>
-  </data>
-  <data name="button4.Size" type="System.Drawing.Size, System.Drawing">
-    <value>258, 52</value>
-  </data>
-  <data name="labelusername.Size" type="System.Drawing.Size, System.Drawing">
-    <value>67, 76</value>
-  </data>
-  <data name="&gt;&gt;label7.Type" xml:space="preserve">
-    <value>System.Windows.Forms.Label, System.Windows.Forms, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
-  </data>
-  <data name="label6.Text" xml:space="preserve">
-    <value>Role:</value>
+  <data name="&gt;&gt;button5.Name" xml:space="preserve">
+    <value>button5</value>
   </data>
   <data name="&gt;&gt;label6.ZOrder" xml:space="preserve">
     <value>1</value>
   </data>
-  <data name="&gt;&gt;$this.Name" xml:space="preserve">
-    <value>StudentDashBoard</value>
-  </data>
-  <data name="labelrole.Size" type="System.Drawing.Size, System.Drawing">
-    <value>77, 29</value>
-  </data>
-  <data name="&gt;&gt;labelrole.Parent" xml:space="preserve">
-    <value>$this</value>
-  </data>
-  <data name="labelwlcom.Size" type="System.Drawing.Size, System.Drawing">
-    <value>279, 76</value>
-  </data>
-  <data name="&gt;&gt;panelside.Name" xml:space="preserve">
-    <value>panelside</value>
-  </data>
-  <data name="&gt;&gt;label11.Parent" xml:space="preserve">
-    <value>$this</value>
-  </data>
-  <data name="button5.TabIndex" type="System.Int32, mscorlib">
-    <value>9</value>
-  </data>
-  <data name="button4.Dock" type="System.Windows.Forms.DockStyle, System.Windows.Forms">
-    <value>Top</value>
-  </data>
-  <data name="dataGridView2.Location" type="System.Drawing.Point, System.Drawing">
-    <value>375, 478</value>
-  </data>
-  <data name="$this.ClientSize" type="System.Drawing.Size, System.Drawing">
-    <value>1300, 738</value>
-  </data>
-  <data name="button1.Text" xml:space="preserve">
-    <value>button1</value>
-  </data>
-  <data name="labelsearchbydate.Size" type="System.Drawing.Size, System.Drawing">
-    <value>70, 29</value>
-  </data>
-  <data name="labeltimenow.Text" xml:space="preserve">
-    <value>label8</value>
-  </data>
-  <data name="label11.Font" type="System.Drawing.Font, System.Drawing">
-    <value>Microsoft Sans Serif, 15pt, style=Bold</value>
-  </data>
-  <data name="&gt;&gt;button1.Name" xml:space="preserve">
-    <value>button1</value>
-  </data>
-  <data name="&gt;&gt;labelrole.Type" xml:space="preserve">
-    <value>System.Windows.Forms.Label, System.Windows.Forms, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
-  </data>
-  <data name="&gt;&gt;comboBox1.Name" xml:space="preserve">
-    <value>comboBox1</value>
-  </data>
-  <data name="labelsearchbydate.TabIndex" type="System.Int32, mscorlib">
-    <value>19</value>
-  </data>
-  <data name="label7.Size" type="System.Drawing.Size, System.Drawing">
-    <value>87, 25</value>
-  </data>
-  <data name="&gt;&gt;comboBox1.Parent" xml:space="preserve">
-    <value>$this</value>
-  </data>
-  <data name="button1.Size" type="System.Drawing.Size, System.Drawing">
-    <value>94, 29</value>
-  </data>
-  <data name="buttonclear.Location" type="System.Drawing.Point, System.Drawing">
-    <value>1173, 400</value>
-  </data>
-  <data name="panel2.Dock" type="System.Windows.Forms.DockStyle, System.Windows.Forms">
-    <value>Top</value>
-  </data>
-  <data name="&gt;&gt;label5.ZOrder" xml:space="preserve">
-    <value>13</value>
-  </data>
-  <data name="mainPanel.Location" type="System.Drawing.Point, System.Drawing">
-    <value>300, 300</value>
-  </data>
-  <data name="ExitPic.SizeMode" type="System.Windows.Forms.PictureBoxSizeMode, System.Windows.Forms">
-    <value>Zoom</value>
-  </data>
-  <data name="&gt;&gt;labelstudentname.Parent" xml:space="preserve">
-    <value>panel5</value>
-  </data>
-  <data name="&gt;&gt;panel1.Parent" xml:space="preserve">
-    <value>$this</value>
-  </data>
-  <data name="label1.Location" type="System.Drawing.Point, System.Drawing">
-    <value>32, 112</value>
-  </data>
-  <data name="lodoutpic.Size" type="System.Drawing.Size, System.Drawing">
-    <value>125, 82</value>
-  </data>
-  <data name="panel5.Anchor" type="System.Windows.Forms.AnchorStyles, System.Windows.Forms">
-    <value>Top, Right</value>
-  </data>
-  <data name="&gt;&gt;label1.Parent" xml:space="preserve">
-    <value>panel2</value>
-  </data>
-  <data name="labelrole.Font" type="System.Drawing.Font, System.Drawing">
-    <value>Microsoft Sans Serif, 15pt, style=Bold</value>
-  </data>
-  <data name="labeldatetoday.Text" xml:space="preserve">
-    <value>label5</value>
-  </data>
-  <data name="&gt;&gt;labelwlcom.Name" xml:space="preserve">
-    <value>labelwlcom</value>
-  </data>
-  <data name="labelstudentname.Text" xml:space="preserve">
-    <value>x</value>
-  </data>
-  <data name="paneltop.Dock" type="System.Windows.Forms.DockStyle, System.Windows.Forms">
-    <value>Bottom</value>
-  </data>
-  <data name="&gt;&gt;label7.Name" xml:space="preserve">
-    <value>label7</value>
-  </data>
-  <data name="&gt;&gt;$this.Type" xml:space="preserve">
-    <value>System.Windows.Forms.Form, System.Windows.Forms, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
-  </data>
-  <data name="&gt;&gt;panel6.ZOrder" xml:space="preserve">
+  <data name="panelside.TabIndex" type="System.Int32, mscorlib">
     <value>0</value>
   </data>
-  <data name="&gt;&gt;button4.ZOrder" xml:space="preserve">
-    <value>0</value>
+  <data name="panel4.Location" type="System.Drawing.Point, System.Drawing">
+    <value>258, 4</value>
   </data>
-  <data name="&gt;&gt;panel2.Type" xml:space="preserve">
-    <value>System.Windows.Forms.Panel, System.Windows.Forms, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  <data name="lodoutpic.Location" type="System.Drawing.Point, System.Drawing">
+    <value>49, 455</value>
   </data>
-  <data name="pictureBox1.Size" type="System.Drawing.Size, System.Drawing">
-    <value>93, 87</value>
+  <data name="ExitPic.Size" type="System.Drawing.Size, System.Drawing">
+    <value>125, 62</value>
   </data>
-  <data name="label5.TabIndex" type="System.Int32, mscorlib">
-    <value>14</value>
+  <data name="label2.Text" xml:space="preserve">
+    <value>Filter By:</value>
   </data>
-  <data name="label11.Text" xml:space="preserve">
-    <value>Student</value>
-  </data>
-  <data name="panel2.TabIndex" type="System.Int32, mscorlib">
-    <value>0</value>
-  </data>
-  <data name="panel3.TabIndex" type="System.Int32, mscorlib">
-    <value>3</value>
-  </data>
-  <data name="labeldatetoday.AutoSize" type="System.Boolean, mscorlib">
-    <value>True</value>
-  </data>
-  <data name="lodoutpic.TabIndex" type="System.Int32, mscorlib">
-    <value>20</value>
-  </data>
-  <data name="&gt;&gt;panel2.Name" xml:space="preserve">
-    <value>panel2</value>
+  <data name="button2.FlatStyle" type="System.Windows.Forms.FlatStyle, System.Windows.Forms">
+    <value>Flat</value>
   </data>
   <data name="flowLayoutPanel1.TabIndex" type="System.Int32, mscorlib">
     <value>2</value>
   </data>
-  <data name="&gt;&gt;labelsearchclass.Parent" xml:space="preserve">
+  <data name="labelusername.Size" type="System.Drawing.Size, System.Drawing">
+    <value>67, 76</value>
+  </data>
+  <data name="&gt;&gt;labelwlcom.Parent" xml:space="preserve">
     <value>$this</value>
   </data>
-  <data name="labelDate.AutoSize" type="System.Boolean, mscorlib">
+  <data name="buttonclear.Text" xml:space="preserve">
+    <value>clear</value>
+  </data>
+  <data name="panel1.Size" type="System.Drawing.Size, System.Drawing">
+    <value>258, 738</value>
+  </data>
+  <data name="&gt;&gt;pictureBox1.Name" xml:space="preserve">
+    <value>pictureBox1</value>
+  </data>
+  <data name="panel5.Anchor" type="System.Windows.Forms.AnchorStyles, System.Windows.Forms">
+    <value>Top, Right</value>
+  </data>
+  <data name="button5.Size" type="System.Drawing.Size, System.Drawing">
+    <value>258, 52</value>
+  </data>
+  <data name="&gt;&gt;label7.ZOrder" xml:space="preserve">
+    <value>0</value>
+  </data>
+  <data name="panel2.Dock" type="System.Windows.Forms.DockStyle, System.Windows.Forms">
+    <value>Top</value>
+  </data>
+  <data name="label11.Location" type="System.Drawing.Point, System.Drawing">
+    <value>445, 134</value>
+  </data>
+  <data name="&gt;&gt;comboBox1.Name" xml:space="preserve">
+    <value>comboBox1</value>
+  </data>
+  <data name="&gt;&gt;label6.Parent" xml:space="preserve">
+    <value>panel5</value>
+  </data>
+  <data name="panelside.Location" type="System.Drawing.Point, System.Drawing">
+    <value>0, 0</value>
+  </data>
+  <data name="&gt;&gt;label4.Parent" xml:space="preserve">
+    <value>panel5</value>
+  </data>
+  <data name="&gt;&gt;labelusername.Name" xml:space="preserve">
+    <value>labelusername</value>
+  </data>
+  <data name="labelstudentname.Location" type="System.Drawing.Point, System.Drawing">
+    <value>200, 23</value>
+  </data>
+  <data name="label4.Size" type="System.Drawing.Size, System.Drawing">
+    <value>109, 25</value>
+  </data>
+  <data name="$this.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Microsoft Sans Serif, 12pt, style=Bold</value>
+  </data>
+  <data name="Column4.HeaderText" xml:space="preserve">
+    <value>Date</value>
+  </data>
+  <data name="mainPanel.Location" type="System.Drawing.Point, System.Drawing">
+    <value>300, 300</value>
+  </data>
+  <data name="label3.AutoSize" type="System.Boolean, mscorlib">
     <value>True</value>
   </data>
-  <data name="&gt;&gt;label11.Type" xml:space="preserve">
+  <data name="&gt;&gt;paneltop.Parent" xml:space="preserve">
+    <value>flowLayoutPanel1</value>
+  </data>
+  <data name="&gt;&gt;timer1.Name" xml:space="preserve">
+    <value>timer1</value>
+  </data>
+  <data name="labelDate.Size" type="System.Drawing.Size, System.Drawing">
+    <value>86, 29</value>
+  </data>
+  <data name="labelstudentname.Size" type="System.Drawing.Size, System.Drawing">
+    <value>23, 25</value>
+  </data>
+  <data name="button1.Size" type="System.Drawing.Size, System.Drawing">
+    <value>94, 29</value>
+  </data>
+  <data name="&gt;&gt;button3.Parent" xml:space="preserve">
+    <value>panel6</value>
+  </data>
+  <data name="$this.ClientSize" type="System.Drawing.Size, System.Drawing">
+    <value>1300, 738</value>
+  </data>
+  <data name="labelsearchbydate.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="button3.Location" type="System.Drawing.Point, System.Drawing">
+    <value>0, 52</value>
+  </data>
+  <data name="ExitPic.TabIndex" type="System.Int32, mscorlib">
+    <value>16</value>
+  </data>
+  <data name="labelDate.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Microsoft Sans Serif, 15pt, style=Bold</value>
+  </data>
+  <data name="labelDate.Text" xml:space="preserve">
+    <value>Date :</value>
+  </data>
+  <data name="labelsearchclass.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Microsoft Sans Serif, 15pt, style=Bold</value>
+  </data>
+  <data name="panel3.Location" type="System.Drawing.Point, System.Drawing">
+    <value>261, 12</value>
+  </data>
+  <data name="button4.Location" type="System.Drawing.Point, System.Drawing">
+    <value>0, 104</value>
+  </data>
+  <data name="label2.Location" type="System.Drawing.Point, System.Drawing">
+    <value>366, 404</value>
+  </data>
+  <data name="labeldatetoday.Size" type="System.Drawing.Size, System.Drawing">
+    <value>87, 29</value>
+  </data>
+  <data name="&gt;&gt;panel5.ZOrder" xml:space="preserve">
+    <value>4</value>
+  </data>
+  <data name="&gt;&gt;labelsearchclass.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="Column6.MinimumWidth" type="System.Int32, mscorlib">
+    <value>6</value>
+  </data>
+  <data name="&gt;&gt;button3.Name" xml:space="preserve">
+    <value>button3</value>
+  </data>
+  <data name="$this.AutoScaleDimensions" type="System.Drawing.SizeF, System.Drawing">
+    <value>13, 25</value>
+  </data>
+  <data name="button5.Location" type="System.Drawing.Point, System.Drawing">
+    <value>0, 156</value>
+  </data>
+  <data name="&gt;&gt;lodoutpic.Type" xml:space="preserve">
+    <value>System.Windows.Forms.PictureBox, System.Windows.Forms, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;labelDate.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="labelwlcom.Location" type="System.Drawing.Point, System.Drawing">
+    <value>346, 40</value>
+  </data>
+  <data name="&gt;&gt;label1.Parent" xml:space="preserve">
+    <value>panel2</value>
+  </data>
+  <data name="label11.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="label6.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="&gt;&gt;labelDate.Name" xml:space="preserve">
+    <value>labelDate</value>
+  </data>
+  <data name="labelstudentname.TabIndex" type="System.Int32, mscorlib">
+    <value>6</value>
+  </data>
+  <data name="&gt;&gt;panelside.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Panel, System.Windows.Forms, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="flowLayoutPanel1.Size" type="System.Drawing.Size, System.Drawing">
+    <value>1042, 0</value>
+  </data>
+  <data name="panel4.Size" type="System.Drawing.Size, System.Drawing">
+    <value>942, 165</value>
+  </data>
+  <data name="lodoutpic.SizeMode" type="System.Windows.Forms.PictureBoxSizeMode, System.Windows.Forms">
+    <value>Zoom</value>
+  </data>
+  <data name="lodoutpic.TabIndex" type="System.Int32, mscorlib">
+    <value>20</value>
+  </data>
+  <data name="flowLayoutPanel1.Location" type="System.Drawing.Point, System.Drawing">
+    <value>258, 0</value>
+  </data>
+  <data name="&gt;&gt;labelstudentname.Parent" xml:space="preserve">
+    <value>panel5</value>
+  </data>
+  <data name="label1.Text" xml:space="preserve">
+    <value>Student Attendance</value>
+  </data>
+  <data name="&gt;&gt;labelwlcom.ZOrder" xml:space="preserve">
+    <value>5</value>
+  </data>
+  <data name="dateTimePicker1.Location" type="System.Drawing.Point, System.Drawing">
+    <value>959, 402</value>
+  </data>
+  <data name="labelsearchbydate.Location" type="System.Drawing.Point, System.Drawing">
+    <value>863, 404</value>
+  </data>
+  <data name="&gt;&gt;label5.ZOrder" xml:space="preserve">
+    <value>13</value>
+  </data>
+  <data name="$this.StartPosition" type="System.Windows.Forms.FormStartPosition, System.Windows.Forms">
+    <value>CenterScreen</value>
+  </data>
+  <data name="&gt;&gt;panel4.Parent" xml:space="preserve">
+    <value>panel2</value>
+  </data>
+  <data name="&gt;&gt;label6.Type" xml:space="preserve">
     <value>System.Windows.Forms.Label, System.Windows.Forms, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </data>
   <data name="comboBox1.Size" type="System.Drawing.Size, System.Drawing">
     <value>151, 33</value>
+  </data>
+  <data name="&gt;&gt;panel1.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Panel, System.Windows.Forms, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;button4.ZOrder" xml:space="preserve">
+    <value>0</value>
+  </data>
+  <data name="&gt;&gt;pictureBox1.ZOrder" xml:space="preserve">
+    <value>3</value>
   </data>
   <data name="$this.Icon" type="System.Drawing.Icon, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
     <value>
@@ -2934,260 +3048,146 @@
         HAFyjCZM5DJaK1LV7i8K0rbm4fD6joEUAhGkZT8xVc+Y/wePplJ617hHugAAAABJRU5ErkJggg==
 </value>
   </data>
-  <data name="&gt;&gt;Column5.Name" xml:space="preserve">
-    <value>Column5</value>
-  </data>
-  <data name="&gt;&gt;label2.Parent" xml:space="preserve">
-    <value>$this</value>
-  </data>
-  <data name="$this.Text" xml:space="preserve">
-    <value>Student</value>
-  </data>
-  <data name="labelusername.AutoSize" type="System.Boolean, mscorlib">
+  <data name="labelrole.AutoSize" type="System.Boolean, mscorlib">
     <value>True</value>
   </data>
-  <data name="label5.Location" type="System.Drawing.Point, System.Drawing">
-    <value>661, 188</value>
-  </data>
-  <data name="comboBox1.TabIndex" type="System.Int32, mscorlib">
-    <value>21</value>
-  </data>
-  <data name="&gt;&gt;panel3.Type" xml:space="preserve">
-    <value>System.Windows.Forms.Panel, System.Windows.Forms, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
-  </data>
-  <data name="&gt;&gt;labelsearchbydate.Name" xml:space="preserve">
-    <value>labelsearchbydate</value>
-  </data>
-  <data name="&gt;&gt;label2.Name" xml:space="preserve">
-    <value>label2</value>
-  </data>
-  <data name="pictureBox1.TabIndex" type="System.Int32, mscorlib">
-    <value>0</value>
-  </data>
-  <data name="&gt;&gt;panel4.Name" xml:space="preserve">
-    <value>panel4</value>
-  </data>
-  <data name="ExitPic.Size" type="System.Drawing.Size, System.Drawing">
-    <value>125, 62</value>
-  </data>
-  <data name="&gt;&gt;label4.ZOrder" xml:space="preserve">
-    <value>3</value>
-  </data>
-  <data name="labelusername.Location" type="System.Drawing.Point, System.Drawing">
-    <value>638, 40</value>
-  </data>
-  <data name="&gt;&gt;buttonclear.ZOrder" xml:space="preserve">
-    <value>6</value>
-  </data>
-  <data name="&gt;&gt;button6.Name" xml:space="preserve">
-    <value>button6</value>
-  </data>
-  <data name="label3.Location" type="System.Drawing.Point, System.Drawing">
-    <value>371, 190</value>
-  </data>
-  <data name="label6.TabIndex" type="System.Int32, mscorlib">
-    <value>7</value>
-  </data>
-  <data name="panel2.Location" type="System.Drawing.Point, System.Drawing">
-    <value>0, 0</value>
-  </data>
-  <data name="paneltop.TabIndex" type="System.Int32, mscorlib">
-    <value>0</value>
-  </data>
-  <data name="label6.Size" type="System.Drawing.Size, System.Drawing">
-    <value>62, 25</value>
-  </data>
-  <data name="&gt;&gt;ExitPic.Name" xml:space="preserve">
-    <value>ExitPic</value>
-  </data>
-  <data name="label1.TabIndex" type="System.Int32, mscorlib">
-    <value>1</value>
-  </data>
-  <data name="button2.TabIndex" type="System.Int32, mscorlib">
-    <value>6</value>
-  </data>
-  <data name="ExitPic.Anchor" type="System.Windows.Forms.AnchorStyles, System.Windows.Forms">
-    <value>Top, Right</value>
-  </data>
-  <data name="label4.Size" type="System.Drawing.Size, System.Drawing">
-    <value>109, 25</value>
-  </data>
-  <data name="&gt;&gt;pictureBox2.Type" xml:space="preserve">
-    <value>System.Windows.Forms.PictureBox, System.Windows.Forms, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
-  </data>
-  <data name="ExitPic.TabIndex" type="System.Int32, mscorlib">
-    <value>16</value>
-  </data>
-  <data name="&gt;&gt;panel2.Parent" xml:space="preserve">
-    <value>panel1</value>
-  </data>
-  <data name="&gt;&gt;panel2.ZOrder" xml:space="preserve">
-    <value>1</value>
-  </data>
-  <data name="&gt;&gt;labelusername.Type" xml:space="preserve">
-    <value>System.Windows.Forms.Label, System.Windows.Forms, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
-  </data>
-  <data name="flowLayoutPanel1.Dock" type="System.Windows.Forms.DockStyle, System.Windows.Forms">
-    <value>Top</value>
-  </data>
-  <data name="button3.Size" type="System.Drawing.Size, System.Drawing">
-    <value>258, 52</value>
-  </data>
-  <data name="Column6.HeaderText" xml:space="preserve">
-    <value>Status</value>
-  </data>
-  <data name="&gt;&gt;label11.Name" xml:space="preserve">
-    <value>label11</value>
-  </data>
-  <data name="&gt;&gt;label2.ZOrder" xml:space="preserve">
-    <value>10</value>
-  </data>
-  <data name="label7.Location" type="System.Drawing.Point, System.Drawing">
-    <value>166, 80</value>
-  </data>
-  <data name="labelsearchbydate.Text" xml:space="preserve">
-    <value>Date</value>
-  </data>
-  <data name="&gt;&gt;panel4.Type" xml:space="preserve">
-    <value>System.Windows.Forms.Panel, System.Windows.Forms, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
-  </data>
-  <data name="&gt;&gt;button3.Type" xml:space="preserve">
-    <value>System.Windows.Forms.Button, System.Windows.Forms, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
-  </data>
-  <data name="label4.Location" type="System.Drawing.Point, System.Drawing">
-    <value>50, 23</value>
+  <data name="ExitPic.SizeMode" type="System.Windows.Forms.PictureBoxSizeMode, System.Windows.Forms">
+    <value>Zoom</value>
   </data>
   <data name="&gt;&gt;labelstudentname.ZOrder" xml:space="preserve">
     <value>2</value>
   </data>
-  <data name="&gt;&gt;panelside.ZOrder" xml:space="preserve">
-    <value>5</value>
+  <data name="labeldatetoday.Text" xml:space="preserve">
+    <value>label5</value>
   </data>
-  <data name="&gt;&gt;pictureBox2.Name" xml:space="preserve">
-    <value>pictureBox2</value>
+  <data name="label7.TabIndex" type="System.Int32, mscorlib">
+    <value>8</value>
   </data>
-  <data name="&gt;&gt;button6.Type" xml:space="preserve">
-    <value>System.Windows.Forms.Button, System.Windows.Forms, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  <data name="labelwlcom.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Microsoft Sans Serif, 40pt, style=Bold</value>
   </data>
-  <data name="labelDate.TabIndex" type="System.Int32, mscorlib">
-    <value>13</value>
+  <data name="labelsearchclass.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
   </data>
-  <data name="&gt;&gt;label1.Name" xml:space="preserve">
-    <value>label1</value>
+  <data name="labelrole.Size" type="System.Drawing.Size, System.Drawing">
+    <value>77, 29</value>
   </data>
-  <data name="&gt;&gt;labeldatetoday.Parent" xml:space="preserve">
+  <data name="button2.Location" type="System.Drawing.Point, System.Drawing">
+    <value>0, 0</value>
+  </data>
+  <data name="&gt;&gt;labelstudentname.Name" xml:space="preserve">
+    <value>labelstudentname</value>
+  </data>
+  <data name="&gt;&gt;panel4.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Panel, System.Windows.Forms, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;labelsearchbydate.Parent" xml:space="preserve">
     <value>$this</value>
   </data>
-  <data name="label1.Text" xml:space="preserve">
-    <value>Student Attendance</value>
+  <data name="labelsearchbydate.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Microsoft Sans Serif, 15pt, style=Bold</value>
   </data>
-  <data name="&gt;&gt;lodoutpic.Parent" xml:space="preserve">
-    <value>panel6</value>
+  <data name="&gt;&gt;panel5.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Panel, System.Windows.Forms, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </data>
-  <data name="pictureBox2.Anchor" type="System.Windows.Forms.AnchorStyles, System.Windows.Forms">
-    <value>Bottom, Right</value>
+  <data name="label1.Location" type="System.Drawing.Point, System.Drawing">
+    <value>32, 112</value>
   </data>
-  <data name="&gt;&gt;lodoutpic.Type" xml:space="preserve">
-    <value>System.Windows.Forms.PictureBox, System.Windows.Forms, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
-  </data>
-  <data name="&gt;&gt;labelusername.Parent" xml:space="preserve">
-    <value>$this</value>
-  </data>
-  <data name="panel2.Size" type="System.Drawing.Size, System.Drawing">
-    <value>258, 180</value>
-  </data>
-  <data name="panel4.Location" type="System.Drawing.Point, System.Drawing">
-    <value>258, 4</value>
-  </data>
-  <data name="button5.Size" type="System.Drawing.Size, System.Drawing">
-    <value>258, 52</value>
-  </data>
-  <data name="&gt;&gt;dateTimePicker1.Parent" xml:space="preserve">
-    <value>$this</value>
-  </data>
-  <data name="label11.Size" type="System.Drawing.Size, System.Drawing">
-    <value>107, 29</value>
+  <data name="&gt;&gt;label3.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </data>
   <data name="&gt;&gt;Column6.Name" xml:space="preserve">
     <value>Column6</value>
   </data>
-  <data name="dataGridView2.Size" type="System.Drawing.Size, System.Drawing">
-    <value>1000, 500</value>
+  <data name="&gt;&gt;Column6.Type" xml:space="preserve">
+    <value>System.Windows.Forms.DataGridViewTextBoxColumn, System.Windows.Forms, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </data>
-  <data name="labelsearchclass.TabIndex" type="System.Int32, mscorlib">
-    <value>1</value>
+  <data name="labeltimenow.TabIndex" type="System.Int32, mscorlib">
+    <value>15</value>
   </data>
-  <data name="dateTimePicker1.Location" type="System.Drawing.Point, System.Drawing">
-    <value>959, 402</value>
+  <data name="button3.Dock" type="System.Windows.Forms.DockStyle, System.Windows.Forms">
+    <value>Top</value>
   </data>
-  <data name="label7.Text" xml:space="preserve">
-    <value>Student</value>
+  <data name="labelwlcom.Size" type="System.Drawing.Size, System.Drawing">
+    <value>279, 76</value>
   </data>
-  <data name="panel1.Size" type="System.Drawing.Size, System.Drawing">
-    <value>258, 738</value>
+  <data name="lodoutpic.Size" type="System.Drawing.Size, System.Drawing">
+    <value>125, 82</value>
   </data>
-  <data name="button2.Size" type="System.Drawing.Size, System.Drawing">
-    <value>258, 52</value>
+  <data name="&gt;&gt;panel3.Name" xml:space="preserve">
+    <value>panel3</value>
   </data>
-  <data name="label3.Size" type="System.Drawing.Size, System.Drawing">
-    <value>0, 25</value>
+  <data name="&gt;&gt;pictureBox2.Type" xml:space="preserve">
+    <value>System.Windows.Forms.PictureBox, System.Windows.Forms, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </data>
-  <data name="labelsearchclass.Location" type="System.Drawing.Point, System.Drawing">
-    <value>519, 404</value>
+  <data name="&gt;&gt;pictureBox2.ZOrder" xml:space="preserve">
+    <value>16</value>
   </data>
-  <data name="&gt;&gt;buttonclear.Name" xml:space="preserve">
-    <value>buttonclear</value>
+  <data name="&gt;&gt;comboBox1.Type" xml:space="preserve">
+    <value>System.Windows.Forms.ComboBox, System.Windows.Forms, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </data>
-  <data name="labeldatetoday.Location" type="System.Drawing.Point, System.Drawing">
-    <value>473, 188</value>
-  </data>
-  <data name="&gt;&gt;panel4.Parent" xml:space="preserve">
-    <value>panel2</value>
-  </data>
-  <data name="lodoutpic.SizeMode" type="System.Windows.Forms.PictureBoxSizeMode, System.Windows.Forms">
-    <value>Zoom</value>
-  </data>
-  <data name="panel6.Location" type="System.Drawing.Point, System.Drawing">
-    <value>0, 180</value>
-  </data>
-  <data name="labelrole.AutoSize" type="System.Boolean, mscorlib">
-    <value>True</value>
-  </data>
-  <data name="panelside.Size" type="System.Drawing.Size, System.Drawing">
-    <value>8, 47</value>
-  </data>
-  <data name="panel5.Size" type="System.Drawing.Size, System.Drawing">
-    <value>1044, 125</value>
-  </data>
-  <data name="labelrole.Location" type="System.Drawing.Point, System.Drawing">
-    <value>363, 134</value>
-  </data>
-  <data name="&gt;&gt;label7.Parent" xml:space="preserve">
+  <data name="&gt;&gt;panel5.Name" xml:space="preserve">
     <value>panel5</value>
   </data>
-  <data name="$this.StartPosition" type="System.Windows.Forms.FormStartPosition, System.Windows.Forms">
-    <value>CenterScreen</value>
+  <data name="&gt;&gt;panel3.Parent" xml:space="preserve">
+    <value>panel2</value>
   </data>
-  <data name="&gt;&gt;dateTimePicker1.Type" xml:space="preserve">
-    <value>System.Windows.Forms.DateTimePicker, System.Windows.Forms, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  <data name="button4.Size" type="System.Drawing.Size, System.Drawing">
+    <value>258, 52</value>
   </data>
-  <metadata name="$this.TrayHeight" type="System.Int32, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
-    <value>52</value>
-  </metadata>
+  <data name="label2.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="&gt;&gt;button1.Parent" xml:space="preserve">
+    <value>panelside</value>
+  </data>
+  <data name="&gt;&gt;labelsearchclass.ZOrder" xml:space="preserve">
+    <value>19</value>
+  </data>
+  <data name="button3.Text" xml:space="preserve">
+    <value>English</value>
+  </data>
+  <data name="&gt;&gt;panel1.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;panel6.ZOrder" xml:space="preserve">
+    <value>0</value>
+  </data>
+  <data name="panel1.Dock" type="System.Windows.Forms.DockStyle, System.Windows.Forms">
+    <value>Left</value>
+  </data>
+  <data name="&gt;&gt;flowLayoutPanel1.ZOrder" xml:space="preserve">
+    <value>18</value>
+  </data>
+  <data name="labelwlcom.TabIndex" type="System.Int32, mscorlib">
+    <value>23</value>
+  </data>
+  <data name="label4.TabIndex" type="System.Int32, mscorlib">
+    <value>5</value>
+  </data>
+  <data name="labelusername.Location" type="System.Drawing.Point, System.Drawing">
+    <value>638, 40</value>
+  </data>
+  <data name="&gt;&gt;timer1.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Timer, System.Windows.Forms, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
   <metadata name="Column4.UserAddedColumn" type="System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
-    <value>True</value>
-  </metadata>
-  <metadata name="$this.Language" type="System.Globalization.CultureInfo, System.Private.CoreLib, Culture=neutral, PublicKeyToken=7cec85d7bea7798e">
-    <value>ar-EG</value>
-  </metadata>
-  <metadata name="Column5.UserAddedColumn" type="System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
-    <value>True</value>
-  </metadata>
-  <metadata name="Column6.UserAddedColumn" type="System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
     <value>True</value>
   </metadata>
   <metadata name="timer1.TrayLocation" type="System.Drawing.Point, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a">
     <value>17, 17</value>
+  </metadata>
+  <metadata name="$this.Language" type="System.Globalization.CultureInfo, System.Private.CoreLib, Culture=neutral, PublicKeyToken=7cec85d7bea7798e">
+    <value>ar-EG</value>
+  </metadata>
+  <metadata name="$this.TrayHeight" type="System.Int32, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+    <value>52</value>
+  </metadata>
+  <metadata name="Column6.UserAddedColumn" type="System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+    <value>True</value>
+  </metadata>
+  <metadata name="Column5.UserAddedColumn" type="System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+    <value>True</value>
   </metadata>
   <metadata name="$this.Localizable" type="System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
     <value>True</value>
