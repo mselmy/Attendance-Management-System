@@ -1173,9 +1173,6 @@
   <data name="label4.Text" xml:space="preserve">
     <value>نظام رصد الحضور</value>
   </data>
-  <data name="groupBox3.Text" xml:space="preserve">
-    <value>برجاء تسجيل الدخول أولا</value>
-  </data>
   <data name="pictureBoxInvisible.Image" type="System.Drawing.Bitmap, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
     <value>
         iVBORw0KGgoAAAANSUhEUgAAAgAAAAIACAYAAAD0eNT6AAAABGdBTUEAALGPC/xhBQAAAAlwSFlzAAAP
@@ -2040,6 +2037,9 @@
   </data>
   <data name="buttonLogin.Text" xml:space="preserve">
     <value>تسجيل الدخول</value>
+  </data>
+  <data name="groupBox3.Text" xml:space="preserve">
+    <value>برجاء تسجيل الدخول أولا</value>
   </data>
   <data name="$this.Icon" type="System.Drawing.Icon, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
     <value>

@@ -8,6 +8,7 @@ namespace Attendance_Management_System
         public Login()
         {
             Configs.checkLanguage();
+            Configs.checkDateFormat();
             InitializeComponent();
         }
 
@@ -128,6 +129,33 @@ namespace Attendance_Management_System
         private void textBoxPassword_TextChanged(object sender, EventArgs e)
         {
 
+        }
+
+        private void textBoxEmail_KeyUp(object sender, KeyEventArgs e)
+        {
+            // if the user press enter key then the login button will be clicked
+            if (e.KeyCode == Keys.Enter)
+            {
+                click_Login(sender, e);
+            }
+        }
+
+        private void textBoxPassword_KeyUp(object sender, KeyEventArgs e)
+        {
+            // if the user press enter key then the login button will be clicked
+            if (e.KeyCode == Keys.Enter)
+            {
+                click_Login(sender, e);
+            }
+        }
+
+        private void Login_KeyUp(object sender, KeyEventArgs e)
+        {
+            // if the user press enter key then the login button will be clicked
+            if (e.KeyCode == Keys.Enter)
+            {
+                click_Login(sender, e);
+            }
         }
     }
 }

@@ -35,13 +35,22 @@ namespace Attendance_Management_System
 
         private void SaveChangesbutton_Click(object sender, EventArgs e)
         {
-            if (LanguageComboBox.Text == "Arabic")
+            if (LanguageComboBox.Text == "Arabic" || LanguageComboBox.Text == "العربية")
             {
                 Configs.setLanguage("AR");
             }
-            else
+            else if (LanguageComboBox.Text == "English" || LanguageComboBox.Text == "الانجليزية")
             {
                 Configs.setLanguage("EN");
+            }
+
+            if (DateFormatecomboBox.Text == "Short" || DateFormatecomboBox.Text == "قصير")
+            {
+                Configs.ChangeDateFormat("Short");
+            }
+            else if (DateFormatecomboBox.Text == "Long" || DateFormatecomboBox.Text == "طويل")
+            {
+                Configs.ChangeDateFormat("Long");
             }
             if (refresh != null)
             { refresh(); }

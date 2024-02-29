@@ -560,13 +560,10 @@
   <data name="StudenttabPage.Text" xml:space="preserve">
     <value>تقرير الطالب</value>
   </data>
-  <data name="classReporttabPage.Text" xml:space="preserve">
-    <value>تقرير الفصل</value>
-  </data>
   <data name="excel.Image" type="System.Drawing.Bitmap, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
     <value>
         iVBORw0KGgoAAAANSUhEUgAAAgAAAAIACAYAAAD0eNT6AAAABGdBTUEAALGPC/xhBQAAAAlwSFlzAAAO
-        vQAADr0BR/uQrQAAABl0RVh0U29mdHdhcmUAd3d3Lmlua3NjYXBlLm9yZ5vuPBoAADHaSURBVHhe7d0J
+        vAAADrwBlbxySQAAABl0RVh0U29mdHdhcmUAd3d3Lmlua3NjYXBlLm9yZ5vuPBoAADHaSURBVHhe7d0J
         mFTVnffxwiVq4haNJmPeZDKJySQx28RJIl2F4mg0KiIYEONC1LiwBIGu6maXRlRARGRRFulmawVZBARF
         UcQFFHABVEBARdlEENlkX+57T3lMoPp0U8s9t+6t//f7PJ9n3mWkuvqpPv3r7qpbESrgGjc+OlIa/e9I
         cbR+JFF0p/s/+0YS0Qnu//mlSDz6nutT1xeu7S4HCItzet+w/LtlDc/Uj3QiIuG1rX12pDjW1P0mP9j1
@@ -972,6 +969,9 @@
         p2iYv8sP8qZM+V/Y124MLRodCwAAAABJRU5ErkJggg==
 </value>
   </data>
+  <data name="dateTimePicker1.CustomFormat" xml:space="preserve">
+    <value>yyyy/MM/dd</value>
+  </data>
   <data name="endlabel.Size" type="System.Drawing.Size, System.Drawing">
     <value>46, 28</value>
   </data>
@@ -988,6 +988,9 @@
     <value>115, 28</value>
   </data>
   <data name="label1.Text" xml:space="preserve">
+    <value>تقرير الفصل</value>
+  </data>
+  <data name="classReporttabPage.Text" xml:space="preserve">
     <value>تقرير الفصل</value>
   </data>
 </root>

@@ -1,4 +1,5 @@
-﻿using System;
+﻿using Org.BouncyCastle.Tls;
+using System;
 using System.Collections.Generic;
 using System.Diagnostics;
 using System.Globalization;
@@ -47,7 +48,7 @@ namespace Attendance_Management_System.Classes
         public static string CoursesPath = "/school/teachers/teacher/courses/course";
         public static string AttendenceRecordpath = @"/ school/attendance-records/attendance-record";
         public static string language = "en-US";
-        public static string dateFormate = "dd/MM/yyyy";
+        public static string dateFormate = "Short";
 
         public static void ChangeLanguage()
         {
@@ -77,6 +78,47 @@ namespace Attendance_Management_System.Classes
             ChangeLanguage();
         }
 
+        public static void ChangeDateFormat(string df)
+        {
+            if (df == "Short")
+            {
+                dateFormate = "Short";
+                XMLManagement.UpdateNode("/school/configs", "dateFormats", "Short");
+            }
+            else
+            {
+                dateFormate = "Long";
+                XMLManagement.UpdateNode("/school/configs", "dateFormats", "Long");
+            }
+        }
 
+        public static void checkDateFormat()
+        {
+            dateFormate = XMLManagement.GetNodeValue("/school/configs/dateFormats");
+        }
+
+        public static DateTimePickerFormat GetDateFormate()
+        {
+            if (dateFormate == "Short")
+            {
+                return DateTimePickerFormat.Short;
+            }
+            else
+            {
+                return DateTimePickerFormat.Long;
+            }
+        }
+
+        public static string GetDateFormateString()
+        {
+            if (dateFormate == "Short")
+            {
+                return "yyyy-MM-dd";
+            }
+            else
+            {
+                return "dddd, dd MMMM yyyy";
+            }
+        }
     }
 }
