@@ -32,7 +32,6 @@
             panel1 = new Panel();
             SettingButton = new Button();
             AddButton = new Button();
-            DeleteButton = new Button();
             EditButton = new Button();
             pictureBox1 = new PictureBox();
             loadButton = new Button();
@@ -78,16 +77,15 @@
             // 
             resources.ApplyResources(panel1, "panel1");
             panel1.BackColor = Color.SlateGray;
+            panel1.Controls.Add(logoutButton);
+            panel1.Controls.Add(ExitButton);
             panel1.Controls.Add(SettingButton);
             panel1.Controls.Add(AddButton);
-            panel1.Controls.Add(DeleteButton);
             panel1.Controls.Add(EditButton);
             panel1.Controls.Add(pictureBox1);
             panel1.Controls.Add(loadButton);
             panel1.Controls.Add(saveButton);
             panel1.Controls.Add(searchButton);
-            panel1.Controls.Add(logoutButton);
-            panel1.Controls.Add(ExitButton);
             panel1.Controls.Add(attendenceReportButton);
             panel1.Controls.Add(DashboardButton);
             panel1.Name = "panel1";
@@ -109,14 +107,6 @@
             AddButton.Name = "AddButton";
             AddButton.UseVisualStyleBackColor = false;
             AddButton.Click += AddButton_Click;
-            // 
-            // DeleteButton
-            // 
-            resources.ApplyResources(DeleteButton, "DeleteButton");
-            DeleteButton.BackColor = Color.SlateGray;
-            DeleteButton.Cursor = Cursors.Hand;
-            DeleteButton.Name = "DeleteButton";
-            DeleteButton.UseVisualStyleBackColor = false;
             // 
             // EditButton
             // 
@@ -395,7 +385,6 @@
         private PictureBox pictureBox2;
         private Label nameLabel;
         private Button EditButton;
-        private Button DeleteButton;
         private Label label1;
         private FlowLayoutPanel flowLayoutPanel2;
         private DataGridView mostAbStTable;

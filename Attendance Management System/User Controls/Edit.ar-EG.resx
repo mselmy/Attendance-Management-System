@@ -117,75 +117,183 @@
   <resheader name="writer">
     <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </resheader>
+  <assembly alias="System.Windows.Forms" name="System.Windows.Forms, Culture=neutral, PublicKeyToken=b77a5c561934e089" />
+  <data name="deleteStudent.FlatStyle" type="System.Windows.Forms.FlatStyle, System.Windows.Forms">
+    <value>Flat</value>
+  </data>
   <assembly alias="System.Drawing" name="System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" />
+  <data name="deleteStudent.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Segoe UI, 12pt, style=Bold</value>
+  </data>
+  <data name="deleteStudent.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <assembly alias="System.Windows.Forms" name="System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" />
+  <data name="deleteStudent.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>2, 2, 2, 2</value>
+  </data>
+  <data name="deleteStudent.Size" type="System.Drawing.Size, System.Drawing">
+    <value>151, 59</value>
+  </data>
+  <data name="deleteStudent.Text" xml:space="preserve">
+    <value>حذف</value>
+  </data>
+  <data name="StudentcomboBox.Location" type="System.Drawing.Point, System.Drawing">
+    <value>830, 10</value>
+  </data>
+  <data name="StudentcomboBox.Size" type="System.Drawing.Size, System.Drawing">
+    <value>258, 33</value>
+  </data>
   <data name="label17.Location" type="System.Drawing.Point, System.Drawing">
-    <value>368, 8</value>
+    <value>460, 10</value>
   </data>
   <data name="label17.Size" type="System.Drawing.Size, System.Drawing">
-    <value>297, 28</value>
+    <value>353, 32</value>
   </data>
   <data name="label17.Text" xml:space="preserve">
     <value>الحصول عن طريق الرقم التعريفي:</value>
   </data>
+  <data name="emailexisterrormessage.Location" type="System.Drawing.Point, System.Drawing">
+    <value>742, 345</value>
+  </data>
   <data name="emailexisterrormessage.Size" type="System.Drawing.Size, System.Drawing">
-    <value>203, 21</value>
+    <value>219, 24</value>
   </data>
   <data name="emailexisterrormessage.Text" xml:space="preserve">
     <value>هذا البريد الإلكتروني موجود بالفعل</value>
   </data>
+  <data name="emailtextBox.Location" type="System.Drawing.Point, System.Drawing">
+    <value>730, 308</value>
+  </data>
+  <data name="emailtextBox.Size" type="System.Drawing.Size, System.Drawing">
+    <value>270, 24</value>
+  </data>
+  <data name="emailnotvaliderrormessage.Location" type="System.Drawing.Point, System.Drawing">
+    <value>720, 345</value>
+  </data>
   <data name="emailnotvaliderrormessage.Size" type="System.Drawing.Size, System.Drawing">
-    <value>224, 21</value>
+    <value>244, 24</value>
   </data>
   <data name="emailnotvaliderrormessage.Text" xml:space="preserve">
     <value>يرجى إدخال البريد الإلكتروني الصحيح</value>
   </data>
+  <data name="panel13.Location" type="System.Drawing.Point, System.Drawing">
+    <value>730, 340</value>
+  </data>
+  <data name="panel13.Size" type="System.Drawing.Size, System.Drawing">
+    <value>270, 2</value>
+  </data>
+  <data name="label10.Location" type="System.Drawing.Point, System.Drawing">
+    <value>730, 272</value>
+  </data>
   <data name="label10.Size" type="System.Drawing.Size, System.Drawing">
-    <value>150, 28</value>
+    <value>178, 32</value>
   </data>
   <data name="label10.Text" xml:space="preserve">
     <value>البريد الإلكتروني:</value>
   </data>
+  <assembly alias="mscorlib" name="mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" />
+  <data name="classStudlistBox.ItemHeight" type="System.Int32, mscorlib">
+    <value>25</value>
+  </data>
+  <data name="classStudlistBox.Location" type="System.Drawing.Point, System.Drawing">
+    <value>730, 134</value>
+  </data>
+  <data name="classStudlistBox.Size" type="System.Drawing.Size, System.Drawing">
+    <value>282, 75</value>
+  </data>
+  <data name="passwordlabel1.Location" type="System.Drawing.Point, System.Drawing">
+    <value>90, 328</value>
+  </data>
   <data name="passwordlabel1.Size" type="System.Drawing.Size, System.Drawing">
-    <value>264, 21</value>
+    <value>285, 24</value>
   </data>
   <data name="passwordlabel1.Text" xml:space="preserve">
     <value>اجعل كلمة المرور معقدة ولا تقل عن 8 أحرف</value>
   </data>
+  <data name="passswordstdtextBox.Location" type="System.Drawing.Point, System.Drawing">
+    <value>90, 279</value>
+  </data>
+  <data name="passswordstdtextBox.Size" type="System.Drawing.Size, System.Drawing">
+    <value>270, 24</value>
+  </data>
+  <data name="label13.Location" type="System.Drawing.Point, System.Drawing">
+    <value>89, 242</value>
+  </data>
   <data name="label13.Size" type="System.Drawing.Size, System.Drawing">
-    <value>97, 28</value>
+    <value>116, 32</value>
   </data>
   <data name="label13.Text" xml:space="preserve">
     <value>كلمة السر:</value>
   </data>
+  <data name="panel11.Location" type="System.Drawing.Point, System.Drawing">
+    <value>90, 318</value>
+  </data>
+  <data name="panel11.Size" type="System.Drawing.Size, System.Drawing">
+    <value>270, 2</value>
+  </data>
   <data name="labelErrorMessage1.Location" type="System.Drawing.Point, System.Drawing">
-    <value>611, 182</value>
+    <value>764, 228</value>
   </data>
   <data name="labelErrorMessage1.Size" type="System.Drawing.Size, System.Drawing">
-    <value>174, 21</value>
+    <value>187, 24</value>
   </data>
   <data name="labelErrorMessage1.Text" xml:space="preserve">
     <value>الرجاء اختيار واحد من القائمة</value>
   </data>
+  <data name="panel4.Location" type="System.Drawing.Point, System.Drawing">
+    <value>728, 222</value>
+  </data>
+  <data name="panel4.Size" type="System.Drawing.Size, System.Drawing">
+    <value>289, 2</value>
+  </data>
+  <data name="label7.Location" type="System.Drawing.Point, System.Drawing">
+    <value>730, 92</value>
+  </data>
   <data name="label7.Size" type="System.Drawing.Size, System.Drawing">
-    <value>72, 28</value>
+    <value>87, 32</value>
   </data>
   <data name="label7.Text" xml:space="preserve">
     <value>الفصل:</value>
   </data>
+  <data name="labelErrorMessage.Location" type="System.Drawing.Point, System.Drawing">
+    <value>90, 194</value>
+  </data>
   <data name="labelErrorMessage.Size" type="System.Drawing.Size, System.Drawing">
-    <value>145, 21</value>
+    <value>156, 24</value>
   </data>
   <data name="labelErrorMessage.Text" xml:space="preserve">
     <value>رجاء ادخل اسما صحيحا</value>
   </data>
+  <data name="editStudentButton.Location" type="System.Drawing.Point, System.Drawing">
+    <value>944, 508</value>
+  </data>
+  <data name="editStudentButton.Size" type="System.Drawing.Size, System.Drawing">
+    <value>151, 59</value>
+  </data>
   <data name="editStudentButton.Text" xml:space="preserve">
     <value>تعديل</value>
   </data>
+  <data name="nameStudenttextBox.Location" type="System.Drawing.Point, System.Drawing">
+    <value>90, 158</value>
+  </data>
+  <data name="nameStudenttextBox.Size" type="System.Drawing.Size, System.Drawing">
+    <value>270, 24</value>
+  </data>
+  <data name="label9.Location" type="System.Drawing.Point, System.Drawing">
+    <value>90, 128</value>
+  </data>
   <data name="label9.Size" type="System.Drawing.Size, System.Drawing">
-    <value>63, 28</value>
+    <value>75, 32</value>
   </data>
   <data name="label9.Text" xml:space="preserve">
     <value>الإسم:</value>
+  </data>
+  <data name="panel6.Location" type="System.Drawing.Point, System.Drawing">
+    <value>90, 188</value>
+  </data>
+  <data name="panel6.Size" type="System.Drawing.Size, System.Drawing">
+    <value>270, 2</value>
   </data>
   <data name="Pdf.Image" type="System.Drawing.Bitmap, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
     <value>
@@ -875,65 +983,161 @@
         QmCC
 </value>
   </data>
+  <data name="Pdf.Location" type="System.Drawing.Point, System.Drawing">
+    <value>8, 8</value>
+  </data>
+  <data name="Pdf.Size" type="System.Drawing.Size, System.Drawing">
+    <value>76, 79</value>
+  </data>
+  <data name="label1.Location" type="System.Drawing.Point, System.Drawing">
+    <value>90, 32</value>
+  </data>
   <data name="label1.Size" type="System.Drawing.Size, System.Drawing">
-    <value>126, 28</value>
+    <value>149, 32</value>
   </data>
   <data name="label1.Text" xml:space="preserve">
     <value>تعديل الطالب</value>
   </data>
+  <data name="sstudentEditPage.Size" type="System.Drawing.Size, System.Drawing">
+    <value>1111, 581</value>
+  </data>
   <data name="sstudentEditPage.Text" xml:space="preserve">
     <value>الطالب</value>
   </data>
+  <data name="deleteClass.FlatStyle" type="System.Windows.Forms.FlatStyle, System.Windows.Forms">
+    <value>Flat</value>
+  </data>
+  <data name="deleteClass.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Segoe UI, 12pt, style=Bold</value>
+  </data>
+  <data name="deleteClass.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="deleteClass.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>2, 2, 2, 2</value>
+  </data>
+  <data name="deleteClass.Size" type="System.Drawing.Size, System.Drawing">
+    <value>151, 59</value>
+  </data>
+  <data name="deleteClass.Text" xml:space="preserve">
+    <value>حذف</value>
+  </data>
+  <data name="ClasscomboBox.Location" type="System.Drawing.Point, System.Drawing">
+    <value>822, 22</value>
+  </data>
+  <data name="ClasscomboBox.Size" type="System.Drawing.Size, System.Drawing">
+    <value>258, 33</value>
+  </data>
   <data name="label18.Location" type="System.Drawing.Point, System.Drawing">
-    <value>357, 18</value>
+    <value>446, 22</value>
   </data>
   <data name="label18.Size" type="System.Drawing.Size, System.Drawing">
-    <value>297, 28</value>
+    <value>353, 32</value>
   </data>
   <data name="label18.Text" xml:space="preserve">
     <value>الحصول عن طريق الرقم التعريفي:</value>
   </data>
+  <data name="classteachercomboBox.Location" type="System.Drawing.Point, System.Drawing">
+    <value>85, 302</value>
+  </data>
+  <data name="classteachercomboBox.Size" type="System.Drawing.Size, System.Drawing">
+    <value>275, 33</value>
+  </data>
+  <data name="labelErrorMessage8.Location" type="System.Drawing.Point, System.Drawing">
+    <value>91, 182</value>
+  </data>
   <data name="labelErrorMessage8.Size" type="System.Drawing.Size, System.Drawing">
-    <value>145, 21</value>
+    <value>156, 24</value>
   </data>
   <data name="labelErrorMessage8.Text" xml:space="preserve">
     <value>رجاء ادخل اسما صحيحا</value>
   </data>
+  <data name="labelErrorMessage10.Location" type="System.Drawing.Point, System.Drawing">
+    <value>706, 270</value>
+  </data>
   <data name="labelErrorMessage10.Size" type="System.Drawing.Size, System.Drawing">
-    <value>152, 21</value>
+    <value>164, 24</value>
   </data>
   <data name="labelErrorMessage10.Text" xml:space="preserve">
     <value>الرجاء الاختيار من القائمة</value>
   </data>
+  <data name="labelErrorMessage9.Location" type="System.Drawing.Point, System.Drawing">
+    <value>90, 348</value>
+  </data>
   <data name="labelErrorMessage9.Size" type="System.Drawing.Size, System.Drawing">
-    <value>179, 21</value>
+    <value>192, 24</value>
   </data>
   <data name="labelErrorMessage9.Text" xml:space="preserve">
     <value>الرجاء اختيار واحدة من القائمة</value>
+  </data>
+  <data name="StudentInClasslistBox.ItemHeight" type="System.Int32, mscorlib">
+    <value>25</value>
+  </data>
+  <data name="StudentInClasslistBox.Location" type="System.Drawing.Point, System.Drawing">
+    <value>695, 171</value>
+  </data>
+  <data name="StudentInClasslistBox.Size" type="System.Drawing.Size, System.Drawing">
+    <value>270, 75</value>
+  </data>
+  <data name="editClassButton.Location" type="System.Drawing.Point, System.Drawing">
+    <value>948, 510</value>
+  </data>
+  <data name="editClassButton.Size" type="System.Drawing.Size, System.Drawing">
+    <value>151, 59</value>
   </data>
   <data name="editClassButton.Text" xml:space="preserve">
     <value>تعديل</value>
   </data>
   <data name="label6.Location" type="System.Drawing.Point, System.Drawing">
-    <value>68, 210</value>
+    <value>85, 262</value>
   </data>
   <data name="label6.Size" type="System.Drawing.Size, System.Drawing">
-    <value>80, 28</value>
+    <value>97, 32</value>
   </data>
   <data name="label6.Text" xml:space="preserve">
     <value>المدرس:</value>
   </data>
+  <data name="panel3.Location" type="System.Drawing.Point, System.Drawing">
+    <value>86, 342</value>
+  </data>
+  <data name="panel3.Size" type="System.Drawing.Size, System.Drawing">
+    <value>270, 2</value>
+  </data>
+  <data name="label5.Location" type="System.Drawing.Point, System.Drawing">
+    <value>692, 136</value>
+  </data>
   <data name="label5.Size" type="System.Drawing.Size, System.Drawing">
-    <value>76, 28</value>
+    <value>91, 32</value>
   </data>
   <data name="label5.Text" xml:space="preserve">
     <value>الطلاب:</value>
   </data>
+  <data name="panel2.Location" type="System.Drawing.Point, System.Drawing">
+    <value>695, 262</value>
+  </data>
+  <data name="panel2.Size" type="System.Drawing.Size, System.Drawing">
+    <value>270, 2</value>
+  </data>
+  <data name="nameClasstextBox.Location" type="System.Drawing.Point, System.Drawing">
+    <value>86, 148</value>
+  </data>
+  <data name="nameClasstextBox.Size" type="System.Drawing.Size, System.Drawing">
+    <value>270, 24</value>
+  </data>
+  <data name="label4.Location" type="System.Drawing.Point, System.Drawing">
+    <value>86, 108</value>
+  </data>
   <data name="label4.Size" type="System.Drawing.Size, System.Drawing">
-    <value>63, 28</value>
+    <value>75, 32</value>
   </data>
   <data name="label4.Text" xml:space="preserve">
     <value>الإسم:</value>
+  </data>
+  <data name="panel1.Location" type="System.Drawing.Point, System.Drawing">
+    <value>86, 178</value>
+  </data>
+  <data name="panel1.Size" type="System.Drawing.Size, System.Drawing">
+    <value>270, 2</value>
   </data>
   <data name="pictureBox1.Image" type="System.Drawing.Bitmap, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
     <value>
@@ -1623,80 +1827,200 @@
         QmCC
 </value>
   </data>
+  <data name="pictureBox1.Location" type="System.Drawing.Point, System.Drawing">
+    <value>9, 8</value>
+  </data>
+  <data name="pictureBox1.Size" type="System.Drawing.Size, System.Drawing">
+    <value>76, 79</value>
+  </data>
+  <data name="label11.Location" type="System.Drawing.Point, System.Drawing">
+    <value>92, 28</value>
+  </data>
   <data name="label11.Size" type="System.Drawing.Size, System.Drawing">
-    <value>122, 28</value>
+    <value>145, 32</value>
   </data>
   <data name="label11.Text" xml:space="preserve">
     <value>تعديل الفصل</value>
   </data>
+  <data name="ClassEditPage.Size" type="System.Drawing.Size, System.Drawing">
+    <value>1111, 581</value>
+  </data>
   <data name="ClassEditPage.Text" xml:space="preserve">
     <value>الفصل</value>
   </data>
+  <data name="deleteTeacher.FlatStyle" type="System.Windows.Forms.FlatStyle, System.Windows.Forms">
+    <value>Flat</value>
+  </data>
+  <data name="deleteTeacher.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Segoe UI, 12pt, style=Bold</value>
+  </data>
+  <data name="deleteTeacher.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="deleteTeacher.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>2, 2, 2, 2</value>
+  </data>
+  <data name="deleteTeacher.Size" type="System.Drawing.Size, System.Drawing">
+    <value>151, 59</value>
+  </data>
+  <data name="deleteTeacher.Text" xml:space="preserve">
+    <value>حذف</value>
+  </data>
+  <data name="TeachercomboBox.Location" type="System.Drawing.Point, System.Drawing">
+    <value>798, 29</value>
+  </data>
+  <data name="TeachercomboBox.Size" type="System.Drawing.Size, System.Drawing">
+    <value>258, 33</value>
+  </data>
   <data name="label20.Location" type="System.Drawing.Point, System.Drawing">
-    <value>337, 23</value>
+    <value>421, 29</value>
   </data>
   <data name="label20.Size" type="System.Drawing.Size, System.Drawing">
-    <value>297, 28</value>
+    <value>353, 32</value>
   </data>
   <data name="label20.Text" xml:space="preserve">
     <value>الحصول عن طريق الرقم التعريفي:</value>
   </data>
+  <data name="emailexistmessage2.Location" type="System.Drawing.Point, System.Drawing">
+    <value>670, 401</value>
+  </data>
   <data name="emailexistmessage2.Size" type="System.Drawing.Size, System.Drawing">
-    <value>203, 21</value>
+    <value>219, 24</value>
   </data>
   <data name="emailexistmessage2.Text" xml:space="preserve">
     <value>هذا البريد الإلكتروني موجود بالفعل</value>
   </data>
+  <data name="emailTtextBox.Location" type="System.Drawing.Point, System.Drawing">
+    <value>669, 366</value>
+  </data>
+  <data name="emailTtextBox.Size" type="System.Drawing.Size, System.Drawing">
+    <value>270, 24</value>
+  </data>
+  <data name="emailnotvalidmessage2.Location" type="System.Drawing.Point, System.Drawing">
+    <value>671, 401</value>
+  </data>
   <data name="emailnotvalidmessage2.Size" type="System.Drawing.Size, System.Drawing">
-    <value>224, 21</value>
+    <value>244, 24</value>
   </data>
   <data name="emailnotvalidmessage2.Text" xml:space="preserve">
     <value>يرجى إدخال البريد الإلكتروني الصحيح</value>
   </data>
+  <data name="panel14.Location" type="System.Drawing.Point, System.Drawing">
+    <value>669, 396</value>
+  </data>
+  <data name="panel14.Size" type="System.Drawing.Size, System.Drawing">
+    <value>270, 2</value>
+  </data>
+  <data name="label19.Location" type="System.Drawing.Point, System.Drawing">
+    <value>672, 326</value>
+  </data>
   <data name="label19.Size" type="System.Drawing.Size, System.Drawing">
-    <value>150, 28</value>
+    <value>178, 32</value>
   </data>
   <data name="label19.Text" xml:space="preserve">
     <value>البريد الإلكتروني:</value>
   </data>
+  <data name="TeacherClasslistBox.ItemHeight" type="System.Int32, mscorlib">
+    <value>25</value>
+  </data>
+  <data name="TeacherClasslistBox.Location" type="System.Drawing.Point, System.Drawing">
+    <value>669, 164</value>
+  </data>
+  <data name="TeacherClasslistBox.Size" type="System.Drawing.Size, System.Drawing">
+    <value>282, 75</value>
+  </data>
+  <data name="panel15.Location" type="System.Drawing.Point, System.Drawing">
+    <value>669, 256</value>
+  </data>
+  <data name="panel15.Size" type="System.Drawing.Size, System.Drawing">
+    <value>289, 2</value>
+  </data>
+  <data name="panel12.Location" type="System.Drawing.Point, System.Drawing">
+    <value>88, 351</value>
+  </data>
+  <data name="panel12.Size" type="System.Drawing.Size, System.Drawing">
+    <value>270, 2</value>
+  </data>
+  <data name="passwordlabel2.Location" type="System.Drawing.Point, System.Drawing">
+    <value>88, 356</value>
+  </data>
   <data name="passwordlabel2.Size" type="System.Drawing.Size, System.Drawing">
-    <value>264, 21</value>
+    <value>285, 24</value>
   </data>
   <data name="passwordlabel2.Text" xml:space="preserve">
     <value>اجعل كلمة المرور معقدة ولا تقل عن 8 أحرف</value>
   </data>
+  <data name="passwordtextBox2.Location" type="System.Drawing.Point, System.Drawing">
+    <value>88, 321</value>
+  </data>
+  <data name="passwordtextBox2.Size" type="System.Drawing.Size, System.Drawing">
+    <value>270, 24</value>
+  </data>
+  <data name="label14.Location" type="System.Drawing.Point, System.Drawing">
+    <value>88, 264</value>
+  </data>
   <data name="label14.Size" type="System.Drawing.Size, System.Drawing">
-    <value>97, 28</value>
+    <value>116, 32</value>
   </data>
   <data name="label14.Text" xml:space="preserve">
     <value>كلمة السر:</value>
   </data>
+  <data name="labelErrorMessage7.Location" type="System.Drawing.Point, System.Drawing">
+    <value>666, 262</value>
+  </data>
   <data name="labelErrorMessage7.Size" type="System.Drawing.Size, System.Drawing">
-    <value>174, 21</value>
+    <value>187, 24</value>
   </data>
   <data name="labelErrorMessage7.Text" xml:space="preserve">
     <value>الرجاء اختيار واحد من القائمة</value>
   </data>
+  <data name="labelErrorMessage4.Location" type="System.Drawing.Point, System.Drawing">
+    <value>84, 222</value>
+  </data>
   <data name="labelErrorMessage4.Size" type="System.Drawing.Size, System.Drawing">
-    <value>145, 21</value>
+    <value>156, 24</value>
   </data>
   <data name="labelErrorMessage4.Text" xml:space="preserve">
     <value>رجاء ادخل اسما صحيحا</value>
   </data>
+  <data name="editTeacherButton.Location" type="System.Drawing.Point, System.Drawing">
+    <value>950, 512</value>
+  </data>
+  <data name="editTeacherButton.Size" type="System.Drawing.Size, System.Drawing">
+    <value>151, 59</value>
+  </data>
   <data name="editTeacherButton.Text" xml:space="preserve">
     <value>تعديل</value>
   </data>
+  <data name="label3.Location" type="System.Drawing.Point, System.Drawing">
+    <value>666, 129</value>
+  </data>
   <data name="label3.Size" type="System.Drawing.Size, System.Drawing">
-    <value>82, 28</value>
+    <value>99, 32</value>
   </data>
   <data name="label3.Text" xml:space="preserve">
     <value>الفصول:</value>
   </data>
+  <data name="nameTeachertextBox.Location" type="System.Drawing.Point, System.Drawing">
+    <value>88, 182</value>
+  </data>
+  <data name="nameTeachertextBox.Size" type="System.Drawing.Size, System.Drawing">
+    <value>270, 24</value>
+  </data>
+  <data name="label12.Location" type="System.Drawing.Point, System.Drawing">
+    <value>88, 136</value>
+  </data>
   <data name="label12.Size" type="System.Drawing.Size, System.Drawing">
-    <value>63, 28</value>
+    <value>75, 32</value>
   </data>
   <data name="label12.Text" xml:space="preserve">
     <value>الإسم:</value>
+  </data>
+  <data name="panel9.Location" type="System.Drawing.Point, System.Drawing">
+    <value>98, 212</value>
+  </data>
+  <data name="panel9.Size" type="System.Drawing.Size, System.Drawing">
+    <value>270, 2</value>
   </data>
   <data name="pictureBox2.Image" type="System.Drawing.Bitmap, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
     <value>
@@ -2386,13 +2710,37 @@
         QmCC
 </value>
   </data>
+  <data name="pictureBox2.Location" type="System.Drawing.Point, System.Drawing">
+    <value>6, 2</value>
+  </data>
+  <data name="pictureBox2.Size" type="System.Drawing.Size, System.Drawing">
+    <value>76, 79</value>
+  </data>
+  <data name="label2.Location" type="System.Drawing.Point, System.Drawing">
+    <value>88, 22</value>
+  </data>
   <data name="label2.Size" type="System.Drawing.Size, System.Drawing">
-    <value>130, 28</value>
+    <value>155, 32</value>
   </data>
   <data name="label2.Text" xml:space="preserve">
     <value>تعديل المدرس</value>
   </data>
+  <data name="TeacherEditPage.Size" type="System.Drawing.Size, System.Drawing">
+    <value>1111, 581</value>
+  </data>
   <data name="TeacherEditPage.Text" xml:space="preserve">
     <value>المدرس</value>
+  </data>
+  <data name="EditTab.Location" type="System.Drawing.Point, System.Drawing">
+    <value>69, 38</value>
+  </data>
+  <data name="EditTab.Size" type="System.Drawing.Size, System.Drawing">
+    <value>1119, 619</value>
+  </data>
+  <data name="$this.AutoScaleDimensions" type="System.Drawing.SizeF, System.Drawing">
+    <value>10, 25</value>
+  </data>
+  <data name="$this.Size" type="System.Drawing.Size, System.Drawing">
+    <value>1274, 695</value>
   </data>
 </root>

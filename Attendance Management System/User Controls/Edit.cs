@@ -1,4 +1,5 @@
 ﻿using Attendance_Management_System.Classes;
+using Microsoft.VisualBasic;
 using System;
 using System.Collections.Generic;
 using System.ComponentModel;
@@ -42,7 +43,6 @@ namespace Attendance_Management_System.Forms
             emailexistmessage2.Visible = false;
             emailnotvalidmessage2.Visible = false;
         }
-
         private void Intilaize()
         {
             classidList = XMLManagement.NodesToList(Configs.ClassesPath, "id");
@@ -77,6 +77,7 @@ namespace Attendance_Management_System.Forms
                 populateTheList();
             }
         }
+      
         private void StudentcomboBox_SelectedIndexChanged(object sender, EventArgs e)
         {
             string id = StudentcomboBox.Text;
@@ -192,14 +193,13 @@ namespace Attendance_Management_System.Forms
                 classes.Add(classId);
             }
         }
-
         private void editStudentButton_Click(object sender, EventArgs e)
         {
             string name = nameStudenttextBox.Text;
             string password = passswordstdtextBox.Text;
             string email = emailtextBox.Text;
             string id = StudentcomboBox.Text;
-            if(string.IsNullOrEmpty(id))
+            if (string.IsNullOrEmpty(id))
             {
                 MessageBox.Show("please enter the id you want to modify:", "message", MessageBoxButtons.OK, MessageBoxIcon.Error);
                 return;
@@ -237,7 +237,7 @@ namespace Attendance_Management_System.Forms
                 emailnotvaliderrormessage.Visible = true;
                 emailexisterrormessage.Visible = false;
             }
-            else if (UpdateData.CheckExist(id,email, XMLManagement.NodesToList(Configs.EmailPath, "email")))
+            else if (UpdateData.CheckExist(id, email, XMLManagement.NodesToList(Configs.EmailPath, "email")))
             {
                 labelErrorMessage.Visible = false;
                 labelErrorMessage1.Visible = false;
@@ -252,7 +252,7 @@ namespace Attendance_Management_System.Forms
                 passwordlabel1.Visible = false;
                 emailexisterrormessage.Visible = false;
                 emailnotvaliderrormessage.Visible = false;
-              
+
                 HashSet<string> selectedClasses = new HashSet<string>();
                 foreach (var item in classStudlistBox.SelectedItems)
                 {
@@ -302,7 +302,7 @@ namespace Attendance_Management_System.Forms
                 labelErrorMessage8.Visible = false;
                 labelErrorMessage9.Visible = false;
                 labelErrorMessage10.Visible = false;
-      
+
                 HashSet<string> selectedStudent = new HashSet<string>();
                 foreach (var item in StudentInClasslistBox.SelectedItems)
                 {
@@ -377,7 +377,7 @@ namespace Attendance_Management_System.Forms
                 passwordlabel2.Visible = false;
                 emailexistmessage2.Visible = false;
                 emailnotvalidmessage2.Visible = false;
-         
+
 
                 HashSet<string> selectedStudent = new HashSet<string>();
                 foreach (var item in TeacherClasslistBox.SelectedItems)
@@ -390,6 +390,117 @@ namespace Attendance_Management_System.Forms
 
         }
 
+        private void deleteStudent_Click(object sender, EventArgs e)
+        {
+            string id = StudentcomboBox.Text;
+            if (string.IsNullOrEmpty(id))
+            {
+                MessageBox.Show("please enter the id you want to Delete:", "message", MessageBoxButtons.OK, MessageBoxIcon.Error);
+                return;
+            }
+            Delete(id, "student");
+        }
+        private void deleteClass_Click(object sender, EventArgs e)
+        {
+            string id = ClasscomboBox.Text;
+
+            if (string.IsNullOrEmpty(id))
+            {
+                MessageBox.Show("please enter the id you want to Delete:", "message", MessageBoxButtons.OK, MessageBoxIcon.Error);
+                return;
+            }
+            Delete(id, "class");
+        }
+        private void deleteTeacher_Click(object sender, EventArgs e)
+        {
+
+            string ID = TeachercomboBox.Text;
+
+            if (string.IsNullOrEmpty(ID))
+            {
+                MessageBox.Show("please enter the id you want to Delete:", "message", MessageBoxButtons.OK, MessageBoxIcon.Error);
+                return;
+            }
+            Delete(ID, "teacher");
+        }
+
+        public void Delete(string id, string path)
+        {
+            try
+            {
+                XmlDocument doc = XMLManagement.ReadAllDocument();
+
+                if (path == "student")
+                {
+                    DeleteData.DeleteStudent(id, doc);
+                    StudentcomboBox.Items.Remove(id);
+                    ClearStudentTextBoxes();
+                }
+                else if (path == "teacher")
+                {
+                    DeleteData.DeleteTeacher(id, doc);
+                    TeachercomboBox.Items.Remove(id);
+                    ClearTeacherTextBoxes();
+                }
+                else if (path == "class")
+                {
+                    DeleteData.DeleteClass(id, doc);
+                    ClasscomboBox.Items.Remove(id);
+                    ClearClassTextBoxes();
+                }
+
+                doc.Save(Configs.DataPath);
+                refressh();
+
+            }
+            catch (Exception ex)
+            {
+                MessageBox.Show($"Failed to delete data: {ex.Message}", "Message", MessageBoxButtons.OK, MessageBoxIcon.Error);
+            }
+        }
+        private void ClearStudentTextBoxes()
+        {
+            nameStudenttextBox.Text = string.Empty;
+            passswordstdtextBox.Text = string.Empty;
+            emailtextBox.Text = string.Empty;
+  
+        }
+
+        private void ClearTeacherTextBoxes()
+        {
+            nameTeachertextBox.Text = string.Empty;
+            passwordtextBox2.Text = string.Empty;
+            emailTtextBox.Text = string.Empty;
+        }
+
+        private void ClearClassTextBoxes()
+        {
+            nameClasstextBox.Text = string.Empty;
+        }
+        private void refressh()
+        {
+            
+                ClasscomboBox.Items.Clear();
+                classStudlistBox.Items.Clear();
+                TeacherClasslistBox.Items.Clear();
+                StudentcomboBox.Items.Clear();
+                StudentInClasslistBox.Items.Clear();
+                TeachercomboBox.Items.Clear();
+                classteachercomboBox.Items.Clear();
+
+                Intilaize();
+                populateTheList();
+
+                ClasscomboBox.Refresh();
+                classStudlistBox.Refresh();
+                TeacherClasslistBox.Refresh();
+                StudentcomboBox.Refresh();
+                StudentInClasslistBox.Refresh();
+                TeachercomboBox.Refresh();
+                classteachercomboBox.Refresh();
+            
+
+        }
 
     }
 }
