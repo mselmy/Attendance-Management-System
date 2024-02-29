@@ -250,5 +250,10 @@ namespace Attendance_Management_System.Forms
             ChangePassword changePassword = new ChangePassword(session);
             changePassword.Show();
         }
+
+        private void mainPanel_Paint(object sender, PaintEventArgs e)
+        {
+
+        }
     }
 }

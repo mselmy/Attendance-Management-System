@@ -62,6 +62,7 @@
             // 
             // panel1
             // 
+            resources.ApplyResources(panel1, "panel1");
             panel1.BackColor = Color.White;
             panel1.Controls.Add(confirmError);
             panel1.Controls.Add(confirmT);
@@ -83,8 +84,8 @@
             panel1.Controls.Add(buttonVerify);
             panel1.Controls.Add(confirmPassword);
             panel1.Controls.Add(close);
-            resources.ApplyResources(panel1, "panel1");
             panel1.Name = "panel1";
+            panel1.Paint += panel1_Paint;
             // 
             // confirmError
             // 
@@ -151,8 +152,8 @@
             // 
             // panel4
             // 
-            panel4.BackColor = Color.DarkGray;
             resources.ApplyResources(panel4, "panel4");
+            panel4.BackColor = Color.DarkGray;
             panel4.Name = "panel4";
             // 
             // label2
@@ -162,22 +163,22 @@
             // 
             // newPassword
             // 
-            newPassword.BorderStyle = BorderStyle.None;
             resources.ApplyResources(newPassword, "newPassword");
+            newPassword.BorderStyle = BorderStyle.None;
             newPassword.ForeColor = Color.DarkGray;
             newPassword.Name = "newPassword";
             newPassword.UseSystemPasswordChar = true;
             // 
             // panel3
             // 
-            panel3.BackColor = Color.DarkGray;
             resources.ApplyResources(panel3, "panel3");
+            panel3.BackColor = Color.DarkGray;
             panel3.Name = "panel3";
             // 
             // panel2
             // 
-            panel2.BackColor = Color.DarkGray;
             resources.ApplyResources(panel2, "panel2");
+            panel2.BackColor = Color.DarkGray;
             panel2.Name = "panel2";
             // 
             // label1
@@ -193,18 +194,18 @@
             // 
             // oldPassword
             // 
-            oldPassword.BorderStyle = BorderStyle.None;
             resources.ApplyResources(oldPassword, "oldPassword");
+            oldPassword.BorderStyle = BorderStyle.None;
             oldPassword.ForeColor = Color.DarkGray;
             oldPassword.Name = "oldPassword";
             oldPassword.UseSystemPasswordChar = true;
             // 
             // buttonVerify
             // 
+            resources.ApplyResources(buttonVerify, "buttonVerify");
             buttonVerify.BackColor = Color.FromArgb(128, 128, 255);
             buttonVerify.Cursor = Cursors.Hand;
             buttonVerify.FlatAppearance.BorderSize = 0;
-            resources.ApplyResources(buttonVerify, "buttonVerify");
             buttonVerify.ForeColor = Color.White;
             buttonVerify.Name = "buttonVerify";
             buttonVerify.UseVisualStyleBackColor = false;
@@ -212,11 +213,12 @@
             // 
             // confirmPassword
             // 
-            confirmPassword.BorderStyle = BorderStyle.None;
             resources.ApplyResources(confirmPassword, "confirmPassword");
+            confirmPassword.BorderStyle = BorderStyle.None;
             confirmPassword.ForeColor = Color.DarkGray;
             confirmPassword.Name = "confirmPassword";
             confirmPassword.UseSystemPasswordChar = true;
+            confirmPassword.TextChanged += confirmPassword_TextChanged;
             // 
             // close
             // 
