@@ -114,7 +114,7 @@ namespace Attendance_Management_System.Forms
         {
             dataGridView2.Rows.Clear();
 
-            var AttendanceRecordList = StudentXMLManagement.GetStudentAttendanceRecords();
+            var AttendanceRecordList = DataXMLManagement.GetStudentAttendanceRecords();
 
             foreach (var AttendanceRecord in AttendanceRecordList)
             {
@@ -131,7 +131,7 @@ namespace Attendance_Management_System.Forms
         {
             dataGridView2.Rows.Clear();
 
-            var AttendanceRecordList = StudentXMLManagement.GetStudentAttendanceRecords();
+            var AttendanceRecordList = DataXMLManagement.GetStudentAttendanceRecords();
 
             foreach (var AttendanceRecord in AttendanceRecordList)
             {
@@ -150,7 +150,7 @@ namespace Attendance_Management_System.Forms
         {
             dataGridView2.Rows.Clear();
 
-            var AttendanceRecordList = StudentXMLManagement.GetStudentAttendanceRecords();
+            var AttendanceRecordList = DataXMLManagement.GetStudentAttendanceRecords();
 
             foreach (var AttendanceRecord in AttendanceRecordList)
             {
@@ -243,6 +243,18 @@ namespace Attendance_Management_System.Forms
             StudentReport studentReport = new StudentReport(session);
             mainPanel.Controls.Add(studentReport);
             mainPanel.Size = new Size(1150, 700);
+        }
+
+ 
+        private void mainPanel_Paint(object sender, PaintEventArgs e)
+        {
+
+        }
+
+        private void changePassword_Click_1(object sender, EventArgs e)
+        {
+            ChangePassword formChangePassword = new ChangePassword(session);
+            formChangePassword.Show();
         }
     }
 }
