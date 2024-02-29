@@ -1,4 +1,4 @@
-﻿namespace Attendance_Management_System.Classes.DataClasses
+﻿namespace Attendance_Management_System.Classes
 {
     public class StudentAttendance
     {
