@@ -46,7 +46,7 @@ namespace Attendance_Management_System.Forms
                         confirmError.Visible = false;
                         confirmT.Visible = false;
                         DataXMLManagement.UpdatePassword(session.CurrentUser.Email, newPassword.Text);
-                        MessageBox.Show("Password updated successfully!", "Success", MessageBoxButtons.OK, MessageBoxIcon.Information);
+                        MessageBox.Show("Password updated successfully ", "Success", MessageBoxButtons.OK, MessageBoxIcon.Information);
                     }
                     else
                     {
