@@ -91,6 +91,7 @@
             LanguageComboBox.Items.AddRange(new object[] { resources.GetString("LanguageComboBox.Items"), resources.GetString("LanguageComboBox.Items1") });
             LanguageComboBox.Name = "LanguageComboBox";
             toolTip1.SetToolTip(LanguageComboBox, resources.GetString("LanguageComboBox.ToolTip"));
+            LanguageComboBox.SelectedIndexChanged += LanguageComboBox_SelectedIndexChanged;
             // 
             // panel2
             // 

@@ -76,5 +76,7 @@ namespace Attendance_Management_System.Classes
             language = XMLManagement.GetNodeValue("/school/configs/language");
             ChangeLanguage();
         }
+
+
     }
 }

@@ -9,6 +9,7 @@ using System.Text;
 using System.Threading.Tasks;
 using System.Windows.Forms;
 using Attendance_Management_System.Classes;
+using Microsoft.VisualBasic;
 
 namespace Attendance_Management_System
 {
@@ -45,6 +46,12 @@ namespace Attendance_Management_System
             if (refresh != null)
             { refresh(); }
             Hide();
+        }
+
+
+        private void LanguageComboBox_SelectedIndexChanged(object sender, EventArgs e)
+        {
+
         }
     }
 }

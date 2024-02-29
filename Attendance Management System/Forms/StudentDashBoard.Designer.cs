@@ -394,6 +394,7 @@
             // 
             resources.ApplyResources(mainPanel, "mainPanel");
             mainPanel.Name = "mainPanel";
+            mainPanel.Paint += mainPanel_Paint;
             // 
             // StudentDashBoard
             // 
