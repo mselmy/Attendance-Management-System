@@ -12,7 +12,7 @@ namespace Attendance_Management_System.Classes
     internal class Configs
     {
         // Debug paths
-        public static string DataPath = @"../../../Data/Data.xml";
+        /*public static string DataPath = @"../../../Data/Data.xml";
         public static string BackupPath = @"../../../Data/Backup/Backup";
         public static string FilterDateRangePath = @"../../../Data/RangeDates.xslt";
         public static string FilterClassIdPath = @"../../../Data/ClassById.xslt";
@@ -22,10 +22,10 @@ namespace Attendance_Management_System.Classes
         public static string FilterTeacherClasses = @"../../../Data/TeacherReport.xslt";
         public static string FilterTeacherStudent = @"../../../Data/TeacheRportForStudent.xslt";
         public static string FilterStudentClass = @"../../../Data/StudentClassDateRange.xslt";
-        public static string FilterWarning = @"../../../Data/NoAbsent.xslt";
+        public static string FilterWarning = @"../../../Data/NoAbsent.xslt";*/
 
         // Production paths
-        /*public static string DataPath = @"./Data/Data.xml";
+        public static string DataPath = @"./Data/Data.xml";
         public static string BackupPath = @"./Data/Backup/Backup";
         public static string FilterDateRangePath = @"./Data/RangeDates.xslt";
         public static string FilterClassIdPath = @"./Data/ClassById.xslt";
@@ -35,7 +35,7 @@ namespace Attendance_Management_System.Classes
         public static string FilterTeacherClasses = @"./Data/TeacherReport.xslt";
         public static string FilterTeacherStudent = @"./Data/TeacheRportForStudent.xslt";
         public static string FilterStudentClass = @"./Data/StudentClassDateRange.xslt";
-        public static string FilterWarning = @"./Data/NoAbsent.xslt";*/
+        public static string FilterWarning = @"./Data/NoAbsent.xslt";
 
         public static string UsersPath = "/school/users/user";
         public static string StudentsPath = "/school/students/student";

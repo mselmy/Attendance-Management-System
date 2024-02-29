@@ -370,7 +370,7 @@
   </session>
   <configs>
     <language>EN</language>
-    <dateFormats>dd-MM-YYYY</dateFormats>
+    <dateFormats>Long</dateFormats>
     <coolDown>false</coolDown>
     <coolDownStartDate>0</coolDownStartDate>
   </configs>
