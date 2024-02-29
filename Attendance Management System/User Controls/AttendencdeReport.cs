@@ -39,9 +39,10 @@ namespace Attendance_Management_System.Forms
             FirstDate = DateTime.Today.AddMonths(-1);
             classcombBox1.DropDownStyle = ComboBoxStyle.DropDownList;
             StudentcomboBox2.DropDownStyle = ComboBoxStyle.DropDownList;
-
-
-
+            dateTimePicker1.Format = Configs.GetDateFormate();
+            dateTimePicker2.Format = Configs.GetDateFormate();
+            dateTimePicker3.Format = Configs.GetDateFormate();
+            dateTimePicker4.Format = Configs.GetDateFormate();
         }
 
         private void dateTimePicker2_ValueChanged(object sender, EventArgs e)

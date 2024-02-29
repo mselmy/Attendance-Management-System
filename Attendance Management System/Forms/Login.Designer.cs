@@ -167,6 +167,7 @@
             // 
             resources.ApplyResources(textBoxEmail, "textBoxEmail");
             textBoxEmail.Name = "textBoxEmail";
+            textBoxEmail.KeyUp += textBoxEmail_KeyUp;
             // 
             // textBoxPassword
             // 
@@ -174,6 +175,7 @@
             textBoxPassword.Name = "textBoxPassword";
             textBoxPassword.UseSystemPasswordChar = true;
             textBoxPassword.TextChanged += textBoxPassword_TextChanged;
+            textBoxPassword.KeyUp += textBoxPassword_KeyUp;
             // 
             // Login
             // 
@@ -190,6 +192,7 @@
             Name = "Login";
             WindowState = FormWindowState.Maximized;
             Load += Form1_Load;
+            KeyUp += Login_KeyUp;
             ((System.ComponentModel.ISupportInitialize)pictureBox2).EndInit();
             ((System.ComponentModel.ISupportInitialize)pictureBox3).EndInit();
             ((System.ComponentModel.ISupportInitialize)pictureBox1).EndInit();

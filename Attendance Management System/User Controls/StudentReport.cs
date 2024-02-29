@@ -35,6 +35,8 @@ namespace Attendance_Management_System.Forms
             FirstDate = DateTime.Today.AddMonths(-1);
             session = _session;
             StudId = session.CurrentUser.ID;
+            dateTimePicker3.Format = Configs.GetDateFormate();
+            dateTimePicker4.Format = Configs.GetDateFormate();
         }
         public void FillClassCombo()
         {

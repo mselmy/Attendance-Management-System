@@ -40,7 +40,10 @@ namespace Attendance_Management_System.Forms
             classcombBox1.DropDownStyle = ComboBoxStyle.DropDownList;
             session = _session;
             TeacherId = session.CurrentUser.ID;
-
+            dateTimePicker1.Format = Configs.GetDateFormate();
+            dateTimePicker2.Format = Configs.GetDateFormate();
+            dateTimePicker3.Format = Configs.GetDateFormate();
+            dateTimePicker4.Format = Configs.GetDateFormate();
         }
 
 

@@ -32,6 +32,7 @@ namespace Attendance_Management_System.Forms
             courses = XMLManagement.GetNode("/school/classes");
             labelErrorMessage.Visible = false;
             //dataGridView1.Columns["status"].Visible = false;
+            dateTimePicker.Format = Configs.GetDateFormate();
 
         }
 

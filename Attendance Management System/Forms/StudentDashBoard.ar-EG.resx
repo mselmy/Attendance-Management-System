@@ -118,6 +118,12 @@
     <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </resheader>
   <assembly alias="System.Drawing" name="System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" />
+  <data name="panel6.Size" type="System.Drawing.Size, System.Drawing">
+    <value>258, 870</value>
+  </data>
+  <data name="panel1.Size" type="System.Drawing.Size, System.Drawing">
+    <value>258, 1050</value>
+  </data>
   <data name="button4.Location" type="System.Drawing.Point, System.Drawing">
     <value>0, 243</value>
   </data>
@@ -374,9 +380,6 @@
   </data>
   <data name="button2.Text" xml:space="preserve">
     <value>نافذة الحضور</value>
-  </data>
-  <data name="panel6.Size" type="System.Drawing.Size, System.Drawing">
-    <value>258, 870</value>
   </data>
   <data name="label1.Location" type="System.Drawing.Point, System.Drawing">
     <value>71, 112</value>
@@ -967,9 +970,6 @@
         n/QRBEEQBEEQBEEQBHF3Tjvt/wHFEjq5jwLOAQAAAABJRU5ErkJggg==
 </value>
   </data>
-  <data name="panel1.Size" type="System.Drawing.Size, System.Drawing">
-    <value>258, 1050</value>
-  </data>
   <data name="flowLayoutPanel1.Size" type="System.Drawing.Size, System.Drawing">
     <value>1542, 0</value>
   </data>
@@ -1080,7 +1080,7 @@
     <value>1622, 994</value>
   </data>
   <data name="labelDate.Location" type="System.Drawing.Point, System.Drawing">
-    <value>1043, 190</value>
+    <value>1363, 190</value>
   </data>
   <data name="labelDate.Size" type="System.Drawing.Size, System.Drawing">
     <value>75, 29</value>
@@ -1089,10 +1089,13 @@
     <value>التاريخ</value>
   </data>
   <data name="labeldatetoday.Location" type="System.Drawing.Point, System.Drawing">
-    <value>886, 190</value>
+    <value>1270, 190</value>
+  </data>
+  <data name="labeldatetoday.TextAlign" type="System.Drawing.ContentAlignment, System.Drawing">
+    <value>MiddleRight</value>
   </data>
   <data name="label5.Location" type="System.Drawing.Point, System.Drawing">
-    <value>1382, 190</value>
+    <value>816, 192</value>
   </data>
   <data name="label5.Size" type="System.Drawing.Size, System.Drawing">
     <value>65, 29</value>
@@ -1101,7 +1104,10 @@
     <value>الوقت</value>
   </data>
   <data name="labeltimenow.Location" type="System.Drawing.Point, System.Drawing">
-    <value>1179, 190</value>
+    <value>722, 194</value>
+  </data>
+  <data name="labeltimenow.TextAlign" type="System.Drawing.ContentAlignment, System.Drawing">
+    <value>MiddleRight</value>
   </data>
   <data name="ExitPic.Image" type="System.Drawing.Bitmap, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
     <value>
@@ -1391,6 +1397,9 @@
   </data>
   <data name="labelsearchbydate.Text" xml:space="preserve">
     <value>التاريخ</value>
+  </data>
+  <data name="dateTimePicker1.CustomFormat" xml:space="preserve">
+    <value />
   </data>
   <data name="dateTimePicker1.Location" type="System.Drawing.Point, System.Drawing">
     <value>852, 406</value>

@@ -28,6 +28,7 @@ namespace Attendance_Management_System.Forms
             timer.Interval = 1000;
             timer.Elapsed += labeltimenow_Click;
             timer.Start();
+            dateTimePicker1.Format = Configs.GetDateFormate();
         }
 
         private void panel2_Paint(object sender, PaintEventArgs e)
@@ -69,7 +70,6 @@ namespace Attendance_Management_System.Forms
 
         private void StudentDashBoard2_Load(object sender, EventArgs e)
         {
-
             FillPage();
         }
 
@@ -199,7 +199,7 @@ namespace Attendance_Management_System.Forms
 
         private void FillPage()
         {
-            labeldatetoday.Text = DateTime.Now.ToString("yyyy-MM-dd");
+            labeldatetoday.Text = DateTime.Now.ToString(Configs.GetDateFormateString());
 
             StudentData studentData = (StudentData)session.CurrentUser;
             labelusername.Text = studentData.Name;

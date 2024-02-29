@@ -311,7 +311,7 @@
             // dateTimePicker1
             // 
             resources.ApplyResources(dateTimePicker1, "dateTimePicker1");
-            dateTimePicker1.Format = DateTimePickerFormat.Custom;
+            dateTimePicker1.Format = DateTimePickerFormat.Short;
             dateTimePicker1.Name = "dateTimePicker1";
             dateTimePicker1.ValueChanged += dateTimePicker1_ValueChanged;
             // 
