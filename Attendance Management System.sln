@@ -5,6 +5,8 @@ VisualStudioVersion = 17.8.34408.163
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Attendance Management System", "Attendance Management System\Attendance Management System.csproj", "{46276BAF-A0F0-4B89-B9A5-98DB0E7FB4E8}"
 EndProject
+Project("{54435603-DBB4-11D2-8724-00A0C9A8B90C}") = "Setup", "Setup\Setup.vdproj", "{D3F52B57-045F-4E67-95C3-075F83F8E42C}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -15,6 +17,8 @@ Global
 		{46276BAF-A0F0-4B89-B9A5-98DB0E7FB4E8}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{46276BAF-A0F0-4B89-B9A5-98DB0E7FB4E8}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{46276BAF-A0F0-4B89-B9A5-98DB0E7FB4E8}.Release|Any CPU.Build.0 = Release|Any CPU
+		{D3F52B57-045F-4E67-95C3-075F83F8E42C}.Debug|Any CPU.ActiveCfg = Debug
+		{D3F52B57-045F-4E67-95C3-075F83F8E42C}.Release|Any CPU.ActiveCfg = Release
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
