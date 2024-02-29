@@ -31,6 +31,7 @@
             System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(Edit));
             EditTab = new TabControl();
             sstudentEditPage = new TabPage();
+            deleteStudent = new Button();
             StudentcomboBox = new ComboBox();
             label17 = new Label();
             emailexisterrormessage = new Label();
@@ -54,6 +55,7 @@
             Pdf = new PictureBox();
             label1 = new Label();
             ClassEditPage = new TabPage();
+            deleteClass = new Button();
             ClasscomboBox = new ComboBox();
             label18 = new Label();
             classteachercomboBox = new ComboBox();
@@ -72,6 +74,7 @@
             pictureBox1 = new PictureBox();
             label11 = new Label();
             TeacherEditPage = new TabPage();
+            deleteTeacher = new Button();
             TeachercomboBox = new ComboBox();
             label20 = new Label();
             emailexistmessage2 = new Label();
@@ -116,6 +119,7 @@
             // 
             resources.ApplyResources(sstudentEditPage, "sstudentEditPage");
             sstudentEditPage.BackColor = Color.White;
+            sstudentEditPage.Controls.Add(deleteStudent);
             sstudentEditPage.Controls.Add(StudentcomboBox);
             sstudentEditPage.Controls.Add(label17);
             sstudentEditPage.Controls.Add(emailexisterrormessage);
@@ -139,6 +143,15 @@
             sstudentEditPage.Controls.Add(Pdf);
             sstudentEditPage.Controls.Add(label1);
             sstudentEditPage.Name = "sstudentEditPage";
+            // 
+            // deleteStudent
+            // 
+            resources.ApplyResources(deleteStudent, "deleteStudent");
+            deleteStudent.BackColor = Color.Crimson;
+            deleteStudent.ForeColor = SystemColors.ButtonHighlight;
+            deleteStudent.Name = "deleteStudent";
+            deleteStudent.UseVisualStyleBackColor = false;
+            deleteStudent.Click += deleteStudent_Click;
             // 
             // StudentcomboBox
             // 
@@ -282,6 +295,7 @@
             // 
             resources.ApplyResources(ClassEditPage, "ClassEditPage");
             ClassEditPage.BackColor = Color.White;
+            ClassEditPage.Controls.Add(deleteClass);
             ClassEditPage.Controls.Add(ClasscomboBox);
             ClassEditPage.Controls.Add(label18);
             ClassEditPage.Controls.Add(classteachercomboBox);
@@ -300,6 +314,15 @@
             ClassEditPage.Controls.Add(pictureBox1);
             ClassEditPage.Controls.Add(label11);
             ClassEditPage.Name = "ClassEditPage";
+            // 
+            // deleteClass
+            // 
+            resources.ApplyResources(deleteClass, "deleteClass");
+            deleteClass.BackColor = Color.Crimson;
+            deleteClass.ForeColor = SystemColors.ButtonHighlight;
+            deleteClass.Name = "deleteClass";
+            deleteClass.UseVisualStyleBackColor = false;
+            deleteClass.Click += deleteClass_Click;
             // 
             // ClasscomboBox
             // 
@@ -414,6 +437,7 @@
             // 
             resources.ApplyResources(TeacherEditPage, "TeacherEditPage");
             TeacherEditPage.BackColor = Color.White;
+            TeacherEditPage.Controls.Add(deleteTeacher);
             TeacherEditPage.Controls.Add(TeachercomboBox);
             TeacherEditPage.Controls.Add(label20);
             TeacherEditPage.Controls.Add(emailexistmessage2);
@@ -437,6 +461,15 @@
             TeacherEditPage.Controls.Add(pictureBox2);
             TeacherEditPage.Controls.Add(label2);
             TeacherEditPage.Name = "TeacherEditPage";
+            // 
+            // deleteTeacher
+            // 
+            resources.ApplyResources(deleteTeacher, "deleteTeacher");
+            deleteTeacher.BackColor = Color.Crimson;
+            deleteTeacher.ForeColor = SystemColors.ButtonHighlight;
+            deleteTeacher.Name = "deleteTeacher";
+            deleteTeacher.UseVisualStyleBackColor = false;
+            deleteTeacher.Click += deleteTeacher_Click;
             // 
             // TeachercomboBox
             // 
@@ -664,5 +697,8 @@
         private Label label18;
         private ComboBox TeachercomboBox;
         private Label label20;
+        private Button deleteStudent;
+        private Button deleteClass;
+        private Button deleteTeacher;
     }
 }
