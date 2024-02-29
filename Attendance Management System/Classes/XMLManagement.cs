@@ -89,7 +89,7 @@ namespace Attendance_Management_System.Classes
             return userNode?.InnerText ?? "";
         }
 
-        public static bool AddnewStudent(string name, string password, string email, string id, List<string> classname)
+        public static bool AddnewStudent(string name, string password,string email, string id, List<string> classname)
         {
             try
             {
@@ -119,7 +119,7 @@ namespace Attendance_Management_System.Classes
                 newstudent.AppendChild(classesnewstudent);
 
 
-
+               
                 target.AppendChild(newstudent);
 
 
@@ -156,7 +156,7 @@ namespace Attendance_Management_System.Classes
 
 
         }
-        public static bool AddnewTeacher(string name, string password, string email, string id, List<string> classname)
+        public static bool AddnewTeacher(string name, string password,string email, string id, List<string> classname)
         {
             try
             {
@@ -294,7 +294,7 @@ namespace Attendance_Management_System.Classes
         }
         public static HashSet<string> GetStudentsForTeacher(List<string> TargetClasses)
         {
-            HashSet<string> studentIds = new HashSet<string>();
+            HashSet<string> studentIds = new HashSet<string>(); 
             XmlDocument xmlDoc = ReadAllDocument();
 
             string xPathExpression;
@@ -318,13 +318,13 @@ namespace Attendance_Management_System.Classes
 
             string xPathExpression;
 
-            xPathExpression = $"school/students/student[@id='{Targetstudent}']/classes/class/@id";
-            XmlNodeList nodeList = xmlDoc.SelectNodes(xPathExpression);
-            foreach (XmlNode node in nodeList)
-            {
-                classIds.Add(node.Value);
-            }
-
+                xPathExpression = $"school/students/student[@id='{Targetstudent}']/classes/class/@id";
+                XmlNodeList nodeList = xmlDoc.SelectNodes(xPathExpression);
+                foreach (XmlNode node in nodeList)
+                {
+                    classIds.Add(node.Value);
+                }
+          
             return classIds;
         }
 
@@ -336,7 +336,7 @@ namespace Attendance_Management_System.Classes
             return userNode;
         }
 
-        public static void UpdateNode(string nodePath, string target, string value, string updatedTarger, string newValue)
+        public static void UpdateNode(string nodePath, string target, string value,string updatedTarger, string newValue)
         {
             XmlDocument XmlDoc = ReadAllDocument();
             XmlNode? node = GetNode(XmlDoc, nodePath, target, value);
@@ -451,5 +451,5 @@ namespace Attendance_Management_System.Classes
 
 
 
-    }
+}
 }
