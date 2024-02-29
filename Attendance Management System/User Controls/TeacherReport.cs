@@ -49,7 +49,7 @@ namespace Attendance_Management_System.Forms
 
         public void FillClassCombo()
         {
-            classidList = XMLManagement.GetClassesForTeacher(Configs.TeachersPath, "TE-1");
+            classidList = XMLManagement.GetClassesForTeacher(Configs.TeachersPath, TeacherId);
             studidList = XMLManagement.GetStudentsForTeacher(classidList);
         }
         private void populateTheList()

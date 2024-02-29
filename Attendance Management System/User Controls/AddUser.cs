@@ -77,6 +77,7 @@ namespace Attendance_Management_System.Forms
         }
         private void populateTheList()
         {
+            classteachercomboBox.Items.Clear();
             foreach (string id in classidList)
             {
                 classStudlistBox.Items.Add(id);
