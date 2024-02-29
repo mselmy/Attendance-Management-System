@@ -31,6 +31,7 @@
             System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(Edit));
             EditTab = new TabControl();
             sstudentEditPage = new TabPage();
+            deleteStudent1 = new Button();
             deleteStudent = new Button();
             StudentcomboBox = new ComboBox();
             label17 = new Label();
@@ -55,6 +56,7 @@
             Pdf = new PictureBox();
             label1 = new Label();
             ClassEditPage = new TabPage();
+            deleteClass1 = new Button();
             deleteClass = new Button();
             ClasscomboBox = new ComboBox();
             label18 = new Label();
@@ -74,6 +76,7 @@
             pictureBox1 = new PictureBox();
             label11 = new Label();
             TeacherEditPage = new TabPage();
+            deleteTeacher1 = new Button();
             deleteTeacher = new Button();
             TeachercomboBox = new ComboBox();
             label20 = new Label();
@@ -120,6 +123,7 @@
             resources.ApplyResources(sstudentEditPage, "sstudentEditPage");
             sstudentEditPage.BackColor = Color.White;
             sstudentEditPage.Controls.Add(deleteStudent);
+            sstudentEditPage.Controls.Add(deleteStudent1);
             sstudentEditPage.Controls.Add(StudentcomboBox);
             sstudentEditPage.Controls.Add(label17);
             sstudentEditPage.Controls.Add(emailexisterrormessage);
@@ -143,6 +147,15 @@
             sstudentEditPage.Controls.Add(Pdf);
             sstudentEditPage.Controls.Add(label1);
             sstudentEditPage.Name = "sstudentEditPage";
+            // 
+            // deleteStudent1
+            // 
+            resources.ApplyResources(deleteStudent1, "deleteStudent1");
+            deleteStudent1.BackColor = Color.Crimson;
+            deleteStudent1.ForeColor = SystemColors.ButtonHighlight;
+            deleteStudent1.Name = "deleteStudent1";
+            deleteStudent1.UseVisualStyleBackColor = false;
+            deleteStudent1.Click += deleteStudent_Click;
             // 
             // deleteStudent
             // 
@@ -296,6 +309,7 @@
             resources.ApplyResources(ClassEditPage, "ClassEditPage");
             ClassEditPage.BackColor = Color.White;
             ClassEditPage.Controls.Add(deleteClass);
+            ClassEditPage.Controls.Add(deleteClass1);
             ClassEditPage.Controls.Add(ClasscomboBox);
             ClassEditPage.Controls.Add(label18);
             ClassEditPage.Controls.Add(classteachercomboBox);
@@ -314,6 +328,15 @@
             ClassEditPage.Controls.Add(pictureBox1);
             ClassEditPage.Controls.Add(label11);
             ClassEditPage.Name = "ClassEditPage";
+            // 
+            // deleteClass1
+            // 
+            resources.ApplyResources(deleteClass1, "deleteClass1");
+            deleteClass1.BackColor = Color.Crimson;
+            deleteClass1.ForeColor = SystemColors.ButtonHighlight;
+            deleteClass1.Name = "deleteClass1";
+            deleteClass1.UseVisualStyleBackColor = false;
+            deleteClass1.Click += deleteClass_Click;
             // 
             // deleteClass
             // 
@@ -438,6 +461,7 @@
             resources.ApplyResources(TeacherEditPage, "TeacherEditPage");
             TeacherEditPage.BackColor = Color.White;
             TeacherEditPage.Controls.Add(deleteTeacher);
+            TeacherEditPage.Controls.Add(deleteTeacher1);
             TeacherEditPage.Controls.Add(TeachercomboBox);
             TeacherEditPage.Controls.Add(label20);
             TeacherEditPage.Controls.Add(emailexistmessage2);
@@ -461,6 +485,15 @@
             TeacherEditPage.Controls.Add(pictureBox2);
             TeacherEditPage.Controls.Add(label2);
             TeacherEditPage.Name = "TeacherEditPage";
+            // 
+            // deleteTeacher1
+            // 
+            resources.ApplyResources(deleteTeacher1, "deleteTeacher1");
+            deleteTeacher1.BackColor = Color.Crimson;
+            deleteTeacher1.ForeColor = SystemColors.ButtonHighlight;
+            deleteTeacher1.Name = "deleteTeacher1";
+            deleteTeacher1.UseVisualStyleBackColor = false;
+            deleteTeacher1.Click += deleteTeacher_Click;
             // 
             // deleteTeacher
             // 
@@ -700,5 +733,8 @@
         private Button deleteStudent;
         private Button deleteClass;
         private Button deleteTeacher;
+        private Button deleteStudent1;
+        private Button deleteClass1;
+        private Button deleteTeacher1;
     }
 }

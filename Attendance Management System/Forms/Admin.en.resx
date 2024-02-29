@@ -119,50 +119,28 @@
   </resheader>
   <assembly alias="System.Drawing" name="System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" />
   <data name="logoutButton.Location" type="System.Drawing.Point, System.Drawing">
-    <value>-35, 1023</value>
-  </data>
-  <assembly alias="System.Windows.Forms" name="System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" />
-  <data name="logoutButton.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
-    <value>5, 5, 5, 5</value>
+    <value>0, 960</value>
   </data>
   <data name="logoutButton.Size" type="System.Drawing.Size, System.Drawing">
-    <value>462, 90</value>
+    <value>322, 75</value>
   </data>
   <data name="ExitButton.Location" type="System.Drawing.Point, System.Drawing">
-    <value>-25, 946</value>
-  </data>
-  <data name="ExitButton.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
-    <value>5, 5, 5, 5</value>
+    <value>0, 886</value>
   </data>
   <data name="ExitButton.Size" type="System.Drawing.Size, System.Drawing">
-    <value>462, 89</value>
+    <value>322, 74</value>
   </data>
   <data name="SettingButton.Location" type="System.Drawing.Point, System.Drawing">
-    <value>0, 858</value>
-  </data>
-  <data name="SettingButton.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
-    <value>5, 5, 5, 5</value>
-  </data>
-  <data name="SettingButton.Size" type="System.Drawing.Size, System.Drawing">
-    <value>381, 107</value>
+    <value>0, 797</value>
   </data>
   <data name="AddButton.Location" type="System.Drawing.Point, System.Drawing">
-    <value>0, 289</value>
-  </data>
-  <data name="AddButton.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
-    <value>5, 5, 5, 5</value>
-  </data>
-  <data name="AddButton.Size" type="System.Drawing.Size, System.Drawing">
-    <value>381, 107</value>
+    <value>0, 263</value>
   </data>
   <data name="EditButton.Location" type="System.Drawing.Point, System.Drawing">
-    <value>0, 766</value>
+    <value>0, 708</value>
   </data>
-  <data name="EditButton.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
-    <value>5, 5, 5, 5</value>
-  </data>
-  <data name="EditButton.Size" type="System.Drawing.Size, System.Drawing">
-    <value>381, 107</value>
+  <data name="EditButton.Text" xml:space="preserve">
+    <value>Edit / Delete</value>
   </data>
   <data name="pictureBox1.Image" type="System.Drawing.Bitmap, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
     <value>
@@ -744,68 +722,20 @@
         n/QRBEEQBEEQBEEQBHF3Tjvt/wHFEjq5jwLOAQAAAABJRU5ErkJggg==
 </value>
   </data>
-  <data name="pictureBox1.Location" type="System.Drawing.Point, System.Drawing">
-    <value>0, 17</value>
-  </data>
-  <data name="pictureBox1.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
-    <value>5, 5, 5, 5</value>
-  </data>
-  <data name="pictureBox1.Size" type="System.Drawing.Size, System.Drawing">
-    <value>381, 193</value>
-  </data>
   <data name="loadButton.Location" type="System.Drawing.Point, System.Drawing">
-    <value>0, 577</value>
-  </data>
-  <data name="loadButton.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
-    <value>5, 5, 5, 5</value>
-  </data>
-  <data name="loadButton.Size" type="System.Drawing.Size, System.Drawing">
-    <value>381, 107</value>
+    <value>0, 530</value>
   </data>
   <data name="saveButton.Location" type="System.Drawing.Point, System.Drawing">
-    <value>0, 481</value>
-  </data>
-  <data name="saveButton.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
-    <value>5, 5, 5, 5</value>
-  </data>
-  <data name="saveButton.Size" type="System.Drawing.Size, System.Drawing">
-    <value>381, 107</value>
+    <value>0, 441</value>
   </data>
   <data name="searchButton.Location" type="System.Drawing.Point, System.Drawing">
-    <value>0, 376</value>
-  </data>
-  <data name="searchButton.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
-    <value>5, 5, 5, 5</value>
-  </data>
-  <data name="searchButton.Size" type="System.Drawing.Size, System.Drawing">
-    <value>381, 107</value>
+    <value>0, 352</value>
   </data>
   <data name="attendenceReportButton.Location" type="System.Drawing.Point, System.Drawing">
-    <value>0, 668</value>
-  </data>
-  <data name="attendenceReportButton.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
-    <value>5, 5, 5, 5</value>
-  </data>
-  <data name="attendenceReportButton.Size" type="System.Drawing.Size, System.Drawing">
-    <value>381, 107</value>
+    <value>0, 619</value>
   </data>
   <data name="DashboardButton.Location" type="System.Drawing.Point, System.Drawing">
-    <value>0, 209</value>
-  </data>
-  <data name="DashboardButton.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
-    <value>5, 5, 5, 5</value>
-  </data>
-  <data name="DashboardButton.Size" type="System.Drawing.Size, System.Drawing">
-    <value>381, 107</value>
-  </data>
-  <data name="panel1.Location" type="System.Drawing.Point, System.Drawing">
-    <value>0, -19</value>
-  </data>
-  <data name="panel1.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
-    <value>5, 5, 5, 5</value>
-  </data>
-  <data name="panel1.Size" type="System.Drawing.Size, System.Drawing">
-    <value>381, 1535</value>
+    <value>0, 174</value>
   </data>
   <data name="pictureBox5.Image" type="System.Drawing.Bitmap, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
     <value>
@@ -1311,15 +1241,6 @@
         POG8o0EVIFG4+bPmqxpJmJWiYWFhYQmBcs45/x9wEXZSUPj3uAAAAABJRU5ErkJggg==
 </value>
   </data>
-  <data name="pictureBox5.Location" type="System.Drawing.Point, System.Drawing">
-    <value>779, 164</value>
-  </data>
-  <data name="pictureBox5.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
-    <value>4, 4, 4, 4</value>
-  </data>
-  <data name="pictureBox5.Size" type="System.Drawing.Size, System.Drawing">
-    <value>103, 110</value>
-  </data>
   <data name="pictureBox4.Image" type="System.Drawing.Bitmap, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
     <value>
         iVBORw0KGgoAAAANSUhEUgAAAgAAAAIACAYAAAD0eNT6AAAABGdBTUEAALGPC/xhBQAAAAlwSFlzAAAN
@@ -1817,15 +1738,6 @@
         yQ/q//1/CD5+7N5LLYUAAAAASUVORK5CYII=
 </value>
   </data>
-  <data name="pictureBox4.Location" type="System.Drawing.Point, System.Drawing">
-    <value>1351, 164</value>
-  </data>
-  <data name="pictureBox4.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
-    <value>4, 4, 4, 4</value>
-  </data>
-  <data name="pictureBox4.Size" type="System.Drawing.Size, System.Drawing">
-    <value>95, 110</value>
-  </data>
   <data name="pictureBox3.Image" type="System.Drawing.Bitmap, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
     <value>
         iVBORw0KGgoAAAANSUhEUgAAAgAAAAIACAYAAAD0eNT6AAAABGdBTUEAALGPC/xhBQAAAAlwSFlzAAAN
@@ -2240,72 +2152,6 @@
         RESUTlajrVbXn+e/ITC4LjrsssF2/WC7iYDdSchuJ2j3FPY3gIiIiMrLaq/VYKvFVpOtNrdFtRsT9/8D
         BFr+RcZdnNsAAAAASUVORK5CYII=
 </value>
-  </data>
-  <data name="pictureBox3.Location" type="System.Drawing.Point, System.Drawing">
-    <value>199, 164</value>
-  </data>
-  <data name="pictureBox3.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
-    <value>4, 4, 4, 4</value>
-  </data>
-  <data name="pictureBox3.Size" type="System.Drawing.Size, System.Drawing">
-    <value>106, 110</value>
-  </data>
-  <data name="mostAbStTable.Location" type="System.Drawing.Point, System.Drawing">
-    <value>177, 541</value>
-  </data>
-  <data name="mostAbStTable.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
-    <value>4, 4, 4, 4</value>
-  </data>
-  <data name="mostAbStTable.Size" type="System.Drawing.Size, System.Drawing">
-    <value>1496, 281</value>
-  </data>
-  <data name="flowLayoutPanel2.Location" type="System.Drawing.Point, System.Drawing">
-    <value>0, 499</value>
-  </data>
-  <data name="flowLayoutPanel2.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
-    <value>5, 5, 5, 5</value>
-  </data>
-  <data name="flowLayoutPanel2.Size" type="System.Drawing.Size, System.Drawing">
-    <value>2349, 12</value>
-  </data>
-  <data name="label1.Location" type="System.Drawing.Point, System.Drawing">
-    <value>6, 440</value>
-  </data>
-  <data name="label1.Size" type="System.Drawing.Size, System.Drawing">
-    <value>236, 45</value>
-  </data>
-  <data name="adminDashboard.Location" type="System.Drawing.Point, System.Drawing">
-    <value>4, 4</value>
-  </data>
-  <data name="adminDashboard.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
-    <value>4, 4, 4, 4</value>
-  </data>
-  <data name="adminDashboard.Padding" type="System.Windows.Forms.Padding, System.Windows.Forms">
-    <value>4, 4, 4, 4</value>
-  </data>
-  <data name="adminDashboard.Size" type="System.Drawing.Size, System.Drawing">
-    <value>1892, 1168</value>
-  </data>
-  <data name="flowLayoutPanel1.Location" type="System.Drawing.Point, System.Drawing">
-    <value>381, 78</value>
-  </data>
-  <data name="flowLayoutPanel1.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
-    <value>5, 5, 5, 5</value>
-  </data>
-  <data name="flowLayoutPanel1.Size" type="System.Drawing.Size, System.Drawing">
-    <value>2349, 12</value>
-  </data>
-  <data name="title1label.Location" type="System.Drawing.Point, System.Drawing">
-    <value>385, -2</value>
-  </data>
-  <data name="title1label.Size" type="System.Drawing.Size, System.Drawing">
-    <value>263, 60</value>
-  </data>
-  <data name="title2label.Location" type="System.Drawing.Point, System.Drawing">
-    <value>680, -2</value>
-  </data>
-  <data name="title2label.Size" type="System.Drawing.Size, System.Drawing">
-    <value>461, 60</value>
   </data>
   <data name="pictureBox2.Image" type="System.Drawing.Bitmap, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
     <value>
@@ -2887,62 +2733,30 @@
         n/QRBEEQBEEQBEEQBHF3Tjvt/wHFEjq5jwLOAQAAAABJRU5ErkJggg==
 </value>
   </data>
-  <data name="pictureBox2.Location" type="System.Drawing.Point, System.Drawing">
-    <value>1819, 17</value>
-  </data>
-  <data name="pictureBox2.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
-    <value>4, 4, 4, 4</value>
-  </data>
-  <data name="pictureBox2.Size" type="System.Drawing.Size, System.Drawing">
-    <value>91, 65</value>
-  </data>
-  <data name="nameLabel.Location" type="System.Drawing.Point, System.Drawing">
-    <value>2045, 28</value>
-  </data>
-  <data name="nameLabel.Size" type="System.Drawing.Size, System.Drawing">
-    <value>103, 38</value>
-  </data>
-  <data name="admindashboard1.Location" type="System.Drawing.Point, System.Drawing">
-    <value>585, 121</value>
-  </data>
+  <assembly alias="System.Windows.Forms" name="System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" />
   <data name="admindashboard1.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
-    <value>12, 2, 12, 2</value>
-  </data>
-  <data name="admindashboard1.Size" type="System.Drawing.Size, System.Drawing">
-    <value>4252, 2148</value>
+    <value>10, 2, 10, 2</value>
   </data>
   <data name="attendencdeReport1.Location" type="System.Drawing.Point, System.Drawing">
-    <value>414, 118</value>
-  </data>
-  <data name="attendencdeReport1.Size" type="System.Drawing.Size, System.Drawing">
-    <value>1744, 962</value>
+    <value>358, 109</value>
   </data>
   <data name="addUser2.Location" type="System.Drawing.Point, System.Drawing">
-    <value>404, 118</value>
-  </data>
-  <data name="addUser2.Size" type="System.Drawing.Size, System.Drawing">
-    <value>1754, 1016</value>
+    <value>358, 98</value>
   </data>
   <data name="edit1.Location" type="System.Drawing.Point, System.Drawing">
-    <value>555, 146</value>
+    <value>397, 121</value>
   </data>
   <data name="edit1.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
     <value>4, 2, 4, 2</value>
   </data>
   <data name="edit1.Size" type="System.Drawing.Size, System.Drawing">
-    <value>2032, 1114</value>
+    <value>1200, 800</value>
   </data>
   <data name="panelView.Location" type="System.Drawing.Point, System.Drawing">
-    <value>446, 146</value>
-  </data>
-  <data name="panelView.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
-    <value>4, 4, 4, 4</value>
+    <value>370, 121</value>
   </data>
   <data name="panelView.Size" type="System.Drawing.Size, System.Drawing">
-    <value>1712, 1080</value>
-  </data>
-  <data name="$this.AutoScaleDimensions" type="System.Drawing.SizeF, System.Drawing">
-    <value>13, 30</value>
+    <value>1449, 900</value>
   </data>
   <data name="$this.Icon" type="System.Drawing.Icon, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
     <value>
@@ -3684,9 +3498,6 @@
         uI9QY3LkGK6YxF1pkdW0tvbj3ELgJuBKoJbDW3GLAQGkar8bWIdc41+HrPzTp61xICO5QC4ZegE7svPn
         HAFyjCZM5DJaK1LV7i8K0rbm4fD6joEUAhGkZT8xVc+Y/wePplJ617hHugAAAABJRU5ErkJggg==
 </value>
-  </data>
-  <data name="$this.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
-    <value>6, 6, 6, 6</value>
   </data>
   <data name="$this.Text" xml:space="preserve">
     <value>Admin</value>

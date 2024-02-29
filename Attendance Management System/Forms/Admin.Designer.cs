@@ -30,6 +30,8 @@
         {
             System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(Admin));
             panel1 = new Panel();
+            logoutButton = new Button();
+            ExitButton = new Button();
             SettingButton = new Button();
             AddButton = new Button();
             EditButton = new Button();
@@ -37,8 +39,6 @@
             loadButton = new Button();
             saveButton = new Button();
             searchButton = new Button();
-            logoutButton = new Button();
-            ExitButton = new Button();
             attendenceReportButton = new Button();
             DashboardButton = new Button();
             flowLayoutPanel1 = new FlowLayoutPanel();
@@ -89,6 +89,27 @@
             panel1.Controls.Add(attendenceReportButton);
             panel1.Controls.Add(DashboardButton);
             panel1.Name = "panel1";
+            // 
+            // logoutButton
+            // 
+            resources.ApplyResources(logoutButton, "logoutButton");
+            logoutButton.BackColor = Color.SlateGray;
+            logoutButton.Cursor = Cursors.Hand;
+            logoutButton.FlatAppearance.BorderSize = 0;
+            logoutButton.ForeColor = SystemColors.ButtonHighlight;
+            logoutButton.Name = "logoutButton";
+            logoutButton.UseVisualStyleBackColor = false;
+            logoutButton.Click += logoutButton_Click;
+            // 
+            // ExitButton
+            // 
+            resources.ApplyResources(ExitButton, "ExitButton");
+            ExitButton.BackColor = Color.SlateGray;
+            ExitButton.Cursor = Cursors.Hand;
+            ExitButton.ForeColor = SystemColors.ButtonHighlight;
+            ExitButton.Name = "ExitButton";
+            ExitButton.UseVisualStyleBackColor = false;
+            ExitButton.Click += ExitButton_Click;
             // 
             // SettingButton
             // 
@@ -150,27 +171,6 @@
             searchButton.Name = "searchButton";
             searchButton.UseVisualStyleBackColor = false;
             searchButton.Click += searchButton_Click;
-            // 
-            // logoutButton
-            // 
-            resources.ApplyResources(logoutButton, "logoutButton");
-            logoutButton.BackColor = Color.SlateGray;
-            logoutButton.Cursor = Cursors.Hand;
-            logoutButton.FlatAppearance.BorderSize = 0;
-            logoutButton.ForeColor = SystemColors.ButtonHighlight;
-            logoutButton.Name = "logoutButton";
-            logoutButton.UseVisualStyleBackColor = false;
-            logoutButton.Click += logoutButton_Click;
-            // 
-            // ExitButton
-            // 
-            resources.ApplyResources(ExitButton, "ExitButton");
-            ExitButton.BackColor = Color.SlateGray;
-            ExitButton.Cursor = Cursors.Hand;
-            ExitButton.ForeColor = SystemColors.ButtonHighlight;
-            ExitButton.Name = "ExitButton";
-            ExitButton.UseVisualStyleBackColor = false;
-            ExitButton.Click += ExitButton_Click;
             // 
             // attendenceReportButton
             // 
