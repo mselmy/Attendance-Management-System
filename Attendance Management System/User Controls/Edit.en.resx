@@ -118,100 +118,25 @@
     <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </resheader>
   <assembly alias="System.Windows.Forms" name="System.Windows.Forms, Culture=neutral, PublicKeyToken=b77a5c561934e089" />
-  <data name="deleteStudent.FlatStyle" type="System.Windows.Forms.FlatStyle, System.Windows.Forms">
+  <data name="deleteStudent1.FlatStyle" type="System.Windows.Forms.FlatStyle, System.Windows.Forms">
     <value>Flat</value>
   </data>
   <assembly alias="System.Drawing" name="System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" />
-  <data name="deleteStudent.Font" type="System.Drawing.Font, System.Drawing">
+  <data name="deleteStudent1.Font" type="System.Drawing.Font, System.Drawing">
     <value>Segoe UI, 12pt, style=Bold</value>
   </data>
-  <data name="deleteStudent.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+  <data name="deleteStudent1.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
     <value>NoControl</value>
   </data>
-  <data name="deleteStudent.Location" type="System.Drawing.Point, System.Drawing">
-    <value>621, 406</value>
-  </data>
   <assembly alias="System.Windows.Forms" name="System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" />
-  <data name="deleteStudent.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+  <data name="deleteStudent1.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
     <value>2, 2, 2, 2</value>
   </data>
-  <data name="deleteStudent.Size" type="System.Drawing.Size, System.Drawing">
+  <data name="deleteStudent1.Size" type="System.Drawing.Size, System.Drawing">
     <value>121, 47</value>
   </data>
-  <data name="deleteStudent.Text" xml:space="preserve">
-    <value>حذف</value>
-  </data>
-  <data name="deleteStudent1.Size" type="System.Drawing.Size, System.Drawing">
-    <value>75, 23</value>
-  </data>
-  <data name="label17.Location" type="System.Drawing.Point, System.Drawing">
-    <value>368, 8</value>
-  </data>
-  <data name="label17.Size" type="System.Drawing.Size, System.Drawing">
-    <value>297, 28</value>
-  </data>
-  <data name="label17.Text" xml:space="preserve">
-    <value>الحصول عن طريق الرقم التعريفي:</value>
-  </data>
-  <data name="emailexisterrormessage.Size" type="System.Drawing.Size, System.Drawing">
-    <value>203, 21</value>
-  </data>
-  <data name="emailexisterrormessage.Text" xml:space="preserve">
-    <value>هذا البريد الإلكتروني موجود بالفعل</value>
-  </data>
-  <data name="emailnotvaliderrormessage.Size" type="System.Drawing.Size, System.Drawing">
-    <value>224, 21</value>
-  </data>
-  <data name="emailnotvaliderrormessage.Text" xml:space="preserve">
-    <value>يرجى إدخال البريد الإلكتروني الصحيح</value>
-  </data>
-  <data name="label10.Size" type="System.Drawing.Size, System.Drawing">
-    <value>150, 28</value>
-  </data>
-  <data name="label10.Text" xml:space="preserve">
-    <value>البريد الإلكتروني:</value>
-  </data>
-  <data name="passwordlabel1.Size" type="System.Drawing.Size, System.Drawing">
-    <value>264, 21</value>
-  </data>
-  <data name="passwordlabel1.Text" xml:space="preserve">
-    <value>اجعل كلمة المرور معقدة ولا تقل عن 8 أحرف</value>
-  </data>
-  <data name="label13.Size" type="System.Drawing.Size, System.Drawing">
-    <value>97, 28</value>
-  </data>
-  <data name="label13.Text" xml:space="preserve">
-    <value>كلمة السر:</value>
-  </data>
-  <data name="labelErrorMessage1.Location" type="System.Drawing.Point, System.Drawing">
-    <value>611, 182</value>
-  </data>
-  <data name="labelErrorMessage1.Size" type="System.Drawing.Size, System.Drawing">
-    <value>174, 21</value>
-  </data>
-  <data name="labelErrorMessage1.Text" xml:space="preserve">
-    <value>الرجاء اختيار واحد من القائمة</value>
-  </data>
-  <data name="label7.Size" type="System.Drawing.Size, System.Drawing">
-    <value>72, 28</value>
-  </data>
-  <data name="label7.Text" xml:space="preserve">
-    <value>الفصل:</value>
-  </data>
-  <data name="labelErrorMessage.Size" type="System.Drawing.Size, System.Drawing">
-    <value>145, 21</value>
-  </data>
-  <data name="labelErrorMessage.Text" xml:space="preserve">
-    <value>رجاء ادخل اسما صحيحا</value>
-  </data>
-  <data name="editStudentButton.Text" xml:space="preserve">
-    <value>تعديل</value>
-  </data>
-  <data name="label9.Size" type="System.Drawing.Size, System.Drawing">
-    <value>63, 28</value>
-  </data>
-  <data name="label9.Text" xml:space="preserve">
-    <value>الإسم:</value>
+  <data name="deleteStudent1.Text" xml:space="preserve">
+    <value>Delete</value>
   </data>
   <data name="Pdf.Image" type="System.Drawing.Bitmap, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
     <value>
@@ -901,89 +826,23 @@
         QmCC
 </value>
   </data>
-  <data name="label1.Size" type="System.Drawing.Size, System.Drawing">
-    <value>126, 28</value>
-  </data>
-  <data name="label1.Text" xml:space="preserve">
-    <value>تعديل الطالب</value>
-  </data>
-  <data name="sstudentEditPage.Text" xml:space="preserve">
-    <value>الطالب</value>
-  </data>
-  <data name="deleteClass.FlatStyle" type="System.Windows.Forms.FlatStyle, System.Windows.Forms">
+  <data name="deleteClass1.FlatStyle" type="System.Windows.Forms.FlatStyle, System.Windows.Forms">
     <value>Flat</value>
   </data>
-  <data name="deleteClass.Font" type="System.Drawing.Font, System.Drawing">
+  <data name="deleteClass1.Font" type="System.Drawing.Font, System.Drawing">
     <value>Segoe UI, 12pt, style=Bold</value>
   </data>
-  <data name="deleteClass.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+  <data name="deleteClass1.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
     <value>NoControl</value>
   </data>
-  <data name="deleteClass.Location" type="System.Drawing.Point, System.Drawing">
-    <value>622, 408</value>
-  </data>
-  <data name="deleteClass.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+  <data name="deleteClass1.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
     <value>2, 2, 2, 2</value>
   </data>
-  <data name="deleteClass.Size" type="System.Drawing.Size, System.Drawing">
+  <data name="deleteClass1.Size" type="System.Drawing.Size, System.Drawing">
     <value>121, 47</value>
   </data>
-  <data name="deleteClass.Text" xml:space="preserve">
-    <value>حذف</value>
-  </data>
-  <data name="deleteClass1.Size" type="System.Drawing.Size, System.Drawing">
-    <value>75, 23</value>
-  </data>
-  <data name="label18.Location" type="System.Drawing.Point, System.Drawing">
-    <value>357, 18</value>
-  </data>
-  <data name="label18.Size" type="System.Drawing.Size, System.Drawing">
-    <value>297, 28</value>
-  </data>
-  <data name="label18.Text" xml:space="preserve">
-    <value>الحصول عن طريق الرقم التعريفي:</value>
-  </data>
-  <data name="labelErrorMessage8.Size" type="System.Drawing.Size, System.Drawing">
-    <value>145, 21</value>
-  </data>
-  <data name="labelErrorMessage8.Text" xml:space="preserve">
-    <value>رجاء ادخل اسما صحيحا</value>
-  </data>
-  <data name="labelErrorMessage10.Size" type="System.Drawing.Size, System.Drawing">
-    <value>152, 21</value>
-  </data>
-  <data name="labelErrorMessage10.Text" xml:space="preserve">
-    <value>الرجاء الاختيار من القائمة</value>
-  </data>
-  <data name="labelErrorMessage9.Size" type="System.Drawing.Size, System.Drawing">
-    <value>179, 21</value>
-  </data>
-  <data name="labelErrorMessage9.Text" xml:space="preserve">
-    <value>الرجاء اختيار واحدة من القائمة</value>
-  </data>
-  <data name="editClassButton.Text" xml:space="preserve">
-    <value>تعديل</value>
-  </data>
-  <data name="label6.Location" type="System.Drawing.Point, System.Drawing">
-    <value>68, 210</value>
-  </data>
-  <data name="label6.Size" type="System.Drawing.Size, System.Drawing">
-    <value>80, 28</value>
-  </data>
-  <data name="label6.Text" xml:space="preserve">
-    <value>المدرس:</value>
-  </data>
-  <data name="label5.Size" type="System.Drawing.Size, System.Drawing">
-    <value>76, 28</value>
-  </data>
-  <data name="label5.Text" xml:space="preserve">
-    <value>الطلاب:</value>
-  </data>
-  <data name="label4.Size" type="System.Drawing.Size, System.Drawing">
-    <value>63, 28</value>
-  </data>
-  <data name="label4.Text" xml:space="preserve">
-    <value>الإسم:</value>
+  <data name="deleteClass1.Text" xml:space="preserve">
+    <value>Delete</value>
   </data>
   <data name="pictureBox1.Image" type="System.Drawing.Bitmap, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
     <value>
@@ -1673,104 +1532,23 @@
         QmCC
 </value>
   </data>
-  <data name="label11.Size" type="System.Drawing.Size, System.Drawing">
-    <value>122, 28</value>
-  </data>
-  <data name="label11.Text" xml:space="preserve">
-    <value>تعديل الفصل</value>
-  </data>
-  <data name="ClassEditPage.Text" xml:space="preserve">
-    <value>الفصل</value>
-  </data>
-  <data name="deleteTeacher.FlatStyle" type="System.Windows.Forms.FlatStyle, System.Windows.Forms">
+  <data name="deleteTeacher1.FlatStyle" type="System.Windows.Forms.FlatStyle, System.Windows.Forms">
     <value>Flat</value>
   </data>
-  <data name="deleteTeacher.Font" type="System.Drawing.Font, System.Drawing">
+  <data name="deleteTeacher1.Font" type="System.Drawing.Font, System.Drawing">
     <value>Segoe UI, 12pt, style=Bold</value>
   </data>
-  <data name="deleteTeacher.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+  <data name="deleteTeacher1.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
     <value>NoControl</value>
   </data>
-  <data name="deleteTeacher.Location" type="System.Drawing.Point, System.Drawing">
-    <value>622, 410</value>
-  </data>
-  <data name="deleteTeacher.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+  <data name="deleteTeacher1.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
     <value>2, 2, 2, 2</value>
   </data>
-  <data name="deleteTeacher.Size" type="System.Drawing.Size, System.Drawing">
+  <data name="deleteTeacher1.Size" type="System.Drawing.Size, System.Drawing">
     <value>121, 47</value>
   </data>
-  <data name="deleteTeacher.Text" xml:space="preserve">
-    <value>حذف</value>
-  </data>
-  <data name="deleteTeacher1.Size" type="System.Drawing.Size, System.Drawing">
-    <value>75, 23</value>
-  </data>
-  <data name="label20.Location" type="System.Drawing.Point, System.Drawing">
-    <value>337, 23</value>
-  </data>
-  <data name="label20.Size" type="System.Drawing.Size, System.Drawing">
-    <value>297, 28</value>
-  </data>
-  <data name="label20.Text" xml:space="preserve">
-    <value>الحصول عن طريق الرقم التعريفي:</value>
-  </data>
-  <data name="emailexistmessage2.Size" type="System.Drawing.Size, System.Drawing">
-    <value>203, 21</value>
-  </data>
-  <data name="emailexistmessage2.Text" xml:space="preserve">
-    <value>هذا البريد الإلكتروني موجود بالفعل</value>
-  </data>
-  <data name="emailnotvalidmessage2.Size" type="System.Drawing.Size, System.Drawing">
-    <value>224, 21</value>
-  </data>
-  <data name="emailnotvalidmessage2.Text" xml:space="preserve">
-    <value>يرجى إدخال البريد الإلكتروني الصحيح</value>
-  </data>
-  <data name="label19.Size" type="System.Drawing.Size, System.Drawing">
-    <value>150, 28</value>
-  </data>
-  <data name="label19.Text" xml:space="preserve">
-    <value>البريد الإلكتروني:</value>
-  </data>
-  <data name="passwordlabel2.Size" type="System.Drawing.Size, System.Drawing">
-    <value>264, 21</value>
-  </data>
-  <data name="passwordlabel2.Text" xml:space="preserve">
-    <value>اجعل كلمة المرور معقدة ولا تقل عن 8 أحرف</value>
-  </data>
-  <data name="label14.Size" type="System.Drawing.Size, System.Drawing">
-    <value>97, 28</value>
-  </data>
-  <data name="label14.Text" xml:space="preserve">
-    <value>كلمة السر:</value>
-  </data>
-  <data name="labelErrorMessage7.Size" type="System.Drawing.Size, System.Drawing">
-    <value>174, 21</value>
-  </data>
-  <data name="labelErrorMessage7.Text" xml:space="preserve">
-    <value>الرجاء اختيار واحد من القائمة</value>
-  </data>
-  <data name="labelErrorMessage4.Size" type="System.Drawing.Size, System.Drawing">
-    <value>145, 21</value>
-  </data>
-  <data name="labelErrorMessage4.Text" xml:space="preserve">
-    <value>رجاء ادخل اسما صحيحا</value>
-  </data>
-  <data name="editTeacherButton.Text" xml:space="preserve">
-    <value>تعديل</value>
-  </data>
-  <data name="label3.Size" type="System.Drawing.Size, System.Drawing">
-    <value>82, 28</value>
-  </data>
-  <data name="label3.Text" xml:space="preserve">
-    <value>الفصول:</value>
-  </data>
-  <data name="label12.Size" type="System.Drawing.Size, System.Drawing">
-    <value>63, 28</value>
-  </data>
-  <data name="label12.Text" xml:space="preserve">
-    <value>الإسم:</value>
+  <data name="deleteTeacher1.Text" xml:space="preserve">
+    <value>Delete</value>
   </data>
   <data name="pictureBox2.Image" type="System.Drawing.Bitmap, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
     <value>
@@ -2459,14 +2237,5 @@
         yd3x7PfkDyavkPzf3yJfJA+SW8iFJC/HG0HyWnyui4BEPAAAP+T//u//AcWDLgYj8ZlLAAAAAElFTkSu
         QmCC
 </value>
-  </data>
-  <data name="label2.Size" type="System.Drawing.Size, System.Drawing">
-    <value>130, 28</value>
-  </data>
-  <data name="label2.Text" xml:space="preserve">
-    <value>تعديل المدرس</value>
-  </data>
-  <data name="TeacherEditPage.Text" xml:space="preserve">
-    <value>المدرس</value>
   </data>
 </root>

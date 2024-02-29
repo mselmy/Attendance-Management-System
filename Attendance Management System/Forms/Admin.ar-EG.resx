@@ -117,19 +117,31 @@
   <resheader name="writer">
     <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </resheader>
+  <assembly alias="System.Drawing" name="System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" />
+  <data name="logoutButton.Location" type="System.Drawing.Point, System.Drawing">
+    <value>0, 914</value>
+  </data>
+  <data name="logoutButton.Text" xml:space="preserve">
+    <value>تسجيل الخروج</value>
+  </data>
+  <data name="ExitButton.Location" type="System.Drawing.Point, System.Drawing">
+    <value>0, 841</value>
+  </data>
+  <data name="ExitButton.Text" xml:space="preserve">
+    <value>خروج</value>
+  </data>
+  <data name="SettingButton.Location" type="System.Drawing.Point, System.Drawing">
+    <value>0, 758</value>
+  </data>
   <data name="SettingButton.Text" xml:space="preserve">
     <value>إعدادات</value>
   </data>
   <data name="AddButton.Text" xml:space="preserve">
     <value>اضف</value>
   </data>
-  <data name="DeleteButton.Text" xml:space="preserve">
-    <value>حذف</value>
-  </data>
   <data name="EditButton.Text" xml:space="preserve">
-    <value>تعديل</value>
+    <value>تعديل / حذف</value>
   </data>
-  <assembly alias="System.Drawing" name="System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" />
   <data name="pictureBox1.Image" type="System.Drawing.Bitmap, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
     <value>
         iVBORw0KGgoAAAANSUhEUgAAAgAAAAIACAYAAAD0eNT6AAAABGdBTUEAALGPC/xhBQAAAAlwSFlzAAAO
@@ -718,12 +730,6 @@
   </data>
   <data name="searchButton.Text" xml:space="preserve">
     <value>البحث</value>
-  </data>
-  <data name="logoutButton.Text" xml:space="preserve">
-    <value>تسجيل الخروج</value>
-  </data>
-  <data name="ExitButton.Text" xml:space="preserve">
-    <value>خروج</value>
   </data>
   <data name="attendenceReportButton.Text" xml:space="preserve">
     <value>تقرير الحضور</value>
@@ -2748,6 +2754,12 @@
   </data>
   <data name="edit1.Size" type="System.Drawing.Size, System.Drawing">
     <value>1019, 556</value>
+  </data>
+  <data name="panelView.Location" type="System.Drawing.Point, System.Drawing">
+    <value>370, 121</value>
+  </data>
+  <data name="panelView.Size" type="System.Drawing.Size, System.Drawing">
+    <value>1449, 900</value>
   </data>
   <data name="$this.Icon" type="System.Drawing.Icon, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
     <value>

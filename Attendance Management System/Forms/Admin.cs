@@ -107,6 +107,8 @@ namespace Attendance_Management_System
                 admindashboard1.NostudentsButton.Text = Handleloadadmin.GetNumberofStudents() + " Students";
                 admindashboard1.GenenrateWarningTable();
             }
+            SearchForAdmin searchForAdmin = new SearchForAdmin();
+            panelView.Controls.Add(searchForAdmin);
         }
 
         private void SettingButton_Click(object sender, EventArgs e)
