@@ -444,12 +444,24 @@ namespace Attendance_Management_System.Classes
             }
         }
 
-
-
-
-
-
-
-
-}
+        public static void LoadXMLFileWindow()
+        {
+            OpenFileDialog openFileDialog = new OpenFileDialog();
+            openFileDialog.Filter = "XML Files (*.xml)|*.xml";
+            openFileDialog.RestoreDirectory = true;
+            if (openFileDialog.ShowDialog() == DialogResult.OK)
+            {
+                string path = openFileDialog.FileName;
+                if (File.Exists(path))
+                {
+                    File.Copy(path, Configs.DataPath, true);
+                    MessageBox.Show("File Loaded Successfully");
+                }
+                else
+                {
+                    MessageBox.Show("File Not Loaded");
+                }
+            }
+        }
+    }
 }

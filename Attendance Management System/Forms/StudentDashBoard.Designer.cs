@@ -32,6 +32,7 @@
             System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(StudentDashBoard));
             panel1 = new Panel();
             panel6 = new Panel();
+            button4 = new Button();
             lodoutpic = new PictureBox();
             button5 = new Button();
             button3 = new Button();
@@ -98,12 +99,22 @@
             // 
             resources.ApplyResources(panel6, "panel6");
             panel6.BackColor = Color.Teal;
+            panel6.Controls.Add(button4);
             panel6.Controls.Add(lodoutpic);
             panel6.Controls.Add(button5);
             panel6.Controls.Add(button3);
             panel6.Controls.Add(button2);
             panel6.Controls.Add(panelside);
             panel6.Name = "panel6";
+            // 
+            // button4
+            // 
+            resources.ApplyResources(button4, "button4");
+            button4.BackColor = Color.Teal;
+            button4.ForeColor = Color.White;
+            button4.Name = "button4";
+            button4.UseVisualStyleBackColor = false;
+            button4.Click += button4_Click_1;
             // 
             // lodoutpic
             // 
@@ -477,5 +488,6 @@
         private DataGridViewTextBoxColumn Column5;
         private DataGridViewTextBoxColumn Column6;
         private Panel mainPanel;
+        private Button button4;
     }
 }

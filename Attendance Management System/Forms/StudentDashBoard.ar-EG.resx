@@ -118,11 +118,11 @@
     <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </resheader>
   <assembly alias="System.Drawing" name="System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" />
-  <data name="panel6.Size" type="System.Drawing.Size, System.Drawing">
-    <value>258, 870</value>
+  <data name="button4.Location" type="System.Drawing.Point, System.Drawing">
+    <value>0, 156</value>
   </data>
-  <data name="panel1.Size" type="System.Drawing.Size, System.Drawing">
-    <value>258, 1050</value>
+  <data name="button4.Text" xml:space="preserve">
+    <value>تغيير كلمة السر</value>
   </data>
   <data name="lodoutpic.Image" type="System.Drawing.Bitmap, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
     <value>
@@ -359,6 +359,9 @@
   </data>
   <data name="button2.Text" xml:space="preserve">
     <value>نافذة الحضور</value>
+  </data>
+  <data name="panel6.Size" type="System.Drawing.Size, System.Drawing">
+    <value>258, 870</value>
   </data>
   <data name="label1.Location" type="System.Drawing.Point, System.Drawing">
     <value>71, 112</value>
@@ -948,6 +951,9 @@
         Z4+yN9jHTK5lnGDamwAAAKFBPu3Lo3mPsSVM6oI/04rJQOA19iPTjtFfpOZJ7ZMaKLVQaqLUxjPYYBY0
         n/QRBEEQBEEQBEEQBHF3Tjvt/wHFEjq5jwLOAQAAAABJRU5ErkJggg==
 </value>
+  </data>
+  <data name="panel1.Size" type="System.Drawing.Size, System.Drawing">
+    <value>258, 1050</value>
   </data>
   <data name="flowLayoutPanel1.Size" type="System.Drawing.Size, System.Drawing">
     <value>1542, 0</value>

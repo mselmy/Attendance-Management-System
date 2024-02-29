@@ -62,6 +62,7 @@
             attendencdeReport1 = new Forms.AttendencdeReport();
             addUser2 = new Forms.AddUser();
             edit1 = new Forms.Edit();
+            panelView = new Panel();
             panel1.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)pictureBox1).BeginInit();
             flowLayoutPanel1.SuspendLayout();
@@ -140,6 +141,7 @@
             loadButton.Cursor = Cursors.Hand;
             loadButton.Name = "loadButton";
             loadButton.UseVisualStyleBackColor = false;
+            loadButton.Click += loadButton_Click;
             // 
             // saveButton
             // 
@@ -157,6 +159,7 @@
             searchButton.Cursor = Cursors.Hand;
             searchButton.Name = "searchButton";
             searchButton.UseVisualStyleBackColor = false;
+            searchButton.Click += searchButton_Click;
             // 
             // logoutButton
             // 
@@ -335,11 +338,17 @@
             edit1.Name = "edit1";
             edit1.Load += edit1_Load;
             // 
+            // panelView
+            // 
+            resources.ApplyResources(panelView, "panelView");
+            panelView.Name = "panelView";
+            // 
             // Admin
             // 
             resources.ApplyResources(this, "$this");
             AutoScaleMode = AutoScaleMode.Font;
             BackColor = Color.White;
+            Controls.Add(panelView);
             Controls.Add(edit1);
             Controls.Add(addUser2);
             Controls.Add(attendencdeReport1);
@@ -404,5 +413,6 @@
         private Forms.AddUser addUser2;
         private Button SettingButton;
         private Forms.Edit edit1;
+        private Panel panelView;
     }
 }

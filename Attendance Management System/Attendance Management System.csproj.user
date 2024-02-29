@@ -1,19 +1,22 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 <Project ToolsVersion="Current" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
   <ItemGroup>
-    <Compile Update="Forms\AddUser.cs">
+    <Compile Update="User Controls\AddUser.cs">
       <SubType>UserControl</SubType>
     </Compile>
     <Compile Update="Forms\Admin.cs">
       <SubType>Form</SubType>
     </Compile>
-    <Compile Update="Forms\admindashboard.cs">
+    <Compile Update="User Controls\admindashboard.cs">
       <SubType>UserControl</SubType>
     </Compile>
-    <Compile Update="Forms\AttendencdeReport.cs">
+    <Compile Update="User Controls\AttendencdeReport.cs">
       <SubType>UserControl</SubType>
     </Compile>
-    <Compile Update="Forms\Edit.cs">
+    <Compile Update="Forms\ChangePassword.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Update="User Controls\Edit.cs">
       <SubType>UserControl</SubType>
     </Compile>
     <Compile Update="Forms\Forget Password.cs">
@@ -22,22 +25,25 @@
     <Compile Update="Forms\Login.cs">
       <SubType>Form</SubType>
     </Compile>
+    <Compile Update="User Controls\SearchForTeacher.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
     <Compile Update="Forms\Setting.cs">
       <SubType>Form</SubType>
     </Compile>
-    <Compile Update="Forms\StudentReport.cs">
+    <Compile Update="User Controls\StudentReport.cs">
       <SubType>UserControl</SubType>
     </Compile>
     <Compile Update="Forms\Teacher.cs">
       <SubType>Form</SubType>
     </Compile>
-    <Compile Update="Forms\TakeAttendance.cs">
+    <Compile Update="User Controls\TakeAttendance.cs">
       <SubType>UserControl</SubType>
     </Compile>
     <Compile Update="Forms\StudentDashBoard.cs">
       <SubType>Form</SubType>
     </Compile>
-    <Compile Update="Forms\TeacherReport.cs">
+    <Compile Update="User Controls\TeacherReport.cs">
       <SubType>UserControl</SubType>
     </Compile>
   </ItemGroup>

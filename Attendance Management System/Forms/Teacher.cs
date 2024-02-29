@@ -55,7 +55,8 @@ namespace Attendance_Management_System
 
         private void EditPasswordButton_Click(object sender, EventArgs e)
         {
-
+            ChangePassword changePassword = new ChangePassword(session);
+            changePassword.Show();
         }
 
         private void ViewAttendanceButton_Click(object sender, EventArgs e)
@@ -76,7 +77,10 @@ namespace Attendance_Management_System
 
         private void searchButton_Click(object sender, EventArgs e)
         {
-
+            ViewPanel.Controls.Clear();
+            SearchForTeacher search = new SearchForTeacher();
+            ViewPanel.Controls.Add(search);
+            ViewPanel.Size = new Size(1502, 900);
         }
 
         public void refresh()
@@ -115,6 +119,11 @@ namespace Attendance_Management_System
             TeacherReport teacherReport = new TeacherReport(session);
             ViewPanel.Controls.Add(teacherReport);
             ViewPanel.Size = new Size(1502, 900);
+        }
+
+        private void loadButton_Click(object sender, EventArgs e)
+        {
+            XMLManagement.LoadXMLFileWindow();
         }
     }
 }

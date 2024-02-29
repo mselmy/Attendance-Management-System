@@ -2698,14 +2698,14 @@
     <value>1539, 14</value>
   </data>
   <data name="admindashboard1.Location" type="System.Drawing.Point, System.Drawing">
-    <value>360, 81</value>
+    <value>495, 101</value>
   </data>
   <assembly alias="System.Windows.Forms" name="System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" />
   <data name="admindashboard1.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
-    <value>7, 2, 7, 2</value>
+    <value>10, 2, 10, 2</value>
   </data>
   <data name="admindashboard1.Size" type="System.Drawing.Size, System.Drawing">
-    <value>2617, 1432</value>
+    <value>3598, 1790</value>
   </data>
   <data name="attendencdeReport1.Location" type="System.Drawing.Point, System.Drawing">
     <value>350, 98</value>
@@ -2714,13 +2714,23 @@
     <value>342, 98</value>
   </data>
   <data name="edit1.Location" type="System.Drawing.Point, System.Drawing">
-    <value>342, 98</value>
+    <value>470, 122</value>
   </data>
   <data name="edit1.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
-    <value>2, 2, 2, 2</value>
+    <value>3, 2, 3, 2</value>
   </data>
   <data name="edit1.Size" type="System.Drawing.Size, System.Drawing">
-    <value>1250, 742</value>
+    <value>1719, 928</value>
+  </data>
+  <data name="panelView.Location" type="System.Drawing.Point, System.Drawing">
+    <value>377, 122</value>
+  </data>
+  <data name="panelView.Size" type="System.Drawing.Size, System.Drawing">
+    <value>1449, 900</value>
+  </data>
+  <assembly alias="mscorlib" name="mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" />
+  <data name="panelView.TabIndex" type="System.Int32, mscorlib">
+    <value>22</value>
   </data>
   <data name="$this.ClientSize" type="System.Drawing.Size, System.Drawing">
     <value>1628, 875</value>

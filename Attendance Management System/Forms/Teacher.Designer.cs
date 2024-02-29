@@ -124,6 +124,7 @@
             loadButton.Cursor = Cursors.Hand;
             loadButton.Name = "loadButton";
             loadButton.UseVisualStyleBackColor = false;
+            loadButton.Click += loadButton_Click;
             // 
             // attendenceReportButton
             // 

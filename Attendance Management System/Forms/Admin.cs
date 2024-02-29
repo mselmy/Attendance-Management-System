@@ -21,6 +21,8 @@ namespace Attendance_Management_System
             session = _session;
             user = _session.CurrentUser as AdminData;
             InitializeComponent();
+            SearchForAdmin searchForAdmin = new SearchForAdmin();
+            panelView.Controls.Add(searchForAdmin);
         }
         private void Admin_Load(object sender, EventArgs e)
         {
@@ -28,6 +30,7 @@ namespace Attendance_Management_System
             addUser2.Visible = false;
             attendencdeReport1.Visible = false;
             edit1.Visible = false;
+            panelView.Visible = false;
         }
 
         private void admindashboard1_VisibleChanged(object sender, EventArgs e)
@@ -48,6 +51,7 @@ namespace Attendance_Management_System
             addUser2.Visible = false;
             attendencdeReport1.Visible = false;
             edit1.Visible = false;
+            panelView.Visible = false;
 
         }
 
@@ -57,6 +61,7 @@ namespace Attendance_Management_System
             addUser2.Visible = true;
             attendencdeReport1.Visible = false;
             edit1.Visible = false;
+            panelView.Visible = false;
 
         }
         private void attendenceReportButton_Click(object sender, EventArgs e)
@@ -65,7 +70,7 @@ namespace Attendance_Management_System
             addUser2.Visible = false;
             attendencdeReport1.Visible = true;
             edit1.Visible = false;
-
+            panelView.Visible = false;
         }
 
         private void saveButton_Click(object sender, EventArgs e)
@@ -94,6 +99,7 @@ namespace Attendance_Management_System
             addUser2.Visible = false;
             attendencdeReport1.Visible = false;
             edit1.Visible = false;
+            panelView.Visible = false;
             if (admindashboard1.Visible)
             {
                 admindashboard1.NoTeacherButton.Text = Handleloadadmin.GetNumberofTeachers() + " Teachers";
@@ -114,13 +120,29 @@ namespace Attendance_Management_System
             admindashboard1.Visible = false;
             addUser2.Visible = false;
             attendencdeReport1.Visible = false;
+            panelView.Visible = false;
             edit1.Visible = true;
+            
 
         }
 
         private void edit1_Load(object sender, EventArgs e)
         {
 
+        }
+
+        private void loadButton_Click(object sender, EventArgs e)
+        {
+            XMLManagement.LoadXMLFileWindow();
+        }
+
+        private void searchButton_Click(object sender, EventArgs e)
+        {
+            admindashboard1.Visible = false;
+            addUser2.Visible = false;
+            attendencdeReport1.Visible = false;
+            edit1.Visible = false;
+            panelView.Visible = true;
         }
     }
 }

@@ -22,7 +22,7 @@
         <status>Present</status>
       </student>
       <student id="ST-6">
-        <status>Absent</status>
+        <status>Present</status>
       </student>
       <student id="ST-7">
         <status>Present</status>
@@ -175,12 +175,6 @@
         <class id="CL-5" />
       </classes>
     </student>
-    <student id="ST-999">
-      <name>test</name>
-      <classes>
-        <class id="CL-3" />
-      </classes>
-    </student>
   </students>
   <teachers>
     <teacher id="TE-1">
@@ -303,12 +297,6 @@
       <password>nayira</password>
       <role>Admin</role>
     </user>
-    <user>
-      <id>ST-999</id>
-      <email>test@gmail.com</email>
-      <password>Test@123456</password>
-      <role>Student</role>
-    </user>
   </users>
   <classes>
     <class>
@@ -391,7 +379,7 @@
     <user id="ST-1" />
   </session>
   <configs>
-    <language>EN</language>
+    <language>AR</language>
     <dateFormats>dd-MM-YYYY</dateFormats>
     <coolDown>false</coolDown>
     <coolDownStartDate>0</coolDownStartDate>
